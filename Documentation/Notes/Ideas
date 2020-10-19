@@ -1,0 +1,113 @@
+    
+    Things to consider:
+        ~ Mana Curve
+        ~ Deck Archetypes
+        ~ Metagame
+        ~ Evolutionary Operator: crossover? mutation? smartmutation?
+        ~ MetaStone
+        ~ Opponent decks analysis
+        
+    Appendix:
+        ~ Generated Decks
+        ~ Opponents Deck Descriptions
+    
+    Fitness: 
+        ~ Simulator?
+        ~ Correctness? Victories? Standard deviation?
+        ~ Strategic Deck Parameters? Crowd-Sourced Knowledge? Mana Curve? Cost effectivemess? Synergies?
+    
+    Neural Network
+        ~ Initialize model with human-played games -> ask how to do this
+        ~ Ai agents -> in a tournament
+        ~ NN is updated based on performance
+        ~ New agents by dropping bad ones and mutating successful ones
+        
+    Try testing 10, 15, 100 times etc...
+    
+    Particle Swarm
+    Ant Hill
+    Bee Colony 
+    
+    NN as a Surrogate model instead of simulator -> Use the GA to create the deck and use the Surrogate model to predict the wr
+    NN as a Simulator instead of a Surrogate model -> Use the GA to create the deck then use the simulator to determine the wr
+    Compare the two.
+        
+    Literature Review: (https://www.rlf.org.uk/resources/the-structure-of-a-literature-review/) 
+        ~ Background 
+            - CCG
+            - HS
+            - Deckbuilding
+                ~ Metagame
+                ~ Mana Curve
+                ~ Archetypes
+            
+        ~ Introduction - Background + Context + Purpose of Report
+            - General description of your topic
+            - Motivation
+            - Highlight its importance
+            - Research Questions to ask
+                ~ What is the current best deck-building techniques in Heartstone?
+                ~ What are the strengths and weaknesses of the different techniques?
+                ~ With our findings, what techniques can be applied to optimize the deck-building problem in Hearthstone?
+            - State that a review of the literature is valuable in understanding important aspects of your research area (reference the lecture)
+            - Clarify the scope that overall organisation of the idea ~ Structure
+        ~ Body - by theme
+            - Genetic Algorithm (do not separate these into subthemes, need to synthesise)
+                > Explanation of it
+                > Simulator (as the fitness, so no need to test after)
+                > Fitness score through labels (need to test after using a sim)
+                > smartmutation (need to test after using a sim)
+                > Compare their technologies (pros/cons)
+            - Neural Network
+                > Explanation
+                > datasets (the ones used are outdated)
+                > Surrogate model
+                > Generative Adversarial Networks
+            
+        ~ Conclusion
+            - Compare NN and GA, why they are different and why we need to test both methods
+            - My approach
+                > Create a NN with a GA surrogate model to negate the execution time
+        
+        Sets the credibility, why people should believe you?
+        Why is no one using a NN algorithm? What make doesn't it already exist? How well has similar stuff worked? Where is that being used? 
+       
+       
+        
+        Download Papers and make notes next to Reference for it
+    
+    
+        Word count on lit review?
+        Structure?
+        Abstract?
+        How to make dataset for NN? What kind of dataset? What kind of data would I need for my NN in terms of human-based games?
+        
+    - Use GA algorithm to create the deck ~ Can I use DEAP? MicroGP?
+    - Simulator: ~ MetaStone
+    
+    - Use a Neural Network Deep Learning to create the deck ~ Can I use PyTorch?
+    - Is it possible to combine the two? Use the NN as the fitness function for the GA?
+    - Can I base my Honours Project on both aspects separatly?
+    - Attempt to inplement a NN using gradient decent (such as mean squared error) and with a GA instead to calculate the weight
+    - Surrogate Model? ~ Guesses if it wins, do more research, less accurate but faster
+    
+    - How to launch an AI on a simulator?
+    
+    - Critical engagement ~ Lit review, crititise the simulator, the reason why they chose different simulators, time consuming, faster, less accurate etc... Why I may choose not to opt for a simulator and go for something else for the fitness function. To get an A in lit review. 
+    
+    
+    - Ask how to make a dataset to train my NN 
+    - Probably will need to make my own dataset by coding a card collection generator (whilst guaranteeing that at least the classic set will be a part if it), add a potential value to it (rarity or how good the card is ~ check mtg draftsim19 dataset for reference)
+    - Web scrape decks by highest winrate to use as training
+    
+    - For the fitness function get a wide variety of decks from HSReplay or from an expert and use a simulator to play games using our decks vs the top "meta" decks ~ calculates fitness through winrate (Deap selTournament() function) ~ Potentially good but time consuming toooooooo time consuming. 
+    Maybe calculate a score based of the mana curve, synergy, class cards etc.. instead to save time but lose accuracy
+    Maybe use a conbination of both - Supervised Learning ~ research this
+    
+    - Stop GA when wr exceeds 60%, after n generations, algo plateau's
+    
+    - test the idea with a random pool of cards and with all the cards. test against opponents with the same pool and all the cards
+    
+    - assume that the player has completed the tutorial on every character
+    
+    - Have a whole comparison thing going on. So I generate a random deck. Then a GA. Then a NN. Compare them all.

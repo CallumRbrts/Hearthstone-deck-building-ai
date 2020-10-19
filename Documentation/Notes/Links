@@ -1,0 +1,87 @@
+
+Log - https://docs.google.com/spreadsheets/d/1vuZrKcDNfg4-tEx3aAvf-av-GpIKSoXHfwSj_Q3zuxc/edit#gid=0
+Trello - https://trello.com/b/0InH51Ty/deck-building-ai
+-------------------------------------------------------
+
+MAGIC THE GATHERING
+
+Deckbuilding in Magic: The Gathering https://ntnuopen.ntnu.no/ntnu-xmlui/bitstream/handle/11250/2462429/16274_FULLTEXT.pdf?sequence=1
+
+HEARTHSTONE
+
+Evolutionary Deckbuilding in HearthStone http://geneura.ugr.es/~pgarcia/papers/2016/hs-cig2016.pdf 
+
+Automated Playtesting in Collectible Card Games using Evolutionary Algorithms:  a Case Study in HearthStone https://www.researchgate.net/profile/Pablo_Garcia-Sanchez2/publication/324767888_Automated_Playtesting_in_Collectible_Card_Games_using_Evolutionary_Algorithms_a_Case_Study_in_HearthStone/links/5c34db03299bf12be3b7a05b/Automated-Playtesting-in-Collectible-Card-Games-using-Evolutionary-Algorithms-a-Case-Study-in-HearthStone.pdf
+
+GENETIC ALGORITHM
+
+GA library: https://github.com/chovanecm/python-genetic-algorithm
+
+MICROGP: https://microgp4.readthedocs.io/en/pre-alpha/examples/one-max.html
+DEAP: Evolutionary Algorithms Made Easy: https://www.jmlr.org/papers/volume13/fortin12a/fortin12a.pdf
+
+Reference: Fortin, F.-A., De Rainville, F.-M., Gardner, M.-A., Parizeau, M., and Gagn ́e, C. (2012).DEAP: Evolutionary algorithms made easy.Journal of Machine Learning Research,13:2171–2175 (Conform to Harvard standard)
+
+AI solutions for drafting in Magic: the Gathering
+https://arxiv.org/pdf/2009.00655.pdf
+
+Genetic Algoriothm seems like the best bet for now
+
+https://hackernoon.com/machine-learning-magic-64a6a7f864d4
+
+https://www.researchgate.net/publication/304246423_Evolutionary_Deckbuilding_in_HearthStone
+
+https://www.researchgate.net/profile/Fernando_De_Mesentier_Silva/publication/327637789_Exploring_the_hearthstone_deck_space/links/5c50b295a6fdccd6b5d1e5a2/Exploring-the-hearthstone-deck-space.pdf
+
+https://link.springer.com/chapter/10.1007%2F978-3-540-87656-4_17
+
+https://link.springer.com/chapter/10.1007/978-1-4615-2740-4_3
+
+https://annals-csis.org/proceedings/2018/drp/pdf/363.pdf - Predicting Win-rates of Hearthstone Decks:Models and Features that WonAAIA’2018 Data Mining Challenge
+
+
+AUGMENTING GENETIC ALGORITHMS WITH DEEP NEURAL NETWORKS FOR EXPLORING THE CHEMICALSPACE - https://arxiv.org/pdf/1909.11655.pdf
+
+Deep Reinforcement Learning using Genetic Algorithm for Parameter Optimization - https://arxiv.org/pdf/1905.04100.pdf
+
+------------------------------------------------------------------------------
+
+GA - Tutorial 
+
+https://towardsdatascience.com/genetic-algorithm-implementation-in-python-5ab67bb124a6
+
+
+-------------------------------------------------------------------------------
+
+Euclidean distance to calculate mana curve (comparing it to a / multiple "ideal" curves)
+
+https://stackoverflow.com/questions/41492731/how-to-use-euclidean-distance-to-calculate-similarity-values-for-the-three-pairs
+https://en.wikipedia.org/wiki/Euclidean_distance
+
+
+In a genetic algorithm, the more rules that determine what a good deck is the better. So we could make an AI that bases the best deck from the cards you own, or of all the cards.
+Rules: 
+    - Mana Curve
+    - Types of cards (Spells, Hero Cards, Minions etc...) -> how many of each we should have
+    - Archtypes -> we could use quests / lendaries as "win conditions" and attempt to prioritise cards that synergizes with those lengendaries
+    - Card power
+    - Eliminate redundancy -> if we have divine shield deck we don't want cards that give divine shield
+    - Tribes
+    - Card limit (1 or 2)
+    
+We should use a point system that is applied to either the deck as a whole or an individual card -> more points better the deck
+
+https://github.com/DEGoodmanWilson/magique
+
+https://www.hearthmatic.com/api/home/simulations
+
+---------------------------------------------------------------------------------
+
+Blizzard card API
+
+For referencing templates: 
+https://library.rgu.ac.uk/harvard-referencing-templates
+https://library.rgu.ac.uk/RGUHarvard
+
+To help for formatting dataset for cards/decks
+https://www.kaggle.com/ismailgungor/data-science-tutorial-with-hearthstone-cards?select=cards.json

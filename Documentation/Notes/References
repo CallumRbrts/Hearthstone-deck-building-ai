@@ -1,0 +1,27 @@
+Hearthstone:  Heroes  of  Warcraft,”  http://eu.battle.net/hearthstone/,  ac-cessed: 24 April 2016.
+
+P. García-Sánchez, A. Tonda, A. M. Mora, G. Squillero, and J. J. Merelo, “Automated playtesting in collectiblecard games using evolutionary algorithms: A case study in hearthstone,”Knowledge-Based Systems, vol. 153,pp. 133–146, 8 2018.
+    *** EA's using smart mutation and deck archetypes***
+
+A. K. Hoover, J. Togelius, S. Lee, and F. de Mesentier Silva, “The Many AI Challenges of Hearthstone,”KI -Künstliche Intelligenz, 9 2019.
+
+P. Garcia-Sanchez, A. Tonda, G. Squillero, A. Mora, and J. J. Merelo, “Evolutionary deckbuilding in hearthstone,”in2016 IEEE Conference on Computational Intelligence and Games (CIG), pp. 1–8, IEEE, 9 2016.
+
+S. Johann, B. Knut, A. Fludal, and A. Kofod-Petersen, “Deckbuilding in Magic: The Gathering Using a GeneticAlgorithm,”Master’s Thesis, Norwegian University of Science and Technology (NTNU), 2017.
+
+AI solutions for drafting in Magic: the Gathering 
+    ***Full reference to do - Includes multiple ai agents including NNbot"
+
+A. Stiegler, C. Messerschmidt, J. Maucher, and K. Dahal, “Hearthstone deck-construction with a utility system,”in2016 10th International Conference on Software, Knowledge, Information Management & Applications(SKIMA), pp. 21–28, IEEE, 2016.
+
+E. Sanchez, M. Schillaci, G. Squillero, Evolutionary Optimization:  the μGP toolkit, Springer Science & Business Media, 2011.
+ 
+Gamepedia, 2019. "Deck type". [online]. Hearthstone Wiki: Gamepedia. Available from: https://hearthstone.gamepedia.com/Deck_type [Accessed 11/10/2020].
+ 
+J.  J.  Merelo,  F.  Liberatore,  A.  Fern ́andez-Ares,  R.  H.  Garc ́ıa-Ortega,Z. Chelly, C. Cotta, N. Rico, A. M. Mora, P. Garc ́ıa-S ́anchez, There isnoisy lunch:  A study of noise in evolutionary optimization problems, in:A. C. Rosa, J. J. Merelo-Guerv ́os, et al. (Eds.), Proceedings of the 7thInternational  Joint  Conference  on  Computational  Intelligence  (IJCCI2015)  -  Volume  1:   ECTA,  Lisbon,  Portugal,  November  12-14,  2015.,SciTePress, 2015, pp. 261–268
+
+Ł. Grad, "Helping AI to play hearthstone using neural networks," 2017 Federated Conference on Computer Science and Information Systems (FedCSIS), Prague, 2017, pp. 131-134, doi: 10.15439/2017F561.
+
+Jakubik, Jan. (2018). A Neural Network Approach to Hearthstone Win Rate Prediction. 185-188. 10.15439/2018F365. 
+
+Q.  Vu,  D.  Ruta,  A.  uta,  and  L.  Cen,  "Predicting  Win-rates  of  Hearth-stone  Decks:  Models  and  Features  that  Won  AAIA’2018  Data  MiningChallenge,"Proc. Int. Symp. Advances in Artificial Intelligence andApplications, 2018
