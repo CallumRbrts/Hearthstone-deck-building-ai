@@ -1,0 +1,83 @@
+@report{VGLG,
+   abstract = {Generative Adversarial Networks (GANs) have shown impressive results for image generation. However, GANs face challenges in generating contents with certain types of constraints , such as game levels. Specifically, it is difficult to generate levels that have aesthetic appeal and are playable at the same time. Additionally, because training data usually is limited, it is challenging to generate unique levels with current GANs. In this paper, we propose a new GAN architecture named Conditional Embedding Self-Attention Genera-tive Adversarial Network (CESAGAN) and a new bootstrap-ping training procedure. The CESAGAN is a modification of the self-attention GAN that incorporates an embedding feature vector input to condition the training of the discriminator and generator. This allows the network to model non-local dependency between game objects, and to count objects. Additionally , to reduce the number of levels necessary to train the GAN, we propose a bootstrapping mechanism in which playable generated levels are added to the training set. The results demonstrate that the new approach does not only generate a larger number of levels that are playable but also generates fewer duplicate levels compared to a standard GAN.},
+   author = {Ruben Rodriguez Torrado and Ahmed Khalifa and Michael Cerny Green and Niels Justesen and Sebastian Risi and Julian Togelius},
+   title = {Bootstrapping Conditional GANs for Video Game Level Generation},
+   url = {www.aaai.org},
+}
+@book{RSCCG,
+   abstract = {In Collectible Card Games like "Magic: the Gath-ering", one of the developers' main challenges is creating new and interesting cards that are not too strong or game-braking, pertaining the game's overall balance. One way to address this issue is through the analysis of the cards resource costs. Powerful cards need more resource to be played while weaker ones need less resource. This work proposes a recommender system to a card's resource scale. In summary, we model the problem as a classification task and present and in-depth analysis of our results. We propose using LSTMs to learn a vector representation for text followed by XGBoost models to incorporate remaining features. Our approach is capable of reaching a Mean Reciprocal Rank of 0.8064 despite superficially identical cards having different mana costs. The analysis provided indicate that the model was able to learn useful rules for predicting a card's resource cost and highlight key insights for future research.},
+   author = {Gianlucca Zuin and Adriano Veloso},
+   isbn = {9781728118840},
+   keywords = {Deep Learning,Game Balancing,Gradient Boosting,Index Terms-Collectible Card Games},
+   title = {Learning a Resource Scale for Collectible Card Games},
+}
+@report{Denton,
+   abstract = {In this paper we introduce a generative parametric model capable of producing high quality samples of natural images. Our approach uses a cascade of convo-lutional networks within a Laplacian pyramid framework to generate images in a coarse-to-fine fashion. At each level of the pyramid, a separate generative con-vnet model is trained using the Generative Adversarial Nets (GAN) approach [11]. Samples drawn from our model are of significantly higher quality than alternate approaches. In a quantitative assessment by human evaluators, our CIFAR10 samples were mistaken for real images around 40% of the time, compared to 10% for samples drawn from a GAN baseline model. We also show samples from models trained on the higher resolution images of the LSUN scene dataset.},
+   author = {Emily Denton and Soumith Chintala and Arthur Szlam and Rob Fergus},
+   title = {Deep Generative Image Models using a Laplacian Pyramid of Adversarial Networks},
+}
+@report{NIPS2016,
+   abstract = {This report summarizes the tutorial presented by the author at NIPS 2016 on generative adversarial networks (GANs). The tutorial describes: (1) Why generative modeling is a topic worth studying, (2) how generative models work, and how GANs compare to other generative models, (3) the details of how GANs work, (4) research frontiers in GANs, and (5) state-of-the-art image models that combine GANs with other methods. Finally, the tutorial contains three exercises for readers to complete, and the solutions to these exercises.},
+   author = {Ian Goodfellow Openai},
+   title = {NIPS 2016 Tutorial: Generative Adversarial Networks},
+   url = {http://www.iangoodfellow.com/slides/2016-12-04-NIPS.pdf},
+}
+@report{NIPS2014,
+   abstract = {We propose a new framework for estimating generative models via an adversar-ial process, in which we simultaneously train two models: a generative model G that captures the data distribution, and a discriminative model D that estimates the probability that a sample came from the training data rather than G. The training procedure for G is to maximize the probability of D making a mistake. This framework corresponds to a minimax two-player game. In the space of arbitrary functions G and D, a unique solution exists, with G recovering the training data distribution and D equal to 1 2 everywhere. In the case where G and D are defined by multilayer perceptrons, the entire system can be trained with backpropagation. There is no need for any Markov chains or unrolled approximate inference networks during either training or generation of samples. Experiments demonstrate the potential of the framework through qualitative and quantitative evaluation of the generated samples.},
+   author = {Ian J Goodfellow and Jean Pouget-Abadie and Mehdi Mirza and Bing Xu and David Warde-Farley and Sherjil Ozair and Aaron Courville and Yoshua Bengio},
+   title = {Generative Adversarial Nets},
+   url = {http://www.github.com/goodfeli/adversarial},
+}
+@article{MapElites,
+   abstract = {Quality diversity (QD) algorithms such as MAP-Elites have emerged as a powerful alternative to traditional single-objective optimization methods. They were initially applied to evolutionary robotics problems such as locomotion and maze navigation, but have yet to see widespread application. We argue that these algorithms are perfectly suited to the rich domain of video games, which contains many relevant problems with a multitude of successful strategies and often also multiple dimensions along which solutions can vary. This paper introduces a novel modification of the MAP-Elites algorithm called MAP-Elites with Sliding Boundaries (MESB) and applies it to the design and rebalancing of Hearthstone, a popular collectible card game chosen for its number of multidimensional behavior features relevant to particular styles of play. To avoid overpopulating cells with conflated behaviors, MESB slides the boundaries of cells based on the distribution of evolved individuals. Experiments in this paper demonstrate the performance of MESB in Hearthstone. Results suggest MESB finds diverse ways of playing the game well along the selected behavioral dimensions. Further analysis of the evolved strategies reveals common patterns that recur across behavioral dimensions and explores how MESB can help rebalance the game.},
+   author = {Matthew C Fontaine and Scott Lee and L B Soros and Fernando De and Mesentier Silva and Julian Togelius and Amy K Hoover},
+   doi = {10.1145/nnnnnnn.nnnnnnn},
+   keywords = {Balancing,Card games,Games,Hearthstone,Illumination algorithms,Quality diversity},
+   title = {Mapping Hearthstone Deck Spaces through MAP-Elites with Sliding Boundaries},
+   url = {https://doi.org/10.1145/nnnnnnn.nnnnnnn},
+}
+@web_page{HS,
+   title = {Hearthstone},
+   url = {https://playhearthstone.com/en-us},
+}
+@web_page{CCG,
+   title = {Collectible card game - Wikipedia},
+   url = {https://en.wikipedia.org/wiki/Collectible_card_game},
+}
+@article{PredictWR,
+   abstract = {Success of many computer games depends on designing a robust and adaptable AI opponent that would ensure the games continue to challenge, immerse and excite the players at any stage. The outcomes of card based games like "Heartstone: Heros of Warcraft", aside the player skills heavily depend on the initial composition of player card decks. To evaluate this impact we have developed an ensemble prediction model that tries to predict the average win-rates of the specific combination of bot-player and card decks. Our ensemble model consists of three sub-models: two Logistic Regression models and one Deep Learning model. The models are trained with both provided data and additional data about the cards, their health, attack power and cost. To avoid overfitting, we employ a trick to generate predictions for all possible combinations of opponent players and decks and obtain the result as the average of all these predictions.},
+   author = {Quang Hieu Vu and Dymitr Ruta and Andrzej Ruta and Ling Cen},
+   doi = {10.15439/2018F363},
+   title = {Predicting Win-rates of Hearthstone Decks: Models and Features that Won AAIA'2018 Data Mining Challenge},
+   url = {http://hearthstoneapi.com/.},
+}
+@article{NNWRPrediction,
+   abstract = {This paper describes a solution to the AAIA'18 data mining challenge, which concerns prediction of win rates for decks in Hearthstone collectible card game. A neural network model assigning win rate to decks is learned based on maximisa-tion of log probability of observed match results. A representation of deck contents is based on a second network, which performs the role of a dual-task encoder. Two tasks learned by the encoding networks are encoding decks in such a way that the full deck can be reconstructed, and encoding individual cards so that their specific properties can be decoded. Shared representation for these tasks allows the knowledge of individual cards to be taken into account.},
+   author = {Jan Jakubik},
+   doi = {10.15439/2018F365},
+   title = {A Neural Network Approach to Hearthstone Win Rate Prediction},
+}
+@report{Ward2020,
+   abstract = {1 Abstract Drafting in Magic: the Gathering is a sub-game of a larger trading card game, where several players progressively build decks by picking cards from a common pool. Drafting poses an interesting problem for game-playing and AI research due to its large search space, mechanical complexity, multiplayer nature, and hidden information. Despite this, drafting remains understudied in part due to a lack of high-quality, public datasets. To rectify this problem, we present a dataset of over 100,000 simulated, anonymized human drafts collected from Draftsim.com. Additionally, we propose four diverse strategies for drafting agents, including a primitive heuristic agent, an expert-tuned complex heuristic agent, a Naive Bayes agent, and a deep neural network agent. We benchmark their ability to emulate human drafting, and show that the deep neural network agent outperforms all other agents, while Naive Bayes and expert-tuned agents outperform simple heuristics. We analyze the accuracy of AI agents across the timeline of a draft, for different cards, and in terms of approximating subtle inconsistencies of human behavior, and describe unique strengths and weaknesses for each agent. This work helps to identify next steps in the creation of humanlike drafting agents, and can serve as a set of useful benchmarks for the next generation of drafting bots. 2 Introduction AI agents have recently achieved superhuman performance in several challenging games such as chess, shogi, go, and poker [1, 2, 3], as well real-time strategy games such as StarCraft II and multiplayer online battle arenas (MOBAs) such as Dota 2 [4, 5]. These successes open opportunities to branch out and to create game-playing AI for other complex games. Much like strategy and MOBA games, collectible card games (CCGs) such as Hearthstone and Magic: the Gathering (MtG) present challenging milestones for AI, due to their mechanical complexity, multiplayer nature, and large amount of hidden information [6]. Although some studies investigate AI for Hearthstone [7, 8, 9, 10], relatively little work exists on building game-playing AI for MtG [11, 12]. In this paper, we focus on a game mode known as "drafting" that involves progressive deck-building, where players take turns to select cards for their collection from given initial sets of cards [13]. From their final collections, each player builds a deck and plays games against each other to determine the winner of the draft. We focus on drafting in Magic: the Gathering. MtG features one of the most complicated and popular drafting environments, where eight players each open a pack of 15 semi-random cards, select one card from that pack, and pass the remainder of the pack},
+   author = {Henry N Ward and Daniel J Brooks and Dan Troha and Bobby Mills and Arseny S Khakhalin},
+   title = {AI solutions for drafting in Magic: the Gathering},
+   year = {2020},
+}
+
+@web_page{BvsP,
+   author = {CCGer},
+   year = {2011},
+   title = {Deck building vs skillfull play. 29th December.},
+   url = {https://www.mtgsalvation.com/forums/magic-fundamentals/magic-general/327490-deck-building-vs-skillfull-play  [27/10/20].},
+}
+@web_page{SvsL,
+   title = {What is Skill and Luck - Multiplayer Discussion - Hearthstone Forums},
+   url = {https://us.forums.blizzard.com/en/hearthstone/t/what-is-skill-and-luck/4415},
+}
+@report{EvolveMeta,
+   abstract = {Balancing an ever growing strategic game of high complexity, such as Hearthstone is a complex task. The target of making strategies diverse and customizable results in a delicate intricate system. Tuning over 2000 cards to generate the desired outcome without disrupting the existing environment becomes a laborious challenge. In this paper, we discuss the impacts that changes to existing cards can have on strategy in Hearthstone. By analyzing the win rate on match-ups across different decks, being played by different strategies, we propose to compare their performance before and after changes are made to improve or worsen different cards. Then, using an evolutionary algorithm, we search for a combination of changes to the card attributes that cause the decks to approach equal, 50% win rates. We then expand our evolutionary algorithm to a multi-objective solution to search for this result, while making the minimum amount of changes, and as a consequence disruption, to the existing cards. Lastly, we propose and evaluate metrics to serve as heuristics with which to decide which cards to target with balance changes.},
+   author = {Fernando De and Mesentier Silva and Matthew C Fontaine and Rodrigo Canaan and Julian Togelius and Scott Lee and Amy K Hoover},
+   keywords = {Game Balancing,Hearthstone,Index Terms-Evolutionary Algorithm,Multi-Objective Opti-mization},
+   title = {Evolving the Hearthstone Meta},
+   url = {https://github.com/HearthSim/SabberStone},
+}

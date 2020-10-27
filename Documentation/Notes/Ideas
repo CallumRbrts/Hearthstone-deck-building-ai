@@ -39,10 +39,12 @@
             - Deckbuilding
                 ~ Metagame
                 ~ Mana Curve
+                ~ Resource cost
                 ~ Archetypes
             
         ~ Introduction - Background + Context + Purpose of Report
             - General description of your topic
+            - AI is used a lot in other fields - cite The many challenges of AI along with paper references to each type
             - Motivation
             - Highlight its importance
             - Research Questions to ask
@@ -52,6 +54,10 @@
             - State that a review of the literature is valuable in understanding important aspects of your research area (reference the lecture)
             - Clarify the scope that overall organisation of the idea ~ Structure
         ~ Body - by theme
+            - Assistance Systems
+                > Apriori Algorithm using MAP Elites - The many challenges AI 4
+                > Arena Drafting
+                > Firestone
             - Genetic Algorithm (do not separate these into subthemes, need to synthesise)
                 > Explanation of it
                 > Simulator (as the fitness, so no need to test after)
@@ -62,6 +68,8 @@
                 > Explanation
                 > datasets (the ones used are outdated)
                 > Surrogate model
+                > ANN
+                > RNN - Random card generation - https://www.mtgsalvation.com/forums/magic-fundamentals/custom-card-creation/612057-generating-magic-cards-using-deep-recurrent-neural - use as introductory - also https://www.reddit.com/r/hearthstone/comments/3cyi15/hearthstone_cards_as_created_by_a_neural_network/ 
                 > Generative Adversarial Networks
             
         ~ Conclusion
@@ -69,10 +77,21 @@
             - My approach
                 > Create a NN with a GA surrogate model to negate the execution time
         
+        
+        Reference GANS papers, GA papers, ANN papers
+        
         Sets the credibility, why people should believe you?
         Why is no one using a NN algorithm? What make doesn't it already exist? How well has similar stuff worked? Where is that being used? 
        
+    
        
+        ~ Generative Adversarial Networks:
+            - Convert HS cards into an image and then use that to train the model
+            - Is it possible to covert the cards into a value for the GAN?
+            - Everyone uses GAN's for images, why is that?
+            - How do they convert the images into numbers?
+            - When trying to implement it, start by doing a classic one for numbers or faces then try to convert that into a deckbuilding one
+            
         
         Download Papers and make notes next to Reference for it
     

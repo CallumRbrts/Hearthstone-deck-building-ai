@@ -1,0 +1,67 @@
+This is BibTeX, Version 0.99d (TeX Live 2020/Arch Linux)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: Hearthstone-ai.aux
+The style file: IEEEtran.bst
+Reallocated singl_function (elt_size=8) to 100 items from 50.
+Reallocated singl_function (elt_size=8) to 100 items from 50.
+Reallocated singl_function (elt_size=8) to 100 items from 50.
+Reallocated wiz_functions (elt_size=8) to 6000 items from 3000.
+Reallocated singl_function (elt_size=8) to 100 items from 50.
+Database file #1: export.bib
+Warning--entry type for "HS" isn't style-file defined
+--line 39 of file export.bib
+Warning--entry type for "CCG" isn't style-file defined
+--line 43 of file export.bib
+Warning--entry type for "BvsP" isn't style-file defined
+--line 67 of file export.bib
+Warning--entry type for "SvsL" isn't style-file defined
+--line 73 of file export.bib
+Warning--entry type for "EvolveMeta" isn't style-file defined
+--line 77 of file export.bib
+-- IEEEtran.bst version 1.14 (2015/08/26) by Michael Shell.
+-- http://www.michaelshell.org/tex/ieeetran/bibtex/
+-- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
+
+Done.
+You've used 5 entries,
+            4087 wiz_defined-function locations,
+            844 strings with 7988 characters,
+and the built_in function-call counts, 1843 in all, are:
+= -- 107
+> -- 36
+< -- 0
++ -- 19
+- -- 8
+* -- 84
+:= -- 310
+add.period$ -- 10
+call.type$ -- 5
+change.case$ -- 5
+chr.to.int$ -- 0
+cite$ -- 5
+duplicate$ -- 153
+empty$ -- 183
+format.name$ -- 9
+if$ -- 387
+int.to.chr$ -- 0
+int.to.str$ -- 5
+missing$ -- 38
+newline$ -- 48
+num.names$ -- 2
+pop$ -- 137
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 2
+skip$ -- 125
+stack$ -- 0
+substring$ -- 5
+swap$ -- 76
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 5
+type$ -- 5
+warning$ -- 0
+while$ -- 2
+width$ -- 6
+write$ -- 65
+(There were 5 warnings)

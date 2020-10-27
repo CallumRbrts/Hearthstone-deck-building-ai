@@ -25,3 +25,17 @@ J.  J.  Merelo,  F.  Liberatore,  A.  Fern ́andez-Ares,  R.  H.  Garc ́ıa-Ort
 Jakubik, Jan. (2018). A Neural Network Approach to Hearthstone Win Rate Prediction. 185-188. 10.15439/2018F365. 
 
 Q.  Vu,  D.  Ruta,  A.  uta,  and  L.  Cen,  "Predicting  Win-rates  of  Hearth-stone  Decks:  Models  and  Features  that  Won  AAIA’2018  Data  MiningChallenge,"Proc. Int. Symp. Advances in Artificial Intelligence andApplications, 2018
+
+Denton,  E.,  Chintala,  S.,  Szlam,  A.,  and  Fergus,  R. (2015).  Deep generativeimage models using a Laplacian pyramid of adversarial networks.NIPS
+            Train with labels using GAN refer to NIPS 2016 I goodfellow 4.1
+            
+Goodfellow,  Ian  J.,  Pouget-Abadie,  Jean,  Mirza,  Mehdi,  Xu,  Bing,  Warde-Farley,  David,  Ozair,Sherjil, Courville, Aaron C., and Bengio, Yoshua. Generative adversarial nets.NIPS, 2014
+
+I. Goodfellow. Nips 2016 tutorial: Generative adversar-ial networks.arXiv preprint arXiv:1701.00160, 2016.
+
+https://www.mtgsalvation.com/forums/magic-fundamentals/custom-card-creation/612057-generating-magic-cards-using-deep-recurrent-neural
+
+Agrawal, R. and Srikant, R. (1994). Fast algorithms
+for mining association rules. In Proc. 20th int. conf.
+very large data bases, VLDB, volume 1215, pages 487–
+499

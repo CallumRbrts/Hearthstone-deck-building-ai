@@ -1,0 +1,102 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% University/School Laboratory Report
+% LaTeX Template
+% Version 3.1 (25/3/14)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Linux and Unix Users Group at Virginia Tech Wiki 
+% (https://vtluug.org/wiki/Example_LaTeX_chem_lab_report)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{report}
+
+\usepackage[version=3]{mhchem} % Package for chemical equation typesetting
+\usepackage{siunitx} % Provides the \SI{}{} and \si{} command for typesetting SI units
+\usepackage{graphicx} % Required for the inclusion of images
+\usepackage{hyperref}
+
+\usepackage{amsmath} % Required for some math elements 
+\usepackage{indentfirst}
+\usepackage{titlesec}
+
+\title{Enhancing deck building AI with Genetic Algorithms and Neural Networks} % Title
+\titleformat{\chapter}{\normalfont\LARGE\bfseries}{\thechapter.}{18pt}{\LARGE\bfseries}
+\titleformat*{\subsection}{\large}
+\titleformat*{\subsubsection}{\normalfont}
+\author{Callum \textsc{Roberts}} % Author name
+\setcounter{secnumdepth}{4}
+
+
+\renewcommand{\labelenumi}{\alph{enumi}.} % Make numbering in the enumerate environment by letter rather than number (e.g. section 6)
+\bibliographystyle{IEEEtran}
+%\usepackage{times} % Uncomment to use the Times New Roman font
+
+%----------------------------------------------------------------------------------------
+%	DOCUMENT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\title{Coursework\\ CM3001 - Computing Law and Ethics} % Title
+
+\author{Callum \textsc{Roberts}} % Author name
+
+\date{\today} % Date for the report
+
+\begin{document}
+
+\maketitle % Insert the title, author and date
+
+% If you wish to include an abstract, uncomment the lines below
+% \begin{abstract}
+% Abstract text
+% \end{abstract}
+
+%----------------------------------------------------------------------------------------
+%	SECTION 1
+%----------------------------------------------------------------------------------------
+
+\chapter{Literature Review}
+The purpose of this literature review is define the technologies used in the field of artificial intelligence for building a deck in Hearthstone. To introduce, and compare previous works to determine their strengths and weaknesses. 
+\section{Background}
+	For the benefit of the reader, this section will introduce the basics of Hearthstone. It will emphasise the deck building aspect of the game including practices used by players.  
+\subsection{Collectible Card Games}
+	Collectible Card Games (CCG) are a sub-genre of card games introduced in 1993 by Magic: The Gathering \cite{CCG}. It requires a player to make a custom deck to play, it mixes trading cards with strategy and deck building features. CCGs are usually defined as a turn based game, where each player acquires their own collection of cards through the purchasing of "starter decks" for beginners or "booster packs" containing a small amount of random cards random pool usually referred to as an expansion. The aim is to build an efficient deck that can account for the randomness that come from the nature of card games, to predict and play around your opponents actions to ultimately beat them. Some CCGs can prove to be lucrative for players as cards have a value intrinsic to their rarity and demand, this makes building the perfect deck rather difficult and usually costly.
+\subsection{Hearthstone}
+	Hearthstone: Heroes of Warcraft is a CCG developed by Blizzard entertainment in 2013 \cite{HS}, but with the twist of it being entirely digital, there is no physical version of the game. This choice unlocks potential for gameplay features that could not be implemented, in exchange for the tradability of the cards. \\ \indent Two players face off wielding each a deck of their own making. Decks consist of no more, no less than 30 cards. Players then take it in turns to play their cards, the objective being to reduce the other players health to 0. On each of the players turns that player draws a card and gains a “Mana Crystal” up to a maximum of 10 (crystals are refreshed every turn), these crystals are expended to cast a card from the player's hand. Before a match each player chooses to embody a class (such as Mage, Warrior, Rogue, Druid, etc…), each class has specific cards only they can add into their deck, these are adequately named “Class Cards”, these are accompanied by “Neutral Cards” that any class can use. Each card in the game has a “mana” cost which shows how many mana crystals are needed to cast that card. They also have a card type, rarity and an effect. In a deck, players can put duplicates of the same card (up to 2) except for "Legendary Cards" that are limited to 1 because of their powerful effects.  Players have a “Collection”, where the cards they own are stored, to get new cards players can buy card packs with gold, the in-game currency of Hearthstone. Gold is earned slowly through quests, winning and events, it can however be sped up through the purchase of gold with real life currency. Players can also choose to "Disenchant" their duplicate cards to gain another in-game currency called "Dust" which can be used to create a card of the players choosing.
+\subsection{Deck Building}
+	In the world of CCGs there is a long standing debate on how to measure the skill of a player, although card games involves luck and circumstance, it is believed that there is a degree of strategy in the building of decks and in the execution of decks whether it is just a slight increase in win probability or a fundamental to winning \cite{SvsL}. However the debate stems from which is the most important, the building aspect or the execution aspect of CCGs
+	\cite{BvsP}
+	\subsubsection{Metagame}
+	Hearthstone is a game with lots of complex systems that are influenced by many factors, mainly due to the large amount of cards and different playable heroes. In a game where there are lots of variables, players try to rank cards, heroes and combination as to increase their chances to win. This phenomenon creates decks from a "pool" of top rated cards, leaving out the mediocre, forcing players to use these top rated decks in order to have a better chance of winning, or be put at a disadvantage. The result is what is called the "Metagame" or {\it{meta}} for short. Blizzard release updates to the game frequently through "expansions" which add a variety of new cards to keep the game fresh. Shifts in the meta occur when these expansions are added, players experiment to find better combinations over time. However better cards may not be added, and changes in the meta may not occur, this dissuades players from continuing or returning to play knowing that they have already experienced all that they can. To avoid that Hearthstone has implemented two game modes, one which has the cards added from the past two years are the only available, and another mode that allows all cards. Whilst this method helped, it still doesn't put a stop to the possibility of a stale meta. Researchers have done studies on how to evolve the meta through AI means, by {\it{balancing}} powerful cards ({Fernando et al}) \cite{EvolveMeta}. Balancing a card means to adjust the power of said card as to make it more or less viable in the current game environment. Fernando et al. discussed the idea that around 50\% of Hearthstone's meta is derived from match-ups which is the win probability two deck have against each other, a favourable match-up being the one with the highest win probability or known in the community as {\it{win rate}}.  
+\section{Research Questions}
+\section{Genetic Algorithm}
+\subsection{Comparison of Genetic Algorithms}
+\section{Neural Networks}
+
+
+
+
+%----------------------------------------------------------------------------------------
+%	SECTION 3
+%----------------------------------------------------------------------------------------
+\section{Conclusion \& Final Thoughts}
+%----------------------------------------------------------------------------------------
+%	BIBLIOGRAPHY
+%---------------------
+\bibliography{export}
+
+
+%----------------------------------------------------------------------------------------
+
+
+\end{document}
