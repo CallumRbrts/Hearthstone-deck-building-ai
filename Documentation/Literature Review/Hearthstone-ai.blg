@@ -10,58 +10,86 @@ Reallocated singl_function (elt_size=8) to 100 items from 50.
 Database file #1: export.bib
 Warning--entry type for "HS" isn't style-file defined
 --line 39 of file export.bib
-Warning--entry type for "CCG" isn't style-file defined
---line 43 of file export.bib
 Warning--entry type for "BvsP" isn't style-file defined
 --line 67 of file export.bib
 Warning--entry type for "SvsL" isn't style-file defined
---line 73 of file export.bib
+--line 74 of file export.bib
 Warning--entry type for "EvolveMeta" isn't style-file defined
---line 77 of file export.bib
+--line 78 of file export.bib
+Warning--entry type for "Judlick" isn't style-file defined
+--line 86 of file export.bib
+Warning--entry type for "Robertson2016" isn't style-file defined
+--line 91 of file export.bib
+Warning--entry type for "Standard" isn't style-file defined
+--line 98 of file export.bib
+Warning--entry type for "Sweetser2002" isn't style-file defined
+--line 130 of file export.bib
+Warning--entry type for "100mil" isn't style-file defined
+--line 138 of file export.bib
+Warning--entry type for "Hoover2019" isn't style-file defined
+--line 153 of file export.bib
+Warning--entry type for "Janusz2017" isn't style-file defined
+--line 161 of file export.bib
+Warning--entry type for "Miguel2017" isn't style-file defined
+--line 170 of file export.bib
+Warning--entry type for "Swiechowski2018" isn't style-file defined
+--line 176 of file export.bib
+Warning--entry type for "Kowalczyk2013" isn't style-file defined
+--line 191 of file export.bib
+Warning--entry type for "Bursztein2016" isn't style-file defined
+--line 198 of file export.bib
+Warning--entry type for "Flipperbw2014" isn't style-file defined
+--line 208 of file export.bib
+Warning--entry type for "Agrawal1994" isn't style-file defined
+--line 215 of file export.bib
 -- IEEEtran.bst version 1.14 (2015/08/26) by Michael Shell.
 -- http://www.michaelshell.org/tex/ieeetran/bibtex/
 -- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
+Warning--missing publisher in Zuin2019
+Warning--empty booktitle in Stiegler2017
+Warning--empty journal in MapElites
+Warning--empty year in MapElites
 
 Done.
-You've used 5 entries,
+You've used 23 entries,
             4087 wiz_defined-function locations,
-            844 strings with 7988 characters,
-and the built_in function-call counts, 1843 in all, are:
-= -- 107
-> -- 36
-< -- 0
-+ -- 19
-- -- 8
-* -- 84
-:= -- 310
-add.period$ -- 10
-call.type$ -- 5
-change.case$ -- 5
-chr.to.int$ -- 0
-cite$ -- 5
-duplicate$ -- 153
-empty$ -- 183
-format.name$ -- 9
-if$ -- 387
+            956 strings with 12079 characters,
+and the built_in function-call counts, 10298 in all, are:
+= -- 763
+> -- 220
+< -- 15
++ -- 110
+- -- 49
+* -- 444
+:= -- 1772
+add.period$ -- 46
+call.type$ -- 23
+change.case$ -- 27
+chr.to.int$ -- 36
+cite$ -- 27
+duplicate$ -- 809
+empty$ -- 965
+format.name$ -- 59
+if$ -- 2283
 int.to.chr$ -- 0
-int.to.str$ -- 5
-missing$ -- 38
-newline$ -- 48
-num.names$ -- 2
-pop$ -- 137
+int.to.str$ -- 23
+missing$ -- 188
+newline$ -- 130
+num.names$ -- 21
+pop$ -- 572
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 125
+skip$ -- 777
 stack$ -- 0
-substring$ -- 5
-swap$ -- 76
-text.length$ -- 0
+substring$ -- 118
+swap$ -- 487
+text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 5
-warning$ -- 0
-while$ -- 2
-width$ -- 6
-write$ -- 65
-(There were 5 warnings)
+type$ -- 23
+warning$ -- 4
+while$ -- 27
+width$ -- 25
+write$ -- 244
+(There were 21 warnings)
