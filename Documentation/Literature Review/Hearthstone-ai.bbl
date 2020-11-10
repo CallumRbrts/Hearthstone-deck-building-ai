@@ -168,8 +168,50 @@ R.~Agrawal and R.~Srikant, ``Fast algorithms for mining association rules,''
 \BIBentryALTinterwordspacing
 M.~C. Fontaine, S.~Lee, L.~B. Soros, F.~De, M.~Silva, J.~Togelius, and A.~K.
   Hoover, ``Mapping hearthstone deck spaces through map-elites with sliding
-  boundaries.'' [Online]. Available:
-  \url{https://doi.org/10.1145/nnnnnnn.nnnnnnn}
+  boundaries.'' [Online]. Available: \url{https://arxiv.org/pdf/1904.10656.pdf}
+\BIBentrySTDinterwordspacing
+
+\bibitem{Eiben2015}
+\BIBentryALTinterwordspacing
+A.~Eiben and J.~Smith, \emph{Introduction to Evolutionary Computing}.\hskip 1em
+  plus 0.5em minus 0.4em\relax Springer Berlin Heidelberg, 2015. [Online].
+  Available: \url{http://link.springer.com/10.1007/978-3-662-44874-8}
+\BIBentrySTDinterwordspacing
+
+\bibitem{Whitley1994}
+\BIBentryALTinterwordspacing
+D.~Whitley, ``A genetic algorithm tutorial,'' \emph{Statistics and Computing},
+  vol.~4, pp. 65--85, 6 1994. [Online]. Available:
+  \url{https://link.springer.com/article/10.1007/BF00175354}
+\BIBentrySTDinterwordspacing
+
+\bibitem{Merelo2015}
+J.~J. {Merelo}, F.~{Liberatore}, A.~F. {Ares}, R.~{García}, Z.~{Chelly},
+  C.~{Cotta}, N.~{Rico}, A.~M. {Mora}, and P.~{García-Sánchez}, ``There is
+  noisy lunch: A study of noise in evolutionary optimization problems,'' in
+  \emph{2015 7th International Joint Conference on Computational Intelligence
+  (IJCCI)}, vol.~1, 2015, pp. 261--268.
+
+\bibitem{Fludal2017}
+\BIBentryALTinterwordspacing
+S.~J. Bjørke and K.~A. Fludal, ``Sverre johann bjørke knut aron fludal
+  deckbuilding in magic: The gathering using a genetic algorithm,'' 2017.
+  [Online]. Available:
+  \url{https://ntnuopen.ntnu.no/ntnu-xmlui/handle/11250/2462429}
+\BIBentrySTDinterwordspacing
+
+\bibitem{GarciaSanchez2016}
+P.~Garcia-Sanchez, A.~Tonda, G.~Squillero, A.~Mora, and J.~J. Merelo,
+  ``Evolutionary deckbuilding in hearthstone,'' vol.~0.\hskip 1em plus 0.5em
+  minus 0.4em\relax IEEE Computer Society, 7 2016.
+
+\bibitem{GarciaSanchez2018}
+\BIBentryALTinterwordspacing
+P.~García-Sánchez, A.~Tonda, A.~M. Mora, G.~Squillero, and J.~J. Merelo,
+  ``Automated playtesting in collectible card games using evolutionary
+  algorithms: A case study in hearthstone,'' \emph{Knowledge-Based Systems},
+  vol. 153, pp. 133 -- 146, 2018. [Online]. Available:
+  \url{http://www.sciencedirect.com/science/article/pii/S0950705118301953}
 \BIBentrySTDinterwordspacing
 
 \end{thebibliography}

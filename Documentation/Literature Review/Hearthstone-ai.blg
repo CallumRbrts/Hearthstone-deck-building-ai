@@ -42,6 +42,8 @@ Warning--entry type for "Flipperbw2014" isn't style-file defined
 --line 208 of file export.bib
 Warning--entry type for "Agrawal1994" isn't style-file defined
 --line 215 of file export.bib
+Warning--entry type for "Fludal2017" isn't style-file defined
+--line 234 of file export.bib
 -- IEEEtran.bst version 1.14 (2015/08/26) by Michael Shell.
 -- http://www.michaelshell.org/tex/ieeetran/bibtex/
 -- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
@@ -49,47 +51,48 @@ Warning--missing publisher in Zuin2019
 Warning--empty booktitle in Stiegler2017
 Warning--empty journal in MapElites
 Warning--empty year in MapElites
+Warning--empty booktitle in GarciaSanchez2016
 
 Done.
-You've used 23 entries,
+You've used 29 entries,
             4087 wiz_defined-function locations,
-            956 strings with 12079 characters,
-and the built_in function-call counts, 10298 in all, are:
-= -- 763
-> -- 220
-< -- 15
-+ -- 110
-- -- 49
-* -- 444
-:= -- 1772
-add.period$ -- 46
-call.type$ -- 23
-change.case$ -- 27
-chr.to.int$ -- 36
-cite$ -- 27
-duplicate$ -- 809
-empty$ -- 965
-format.name$ -- 59
-if$ -- 2283
+            997 strings with 13567 characters,
+and the built_in function-call counts, 14639 in all, are:
+= -- 1093
+> -- 342
+< -- 43
++ -- 174
+- -- 73
+* -- 655
+:= -- 2428
+add.period$ -- 59
+call.type$ -- 29
+change.case$ -- 32
+chr.to.int$ -- 99
+cite$ -- 34
+duplicate$ -- 1120
+empty$ -- 1333
+format.name$ -- 88
+if$ -- 3297
 int.to.chr$ -- 0
-int.to.str$ -- 23
-missing$ -- 188
-newline$ -- 130
-num.names$ -- 21
-pop$ -- 572
+int.to.str$ -- 29
+missing$ -- 250
+newline$ -- 156
+num.names$ -- 27
+pop$ -- 733
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 777
+skip$ -- 1112
 stack$ -- 0
-substring$ -- 118
-swap$ -- 487
-text.length$ -- 3
+substring$ -- 270
+swap$ -- 730
+text.length$ -- 10
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 23
-warning$ -- 4
-while$ -- 27
-width$ -- 25
-write$ -- 244
-(There were 21 warnings)
+type$ -- 29
+warning$ -- 5
+while$ -- 42
+width$ -- 31
+write$ -- 308
+(There were 23 warnings)
