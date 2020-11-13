@@ -214,4 +214,87 @@ P.~García-Sánchez, A.~Tonda, A.~M. Mora, G.~Squillero, and J.~J. Merelo,
   \url{http://www.sciencedirect.com/science/article/pii/S0950705118301953}
 \BIBentrySTDinterwordspacing
 
+\bibitem{burkov2019}
+\BIBentryALTinterwordspacing
+A.~Burkov, \emph{The Hundred-Page Machine Learning Book}.\hskip 1em plus 0.5em
+  minus 0.4em\relax Andriy Burkov, 2019. [Online]. Available:
+  \url{https://books.google.fr/books?id=0jbxwQEACAAJ}
+\BIBentrySTDinterwordspacing
+
+\bibitem{3blue1brown}
+\BIBentryALTinterwordspacing
+3blue1brown. (2017) But what is a neural network? | deep learning, chapter 1.
+  [Accessed: 25/10/20]. [Online]. Available:
+  \url{https://www.youtube.com/watch?v=aircAruvnKk}
+\BIBentrySTDinterwordspacing
+
+\bibitem{Facundo2017}
+F.~Bre, J.~Gimenez, and V.~Fachinotti, ``Prediction of wind pressure
+  coefficients on building surfaces using artificial neural networks,''
+  \emph{Energy and Buildings}, vol. 158, 11 2017.
+
+\bibitem{Ward2020}
+H.~N. Ward, D.~J. Brooks, D.~Troha, B.~Mills, and A.~S. Khakhalin, ``Ai
+  solutions for drafting in magic: the gathering,'' 2020.
+
+\bibitem{NNWRPrediction}
+J.~Jakubik, ``A neural network approach to hearthstone win rate prediction.''
+
+\bibitem{PredictWR}
+\BIBentryALTinterwordspacing
+Q.~H. Vu, D.~Ruta, A.~Ruta, and L.~Cen, ``Predicting win-rates of hearthstone
+  decks: Models and features that won aaia'2018 data mining challenge.''
+  [Online]. Available: \url{http://hearthstoneapi.com/.}
+\BIBentrySTDinterwordspacing
+
+\bibitem{NIPS2014}
+\BIBentryALTinterwordspacing
+I.~J. Goodfellow, J.~Pouget-Abadie, M.~Mirza, B.~Xu, D.~Warde-Farley, S.~Ozair,
+  A.~Courville, and Y.~Bengio, ``Generative adversarial nets.'' [Online].
+  Available: \url{http://www.github.com/goodfeli/adversarial}
+\BIBentrySTDinterwordspacing
+
+\bibitem{NIPS2016}
+\BIBentryALTinterwordspacing
+I.~G. Openai, ``Nips 2016 tutorial: Generative adversarial networks.''
+  [Online]. Available:
+  \url{http://www.iangoodfellow.com/slides/2016-12-04-NIPS.pdf}
+\BIBentrySTDinterwordspacing
+
+\bibitem{VGLG}
+\BIBentryALTinterwordspacing
+R.~R. Torrado, A.~Khalifa, M.~C. Green, N.~Justesen, S.~Risi, and J.~Togelius,
+  ``Bootstrapping conditional gans for video game level generation.'' [Online].
+  Available: \url{www.aaai.org}
+\BIBentrySTDinterwordspacing
+
+\bibitem{Sehgal2019}
+A.~{Sehgal}, H.~{La}, S.~{Louis}, and H.~{Nguyen}, ``Deep reinforcement
+  learning using genetic algorithm for parameter optimization,'' in \emph{2019
+  Third IEEE International Conference on Robotic Computing (IRC)}, 2019, pp.
+  596--601.
+
+\bibitem{Such2017}
+\BIBentryALTinterwordspacing
+F.~P. Such, V.~Madhavan, E.~Conti, J.~Lehman, K.~O. Stanley, and J.~Clune,
+  ``Deep neuroevolution: Genetic algorithms are a competitive alternative for
+  training deep neural networks for reinforcement learning,'' 12 2017.
+  [Online]. Available: \url{http://arxiv.org/abs/1712.06567}
+\BIBentrySTDinterwordspacing
+
+\bibitem{Nigam2019}
+\BIBentryALTinterwordspacing
+A.~Nigam, P.~Friederich, M.~Krenn, and A.~Aspuru-Guzik, ``Augmenting genetic
+  algorithms with deep neural networks for exploring the chemical space,''
+  \emph{arXiv}, 9 2019. [Online]. Available:
+  \url{http://arxiv.org/abs/1909.11655}
+\BIBentrySTDinterwordspacing
+
+\bibitem{Janikow1993}
+\BIBentryALTinterwordspacing
+C.~Z. Janikow, ``A knowledge-intensive genetic algorithm for supervised
+  learning,'' pp. 33--72, 1993. [Online]. Available:
+  \url{https://link.springer.com/chapter/10.1007/978-1-4615-2740-4_3}
+\BIBentrySTDinterwordspacing
+
 \end{thebibliography}
