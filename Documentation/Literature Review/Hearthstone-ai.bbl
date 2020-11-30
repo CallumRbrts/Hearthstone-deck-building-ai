@@ -21,6 +21,14 @@
 \providecommand{\BIBdecl}{\relax}
 \BIBdecl
 
+\bibitem{Isaacs2020}
+\BIBentryALTinterwordspacing
+J.~Isaacs, ``Academic writing and the literature review. honours project.
+  robert gordon university, 14th of october,'' 2020, [Accessed: 30/10/20].
+  [Online]. Available:
+  \url{https://liverguac-my.sharepoint.com/:v:/g/personal/j_p_isaacs_rgu_ac_uk/EWsECIDDZHNDuCcAMkCajlEBg513KeDA7VYZjzDdqZIerg?e=ihykeq}
+\BIBentrySTDinterwordspacing
+
 \bibitem{HS}
 \BIBentryALTinterwordspacing
 ``Hearthstone.'' [Online]. Available: \url{https://playhearthstone.com/en-us}
@@ -67,8 +75,9 @@ Gamepedia, ``Standard format,'' 2020, [Accessed: 04/11/20]. [Online].
 \BIBentrySTDinterwordspacing
 
 \bibitem{Zuin2019}
-G.~Zuin and A.~Veloso, \emph{Learning a Resource Scale for Collectible Card
-  Games}, 2019.
+G.~Zuin and A.~Veloso, ``Learning a resource scale for collectible card
+  games,'' vol. 2019-August.\hskip 1em plus 0.5em minus 0.4em\relax IEEE
+  Computer Society, 8 2019.
 
 \bibitem{Stiegler2017}
 A.~Stiegler, C.~Messerschmidt, J.~Maucher, and K.~Dahal, ``Hearthstone
@@ -92,43 +101,40 @@ K.~T. Howard, ``Free-to-play or pay-to-win? casual, hardcore, and
 \BIBentrySTDinterwordspacing
 
 \bibitem{Sweetser2002}
-P.~Sweetser and J.~Wiles, ``Current ai in games: A review,'' 2002.
-
-\bibitem{Hoover2019}
 \BIBentryALTinterwordspacing
-A.~K. Hoover, J.~Togelius, S.~Lee, F.~D.~M. Silva, F.~De, and M.~Silva, ``The
-  many ai challenges of hearthstone,'' 2019. [Online]. Available:
-  \url{https://hearthsim.info/}
+P.~Sweetser and J.~Wiles, ``Current ai in games : a review,'' \emph{Australian
+  Journal of Intelligent Information Processing Systems}, vol.~8, no.~1, pp.
+  24--42, 2002. [Online]. Available: \url{https://eprints.qut.edu.au/45741/}
 \BIBentrySTDinterwordspacing
 
-\bibitem{yannakakis2018artificial}
+\bibitem{Hoover2020}
 \BIBentryALTinterwordspacing
-G.~N. Yannakakis and J.~Togelius, \emph{{Artificial Intelligence and
-  Games}}.\hskip 1em plus 0.5em minus 0.4em\relax Springer, 2018, pp 119-148.
-  [Online]. Available: \url{http://gameaibook.org}
+A.~K. Hoover, J.~Togelius, S.~Lee, and F.~de~Mesentier~Silva, ``The many ai
+  challenges of hearthstone,'' \emph{KI - Kunstliche Intelligenz}, vol.~34, pp.
+  33--43, 3 2020. [Online]. Available:
+  \url{https://link.springer.com/article/10.1007/s13218-019-00615-z}
 \BIBentrySTDinterwordspacing
+
+\bibitem{Yannakakis2018}
+G.~N. Yannakakis and J.~Togelius, \emph{Artificial intelligence and
+  games}.\hskip 1em plus 0.5em minus 0.4em\relax Springer International
+  Publishing, 2 2018.
 
 \bibitem{Janusz2017}
-\BIBentryALTinterwordspacing
-A.~Janusz, T.~Tajmajer, and M.~M. Maciej´swiechowski, ``Helping ai to play
-  hearthstone: Aaia'17 data mining challenge,'' 2017. [Online]. Available:
-  \url{https://knowledgepit.fedcsis.org/contest/view.}
-\BIBentrySTDinterwordspacing
+A.~{Janusz}, T.~{Tajmajer}, and M.~{Świechowski}, ``Helping ai to play
+  hearthstone: Aaia'17 data mining challenge,'' in \emph{2017 Federated
+  Conference on Computer Science and Information Systems (FedCSIS)}, 2017, pp.
+  121--125.
 
-\bibitem{Miguel2017}
-\BIBentryALTinterwordspacing
-A.~Miguel, ``Monte carlo tree search experiments in hearthstone information
-  systems and computer engineering examination committee,'' 2017. [Online].
-  Available:
-  \url{https://www.researchgate.net/profile/Andre_Santos62/publication/317904983_Monte_Carlo_Tree_Search_experiments_in_Hearthstone/links/5977b48aa6fdcc30bdbadc2a/Monte-Carlo-Tree-Search-experiments-in-Hearthstone.pdf}
-\BIBentrySTDinterwordspacing
+\bibitem{Santos2017}
+A.~{Santos}, P.~A. {Santos}, and F.~S. {Melo}, ``Monte carlo tree search
+  experiments in hearthstone,'' in \emph{2017 IEEE Conference on Computational
+  Intelligence and Games (CIG)}, 2017, pp. 272--279.
 
 \bibitem{Swiechowski2018}
-\BIBentryALTinterwordspacing
-Maciej´swiechowski, T.~Tajmajer, and A.~Janusz, ``Improving hearthstone ai by
-  combining mcts and supervised learning algorithms,'' 2018. [Online].
-  Available: \url{https://arxiv.org/pdf/1808.04794.pdf}
-\BIBentrySTDinterwordspacing
+M.~{Świechowski}, T.~{Tajmajer}, and A.~{Janusz}, ``Improving hearthstone {AI}
+  by combining mcts and supervised learning algorithms,'' in \emph{2018 IEEE
+  Conference on Computational Intelligence and Games (CIG)}, 2018, pp. 1--8.
 
 \bibitem{Back1996}
 \BIBentryALTinterwordspacing
@@ -147,8 +153,8 @@ D.~Kowalczyk, ``Writing research questions: Purpose and examples,'' 2013,
 
 \bibitem{Flipperbw2014}
 \BIBentryALTinterwordspacing
-Flipperbw, ``Simple hearthstone logging - see your complete play history
-  without tcp, screen capture, or violating the tos,'' 2014, [Accessed:
+Flipperbw, ``Simple hearthstone logging - {S}ee your complete play history
+  without {TCP}, screen capture, or violating the {TOS},'' 2014, [Accessed:
   08/11/20]. [Online]. Available:
   \url{https://www.reddit.com/r/hearthstone/comments/268fkk/simple_hearthstone_logging_see_your_complete_play/}
 \BIBentrySTDinterwordspacing
@@ -166,9 +172,11 @@ R.~Agrawal and R.~Srikant, ``Fast algorithms for mining association rules,''
 
 \bibitem{MapElites}
 \BIBentryALTinterwordspacing
-M.~C. Fontaine, S.~Lee, L.~B. Soros, F.~De, M.~Silva, J.~Togelius, and A.~K.
+M.~C. Fontaine, F.~D.~M. Silva, S.~Lee, J.~Togelius, L.~B. Soros, and A.~K.
   Hoover, ``Mapping hearthstone deck spaces through map-elites with sliding
-  boundaries.'' [Online]. Available: \url{https://arxiv.org/pdf/1904.10656.pdf}
+  boundaries.''\hskip 1em plus 0.5em minus 0.4em\relax Association for
+  Computing Machinery, Inc, 7 2019, pp. 161--169. [Online]. Available:
+  \url{https://dl.acm.org/doi/10.1145/3321707.3321794}
 \BIBentrySTDinterwordspacing
 
 \bibitem{Eiben2015}
@@ -234,39 +242,46 @@ F.~Bre, J.~Gimenez, and V.~Fachinotti, ``Prediction of wind pressure
   \emph{Energy and Buildings}, vol. 158, 11 2017.
 
 \bibitem{Ward2020}
-H.~N. Ward, D.~J. Brooks, D.~Troha, B.~Mills, and A.~S. Khakhalin, ``Ai
-  solutions for drafting in magic: the gathering,'' 2020.
+\BIBentryALTinterwordspacing
+H.~N. Ward, D.~J. Brooks, D.~Troha, B.~Mills, and A.~S. Khakhalin, ``{AI}
+  solutions for drafting in {M}agic: the {G}athering,'' 9 2020. [Online].
+  Available: \url{http://arxiv.org/abs/2009.00655}
+\BIBentrySTDinterwordspacing
 
 \bibitem{NNWRPrediction}
-J.~Jakubik, ``A neural network approach to hearthstone win rate prediction.''
+J.~{Jakubik}, ``A neural network approach to hearthstone win rate prediction,''
+  in \emph{2018 Federated Conference on Computer Science and Information
+  Systems (FedCSIS)}, 2018, pp. 185--188.
 
 \bibitem{PredictWR}
-\BIBentryALTinterwordspacing
-Q.~H. Vu, D.~Ruta, A.~Ruta, and L.~Cen, ``Predicting win-rates of hearthstone
-  decks: Models and features that won aaia'2018 data mining challenge.''
-  [Online]. Available: \url{http://hearthstoneapi.com/.}
-\BIBentrySTDinterwordspacing
+Q.~H. {Vu}, D.~{Ruta}, A.~{Ruta}, and L.~{Cen}, ``Predicting win-rates of
+  hearthstone decks: Models and features that won aaia'2018 data mining
+  challenge,'' in \emph{2018 Federated Conference on Computer Science and
+  Information Systems (FedCSIS)}, 2018, pp. 197--200.
 
 \bibitem{NIPS2014}
 \BIBentryALTinterwordspacing
-I.~J. Goodfellow, J.~Pouget-Abadie, M.~Mirza, B.~Xu, D.~Warde-Farley, S.~Ozair,
-  A.~Courville, and Y.~Bengio, ``Generative adversarial nets.'' [Online].
-  Available: \url{http://www.github.com/goodfeli/adversarial}
+I.~Goodfellow, J.~Pouget-Abadie, M.~Mirza, B.~Xu, D.~Warde-Farley, S.~Ozair,
+  A.~Courville, and Y.~Bengio, ``Generative adversarial nets,'' in
+  \emph{Advances in Neural Information Processing Systems}, Z.~Ghahramani,
+  M.~Welling, C.~Cortes, N.~Lawrence, and K.~Q. Weinberger, Eds.,
+  vol.~27.\hskip 1em plus 0.5em minus 0.4em\relax Curran Associates, Inc.,
+  2014, pp. 2672--2680. [Online]. Available:
+  \url{https://proceedings.neurips.cc/paper/2014/file/5ca3e9b122f61f8f06494c97b1afccf3-Paper.pdf}
 \BIBentrySTDinterwordspacing
 
 \bibitem{NIPS2016}
 \BIBentryALTinterwordspacing
-I.~G. Openai, ``Nips 2016 tutorial: Generative adversarial networks.''
-  [Online]. Available:
-  \url{http://www.iangoodfellow.com/slides/2016-12-04-NIPS.pdf}
+I.~J. Goodfellow, ``{NIPS} 2016 tutorial: Generative adversarial networks,''
+  \emph{CoRR}, vol. abs/1701.00160, 2017. [Online]. Available:
+  \url{http://arxiv.org/abs/1701.00160}
 \BIBentrySTDinterwordspacing
 
 \bibitem{VGLG}
-\BIBentryALTinterwordspacing
-R.~R. Torrado, A.~Khalifa, M.~C. Green, N.~Justesen, S.~Risi, and J.~Togelius,
-  ``Bootstrapping conditional gans for video game level generation.'' [Online].
-  Available: \url{www.aaai.org}
-\BIBentrySTDinterwordspacing
+R.~{Rodriguez Torrado}, A.~{Khalifa}, M.~{Cerny Green}, N.~{Justesen},
+  S.~{Risi}, and J.~{Togelius}, ``Bootstrapping conditional gans for video game
+  level generation,'' in \emph{2020 IEEE Conference on Games (CoG)}, 2020, pp.
+  41--48.
 
 \bibitem{Sehgal2019}
 A.~{Sehgal}, H.~{La}, S.~{Louis}, and H.~{Nguyen}, ``Deep reinforcement
