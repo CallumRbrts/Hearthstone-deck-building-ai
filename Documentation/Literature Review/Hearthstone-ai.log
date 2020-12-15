@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=pdflatex 2020.9.23)  25 NOV 2020 15:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=pdflatex 2020.11.30)  9 DEC 2020 12:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -445,7 +445,7 @@ LaTeX Info: Redefining \nameref on input line 56.
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 Chapter 1.
-<thalnos.jpg, id=80, 200.75pt x 304.13625pt>
+<thalnos.jpg, id=84, 200.75pt x 304.13625pt>
 File: thalnos.jpg Graphic file (type jpg)
 <use thalnos.jpg>
 Package pdftex.def Info: thalnos.jpg  used on input line 79.
@@ -462,7 +462,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 86--87
 
  []
 
-<hearthstonegameboard.png, id=96, 1189.44376pt x 695.59875pt>
+<hearthstonegameboard.png, id=100, 1189.44376pt x 695.59875pt>
 File: hearthstonegameboard.png Graphic file (type png)
 <use hearthstonegameboard.png>
 Package pdftex.def Info: hearthstonegameboard.png  used on input line 90.
@@ -477,7 +477,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 94--94
  []
 
 [2 <./thalnos.jpg>] [3 <./hearthstonegameboard.png (PNG copy)>]
-<mana_curve.png, id=133, 208.52907pt x 129.48375pt>
+<mana_curve.png, id=137, 208.52907pt x 129.48375pt>
 File: mana_curve.png Graphic file (type png)
 <use mana_curve.png>
 Package pdftex.def Info: mana_curve.png  used on input line 108.
@@ -500,19 +500,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 151--153
  []
 
 [7]
-<EAFlowchart.png, id=243, 822.07124pt x 474.27188pt>
+<EAFlowchart.png, id=247, 822.07124pt x 474.27188pt>
 File: EAFlowchart.png Graphic file (type png)
 <use EAFlowchart.png>
 Package pdftex.def Info: EAFlowchart.png  used on input line 159.
 (pdftex.def)             Requested size: 345.0pt x 199.03362pt.
  [8] [9 <./EAFlowchart.png (PNG copy)>]
-<ANN.png, id=284, 853.1875pt x 499.8675pt>
+<ANN.png, id=288, 853.1875pt x 499.8675pt>
 File: ANN.png Graphic file (type png)
 <use ANN.png>
 Package pdftex.def Info: ANN.png  used on input line 174.
 (pdftex.def)             Requested size: 345.0pt x 202.1325pt.
  [10] [11 <./ANN.png>]
-<GAN.png, id=311, 446.66875pt x 528.97626pt>
+<GAN.png, id=315, 446.66875pt x 528.97626pt>
 File: GAN.png Graphic file (type png)
 <use GAN.png>
 Package pdftex.def Info: GAN.png  used on input line 186.
@@ -523,7 +523,11 @@ Overfull \hbox (17.05518pt too wide) in paragraph at lines 189--189
 []generative-[]adversarial-[]networks-[]gans/$[]| 
  []
 
-[12 <./GAN.png>] (./Hearthstone-ai.bbl [13]
+[12 <./GAN.png>] [13]
+Chapter 2.
+[14
+
+] (./Hearthstone-ai.bbl [15]
 Underfull \hbox (badness 10000) in paragraph at lines 26--31
 []$\OT1/cmr/m/n/10 https : / / liverguac-[]my . sharepoint . com/ : v : /g / pe
 rsonal / j[]p[]isaacs[]rgu[]ac[]uk /
@@ -541,7 +545,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 60--64
 N-[]Gnc &
  []
 
-[14
+[16
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 141--146
@@ -567,29 +571,29 @@ Overfull \hbox (12.02847pt too wide) in paragraph at lines 164--168
 al-[]learning-[]methods-[]paper .
  []
 
-[15] [16])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 213.
- [17]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 213.
+[17] [18])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 234.
+ [19]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 234.
  (./Hearthstone-ai.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 213.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 213.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 234.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 234.
 Package rerunfilecheck Info: File `Hearthstone-ai.out' has not changed.
-(rerunfilecheck)             Checksum: BA08A9EC41316BD5ECCFD3C7B034F9F6;1009.
+(rerunfilecheck)             Checksum: 17814CF7161B83374529B39A521C486A;1057.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 213.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 234.
  ) 
 Here is how much of TeX's memory you used:
- 10069 strings out of 480478
- 193757 string characters out of 5905959
+ 10091 strings out of 480478
+ 193908 string characters out of 5905958
  478793 words of memory out of 5000000
- 25826 multiletter control sequences out of 15000+600000
+ 25827 multiletter control sequences out of 15000+600000
  541524 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,8n,46p,2075b,849s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 39i,8n,46p,2075b,853s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/publi
@@ -601,10 +605,10 @@ public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></
 usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/share/texmf
 -dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on Hearthstone-ai.pdf (18 pages, 1451501 bytes).
+Output written on Hearthstone-ai.pdf (20 pages, 1455737 bytes).
 PDF statistics:
- 481 PDF objects out of 1000 (max. 8388607)
- 436 compressed objects within 5 object streams
- 113 named destinations out of 1000 (max. 500000)
- 151 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 516 PDF objects out of 1000 (max. 8388607)
+ 469 compressed objects within 5 object streams
+ 134 named destinations out of 1000 (max. 500000)
+ 159 words of extra memory for PDF output out of 10000 (max. 10000000)
 

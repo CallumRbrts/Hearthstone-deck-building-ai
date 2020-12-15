@@ -1,0 +1,29 @@
+REQUIREMENTS
+
+
+- Should acheive a winrate of over 50% (ideally over 60%)
+- Will use data of other decks (potentially from HSReplay)
+- Will use a generatove adversarial network
+- Should log a list of generated decks 
+- should use a limited collection of cards
+- could be used in a the wild format
+- generated decks should be tested in a simlator to output a predicted winrate
+- could have a web interface to easily access and use online 
+- AI training should take no more than a few hours to execute
+- will used card data from the blizzard API (if needed)
+
+- could generate graphs of performance (if possible)
+
+NON FUNCTIONAL
+
+
+- will use Python as the programming language, for the libraries
+- will use Jupyter notebook
+- will use TF-GAN (https://github.com/tensorflow/gan)
+
+- data set size (no more than 10000) for now I guess
+- response time less than ~a few minutes after training
+- data must follow GDPR regulations and be anonymous
+
+- must follow HSReplay ToS by having written permission from HSReplay to use their data
+

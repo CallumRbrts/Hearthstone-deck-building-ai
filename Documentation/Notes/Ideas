@@ -129,3 +129,27 @@
     - assume that the player has completed the tutorial on every character
     
     - Have a whole comparison thing going on. So I generate a random deck. Then a GA. Then a NN. Compare them all.
+
+    
+    
+    
+#Equivalent generate latent points function for decks?
+#how would I generate "fake" decks from the generator? 
+# - The generator usually takes a noise vector from the latent dimension. How would I do that in my problem? Do I need to create a sort of histogram function that "encapsulates" a deck and all the cards from every data row are added to it, then the chosen deck highlights the points on the chart? Then the latent dimension will take points from that histogram, but I don't know if that's too random or not.
+#how would I convert the decks into vectors to feed into the Network? 
+# - Maybe by creating a collection of cards and associate a key to their name and use those keys to create a vector of shape[30]
+#Feeding vectors of decks should work right? 
+#which of the examples should I base myself off? Are they both correct?
+    
+    
+Deviate from moskow - Must (bold and uppercase)
+Put the two winrate requirents together. 
+Categorize them - Function, non functional, performance, security
+Length - Ok
+
+Jan 18th
+
+    
+
+    
+    
