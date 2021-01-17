@@ -202,25 +202,32 @@ This literature review has covered existing deck building solutions from Hearths
 
 \chapter{Requirements}
 	%\renewcommand{\labelenumi}{\Roman{enumi}}
+	\section{Functional Requirements}
 	\begin{enumerate}
-		\item AI must output a legal deck following the rules of Hearthstone. Meaning that a deck should be composed of 30 cards, with no more than 2 duplicates of any card (excluding legendaries, which can only have a single copy). 
-		\item AI must output a deck following the rules of the "Standard" game mode. Meaning that the AI can only use the classic card set and the latest expansions from the past 2 years.
-		\item AI must use a generative adversarial network in order to generate a deck. The network will include a generator to create a similar and a discriminator to determine if the deck is part of the dataset.
-		\item The generated deck should have a calculated win-rate of over 50\%. Ideally around 60\%, so that the AI can make worthwhile decks. Meaning that the created decks should win at least half of the time, and in an ideal scenario they would win more often than lose.
-		\item AI will use a dataset of user created decks from the latest expansions in standard format (Rise of Shadows, Saviors of Uldum, Descent of Dragons, Ashes of Outland, Scholomance Academy, Madness at the Darkmoon Faire) provided by the team at HSReplay.
-		\item AI should output a dataset of decks it generated following the same format as the training data, as to log the output and determine a possible bias.
-		\item AI should be able to generate a deck from a limited collection of cards, so it can be useful to players without access to all cards in Hearthstone.
-		\item AI could be used in the wild format, making use of all expansions to create competitive decks from a larger pool of cards.
-		\item AI created decks must be tested in a simulator to output a predicted win-rate and determine the playability of the deck versus user created decks. A total of 16 games should be played for optimal results. This will allow for the completion of requirement "d". 
-		\item An interface could be create to accommodate the AI and assist in feature implementation and accessibility of users. 
-		\item The training process of the AI should take less than 3 hours, to allow a faster uptime if the AI needs to retrain after an update.
-		\item AI will use card data from the Blizzard API if needed, to collected data such as card effects, images and tribal tags based of the name of the cards.
-		\item Could generate graphs of performance of decks outputted by the AI and simulators to visualise the training and testing process including the results of the created decks. 
-		\item Will use Python as the programming languages of choice for the access to expansive libraries for data manipulation and AI creation.
-		\item Will use Jupyter notebook as the software for coding the AI. It provides a platform for Python, and the cells are useful for making small changes without having to re-execute the whole program.
-		\item Dataset size will not be more than 100,000 as to decrease time to train and prevent overfitting.
-		\item Creation of a deck after training should not take more than 10 minutes. As to allow the to be quick to use by others whilst allowing for testing time with the simulator and the generation of graphs.
-		\item Data collected must conform to GDPR regulations and be anonymous, since the identities of decks created by users is not needed.
+		\item{ AI \textbf{MUST} output a legal deck following the rules of Hearthstone. Meaning that a deck should be composed of 30 cards, with no more than 2 duplicates of any card (excluding legendaries, which can only have a single copy).}
+		\item AI \textbf{MUST} output a deck following the rules of the "Standard" game mode. Meaning that the AI can only use the classic card set and the latest expansions from the past 2 years.
+		\item AI \textbf{MUST} use a generative adversarial network in order to generate a deck. The network will include a generator to create a similar and a discriminator to determine if the deck is part of the dataset.
+		\item AI \textbf{MUST} use a dataset of user created decks from the latest expansions in standard format (Rise of Shadows, Saviors of Uldum, Descent of Dragons, Ashes of Outland, Scholomance Academy, Madness at the Darkmoon Faire) collected from Hearthpwn.
+		\item AI created decks \textbf{MUST} be tested in a simulator to output a predicted win-rate and determine the playability of the deck versus user created decks. A total of 16 games should be played for optimal results. This will allow for the completion of requirement "f". 
+		\item The generated deck \textbf{SHOULD} have a calculated win-rate of over 50\%. Ideally around 60\%, so that the AI can make worthwhile decks. Meaning that the created decks should win at least half of the time, and in an ideal scenario they would win more often than lose.
+		\item AI \textbf{SHOULD} output a dataset of decks it generated following the same format as the training data, as to log the output and determine a possible bias.
+		\item AI \textbf{SHOULD} be able to generate a deck from a limited collection of cards, so it can be useful to players without access to all cards in Hearthstone.
+		\item AI \textbf{COULD} be used in the wild format, making use of all expansions to create competitive decks from a larger pool of cards.
+		
+		\item An interface \textbf{COULD} be created to accommodate the AI and assist in feature implementation and accessibility of users. 
+	\end{enumerate}
+	\section{Non-Functional}
+	\begin{enumerate}
+		\item \textbf{MUST} have written consent from Hearthpwn to scrape data for dataset
+		\item Data collected \textbf{MUST} conform to GDPR regulations and be anonymous, since the identities of decks created by users is not needed.
+		\item \textbf{MUST} use Python as the programming languages of choice for the access to expansive libraries for data manipulation and AI creation.
+		\item \textbf{MUST} use Jupyter notebook as the software for coding the AI. It provides a platform for Python, and the cells are useful for making small changes without having to re-execute the whole program.
+		\item Dataset size \textbf{MUST} not be more than 100,000 rows as to decrease time to train and prevent overfitting.
+		\item The training process of the AI \textbf{SHOULD} take less than 3 hours, to allow a faster uptime if the AI needs to retrain after an update.
+		\item AI \textbf{SHOULD} use card data from the The Hearthstone API on RapidAPI if needed, to collected data such as card effects, images and tribal tags based of the name of the cards.
+		\item AI \textbf{SHOULD} use deck data scraped from Hearthpwn to train from using a coded web scraper.
+		\item Creation of a deck after training \textbf{SHOULD} not take more than 10 minutes. As to allow the to be quick to use by others whilst allowing for testing time with the simulator and the generation of graphs
+		\item \textbf{COULD} generate graphs of performance of decks outputted by the AI and simulators to visualise the training and testing process including the results of the created decks. 
 	\end{enumerate}
 %----------------------------------------------------------------------------------------
 %	BIBLIOGRAPHY
