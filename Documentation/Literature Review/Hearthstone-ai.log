@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=pdflatex 2020.11.30)  16 JAN 2021 12:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=pdflatex 2020.11.30)  1 APR 2021 12:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -443,91 +443,105 @@ LaTeX Info: Redefining \nameref on input line 56.
 \@outlinefile=\write3
  [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Chapter 1.
-<thalnos.jpg, id=92, 200.75pt x 304.13625pt>
-File: thalnos.jpg Graphic file (type jpg)
-<use thalnos.jpg>
-Package pdftex.def Info: thalnos.jpg  used on input line 79.
-(pdftex.def)             Requested size: 86.25pt x 130.6693pt.
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
-been already used, duplicate ignored
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]pdfTeX warning (ext4): dest
+ination with the same identifier (name{page.1}) has been already used, duplicat
+e ignored
 <to be read again> 
                    \relax 
-l.85 
-      [1
+l.70 \end{abstract}
+                    [1]pdfTeX warning (ext4): destination with the same identif
+ier (name{page.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.75 \tableofcontents
+                      [1] (./Hearthstone-ai.toc)
+\tf@toc=\write4
+ [2
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 86--87
+Chapter 1.
+[3
+
+]
+Chapter 2.
+<thalnos.jpg, id=154, 200.75pt x 304.13625pt>
+File: thalnos.jpg Graphic file (type jpg)
+<use thalnos.jpg>
+Package pdftex.def Info: thalnos.jpg  used on input line 97.
+(pdftex.def)             Requested size: 86.25pt x 130.6693pt.
+[4
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 104--105
 
  []
 
-<hearthstonegameboard.png, id=108, 1189.44376pt x 695.59875pt>
+<hearthstonegameboard.png, id=170, 1189.44376pt x 695.59875pt>
 File: hearthstonegameboard.png Graphic file (type png)
 <use hearthstonegameboard.png>
-Package pdftex.def Info: hearthstonegameboard.png  used on input line 90.
+Package pdftex.def Info: hearthstonegameboard.png  used on input line 108.
 (pdftex.def)             Requested size: 345.0pt x 201.7503pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 94--94
+Underfull \hbox (badness 10000) in paragraph at lines 112--112
 [][][][]$\OT1/cmtt/m/n/8 https : / / bothgunsblazingblog . wordpress . com / 20
 14 / 06 / 22 /
  []
 
-[2 <./thalnos.jpg>] [3 <./hearthstonegameboard.png (PNG copy)>]
-<mana_curve.png, id=145, 208.52907pt x 129.48375pt>
+[5 <./thalnos.jpg>] [6 <./hearthstonegameboard.png (PNG copy)>]
+<mana_curve.png, id=208, 208.52907pt x 129.48375pt>
 File: mana_curve.png Graphic file (type png)
 <use mana_curve.png>
-Package pdftex.def Info: mana_curve.png  used on input line 108.
+Package pdftex.def Info: mana_curve.png  used on input line 126.
 (pdftex.def)             Requested size: 172.5pt x 107.1178pt.
- [4 <./mana_curve.png>] [5]
-Underfull \hbox (badness 7704) in paragraph at lines 134--134
+ [7 <./mana_curve.png>] [8]
+Underfull \hbox (badness 7704) in paragraph at lines 152--152
 [][][]\OT1/cmr/m/n/8 For ex-am-ple cards: []$\OT1/cmtt/m/n/8 https : / / github
  . com / minimaxir / mtg-[]gpt-[]2-[]cloud-[]run / tree /
  []
 
-[6]
-Underfull \hbox (badness 10000) in paragraph at lines 151--151
+[9]
+Underfull \hbox (badness 10000) in paragraph at lines 169--169
 [][][][]$\OT1/cmtt/m/n/8 https : / / www . blizzard . com / en-[]us / legal / f
 ba4d00f-[]c7e4-[]4883-[]b8b9-[]1b4500a402ea /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 151--153
+Underfull \hbox (badness 10000) in paragraph at lines 169--171
 
  []
 
-[7]
-<EAFlowchart.png, id=255, 822.07124pt x 474.27188pt>
+[10]
+<EAFlowchart.png, id=316, 822.07124pt x 474.27188pt>
 File: EAFlowchart.png Graphic file (type png)
 <use EAFlowchart.png>
-Package pdftex.def Info: EAFlowchart.png  used on input line 159.
+Package pdftex.def Info: EAFlowchart.png  used on input line 177.
 (pdftex.def)             Requested size: 345.0pt x 199.03362pt.
- [8] [9 <./EAFlowchart.png (PNG copy)>]
-<ANN.png, id=296, 853.1875pt x 499.8675pt>
+ [11] [12 <./EAFlowchart.png (PNG copy)>]
+<ANN.png, id=358, 853.1875pt x 499.8675pt>
 File: ANN.png Graphic file (type png)
 <use ANN.png>
-Package pdftex.def Info: ANN.png  used on input line 174.
+Package pdftex.def Info: ANN.png  used on input line 192.
 (pdftex.def)             Requested size: 345.0pt x 202.1325pt.
- [10] [11 <./ANN.png>]
-<GAN.png, id=323, 446.66875pt x 528.97626pt>
+ [13] [14 <./ANN.png>]
+<GAN.png, id=384, 446.66875pt x 528.97626pt>
 File: GAN.png Graphic file (type png)
 <use GAN.png>
-Package pdftex.def Info: GAN.png  used on input line 186.
+Package pdftex.def Info: GAN.png  used on input line 204.
 (pdftex.def)             Requested size: 172.5pt x 204.2901pt.
 
-Overfull \hbox (17.05518pt too wide) in paragraph at lines 189--189
+Overfull \hbox (17.05518pt too wide) in paragraph at lines 207--207
 [][][][]$\OT1/cmtt/m/n/8 https : / / machinelearningmastery . com / what-[]are-
 []generative-[]adversarial-[]networks-[]gans/$[]| 
  []
 
-[12 <./GAN.png>] [13]
-Chapter 2.
-[14
+[15 <./GAN.png>] [16]
+Chapter 3.
+[17
 
-] (./Hearthstone-ai.bbl [15]
+] (./Hearthstone-ai.bbl [18]
 Underfull \hbox (badness 10000) in paragraph at lines 26--31
 []$\OT1/cmr/m/n/10 https : / / liverguac-[]my . sharepoint . com/ : v : /g / pe
 rsonal / j[]p[]isaacs[]rgu[]ac[]uk /
@@ -545,7 +559,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 60--64
 N-[]Gnc &
  []
 
-[16
+[19
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 141--146
@@ -571,26 +585,32 @@ Overfull \hbox (12.02847pt too wide) in paragraph at lines 164--168
 al-[]learning-[]methods-[]paper .
  []
 
-[17] [18])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 241.
- [19]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 241.
+[20] [21])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 259.
+ [22]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 259.
  (./Hearthstone-ai.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 241.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 241.
-Package rerunfilecheck Info: File `Hearthstone-ai.out' has not changed.
-(rerunfilecheck)             Checksum: 5DCE3039081F6EA0FFE8A1CD5D614E74;1188.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 259.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 259.
 
+
+Package rerunfilecheck Warning: File `Hearthstone-ai.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Hearthstone-ai.out':
+(rerunfilecheck)             Before: 532DE589CAD7F9746393BAE9680CB5E1;1471
+(rerunfilecheck)             After:  B9EDCBF94627391FA46986BBACBAC04F;1528.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 241.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 259.
  ) 
 Here is how much of TeX's memory you used:
- 10097 strings out of 480478
- 193970 string characters out of 5905958
- 478793 words of memory out of 5000000
- 25829 multiletter control sequences out of 15000+600000
+ 10117 strings out of 480478
+ 194194 string characters out of 5905958
+ 477802 words of memory out of 5000000
+ 25836 multiletter control sequences out of 15000+600000
  541524 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  39i,8n,46p,2075b,851s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -605,10 +625,10 @@ public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></
 usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/share/texmf
 -dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on Hearthstone-ai.pdf (20 pages, 1458355 bytes).
+Output written on Hearthstone-ai.pdf (24 pages, 1467562 bytes).
 PDF statistics:
- 526 PDF objects out of 1000 (max. 8388607)
- 479 compressed objects within 5 object streams
- 138 named destinations out of 1000 (max. 500000)
- 175 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 590 PDF objects out of 1000 (max. 8388607)
+ 538 compressed objects within 6 object streams
+ 148 named destinations out of 1000 (max. 500000)
+ 215 words of extra memory for PDF output out of 10000 (max. 10000000)
 
