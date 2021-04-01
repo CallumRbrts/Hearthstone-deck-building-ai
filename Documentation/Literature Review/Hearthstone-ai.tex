@@ -80,9 +80,20 @@ Bringing Artificial Intelligence to Hearthstone: Heroes of Warcraft is not a new
 \section{Motivation}
 Using a Artificial Intelligence algorithm that has not been utilised nor researched in the field of deck building could provide insight into the Generative Adversarial Network (GAN) applications in other fields of research, as it is mostly limited to image generation. Along with this discovering another method for deck building that could bear fruit to similar or improved results, opening the way for more techniques and deeper research into the use of recorded data for deck generation. 
 \section{Aims and Objective}
-
+The aim of this project is to create a deck building artificial intelligence using a Generative Adversarial Network (GAN) and testing the viability of it, this will be achieved by completing the following objectives:
+\begin{itemize}
+  \item Collecting user deck data from reliable sources
+  \item Cleansing of user deck data
+  \item Converting user deck data to vectors and back to human readable after training
+  \item Implement GAN for single dimensional vector generation
+  \item GAN hyper-parameter and layer optimization
+  \item Simulating results against user decks
+  \item Performing evaluations on resulting decks
+\end{itemize}
 \section{Key Findings}
+This project has exhibited that it is possible to use Generative Adversarial Networks to generate decks for Hearthstone, a technique that seemingly no one has attempted to use, the AI demonstrates similarities to user created decks such as card types, type percentage, card duplicates, synergies and card spread. The decks tested have an average of 55\% win rate, varying from class to class, match ups against other classes greatly influenced the outcome of a match. Although the win rate is heavily influenced by the AI playing it, considering that the simulator game playing AI will not play as well as a human player. The training process is much faster than anticipated (around 10 minutes), however the testing was much longer at around 1 - 2 hours depending of the number of decks created.
 \section{Structure}
+The structure of the report is as follows, first a literature review which presents an overview of Hearthstone, some of the important game mechanics and existing AI that have been used. Then a discussion  of  the  requirements  of  the  project  and  the  methodology  to implement them. Following this is a discussion of the potential legal and ethical issues with the project and what has been done to overcome them. The implementation of the project, a deep dive into how the project was completed. A testing and evaluation section describing the strategy and the results of the generated decks. Finally, a conclusion which summarises the project is given.
 
 \chapter{Literature Review}
 The purpose of this literature review is to define the technologies used in the field of artificial intelligence for building a deck in Hearthstone. To introduce, and compare previous works to determine their strengths and weaknesses. A review of the literature is valuable in understanding important aspects of a research area \cite{Isaacs2020}. The structure of this literature review is as follows: the initial section will detail the background of the project, explaining the fundamentals of Hearthstone and deck building. Following that will be an introduction to the project,  motivations, and research questions. Finally, we will have the core technologies used for similar projects.
