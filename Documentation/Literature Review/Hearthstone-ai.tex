@@ -284,10 +284,11 @@ This literature review has covered existing deck building solutions from Hearths
 	Numpy is a python library designed for working with arrays, it aims to provide array objects that are 50x faster than standard python lists, since the GAN will be using a lot of arrays this is ideal for achieving faster training times. This library was used throughout the training process of the GAN, from sample generation to final deck results.
 	\subsection{Evaluation}
 	\subsubsection{Matplotlib}
+	Matplotlib is a data visualization library which allows data to be displayed through graphs and charts, this is used throughout the evaluation process of the project. 
 	\subsubsection{Time}
+	Time is a python library that is used to measure execution time of functions, in this project it is used to calculate execution time of the GAN training and testing process. 
 	\subsubsection{Fireplace}
-
-
+	Fireplace is the python library for the Hearthstone simulator, this is used for testing the generated decks against ones from the dataset. There are two other simulators worth considering, Sabberstone and Hearthbreaker. Hearthbreaker was used by the Google Deep Mind team for card generation however the project is no longer maintained, it has been for many years so that one cannot be used to fulfil our requirements. Sabberstone is written has a full interface but for testing that creates unnecessary bloat, so Fireplace is the better choice, it is maintained, and plays games in seconds, the main downside however is that only about half of the cards in the game are implemented. This is because some cards have tricky mechanics that are hard to implement and that the developers are to write interactions manually. 
 	
 %----------------------------------------------------------------------------------------
 %	BIBLIOGRAPHY

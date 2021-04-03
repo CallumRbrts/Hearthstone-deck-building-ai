@@ -38,5 +38,5 @@
 \contentsline {subsubsection}{\numberline {3.5.2.2}Numpy}{21}{subsubsection.3.5.2.2}%
 \contentsline {subsection}{\numberline {3.5.3}Evaluation}{21}{subsection.3.5.3}%
 \contentsline {subsubsection}{\numberline {3.5.3.1}Matplotlib}{21}{subsubsection.3.5.3.1}%
-\contentsline {subsubsection}{\numberline {3.5.3.2}time}{21}{subsubsection.3.5.3.2}%
-\contentsline {subsubsection}{\numberline {3.5.3.3}fireplace}{21}{subsubsection.3.5.3.3}%
+\contentsline {subsubsection}{\numberline {3.5.3.2}Time}{22}{subsubsection.3.5.3.2}%
+\contentsline {subsubsection}{\numberline {3.5.3.3}Fireplace}{22}{subsubsection.3.5.3.3}%
