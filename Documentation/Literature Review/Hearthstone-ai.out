@@ -19,6 +19,12 @@
 \BOOKMARK [2][-]{subsection.2.4.2}{Generative Adversarial Networks}{section.2.4}% 19
 \BOOKMARK [1][-]{section.2.5}{Hybrids}{chapter.2}% 20
 \BOOKMARK [1][-]{section.2.6}{Conclusion \046 Final Thoughts}{chapter.2}% 21
-\BOOKMARK [0][-]{chapter.3}{Requirements}{}% 22
-\BOOKMARK [1][-]{section.3.1}{Functional Requirements}{chapter.3}% 23
-\BOOKMARK [1][-]{section.3.2}{Non-Functional}{chapter.3}% 24
+\BOOKMARK [0][-]{chapter.3}{Methodology}{}% 22
+\BOOKMARK [1][-]{section.3.1}{Overview}{chapter.3}% 23
+\BOOKMARK [1][-]{section.3.2}{Functional Requirements}{chapter.3}% 24
+\BOOKMARK [1][-]{section.3.3}{Non-Functional}{chapter.3}% 25
+\BOOKMARK [1][-]{section.3.4}{Approach}{chapter.3}% 26
+\BOOKMARK [1][-]{section.3.5}{Libraries}{chapter.3}% 27
+\BOOKMARK [2][-]{subsection.3.5.1}{Web Scaper and API}{section.3.5}% 28
+\BOOKMARK [2][-]{subsection.3.5.2}{GAN}{section.3.5}% 29
+\BOOKMARK [2][-]{subsection.3.5.3}{Evaluation}{section.3.5}% 30
