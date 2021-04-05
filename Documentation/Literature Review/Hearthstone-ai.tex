@@ -48,7 +48,6 @@
 %----------------------------------------------------------------------------------------
 
 
-
 \author{Callum \textsc{Roberts}} % Author name
 
 \date{\today} % Date for the report
@@ -82,7 +81,7 @@ Thanks are also owed to the Hearthpwn team who allowed me to collect their data 
 Bringing Artificial Intelligence to Hearthstone: Heroes of Warcraft is not a new concept, it has been subject to many studies in the field, where it be playing the game, suggesting moves to the player or building decks. Focusing on the field of deck building, it is a concept that exists across multiple trading card games such as Magic: The Gathering, Pokemon, Yu-Gi-Oh! and of course Hearthstone. Papers have studied these games more or less, but all seem to gravitate around similar deck building techniques, details of which will be expanded later on. These techniques seemingly been saturated, newer studies apply small scale changes to already defined methods \cite{Back1996}. Exploration of different techniques has been touched on but they seem to be outliers and of limited number \cite{Ward2020}, experimenting with other algorithms could show better, more  interesting results instead of assuming that one saturated method is the best because of its popular usage.
 \section{Motivation}
 Using a Artificial Intelligence algorithm that has not been utilised nor researched in the field of deck building could provide insight into the Generative Adversarial Network (GAN) applications in other fields of research, as it is mostly limited to image generation. Along with this discovering another method for deck building that could bear fruit to similar or improved results, opening the way for more techniques and deeper research into the use of recorded data for deck generation. 
-\section{Aims and Objective}
+\section{Aims and Objectives}
 The aim of this project is to create a deck building artificial intelligence using a Generative Adversarial Network (GAN) and testing the viability of it, this will be achieved by completing the following objectives:
 \begin{itemize}
   \item Collecting user deck data from reliable sources
@@ -233,80 +232,99 @@ This literature review has covered existing deck building solutions from Hearths
 
 
 \chapter{Methodology}
-	\section{Overview}
-	The project implemented will be written in Python, in the form of three python notebooks, each with a specific task. The first notebook collects card data from an API and creates a card dataset, the second notebook scrapes deck data to create datasets for each class, and finally the last notebook will house the AI and the simulator testing. A user simply needs to run the notebooks to get their results, an input is required when deciding what class the user wants the deck to be. With the second notebook, additional datasets can be created and used in the place of the old ones for training the AI. \\ \\
-	This project outputs JSON files for the card and deck data, one file for the card data and ten files for the deck data (one for each class). When executing the AI, the user is presented with a certain number of decks, the number varies on how well the GAN trained, these decks are tested and the user is shown graphs and charts of deck composition, overall winrate and winrate per class. They can see the cards within the deck to use at their own leisure.
+\section{Overview}
+The project implemented will be written in Python, in the form of three python notebooks, each with a specific task. The first notebook collects card data from an API and creates a card dataset, the second notebook scrapes deck data to create datasets for each class, and finally the last notebook will house the AI and the simulator testing. A user simply needs to run the notebooks to get their results, an input is required when deciding what class the user wants the deck to be. With the second notebook, additional datasets can be created and used in the place of the old ones for training the AI. \\ \\
+This project outputs JSON files for the card and deck data, one file for the card data and ten files for the deck data (one for each class). When executing the AI, the user is presented with a certain number of decks, the number varies on how well the GAN trained, these decks are tested and the user is shown graphs and charts of deck composition, overall winrate and winrate per class. They can see the cards within the deck to use at their own leisure.
 	
 	%\renewcommand{\labelenumi}{\Roman{enumi}}
-	\section{Functional Requirements}
-	\begin{enumerate}
-		\item{ AI \textbf{MUST} output a legal deck following the rules of Hearthstone. Meaning that a deck should be composed of 30 cards, with no more than 2 duplicates of any card (excluding legendaries, which can only have a single copy).}
-		\item AI \textbf{MUST} output a deck following the rules of the "Standard" game mode. Meaning that the AI can only use the classic card set and the latest expansions from the past 2 years.
-		\item AI \textbf{MUST} use a generative adversarial network in order to generate a deck. The network will include a generator to create a similar and a discriminator to determine if the deck is part of the dataset.
-		\item AI \textbf{MUST} use a dataset of user created decks from the latest expansions in standard format (Rise of Shadows, Saviors of Uldum, Descent of Dragons, Ashes of Outland, Scholomance Academy, Madness at the Darkmoon Faire) collected from Hearthpwn.
-		\item AI created decks \textbf{MUST} be tested in a simulator to output a predicted win-rate and determine the playability of the deck versus user created decks. A total of 16 games should be played for optimal results. This will allow for the completion of requirement "f". 
-		\item The generated deck \textbf{SHOULD} have a calculated win-rate of over 50\%. Ideally around 60\%, so that the AI can make worthwhile decks. Meaning that the created decks should win at least half of the time, and in an ideal scenario they would win more often than lose.
-		\item AI \textbf{SHOULD} output a dataset of decks it generated following the same format as the training data, as to log the output and determine a possible bias.
-		\item AI \textbf{SHOULD} be able to generate a deck from a limited collection of cards, so it can be useful to players without access to all cards in Hearthstone.
-		\item AI \textbf{COULD} be used in the wild format, making use of all expansions to create competitive decks from a larger pool of cards.
+\section{Functional Requirements}
+\begin{enumerate}
+\item{ AI \textbf{MUST} output a legal deck following the rules of Hearthstone. Meaning that a deck should be composed of 30 cards, with no more than 2 duplicates of any card (excluding legendaries, which can only have a single copy).}
+\item AI \textbf{MUST} output a deck following the rules of the "Standard" game mode. Meaning that the AI can only use the classic card set and the latest expansions from the past 2 years.
+\item AI \textbf{MUST} use a generative adversarial network in order to generate a deck. The network will include a generator to create a similar and a discriminator to determine if the deck is part of the dataset.
+\item AI \textbf{MUST} use a dataset of user created decks from the latest expansions in standard format (Rise of Shadows, Saviors of Uldum, Descent of Dragons, Ashes of Outland, Scholomance Academy, Madness at the Darkmoon Faire) collected from Hearthpwn.
+\item AI created decks \textbf{MUST} be tested in a simulator to output a predicted win-rate and determine the playability of the deck versus user created decks. A total of 16 games should be played for optimal results. This will allow for the completion of requirement "f". 
+\item The generated deck \textbf{SHOULD} have a calculated win-rate of over 50\%. Ideally around 60\%, so that the AI can make worthwhile decks. Meaning that the created decks should win at least half of the time, and in an ideal scenario they would win more often than lose.
+\item AI \textbf{SHOULD} output a dataset of decks it generated following the same format as the training data, as to log the output and determine a possible bias.
+\item AI \textbf{SHOULD} be able to generate a deck from a limited collection of cards, so it can be useful to players without access to all cards in Hearthstone.
+\item AI \textbf{COULD} be used in the wild format, making use of all expansions to create competitive decks from a larger pool of cards.
 		
-		\item An interface \textbf{COULD} be created to accommodate the AI and assist in feature implementation and accessibility of users. 
-	\end{enumerate}
-	\section{Non-Functional}
-	\begin{enumerate}
-		\item \textbf{MUST} have written consent from Hearthpwn to scrape data for dataset
-		\item Data collected \textbf{MUST} conform to GDPR regulations and be anonymous, since the identities of decks created by users is not needed.
-		\item \textbf{MUST} use Python as the programming languages of choice for the access to expansive libraries for data manipulation and AI creation.
-		\item \textbf{MUST} use Jupyter notebook as the software for coding the AI. It provides a platform for Python, and the cells are useful for making small changes without having to re-execute the whole program.
-		\item Dataset size \textbf{MUST} not be more than 100,000 rows as to decrease time to train and prevent overfitting.
-		\item The training process of the AI \textbf{SHOULD} take less than 3 hours, to allow a faster uptime if the AI needs to retrain after an update.
-		\item AI \textbf{SHOULD} use card data from the The Hearthstone API on RapidAPI if needed, to collected data such as card effects, images and tribal tags based of the name of the cards.
-		\item AI \textbf{SHOULD} use deck data scraped from Hearthpwn to train from using a coded web scraper.
-		\item Creation of a deck after training \textbf{SHOULD} not take more than 10 minutes. As to allow the to be quick to use by others whilst allowing for testing time with the simulator and the generation of graphs
-		\item \textbf{COULD} generate graphs of performance of decks outputted by the AI and simulators to visualise the training and testing process including the results of the created decks. 
-	\end{enumerate}
-	\section{Approach}
-	The project was designed using a agile methodology, equipped with logging, initially from a Trello board for the literature review and then migrated to github commit logs for the implementation of the project. The aim was to implement a requirement, testing it, fixing bugs and integration issues and adding additional features, this process was then repeated for each requirement until completion. \\ \\
-	Testing was done on a per feature basis, once a feature was implemented, a series of tests examples were created to ensure the functionality of it, if any errors or problems arose the focus would be shifted to fixing that issue. Evaluation was done after testing, once deemed ready, the AI was executed 10 times to create decks for each class which were evaluated over 100 games across all 10 classes, graphs then display these results.
-	\section{Libraries}
-	This section describes what libraries have been used in this project, the aim is to show transparency and understand some more ambiguous parts of the implementation. Note that all of these libraries are Python libraries.
-	\subsection{Web Scaper and API}
-	\subsubsection{Requests}
-	The requests library is a simple HTTP library that allows the user to send HTTP requests, whether it be GET or POST. This library was selected above others because over 500,000 others use this library aswell meaning that the library is stable and enables long term projects to stay active. This is used for both web scraping and api calls as both require to get a uri to get the information needed for the datasets.
-	\subsubsection{Json}
-	The json library allows for the encoding and decoding of json data, this is used for creating the outputs of the API calls and Web scraping, it is also used as an input for loading these data files and processing the data.
-	\subsubsection{Beautiful Soup}
-	Beautiful Soup is a library for web scraping, it pulls out data from HTML and XML files. There are three main libraries for web scraping, Selenium,  Scrapy and Beautiful Soup. Selenium is mainly used for AJAX requests and Web Application testing, so it is not ideal for this project as the request library is being used to make http calls. Scrapy whilst having more features, and being faster than Beautiful Soup, it is meant for complex web systems with middleware which are not needed in the scope of my project. Beautiful Soup was chosen for its simplicity and flexibility on small scale projects, since this will mainly be used for scraping data to create datasets. Originally Beautiful Soup was used for the collection of card data, it is no longer used for that as the resulting output was missing crucial data such as class, cost and image links, so an API for collecting the card data was used instead, which allowed the data to be stored in JSON format. 
-	\subsection{GAN}
-	\subsubsection{Keras}
-	Keras is a deep learning API that runs using Tensorflow, a machine learning platform which focuses on enabling speedy experimenting, it is simple to use and very well documented making it easy to implement models. This is what was used for the creation of the Generative Adversarial Network, specifically the implementation of the generator and the discriminator. 
-	\subsubsection{Numpy} 
-	Numpy is a python library designed for working with arrays, it aims to provide array objects that are 50x faster than standard python lists, since the GAN will be using a lot of arrays this is ideal for achieving faster training times. This library was used throughout the training process of the GAN, from sample generation to final deck results.
-	\subsection{Evaluation}
-	\subsubsection{Matplotlib}
-	Matplotlib is a data visualization library which allows data to be displayed through graphs and charts, this is used throughout the evaluation process of the project. 
-	\subsubsection{Time}
-	Time is a python library that is used to measure execution time of functions, in this project it is used to calculate execution time of the GAN training and testing process. 
-	\subsubsection{Fireplace}
-	Fireplace is the python library for the Hearthstone simulator, this is used for testing the generated decks against ones from the dataset. There are two other simulators worth considering, Sabberstone and Hearthbreaker. Hearthbreaker was used by the Google Deep Mind team for card generation however the project is no longer maintained, it has been for many years so that one cannot be used to fulfil our requirements. Sabberstone is written has a full interface but for testing that creates unnecessary bloat, so Fireplace is the better choice, it is maintained, and plays games in seconds, the main downside however is that only about half of the cards in the game are implemented. This is because some cards have tricky mechanics that are hard to implement and that the developers are to write interactions manually.
+\item An interface \textbf{COULD} be created to accommodate the AI and assist in feature implementation and accessibility of users. 
+\end{enumerate}
+\section{Non-Functional}
+\begin{enumerate}
+\item \textbf{MUST} have written consent from Hearthpwn to scrape data for dataset
+\item Data collected \textbf{MUST} conform to GDPR regulations and be anonymous, since the identities of decks created by users is not needed.
+\item \textbf{MUST} use Python as the programming languages of choice for the access to expansive libraries for data manipulation and AI creation.
+\item \textbf{MUST} use Jupyter notebook as the software for coding the AI. It provides a platform for Python, and the cells are useful for making small changes without having to re-execute the whole program.
+\item Dataset size \textbf{MUST} not be more than 100,000 rows as to decrease time to train and prevent overfitting.
+\item The training process of the AI \textbf{SHOULD} take less than 3 hours, to allow a faster uptime if the AI needs to retrain after an update.
+\item AI \textbf{SHOULD} use card data from the The Hearthstone API on RapidAPI if needed, to collected data such as card effects, images and tribal tags based of the name of the cards.
+\item AI \textbf{SHOULD} use deck data scraped from Hearthpwn to train from using a coded web scraper.
+\item Creation of a deck after training \textbf{SHOULD} not take more than 10 minutes. As to allow the to be quick to use by others whilst allowing for testing time with the simulator and the generation of graphs
+\item \textbf{COULD} generate graphs of performance of decks outputted by the AI and simulators to visualise the training and testing process including the results of the created decks. 
+\end{enumerate}
+\section{Approach}
+The project was designed using a agile methodology, equipped with logging, initially from a Trello board for the literature review and then migrated to github commit logs for the implementation of the project. The aim was to implement a requirement, testing it, fixing bugs and integration issues and adding additional features, this process was then repeated for each requirement until completion. \\ \\
+Testing was done on a per feature basis, once a feature was implemented, a series of tests examples were created to ensure the functionality of it, if any errors or problems arose the focus would be shifted to fixing that issue. Evaluation was done after testing, once deemed ready, the AI was executed 10 times to create decks for each class which were evaluated over 100 games across all 10 classes, graphs then display these results.
+\section{Libraries}
+This section describes what libraries have been used in this project, the aim is to show transparency and understand some more ambiguous parts of the implementation. Note that all of these libraries are Python libraries.
+\subsection{Web Scaper and API}
+\subsubsection{Requests}
+The requests library is a simple HTTP library that allows the user to send HTTP requests, whether it be GET or POST. This library was selected above others because over 500,000 others use this library aswell meaning that the library is stable and enables long term projects to stay active. This is used for both web scraping and api calls as both require to get a uri to get the information needed for the datasets.
+\subsubsection{Json}
+The json library allows for the encoding and decoding of json data, this is used for creating the outputs of the API calls and Web scraping, it is also used as an input for loading these data files and processing the data.
+\subsubsection{Beautiful Soup}
+Beautiful Soup is a library for web scraping, it pulls out data from HTML and XML files. There are three main libraries for web scraping, Selenium,  Scrapy and Beautiful Soup. Selenium is mainly used for AJAX requests and Web Application testing, so it is not ideal for this project as the request library is being used to make http calls. Scrapy whilst having more features, and being faster than Beautiful Soup, it is meant for complex web systems with middleware which are not needed in the scope of my project. Beautiful Soup was chosen for its simplicity and flexibility on small scale projects, since this will mainly be used for scraping data to create datasets. Originally Beautiful Soup was used for the collection of card data, it is no longer used for that as the resulting output was missing crucial data such as class, cost and image links, so an API for collecting the card data was used instead, which allowed the data to be stored in JSON format. 
+\subsection{GAN}
+\subsubsection{Keras}
+Keras is a deep learning API that runs using Tensorflow, a machine learning platform which focuses on enabling speedy experimenting, it is simple to use and very well documented making it easy to implement models. This is what was used for the creation of the Generative Adversarial Network, specifically the implementation of the generator and the discriminator. 
+\subsubsection{Numpy} 
+Numpy is a python library designed for working with arrays, it aims to provide array objects that are 50x faster than standard python lists, since the GAN will be using a lot of arrays this is ideal for achieving faster training times. This library was used throughout the training process of the GAN, from sample generation to final deck results.
+\subsection{Evaluation}
+\subsubsection{Matplotlib}
+Matplotlib is a data visualization library which allows data to be displayed through graphs and charts, this is used throughout the evaluation process of the project. 
+\subsubsection{Time}
+Time is a python library that is used to measure execution time of functions, in this project it is used to calculate execution time of the GAN training and testing process. 
+\subsubsection{Fireplace}
+Fireplace is the python library for the Hearthstone simulator, this is used for testing the generated decks against ones from the dataset. There are two other simulators worth considering, Sabberstone and Hearthbreaker. Hearthbreaker was used by the Google Deep Mind team for card generation however the project is no longer maintained, it has been for many years so that one cannot be used to fulfil our requirements. Sabberstone is written has a full interface but for testing that creates unnecessary bloat, so Fireplace is the better choice, it is maintained, and plays games in seconds, the main downside however is that only about half of the cards in the game are implemented. This is because some cards have tricky mechanics that are hard to implement and that the developers are to write interactions manually.
 	
-	\chapter{Legal and Ethical Considerations}
-	Since data is a fundamental aspect to the success of the project, it is subject to certain legal and ethical implications that need to be addressed whether it be with the handling of the data or the collection of the data.
-	\section{Legal}
-	There are two main legal consideration for this project, the protection of data through GDPR and obtaining data through web scraping.
-	\subsection{Data Protection}
-	When dealing with personal data, developers are bound by laws to keep that data safe, the first most obvious law that needs to abided by is GDPR, which applies to the project since we are using EU data (among other countries aswell), certain protections must guaranteed. Some ways of protecting personal data are, pseudonymisation and anonymisation, in essence the user’s identity is protected by a pseudonym or with nothing at all which means that there will be no trace back to them, this could be represented as an ID or a username. If the data can be reversed back to personal data then data protection obligations will still apply, however if it is not possible then that data is no longer personal [10]. Data minimisation should also be practised when dealing with personal data, this means that data should be lawful, fair, transparent and it should only involve data that is necessary for the task at hand, no more. So in the case only the essential information has been collected (deck data) to train the AI, it is completely anonymous. Data minimisation also extends to how the data is used, it should only be used for its intended purpose only and not to be shared to others. One final important legal implication I need to consider is usage of childrens data, since anyone can use my website I also need to consider the possibility of minors using the web system. GDPR covers specific safeguards for children, which include parental/guardian consent to children under the age of 16.
+\chapter{Legal and Ethical Considerations}
+Since data is a fundamental aspect to the success of the project, it is subject to certain legal and ethical implications that need to be addressed whether it be with the handling of the data or the collection of the data.
+\section{Legal}
+There are two main legal consideration for this project, the protection of data through GDPR and obtaining data through web scraping.
+\subsection{Data Protection}
+When dealing with personal data, developers are bound by laws to keep that data safe, the first most obvious law that needs to abided by is GDPR, which applies to the project since we are using EU data (among other countries aswell), certain protections must guaranteed. Some ways of protecting personal data are, pseudonymisation and anonymisation, in essence the user’s identity is protected by a pseudonym or with nothing at all which means that there will be no trace back to them, this could be represented as an ID or a username. If the data can be reversed back to personal data then data protection obligations will still apply, however if it is not possible then that data is no longer personal \cite{Euro2018}. Data minimisation should also be practised when dealing with personal data, this means that data should be lawful, fair, transparent and it should only involve data that is necessary for the task at hand, no more. So in the case only the essential information has been collected (deck data) to train the AI, it is completely anonymous. Data minimisation also extends to how the data is used, it should only be used for its intended purpose only and not to be shared to others. One final important legal implication I need to consider is usage of childrens data, since anyone can use my website I also need to consider the possibility of minors using the web system. GDPR covers specific safeguards for children, which include parental/guardian consent to children under the age of 16.
 
-	\subsection{Data Scraping}
+\subsection{Data Scraping}
+
+The laws surrounding data scraping is a grey area, whilst not technically illegal, there can be issues around collecting personal data from open tabs or sites that require a log in. To stay on the right side of the law, best practise is to check their Terms of Service or equivalent, worst case of a breach could be a court case so it is in the best interests of every party to verify before scraping. The site that needed to be scraped for this project was Hearthpwn(footnote to site), the data that needed to be scraped was public and pseudonymisation, since it was not behind a login page or any hidden pages it was not considered illegal. Before even writing the script, checking the Terms of Service of their site it said that data scraping was prohibited (appendix), this means that despite the data being public they do not want anyone using their data freely without permission. To get around this I sent an email to a representative of the site requesting permission to collect data for research purposes, after detailing the concept of the project and describing how the data would be used, the team at Hearthpwn granted me permission to scrape their site for data (appendix for email). 
 	
-	The laws surrounding data scraping is a grey area, whilst not technically illegal, there can be issues around collecting personal data from open tabs or sites that require a log in. To stay on the right side of the law, best practise is to check their Terms of Service or equivalent, worst case of a breach could be a court case so it is in the best interests of every party to verify before scraping. The site that needed to be scraped for this project was Hearthpwn(footnote to site), the data that needed to be scraped was public and pseudonymisation, since it was not behind a login page or any hidden pages it was not considered illegal. Before even writing the script, checking the Terms of Service of their site it said that data scraping was prohibited (appendix), this means that despite the data being public they do not want anyone using their data freely without permission. To get around this I sent an email to a representative of the site requesting permission to collect data for research purposes, after detailing the concept of the project and describing how the data would be used, the team at Hearthpwn granted me permission to scrape their site for data (appendix for email). 
-	
-	\section{Ethical} 
+\section{Ethical} 
+This project raises certain ethical issues, raised from the collection of the user data, these issues are discussed below:
+\begin{itemize}
+\item Users may not know that their data is being used: Users may not be informed about their data being used to train the AI for this project.
+\item Users may not realise the scale of which their data is being collected: Users may not know that a web scraping script was used to mass collect deck data to create a training dataset.
+\item Users may not know how much information can be gained from analysing the data they have made available: Users may not realise that their data can be used to generate decks and data visualizations.
+\item Users may not realise the rights a company has regarding their public data: Users may not be informed about the amount of control the company has on their data.
+\end{itemize}
+These ethical issues concern mostly the users of the Hearthpwn platform, other data used in this project is not user related therefore are not concerned by these problems. The terms and conditions of the Hearthpwn site state that any User Generated Content can be used, reproduced, modified, adapted, published, translated, transmitted, create derivative works from, distributed, performed and displayed by the Company or third parties in any way that they choose so long as the data is not deleted. \\
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=1\textwidth]{ToS}
+\caption{User Generated Content section of Hearthpwn Terms of Service\protect\footnotemark}
+ \label{board}
+\end{figure}
+\footnotetext{\url{https://www.magicfind.us/terms/}}
+
+The users of the platform need to be made aware of this, some of the issues listed above can be addressed but not all issues have a full solution. The ethical issues mentioned above depends on the user awareness to the extend of which their data is being used and the impact it may have, however, it would prove difficult to communicated to the whole user base of Hearthpwn that their data is being used. The best course of action would be to either used an official training dataset that is not considered personal data to allow for more public use or limit the extent of this AI to research and academic purposes, the latter being the best solution at this current time as an updated public dataset does not exist as of the creation of this project. 
 	
 %----------------------------------------------------------------------------------------
 %	BIBLIOGRAPHY
 %---------------------
 \bibliography{export}
+
 
 
 %----------------------------------------------------------------------------------------

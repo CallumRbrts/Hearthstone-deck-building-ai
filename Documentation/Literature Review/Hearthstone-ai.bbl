@@ -21,6 +21,21 @@
 \providecommand{\BIBdecl}{\relax}
 \BIBdecl
 
+\bibitem{Back1996}
+\BIBentryALTinterwordspacing
+T.~Back, \emph{Evolutionary Algorithms in Theory and Practice: Evolution
+  Strategies, Evolutionary Programming, Genetic Algorithms}.\hskip 1em plus
+  0.5em minus 0.4em\relax Oxford University Press, 1996. [Online]. Available:
+  \url{https://books.google.fr/books?hl=en&lr=&id=htJHI1UrL7IC&oi=fnd&pg=PR9&dq=evolutionary+algorithms&ots=fBl_1QSCiT&sig=g5AzYmN078gAvTVrxhGqfPW-Ieg&redir_esc=y#v=onepage&q=evolutionary%20algorithms&f=false}
+\BIBentrySTDinterwordspacing
+
+\bibitem{Ward2020}
+\BIBentryALTinterwordspacing
+H.~N. Ward, D.~J. Brooks, D.~Troha, B.~Mills, and A.~S. Khakhalin, ``{AI}
+  solutions for drafting in {M}agic: the {G}athering,'' 9 2020. [Online].
+  Available: \url{http://arxiv.org/abs/2009.00655}
+\BIBentrySTDinterwordspacing
+
 \bibitem{Isaacs2020}
 \BIBentryALTinterwordspacing
 J.~Isaacs, ``Academic writing and the literature review. honours project.
@@ -136,14 +151,6 @@ M.~{Świechowski}, T.~{Tajmajer}, and A.~{Janusz}, ``Improving hearthstone {AI}
   by combining mcts and supervised learning algorithms,'' in \emph{2018 IEEE
   Conference on Computational Intelligence and Games (CIG)}, 2018, pp. 1--8.
 
-\bibitem{Back1996}
-\BIBentryALTinterwordspacing
-T.~Back, \emph{Evolutionary Algorithms in Theory and Practice: Evolution
-  Strategies, Evolutionary Programming, Genetic Algorithms}.\hskip 1em plus
-  0.5em minus 0.4em\relax Oxford University Press, 1996. [Online]. Available:
-  \url{https://books.google.fr/books?hl=en&lr=&id=htJHI1UrL7IC&oi=fnd&pg=PR9&dq=evolutionary+algorithms&ots=fBl_1QSCiT&sig=g5AzYmN078gAvTVrxhGqfPW-Ieg&redir_esc=y#v=onepage&q=evolutionary%20algorithms&f=false}
-\BIBentrySTDinterwordspacing
-
 \bibitem{Kowalczyk2013}
 \BIBentryALTinterwordspacing
 D.~Kowalczyk, ``Writing research questions: Purpose and examples,'' 2013,
@@ -241,13 +248,6 @@ F.~Bre, J.~Gimenez, and V.~Fachinotti, ``Prediction of wind pressure
   coefficients on building surfaces using artificial neural networks,''
   \emph{Energy and Buildings}, vol. 158, 11 2017.
 
-\bibitem{Ward2020}
-\BIBentryALTinterwordspacing
-H.~N. Ward, D.~J. Brooks, D.~Troha, B.~Mills, and A.~S. Khakhalin, ``{AI}
-  solutions for drafting in {M}agic: the {G}athering,'' 9 2020. [Online].
-  Available: \url{http://arxiv.org/abs/2009.00655}
-\BIBentrySTDinterwordspacing
-
 \bibitem{NNWRPrediction}
 J.~{Jakubik}, ``A neural network approach to hearthstone win rate prediction,''
   in \emph{2018 Federated Conference on Computer Science and Information
@@ -310,6 +310,13 @@ A.~Nigam, P.~Friederich, M.~Krenn, and A.~Aspuru-Guzik, ``Augmenting genetic
 C.~Z. Janikow, ``A knowledge-intensive genetic algorithm for supervised
   learning,'' pp. 33--72, 1993. [Online]. Available:
   \url{https://link.springer.com/chapter/10.1007/978-1-4615-2740-4_3}
+\BIBentrySTDinterwordspacing
+
+\bibitem{Euro2018}
+\BIBentryALTinterwordspacing
+``Ethics and data protection,'' 2018, [Accessed: 03/04/21]. [Online].
+  Available:
+  \url{https://ec.europa.eu/info/sites/info/files/5._h2020_ethics_and_data_protection_0.pdf}
 \BIBentrySTDinterwordspacing
 
 \end{thebibliography}
