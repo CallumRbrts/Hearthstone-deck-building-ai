@@ -25,11 +25,13 @@
 \usepackage{siunitx} % Provides the \SI{}{} and \si{} command for typesetting SI units
 \usepackage{graphicx} % Required for the inclusion of images
 \usepackage{hyperref}
-
+\usepackage{caption}
 \usepackage{amsmath} % Required for some math elements 
 \usepackage{indentfirst}
 \usepackage{dirtytalk}
 \usepackage{titlesec}
+\usepackage{float}
+\usepackage{verbatim}
 
 \title{Enhancing Hearthstone deck building with a Generative Adversarial Network (GAN)} % Title
 \titleformat{\chapter}{\normalfont\LARGE\bfseries}{\thechapter.}{18pt}{\LARGE\bfseries}
@@ -298,7 +300,9 @@ When dealing with personal data, developers are bound by laws to keep that data 
 
 \subsection{Data Scraping}
 
-The laws surrounding data scraping is a grey area, whilst not technically illegal, there can be issues around collecting personal data from open tabs or sites that require a log in. To stay on the right side of the law, best practise is to check their Terms of Service or equivalent, worst case of a breach could be a court case so it is in the best interests of every party to verify before scraping. The site that needed to be scraped for this project was Hearthpwn(footnote to site), the data that needed to be scraped was public and pseudonymisation, since it was not behind a login page or any hidden pages it was not considered illegal. Before even writing the script, checking the Terms of Service of their site it said that data scraping was prohibited (appendix), this means that despite the data being public they do not want anyone using their data freely without permission. To get around this I sent an email to a representative of the site requesting permission to collect data for research purposes, after detailing the concept of the project and describing how the data would be used, the team at Hearthpwn granted me permission to scrape their site for data (appendix for email). 
+The laws surrounding data scraping is a grey area, whilst not technically illegal, there can be issues around collecting personal data from open tabs or sites that require a log in. To stay on the right side of the law, best practise is to check their Terms of Service or equivalent, worst case of a breach could be a court case so it is in the best interests of every party to verify before scraping. The site that needed to be scraped for this project was Hearthpwn\footnote{\url{https://www.hearthpwn.com/}}, the data that needed to be scraped was public and pseudonymisation, since it was not behind a login page or any hidden pages it was not considered illegal. Before even writing the script, checking the Terms of Service of their site it said that data scraping was prohibited (Appendix A), this means that despite the data being public they do not want anyone using their data freely without permission. To get around this I sent an email to a representative of the site requesting permission to collect data for research purposes, after detailing the concept of the project and describing how the data would be used, the team at Hearthpwn granted me permission to scrape their site for data (Appendix B). 
+	
+	
 	
 \section{Ethical} 
 This project raises certain ethical issues, raised from the collection of the user data, these issues are discussed below:
@@ -319,13 +323,84 @@ These ethical issues concern mostly the users of the Hearthpwn platform, other d
 \footnotetext{\url{https://www.magicfind.us/terms/}}
 
 The users of the platform need to be made aware of this, some of the issues listed above can be addressed but not all issues have a full solution. The ethical issues mentioned above depends on the user awareness to the extend of which their data is being used and the impact it may have, however, it would prove difficult to communicated to the whole user base of Hearthpwn that their data is being used. The best course of action would be to either used an official training dataset that is not considered personal data to allow for more public use or limit the extent of this AI to research and academic purposes, the latter being the best solution at this current time as an updated public dataset does not exist as of the creation of this project. 
-	
+
+\chapter{Implementation}
+This section showcases the implementation steps of the project in three distinct sections: Card Data, Deck Data and Generative Adversarial Network. Each section will chronicle their respective development process, whilst discussing potential alternatives and limitations.
+\section{Card Data}
+\subsection{Introduction}
+Before the development of the GAN can begin, data needs to be collected and formatted so that the GAN can be trained. The GAN can only take dimensional arrays as input, in the case of this project a vector, a single dimension array of numbers that identify specific cards to form a deck. From those deck vectors the GAN can learn, refine and generate new deck vectors that can be converted back into human readable form, resulting in a GAN created deck. In order to correctly identify the cards inside the deck vectors, going in and coming out of the GAN, a list of cards need to be compiled, each assigned with a unique numerical id that represents them.  
+\subsection{Initial Method}
+\subsubsection{Text File}
+The initial method was to start of by creating a text file, this text file would contain a list of each cards that exists in the standard game mode of Hearthstone, each card would be separated by a line break within the text file. The aim is to make the file readable by a Python method, so that a dictionary can be created to identify the card by a integer key. \\
+\\
+\indent On the official Hearthstone website they have an online collection of every card in the game, these cards can be filtered and sorted by class, game mode, cost etc... This is a good source of information to gather the card data as it is official, reliable and up-to-date, this seemed useful as a list of card names could be compiled from scraping the site which could then be used to vectorize the cards for the GAN. The requirement for this project is that the GAN must create standard decks from the past 2 years, so filtering to standard is necessary. \\
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=1\textwidth]{collectionpage}
+\caption{Hearthstone Collection Page\protect\footnotemark}
+ \label{board}
+\end{figure}
+\footnotetext{\url{https://playhearthstone.com/en-us/cards}}
+
+
+\indent Collecting the card data using the Beautiful Soup library proven futile, the site has a maximum card display setting meaning that only a small portion of the cards are displayed at one time, the rest are loaded by continuously scrolling to the bottom of the page. Due to the simple nature of the web scraper, it could not load the rest of the cards by scrolling (if the page was using different pages instead then it would have been possible to collect them), resulting in it only collecting a tiny portion of the standard cards. A solution was found by using a firefox web extension called "Open Web Scraper"\footnotemark. \\ \\
+Open Web Scraper is a scraper add-on that appends onto the web developer tools of a web browser. The user can then create a sitemap by entering a URL, then from this sitemap, the user can query information from the entered URL. After looking at the source code of the Hearthstone page, a query was written to get the name of every card on the page that was loaded beforehand with all the standard cards loaded. The query was \nolinkurl{tr:nth-of-type(n) div.CardTableLayout__CardCropCell-sc-1jy3g9y-}, in short the query gets all names from the CardTableLayout table. The results are then highlighted in red on the page. These highlighted areas were then saved to a text file called cards-standard.txt (which can be view in Appendix C).
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=10cm,height=10cm,keepaspectratio]{OpenWebScraper}
+\caption{Open Web Scraper Results\protect}
+ \label{board}
+\end{figure}
+\footnotetext{\url{https://webscraper.io/}}
+
+
+
+\subsubsection{Implementation of Initial Method}
+\subsubsection{Limitations}
+\subsection{Improved Method}
+\subsubsection{BlizzardAPI}
+\subsubsection{HSJSON}
+\subsubsection{RapidAPI}
+\subsubsection{Choice}
+\subsubsection{Implementation of Improved Method}
+
+
+
+
+
+
+\section{Deck Data}
+\section{Generative Adversarial Network}
 %----------------------------------------------------------------------------------------
 %	BIBLIOGRAPHY
 %---------------------
 \bibliography{export}
 
+\chapter*{Appendix}
+\section*{Appendix A}
+\begin{figure}[h]
+\centering
+\includegraphics[width=1.25\textwidth]{ProhibitedConduct}
+\captionsetup{labelformat=empty}
+\caption{Prohibited Conduct section of Hearthpwn Terms of Service\protect\footnotemark}
+ \label{board}
+\end{figure}
+\footnotetext{\url{https://www.magicfind.us/terms/}}
 
+
+\section*{Appendix B}
+\begin{figure}[h]
+\centering
+\includegraphics[width=1.25\textwidth]{permission}
+\captionsetup{labelformat=empty}
+\caption{Permission email from Hearthpwn team\protect\footnotemark}
+ \label{board}
+\end{figure}
+
+\section*{Appendix C}
+\verbatiminput{../../cards-standard.txt}
 
 %----------------------------------------------------------------------------------------
 
