@@ -347,7 +347,7 @@ The initial method was to start of by creating a text file, this text file would
 \indent Collecting the card data using the Beautiful Soup library proven futile, the site has a maximum card display setting meaning that only a small portion of the cards are displayed at one time, the rest are loaded by continuously scrolling to the bottom of the page. Due to the simple nature of the web scraper, it could not load the rest of the cards by scrolling (if the page was using different pages instead then it would have been possible to collect them), resulting in it only collecting a tiny portion of the standard cards. A solution was found by using a firefox web extension called "Open Web Scraper"\footnotemark. \\ \\
 Open Web Scraper is a scraper add-on that appends onto the web developer tools of a web browser. The user can then create a sitemap by entering a URL, then from this sitemap, the user can query information from the entered URL. After looking at the source code of the Hearthstone page, a query was written to get the name of every card on the page that was loaded beforehand with all the standard cards loaded. The query was \nolinkurl{tr:nth-of-type(n) div.CardTableLayout__CardCropCell-sc-1jy3g9y-}, in short the query gets all names from the CardTableLayout table. The results are then highlighted in red on the page. These highlighted areas were then saved to a text file called cards-standard.txt (which can be view in Appendix C).
 
-\begin{figure}[h]
+\begin{figure}[H]
 \centering
 \includegraphics[width=10cm,height=10cm,keepaspectratio]{OpenWebScraper}
 \caption{Open Web Scraper Results\protect}
@@ -355,9 +355,26 @@ Open Web Scraper is a scraper add-on that appends onto the web developer tools o
 \end{figure}
 \footnotetext{\url{https://webscraper.io/}}
 
-
-
 \subsubsection{Implementation of Initial Method}
+Once the \nolinkurl{cards-standard.txt} file was created, the implementation of the card vectorization could begin. Using Python the file was opened and with the \nolinkurl{readlines()} method, an array of each card name was created. Two dictionaries were then created for the purpose of converting the cards to id form and back, the first dictionary called \nolinkurl{cards_key} housed the names of the cards which could be searched by id and the second dictionary called \nolinkurl{cards_value} did the inverse, allowing the id to be found by searching the name.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=1\textwidth]{InitialFileRead}
+\caption{Code Extract of dictionary initialization\protect}
+ \label{board}
+\end{figure}
+
+With the two dictionaries created, the functions that allow created decks to be vectorized or converted to readable form need to be integrated. Two functions, one to vectorize called \nolinkurl{deck_to_vector_csv} , another to de-vectorize called \nolinkurl{vector_to_deck_csv}. Both use a loop but they use different dictionaries to get the card in the desired form then an array of the converted deck is returned. Although there is some text pre-processing done beforehand when vectorizing the decks, unwanted white spaces can causes bugs in the future so by using \nolinkurl{lstrip} and \nolinkurl{rstrip}, excess white spaces on the left and the right of the card name can be removed (this does not include spaces between words).
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=1\textwidth]{deckConversion}
+\caption{Code Extract of deck conversion functions\protect}
+ \label{board}
+\end{figure}
+
+The result is a functioning card and deck vectorization and de-vectorization system that will allow the deck data to be converted into a format that the GAN can train with, and return the generated decks to human readable deck without loss of information throughout the process.
 \subsubsection{Limitations}
 \subsection{Improved Method}
 \subsubsection{BlizzardAPI}
@@ -400,7 +417,7 @@ Open Web Scraper is a scraper add-on that appends onto the web developer tools o
 \end{figure}
 
 \section*{Appendix C}
-\verbatiminput{../../cards-standard.txt}
+\verbatiminput{../../cards-standard-report.txt}
 
 %----------------------------------------------------------------------------------------
 
