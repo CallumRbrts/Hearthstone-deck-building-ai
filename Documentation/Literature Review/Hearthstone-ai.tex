@@ -376,6 +376,8 @@ With the two dictionaries created, the functions that allow created decks to be 
 
 The result is a functioning card and deck vectorization and de-vectorization system that will allow the deck data to be converted into a format that the GAN can train with, and return the generated decks to human readable deck without loss of information throughout the process.
 \subsubsection{Limitations}
+
+Whilst this method functions without issue, there are certain limitations it. The main limitation is that the only information displayed about the cards is their id and their name. This is not enough information to do evaluations, sorting, displaying or even class selecting, meaning that with this method there would be no way of determining the validity of the deck, check for mana curves, check type split. The second limitation is that there are some libraries like the simulator that use official Hearthstone card id's to identify cards and use them to play simulated games. So a new method would need to be adapted to incorperate these changes.
 \subsection{Improved Method}
 \subsubsection{BlizzardAPI}
 \subsubsection{HSJSON}
