@@ -392,12 +392,34 @@ HearthstoneJSON is a web site that considers itself an API, it functions differe
 \subsubsection{Hearthstone API}
 Hearthstone API is another web platform that makes use of RapidAPI for their endpoints. RapidAPI is a site that hosts thousands of API's that can be accessed with a single key, it allows users to make queries either on their site or through a library to gather data. Hearthstone API relies on this platform to allow users to make queries, unlike the Blizzard API, there search options are limitless, a user can search for specific expansions, collectible, card name, card class and much more. The API is constantly updated, so that even the latest released cards are added, there still is the issue with the access token, but it is more manageable  since a developer can use their RapidAPI key from their account, or an account can be created, no OAuth needed. The biggest downside is that the API has quite high latency, meaning that it would take longer to make API calls.
 \subsubsection{Choice}
+All three platforms have their pros and cons for their usage, however the better one to choose would be the Hearthstone API using RapidAPI. The reasons are because, it is updated and actively maintained unlike HearthstoneJSON, it also allows to do queries to limit the range of data gathering to what is needed so in theory no pre-processing will need to be done. Access to Hearthstone API is also easier to its Blizzard counterpart because of the RapidAPI platform and the lack of OAuth which is not needed in the context of this project. The JSON data that the Hearthstone API provides will encourage sorting and filtering to improve the GAN training. To summarise, for this project the best choice is Hearthstone API due to how updated it is and how much easier it is to use compared to its respective counterparts. 
 \subsubsection{Implementation of Improved Method}
+To get the data from Hearthstone API, the \nolinkurl{requests} library was used to access the RapidAPI platform. The data was collected using the Card Sets query built into the API which allows the user to get all the cards from an expansion. An array of these expansions was created and iterated through to make a query for each card set, the result was an array of card lists per expansion. Once that was created, the card lists were concatenated into a single array whilst adding an integer id that will be used for the GAN model. Finally, the JSON list was written into a json file using the \nolinkurl{json.dump()} method from the \nolinkurl{json} library.
 
+\begin{figure}[h]
+\centering
+\includegraphics[width=1.25\textwidth]{cardAPI}
+\caption{Getting card data with Hearthstone API\protect}
+ \label{board}
+\end{figure}
 
+The file created is a json file called \nolinkurl{data.json}, an extract of the contents can be viewed in Appendix -- .  Loading this file for the GAN is straightforward, simply use the in-built Python \nolinkurl{open()} function. As seen in figure 5.6 below the amount of information provided by a single card is a big improvement to just the name of the card.
 
+\begin{figure}[H]
+\centering
+\includegraphics[width=1\textwidth]{jsonOpen}
+\caption{Loading card data\protect}
+ \label{board}
+\end{figure}
 
+Whilst working with the collected data, some minor inconsistencies appeared in the JSON, firstly the name of hero portraits appeared, these are special personas a class can take on, with different animations, audio queues, however they are not cards, those outliers need to be removed for the code to function. Another issue stemmed from the latest expansion \textbf{Madness at the Darkmoon Faire}, this expansion added a new type of card, the dual class card, allowing two different classes to use the card, the problem is that due to the structure of the JSON there can only be a single class under the key \nolinkurl{playerClass} (which can be seen in figure 5.6). To fix these issues, a function was written to remove the hero portrait outlier cards, and append both classes of dual class cards to a variable. 
 
+\begin{figure}[H]
+\centering
+\includegraphics[width=1.25\textwidth]{impure}
+\caption{Removing impurities in card data\protect}
+ \label{board}
+\end{figure}
 
 \section{Deck Data}
 \section{Generative Adversarial Network}
@@ -406,13 +428,13 @@ Hearthstone API is another web platform that makes use of RapidAPI for their end
 %---------------------
 \bibliography{export}
 
-\chapter*{Appendix}
+\chapter{Appendix}
 \section*{Appendix A}
 \begin{figure}[h]
 \centering
 \includegraphics[width=1.25\textwidth]{ProhibitedConduct}
 \captionsetup{labelformat=empty}
-\caption{Prohibited Conduct section of Hearthpwn Terms of Service\protect\footnotemark}
+\caption{Prohibited Conduct section of Hearthpwn Terms of Service\protect}
  \label{board}
 \end{figure}
 \footnotetext{\url{https://www.magicfind.us/terms/}}
