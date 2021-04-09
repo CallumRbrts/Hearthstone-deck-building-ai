@@ -422,6 +422,19 @@ Whilst working with the collected data, some minor inconsistencies appeared in t
 \end{figure}
 
 \section{Deck Data}
+\subsection{Introduction}
+The core necessity for the success of the project is data, the GAN requires a lot of data to train, a lot of deck data. Datasets do exist and can be found on various platforms, however they tend to be outdated or limited in size. The GAN takes the datasets as input for the discriminator to use to determine if the generated decks are similar. So where can recent datasets for Hearthstone decks be found? Well unfortunately ready made datasets for the specific purpose of this project, however, platforms exist in the hearthstone community where the users post their decks online, these decks can be rated, sorted and viewed. Using a web scraper would enable the gathering of the deck data needed for the GAN. Web scraping is a technique for harvesting data on a website, the tool used to accomplish the task is called a web scraper among other names. Legal issues surrounding web scraping can be found in Section 4.1.2 of the report.
+\subsection{Platform Choice}
+HSReplay and Hearthpwn are the two most popular sites in the community, Hearthstone players frequent these sites to see what decks are strong currently or to find niche archetypes to accommodate the use of certain cards they like. This sub section will describe both platforms and which one is the better fit in the context of this project.
+\subsubsection{HSReplay}
+HSReplay is a community run website owned by HearthSim (the same people that have developed the Hearthstone simulators), the most notable feature is their game replay feature, allowing users to view and share their previously played games. They also provide extensive statistics about cards and decks based on user played games. \\ \\
+The site has a lot of features, graphs and statistics, but all of this is not really useful as the dataset only needs the decks themselves. The biggest downside to this website is how they display their data. After sending a request to scrape data from their site, getting data from their site proved tricky, due to all the features and displays, the data does not seem to be loaded straight away, meaning that the web scraper can not seem to find certain information, namely the deck lists. The deck lists are requested after the page has loaded to prevent the web page from taking to long to load, whilst this is good practice to improve the sites usability, it impedes the web scraper.  Before delving any deeper into the issue, testing the second platform might prove to be more straightforward. 
+
+\subsubsection{Hearthpwn}
+Hearthpwn is an alternative to HSReplay, it acts as a database for cards and decks rather than statistics and replays. Decks can be sorted by expansion, popularity and class. This site's features can actually assist a web scraper in collecting the data that is needed. Because of the sites minimal design it runs smoothly and loads fast, so from first glance it seems ideal for data harvesting. After receiving permission to collect data, initial testing was successful and much less hassle than HSReplay, because of this the best course of action is to select Hearthpwn, for the in depth sorting and simplicity to scrape. The next sections will detail methods to scraping data from Hearthpwn.
+\subsection{Initial Method}
+\subsection{Improved Method}
+\subsection{Implementation of Web Scraper}
 \section{Generative Adversarial Network}
 %----------------------------------------------------------------------------------------
 %	BIBLIOGRAPHY

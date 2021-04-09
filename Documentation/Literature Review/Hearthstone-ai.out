@@ -39,5 +39,10 @@
 \BOOKMARK [2][-]{subsection.5.1.2}{Initial Method}{section.5.1}% 39
 \BOOKMARK [2][-]{subsection.5.1.3}{Improved Method}{section.5.1}% 40
 \BOOKMARK [1][-]{section.5.2}{Deck Data}{chapter.5}% 41
-\BOOKMARK [1][-]{section.5.3}{Generative Adversarial Network}{chapter.5}% 42
-\BOOKMARK [0][-]{chapter.6}{Appendix}{}% 43
+\BOOKMARK [2][-]{subsection.5.2.1}{Introduction}{section.5.2}% 42
+\BOOKMARK [2][-]{subsection.5.2.2}{Platform Choice}{section.5.2}% 43
+\BOOKMARK [2][-]{subsection.5.2.3}{Initial Method}{section.5.2}% 44
+\BOOKMARK [2][-]{subsection.5.2.4}{Improved Method}{section.5.2}% 45
+\BOOKMARK [2][-]{subsection.5.2.5}{Implementation of Web Scraper}{section.5.2}% 46
+\BOOKMARK [1][-]{section.5.3}{Generative Adversarial Network}{chapter.5}% 47
+\BOOKMARK [0][-]{chapter.6}{Appendix}{}% 48
