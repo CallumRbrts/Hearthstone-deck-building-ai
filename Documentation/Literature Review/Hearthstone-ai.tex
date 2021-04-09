@@ -433,6 +433,21 @@ The site has a lot of features, graphs and statistics, but all of this is not re
 \subsubsection{Hearthpwn}
 Hearthpwn is an alternative to HSReplay, it acts as a database for cards and decks rather than statistics and replays. Decks can be sorted by expansion, popularity and class. This site's features can actually assist a web scraper in collecting the data that is needed. Because of the sites minimal design it runs smoothly and loads fast, so from first glance it seems ideal for data harvesting. After receiving permission to collect data, initial testing was successful and much less hassle than HSReplay, because of this the best course of action is to select Hearthpwn, for the in depth sorting and simplicity to scrape. The next sections will detail methods to scraping data from Hearthpwn.
 \subsection{Initial Method}
+Before speaking about the implementation of the web scraper, the first thing that needs to be discussed is the way it was formatted initially and how it was improved. Since the web scraper implementation is the exact same for both the initial and the later improved method, the web scraper code can be explored further on.
+\subsubsection{Text}
+The initial method made use of the \nolinkurl{cards-standard.txt} file that was reviewed before, this is because the web scraper was initially implemented with the text file method in mind then was later changed to accommodate the improved system. The idea is that the web scraper collects the deck data and then stores it into two separate arrays, the first one to store the deck list, so every deck with their card names inside them and the second one is the class of the deck. The reason why there are two arrays was to create a dataset for each class, in order to organize the training of the GAN. These arrays would then be sorted by class, then a \nolinkurl{csv} file containing the deck data would be saved. For safety, the datasets were saved in a vectorized and non-vectorized form, it was unknown which one would be better or easier to use so both forms were saved.
+\subsubsection{Implementation}
+\begin{figure}[H]
+\centering
+\includegraphics[width=1.25\textwidth]{csvIm}
+\caption{Writing scraped data to csv file\protect}
+ \label{board}
+\end{figure}
+
+The implementation follows after the collection of the data into the two arrays, a concatenate function was then created to append the class label to the deck list, the file writing was done using \nolinkurl{pandas} to create a dataframe to then save the file as a csv. An example output csv file can be seen in Appendix -- \\ \\
+
+--read_vector_decks--
+
 \subsection{Improved Method}
 \subsection{Implementation of Web Scraper}
 \section{Generative Adversarial Network}
