@@ -446,9 +446,18 @@ The initial method made use of the \nolinkurl{cards-standard.txt} file that was 
 
 The implementation follows after the collection of the data into the two arrays, a concatenate function was then created to append the class label to the deck list, the file writing was done using \nolinkurl{pandas} to create a dataframe to then save the file as a csv. An example output csv file can be seen in Appendix -- \\ \\
 
---read_vector_decks--
+With the csv files created and filled with data, the decks within need to have a way to be extracted, so that they can be used in the GAN. When reading the file, anomalies were checked for: problematic characters, excess brackets and deck length. Since the standard size of a legal deck is 30 cards, any that do need reach that will not be used for training, the result is an array with the deck lists and their class labels. However it was later on discovered that the class labels would not be enough to correctly build the GAN, since there can be other class cards or neutral cards in a deck list, hence why the JSON method was implemented later on. 
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=1.25\textwidth]{readVectorDecks}
+\caption{Reading csv file\protect}
+ \label{board}
+\end{figure}
+
 
 \subsection{Improved Method}
+-- talk about splitting the data by class --
 \subsection{Implementation of Web Scraper}
 \section{Generative Adversarial Network}
 %----------------------------------------------------------------------------------------
@@ -480,6 +489,12 @@ The implementation follows after the collection of the data into the two arrays,
 \section*{Appendix C}
 \verbatiminput{../../cards-standard-report.txt}
 
+\section*{Appendix E}
+\begin{figure}[H]
+\centering
+\includegraphics[width=1.25\textwidth]{csv}
+ \label{board}
+\end{figure}
 %----------------------------------------------------------------------------------------
 
 
