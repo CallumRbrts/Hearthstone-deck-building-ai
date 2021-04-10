@@ -32,6 +32,12 @@
 \usepackage{titlesec}
 \usepackage{float}
 \usepackage{verbatim}
+\usepackage{listings}
+
+\lstset{
+  breaklines=true,
+}
+
 
 \title{Enhancing Hearthstone deck building with a Generative Adversarial Network (GAN)} % Title
 \titleformat{\chapter}{\normalfont\LARGE\bfseries}{\thechapter.}{18pt}{\LARGE\bfseries}
@@ -444,9 +450,10 @@ The initial method made use of the \nolinkurl{cards-standard.txt} file that was 
  \label{board}
 \end{figure}
 
-The implementation follows after the collection of the data into the two arrays, a concatenate function was then created to append the class label to the deck list, the file writing was done using \nolinkurl{pandas} to create a dataframe to then save the file as a csv. An example output csv file can be seen in Appendix -- \\ \\
+The implementation follows after the collection of the data into the two arrays, a concatenate function was then created to append the class label to the deck list, the file writing was done using \nolinkurl{pandas} to create a dataframe to then save the file as a csv. An example output csv file can be seen in Appendix E \\ \\
 
 With the csv files created and filled with data, the decks within need to have a way to be extracted, so that they can be used in the GAN. When reading the file, anomalies were checked for: problematic characters, excess brackets and deck length. Since the standard size of a legal deck is 30 cards, any that do need reach that will not be used for training, the result is an array with the deck lists and their class labels. However it was later on discovered that the class labels would not be enough to correctly build the GAN, since there can be other class cards or neutral cards in a deck list, hence why the JSON method was implemented later on. 
+
 
 \begin{figure}[H]
 \centering
@@ -457,7 +464,32 @@ With the csv files created and filled with data, the decks within need to have a
 
 
 \subsection{Improved Method}
--- talk about splitting the data by class --
+In the previous section, the project was making use of already vectorized deck data from the web scraper. The problem with that is that if the card list is changed in any way, for example when sorting by a certain class, or removing impurities, the indexes of the vectors will be wrong. So it would be better to save them in a human readable format, then vectorize them when needed. However using \nolinkurl{csv} file format, data will be harder to read, even with just the integer numbers, a decent amount of pre-processing was required to just read the data. Using another method may save time and processing power, good thing is that there is a better alternative with the JSON card data that was collected previously. By loading the \nolinkurl{data.json} card data file, with just the names of the cards a JSON dataset can be created by converting the web scraped card names to full fledged JSON data format.
+\subsubsection{Implementation of Improved Method}
+
+To begin, the code for the \nolinkurl{csv} conversion needs to be adapted, it will be longer than with the csv. Instead of vectorizing the deck data and then writing to file, the scraped data is appended to a \nolinkurl{to_convert} array. An example of a scraped deck looks like:
+\texttt{['Lab Partner', 'Lab Partner', 'Primordial Studies', 'Primordial Studies', 'Wand Thief', 'Wand Thief', 'Astromancer Solarian', 'Cram Session', 'Cram Session', 'Runed Orb', 'Runed Orb', 'Wildfire', 'Wildfire', 'Firebrand', 'Fireball', 'Fireball', 'Reckless Apprentice', 'Reckless Apprentice', 'Refreshing Spring Water', 'Refreshing Spring Water', 'Ring Toss', 'Ring Toss', 'Jandice Barov', 'Ras Frostwhisper', 'Flamestrike', 'Flamestrike', 'Mordresh Fire Eye', 'Far Watch Post', 'Far Watch Post', 'Taelan Fordring']}
+
+
+The JSON card data is also loaded for the conversion later on.
+\begin{figure}[H]
+\centering
+\includegraphics[width=1.25\textwidth]{improvedDC}
+\caption{JSON adaptation of previous code\protect}
+ \label{board}
+\end{figure}
+
+To convert the scraped data to a JSON format, the name of the cards need to be searched through the \texttt{cards} array, then a new list needs to be created to add the converted cards into. Figure 5.11 is a code extract of this process. For each card in a classes deck list, strip excess white spaces then find the name of the card in the JSON card list, once found append to a new array. Once the conversion is complete, the data is then written into a JSON file using \texttt{json.dump()}. Then the creation of the dataset is complete. An extract of the a converted JSON dataset be found in Appendix F.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=9cm, height=10cm]{JSONConversion}
+\caption{JSON adaptation of previous code\protect}
+ \label{board}
+\end{figure}
+
+--talk about reading json differenced to csv -- HSAINEW
+
 \subsection{Implementation of Web Scraper}
 \section{Generative Adversarial Network}
 %----------------------------------------------------------------------------------------
@@ -490,11 +522,30 @@ With the csv files created and filled with data, the decks within need to have a
 \verbatiminput{../../cards-standard-report.txt}
 
 \section*{Appendix E}
-\begin{figure}[H]
-\centering
-\includegraphics[width=1.25\textwidth]{csv}
- \label{board}
-\end{figure}
+%\begin{figure}[H]
+%\centering
+%\includegraphics[width=1.25\textwidth]{csv}
+% \label{board}
+%\end{figure}
+\texttt{cards,class\\
+"[153, 153, 164, 226, 226, 230, 230, 250, 348, 348, 460, 472, 472, 477, 487, 497, 522, 522, 593, 652, 652, 841, 841, 891, 891, 1163, 1226, 940, 1232, 1254]",Warrior\\
+"[32, 68, 228, 282, 296, 465, 502, 543, 567, 633, 699, 804, 815, 945, 964, 1013, 1060, 1107, 1114, 1130, 1239, 1246, 1251, 213, 234, 269, 453, 1205, 1213, 1254]",Mage\\
+"[64, 64, 74, 74, 192, 249, 249, 312, 312, 509, 622, 622, 663, 663, 965, 965, 213, 304, 304, 550, 639, 639, 712, 712, 713, 713, 718, 718, 883, 883]",Hunter\\
+"[149, 149, 318, 318, 364, 364, 483, 483, 553, 616, 616, 752, 752, 765, 765, 824, 900, 900, 1118, 1139, 1160, 1209, 1219, 1219, 1225, 1225, 696, 755, 1046, 1046]",Priest\\
+"[17, 69, 69, 149, 149, 205, 205, 318, 318, 364, 364, 483, 483, 605, 616, 616, 707, 707, 765, 765, 1015, 1015, 1118, 1139, 1225, 972, 972, 1048, 1232, 1254]",Priest\\
+"[164, 178, 206, 250, 295, 348, 472, 487, 497, 522, 591, 593, 629, 652, 772, 841, 891, 963, 1008, 1163, 1196, 1226, 453, 755, 935, 940, 1137, 1213, 1232, 1243]",Warrior\\ \\
+...\\ \\
+"[8, 8, 15, 15, 17, 17, 23, 23, 78, 78, 96, 96, 149, 149, 318, 318, 364, 364, 393, 393, 396, 396, 462, 462, 611, 611, 616, 616, 441, 441]",Priest\\
+"[7, 7, 29, 29, 303, 303, 328, 328, 351, 400, 400, 556, 556, 717, 717, 761, 780, 780, 869, 869, 885, 885, 942, 942, 1037, 1127, 1128, 1175, 1216, 1216]",Paladin\\
+"[10, 10, 12, 12, 13, 13, 61, 61, 126, 126, 302, 302, 334, 334, 411, 411, 448, 685, 748, 801, 801, 840, 840, 1032, 1229, 1034, 1034, 1180, 1218, 1254]",Druid\\
+"[17, 17, 65, 65, 84, 84, 173, 173, 202, 202, 238, 284, 284, 289, 289, 321, 547, 547, 599, 599, 742, 742, 795, 795, 1038, 1038, 1062, 1062, 745, 745]",Warlock\\
+"[224, 224, 303, 303, 351, 377, 377, 485, 485, 486, 486, 516, 691, 691, 761, 869, 869, 870, 870, 885, 885, 912, 912, 1216, 1216, 31, 31, 974, 974, 994]",Paladin\\
+"[12, 12, 171, 171, 180, 180, 183, 183, 242, 242, 265, 265, 576, 645, 645, 664, 664, 684, 684, 911, 938, 107, 107, 189, 189, 449, 449, 441, 441, 782]",Shaman\\
+"[2, 2, 16, 16, 19, 19, 133, 133, 140, 140, 159, 159, 204, 204, 281, 281, 292, 292, 427, 427, 444, 444, 497, 527, 521, 521, 635, 635, 939, 624]",Rogue\\
+}
+
+\section*{Appendix F}
+\lstinputlisting{../../example-json.json}
 %----------------------------------------------------------------------------------------
 
 

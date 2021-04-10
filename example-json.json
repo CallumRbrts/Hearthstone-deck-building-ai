@@ -1,0 +1,754 @@
+[
+    {
+        "cardId": "EX1_277",
+        "dbfId": "564",
+        "name": "Arcane Missiles",
+        "cardSet": "Basic",
+        "type": "Spell",
+        "faction": "Neutral",
+        "rarity": "Free",
+        "cost": 1,
+        "text": "Deal $3 damage randomly split among all enemies.",
+        "flavor": "You'd think you'd be able to control your missiles a little better since you're a powerful mage and all.",
+        "artist": "Warren Mahy",
+        "collectible": true,
+        "playerClass": "Mage",
+        "howToGet": "Unlocked at Level 1.",
+        "howToGetGold": "Unlocked at Level 32.",
+        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/10b306c7bb28614307e88ecad246a59d333085bab75e2e3d92a108b6756a18d3.png",
+        "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b6f0e2ef6cc826bc3df7c9ff1ebe3c61db9931bda03db54a5d7274a0285ec101.png",
+        "locale": "enUS",
+        "mechanics": [
+            {
+                "name": "ImmuneToSpellpower"
+            }
+        ],
+        "id": 1163
+    },
+    {
+        "cardId": "EX1_277",
+        "dbfId": "564",
+        "name": "Arcane Missiles",
+        "cardSet": "Basic",
+        "type": "Spell",
+        "faction": "Neutral",
+        "rarity": "Free",
+        "cost": 1,
+        "text": "Deal $3 damage randomly split among all enemies.",
+        "flavor": "You'd think you'd be able to control your missiles a little better since you're a powerful mage and all.",
+        "artist": "Warren Mahy",
+        "collectible": true,
+        "playerClass": "Mage",
+        "howToGet": "Unlocked at Level 1.",
+        "howToGetGold": "Unlocked at Level 32.",
+        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/10b306c7bb28614307e88ecad246a59d333085bab75e2e3d92a108b6756a18d3.png",
+        "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b6f0e2ef6cc826bc3df7c9ff1ebe3c61db9931bda03db54a5d7274a0285ec101.png",
+        "locale": "enUS",
+        "mechanics": [
+            {
+                "name": "ImmuneToSpellpower"
+            }
+        ],
+        "id": 1163
+    },
+    {
+        "cardId": "DRG_324",
+        "dbfId": "55283",
+        "name": "Elemental Allies",
+        "cardSet": "Descent of Dragons",
+        "type": "Spell",
+        "rarity": "Rare",
+        "cost": 1,
+        "text": "[x]<b>Sidequest:</b> Play an\\nElemental 2 turns in a row.\\n<b>Reward:</b> Draw 3 spells\\nfrom your deck.",
+        "flavor": "Reno's lucky he wasn't caught by a fire elemental.",
+        "artist": "Anton Zemskov",
+        "collectible": true,
+        "playerClass": "Mage",
+        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/32fa557882e7803764a2b077c05473575259373d68a0569e92b8768ab1b26aaa.png",
+        "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/f0eed63006fa26ddeea5730ecde2b1c662ff725b1583f5a7baf8751351b4a51d.png",
+        "locale": "enUS",
+        "mechanics": [
+            {
+                "name": "Sidequest"
+            }
+        ],
+        "id": 505
+    },
+    {
+        "cardId": "DRG_324",
+        "dbfId": "55283",
+        "name": "Elemental Allies",
+        "cardSet": "Descent of Dragons",
+        "type": "Spell",
+        "rarity": "Rare",
+        "cost": 1,
+        "text": "[x]<b>Sidequest:</b> Play an\\nElemental 2 turns in a row.\\n<b>Reward:</b> Draw 3 spells\\nfrom your deck.",
+        "flavor": "Reno's lucky he wasn't caught by a fire elemental.",
+        "artist": "Anton Zemskov",
+        "collectible": true,
+        "playerClass": "Mage",
+        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/32fa557882e7803764a2b077c05473575259373d68a0569e92b8768ab1b26aaa.png",
+        "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/f0eed63006fa26ddeea5730ecde2b1c662ff725b1583f5a7baf8751351b4a51d.png",
+        "locale": "enUS",
+        "mechanics": [
+            {
+                "name": "Sidequest"
+            }
+        ],
+        "id": 505
+    },
+    {
+        "cardId": "SCH_310",
+        "dbfId": "59013",
+        "name": "Lab Partner",
+        "cardSet": "Scholomance Academy",
+        "type": "Minion",
+        "rarity": "Common",
+        "cost": 1,
+        "attack": 1,
+        "health": 3,
+        "text": "<b>Spell Damage +1</b>",
+        "flavor": "\"Professor, a gnome burned my homework!\"",
+        "artist": "Matt Dixon",
+        "collectible": true,
+        "playerClass": "Mage",
+        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/5e437156f4b697a202d18f6e2a904566cf4cc66bc85515a5f11ba1caa09ba8cb.png",
+        "locale": "enUS",
+        "mechanics": [
+            {
+                "name": "Spell Damage"
+            }
+        ],
+        "id": 188
+    },
+    {
+        "cardId": "SCH_310",
+        "dbfId": "59013",
+        "name": "Lab Partner",
+        "cardSet": "Scholomance Academy",
+        "type": "Minion",
+        "rarity": "Common",
+        "cost": 1,
+        "attack": 1,
+        "health": 3,
+        "text": "<b>Spell Damage +1</b>",
+        "flavor": "\"Professor, a gnome burned my homework!\"",
+        "artist": "Matt Dixon",
+        "collectible": true,
+        "playerClass": "Mage",
+        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/5e437156f4b697a202d18f6e2a904566cf4cc66bc85515a5f11ba1caa09ba8cb.png",
+        "locale": "enUS",
+        "mechanics": [
+            {
+                "name": "Spell Damage"
+            }
+        ],
+        "id": 188
+    },
+    {
+        "cardId": "SCH_270",
+        "dbfId": "59213",
+        "name": "Primordial Studies",
+        "cardSet": "Scholomance Academy",
+        "type": "Spell",
+        "rarity": "Common",
+        "cost": 1,
+        "text": "<b>Discover</b> a <b>Spell Damage</b> minion. Your next one costs (1) less.",
+        "flavor": "A long forgotten tome whose very essence seeps of magic. 40 dust, used.",
+        "artist": "Akkapoj T.",
+        "collectible": true,
+        "playerClass": "Mage",
+        "multiClassGroup": "Mage Shaman",
+        "classes": [
+            "Mage",
+            "Shaman"
+        ],
+        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e85a1a1bea206b1cf49cfa97f70de27b17e3791d3088266be1d04fd94b9e9614.png",
+        "locale": "enUS",
+        "mechanics": [
+            {
+                "name": "Discover"
+            },
+            {
+                "name": "Spell Damage"
+            }
+        ],
+        "id": 193
+    },
+    {
+        "cardId": "SCH_270",
+        "dbfId": "59213",
+        "name": "Primordial Studies",
+        "cardSet": "Scholomance Academy",
+        "type": "Spell",
+        "rarity": "Common",
+        "cost": 1,
+        "text": "<b>Discover</b> a <b>Spell Damage</b> minion. Your next one costs (1) less.",
+        "flavor": "A long forgotten tome whose very essence seeps of magic. 40 dust, used.",
+        "artist": "Akkapoj T.",
+        "collectible": true,
+        "playerClass": "Mage",
+        "multiClassGroup": "Mage Shaman",
+        "classes": [
+            "Mage",
+            "Shaman"
+        ],
+        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e85a1a1bea206b1cf49cfa97f70de27b17e3791d3088266be1d04fd94b9e9614.png",
+        "locale": "enUS",
+        "mechanics": [
+            {
+                "name": "Discover"
+            },
+            {
+                "name": "Spell Damage"
+            }
+        ],
+        "id": 193
+    },
+    {
+        "cardId": "DRG_107",
+        "dbfId": "54907",
+        "name": "Violet Spellwing",
+        "cardSet": "Descent of Dragons",
+        "type": "Minion",
+        "rarity": "Common",
+        "cost": 1,
+        "attack": 1,
+        "health": 1,
+        "text": "<b>Deathrattle:</b> Add an 'Arcane Missiles' spell to_your hand.",
+        "flavor": "A bird in the hand is worth three missiles in the grave.",
+        "artist": "Jakub Kasper",
+        "collectible": true,
+        "race": "Elemental",
+        "playerClass": "Mage",
+        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/6c380b109a5e10fd49d42a2ff42bc21bb0e01b2398a4521383506765633e6600.png",
+        "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7be0176814aac202b47db9099b87106cd107e1e58c26c16013913e045589e387.png",
+        "locale": "enUS",
+        "mechanics": [
+            {
+                "name": "Deathrattle"
+            }
+        ],
+        "id": 519
+    },
+    {
+        "cardId": "DRG_107",
+        "dbfId": "54907",
+        "name": "Violet Spellwing",
+        "cardSet": "Descent of Dragons",
+        "type": "Minion",
+        "rarity": "Common",
+        "cost": 1,
+        "attack": 1,
+        "health": 1,
+        "text": "<b>Deathrattle:</b> Add an 'Arcane Missiles' spell to_your hand.",
+        "flavor": "A bird in the hand is worth three missiles in the grave.",
+        "artist": "Jakub Kasper",
+        "collectible": true,
+        "race": "Elemental",
+        "playerClass": "Mage",
+        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/6c380b109a5e10fd49d42a2ff42bc21bb0e01b2398a4521383506765633e6600.png",
+        "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7be0176814aac202b47db9099b87106cd107e1e58c26c16013913e045589e387.png",
+        "locale": "enUS",
+        "mechanics": [
+            {
+                "name": "Deathrattle"
+            }
+        ],
+        "id": 519
+    },
+    {
+        "cardId": "SCH_350",
+        "dbfId": "59556",
+        "name": "Wand Thief",
+        "cardSet": "Scholomance Academy",
+        "type": "Minion",
+        "rarity": "Common",
+        "cost": 1,
+        "attack": 1,
+        "health": 2,
+        "text": "<b>Combo:</b> <b>Discover</b> a Mage_spell.",
+        "flavor": "What're ya buyin'?",
+        "artist": "Arthur Bozonnet",
+        "collectible": true,
+        "playerClass": "Mage",
+        "multiClassGroup": "Mage Rogue",
+        "classes": [
+            "Mage",
+            "Rogue"
+        ],
+        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/6582e86a32b08b7cf1a9da68996a198a68d5835f0a7ef870bc8b6369d506fcde.png",
+        "locale": "enUS",
+        "mechanics": [
+            {
+                "name": "Combo"
+            },
+            {
+                "name": "Discover"
+            }
+        ],
+        "id": 200
+    },
+    {
+        "cardId": "CS2_025",
+        "dbfId": "447",
+        "name": "Arcane Explosion",
+        "cardSet": "Basic",
+        "type": "Spell",
+        "faction": "Neutral",
+        "rarity": "Free",
+        "cost": 2,
+        "text": "Deal $1 damage to all enemy minions.",
+        "flavor": "This spell is much better than Arcane Implosion.",
+        "artist": "Howard Lyon",
+        "collectible": true,
+        "playerClass": "Mage",
+        "howToGet": "Unlocked at Level 1.",
+        "howToGetGold": "Unlocked at Level 28.",
+        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/1a33b87686faaefb481ad85e8448e4944248478f57a4c9a4e2615c14950835c1.png",
+        "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/9b17a8f15c2b868d4a8e7b1ee4e62ae941c7ef00dd0a524b7fbfac450c6a91d1.png",
+        "locale": "enUS",
+        "id": 1194
+    },
+    {
+        "cardId": "CS2_025",
+        "dbfId": "447",
+        "name": "Arcane Explosion",
+        "cardSet": "Basic",
+        "type": "Spell",
+        "faction": "Neutral",
+        "rarity": "Free",
+        "cost": 2,
+        "text": "Deal $1 damage to all enemy minions.",
+        "flavor": "This spell is much better than Arcane Implosion.",
+        "artist": "Howard Lyon",
+        "collectible": true,
+        "playerClass": "Mage",
+        "howToGet": "Unlocked at Level 1.",
+        "howToGetGold": "Unlocked at Level 28.",
+        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/1a33b87686faaefb481ad85e8448e4944248478f57a4c9a4e2615c14950835c1.png",
+        "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/9b17a8f15c2b868d4a8e7b1ee4e62ae941c7ef00dd0a524b7fbfac450c6a91d1.png",
+        "locale": "enUS",
+        "id": 1194
+    },
+    {
+        "cardId": "DMF_100",
+        "dbfId": "61176",
+        "name": "Confection Cyclone",
+        "cardSet": "Madness At The Darkmoon Faire",
+        "type": "Minion",
+        "rarity": "Common",
+        "cost": 2,
+        "attack": 3,
+        "health": 2,
+        "text": "<b>Battlecry:</b> Add two 1/2 Sugar Elementals to your_hand.",
+        "flavor": "\"Oh, I thought it was a desert elemental?\"",
+        "artist": "Anton Zemskov",
+        "collectible": true,
+        "race": "Elemental",
+        "playerClass": "Mage",
+        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/9d7587b9799c607e3f1396b70c43a0a66b3956f55ced47a7cb6e9f7cc9915399.png",
+        "locale": "enUS",
+        "mechanics": [
+            {
+                "name": "Battlecry"
+            }
+        ],
+        "id": 19
+    },
+    {
+        "cardId": "DMF_100",
+        "dbfId": "61176",
+        "name": "Confection Cyclone",
+        "cardSet": "Madness At The Darkmoon Faire",
+        "type": "Minion",
+        "rarity": "Common",
+        "cost": 2,
+        "attack": 3,
+        "health": 2,
+        "text": "<b>Battlecry:</b> Add two 1/2 Sugar Elementals to your_hand.",
+        "flavor": "\"Oh, I thought it was a desert elemental?\"",
+        "artist": "Anton Zemskov",
+        "collectible": true,
+        "race": "Elemental",
+        "playerClass": "Mage",
+        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/9d7587b9799c607e3f1396b70c43a0a66b3956f55ced47a7cb6e9f7cc9915399.png",
+        "locale": "enUS",
+        "mechanics": [
+            {
+                "name": "Battlecry"
+            }
+        ],
+        "id": 19
+    },
+    {
+        "cardId": "SCH_353",
+        "dbfId": "59639",
+        "name": "Cram Session",
+        "cardSet": "Scholomance Academy",
+        "type": "Spell",
+        "rarity": "Rare",
+        "cost": 2,
+        "text": "Draw $1 |4(card, cards) <i>(improved by <b>Spell Damage</b>)</i>.",
+        "flavor": "The font of the arcane gives nearly limitless access to power and energy! But it can't keep you awake, for that we still use coffee.",
+        "artist": "Arthur Gimaldinov",
+        "collectible": true,
+        "playerClass": "Mage",
+        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c7743160e4719ccd529c0691d9ede6132ff644d75ccd6fdbc45022a495149b3b.png",
+        "locale": "enUS",
+        "mechanics": [
+            {
+                "name": "Spell Damage"
+            }
+        ],
+        "id": 205
+    },
+    {
+        "cardId": "SCH_353",
+        "dbfId": "59639",
+        "name": "Cram Session",
+        "cardSet": "Scholomance Academy",
+        "type": "Spell",
+        "rarity": "Rare",
+        "cost": 2,
+        "text": "Draw $1 |4(card, cards) <i>(improved by <b>Spell Damage</b>)</i>.",
+        "flavor": "The font of the arcane gives nearly limitless access to power and energy! But it can't keep you awake, for that we still use coffee.",
+        "artist": "Arthur Gimaldinov",
+        "collectible": true,
+        "playerClass": "Mage",
+        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c7743160e4719ccd529c0691d9ede6132ff644d75ccd6fdbc45022a495149b3b.png",
+        "locale": "enUS",
+        "mechanics": [
+            {
+                "name": "Spell Damage"
+            }
+        ],
+        "id": 205
+    },
+    {
+        "cardId": "CS2_024",
+        "dbfId": "662",
+        "name": "Frostbolt",
+        "cardSet": "Basic",
+        "type": "Spell",
+        "faction": "Neutral",
+        "rarity": "Free",
+        "cost": 2,
+        "text": "Deal $3 damage to a_character and <b>Freeze</b> it.",
+        "flavor": "It is customary to yell \"Chill out!\" or \"Freeze!\" or \"Ice ice, baby!\" when you play this card.",
+        "artist": "Steve Ellis",
+        "collectible": true,
+        "playerClass": "Mage",
+        "howToGet": "Unlocked at Level 2.",
+        "howToGetGold": "Unlocked at Level 40.",
+        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/352cd0052069b831689a5f09a62f5c3b0123019b7191ee7b9fea72d672b651c4.png",
+        "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/265215e6dbb4d3a6dfac9c02c236e4e1791d31413a6f7b2541bad92b24d1cef2.png",
+        "locale": "enUS",
+        "mechanics": [
+            {
+                "name": "Freeze"
+            }
+        ],
+        "id": 1201
+    },
+    {
+        "cardId": "CS2_024",
+        "dbfId": "662",
+        "name": "Frostbolt",
+        "cardSet": "Basic",
+        "type": "Spell",
+        "faction": "Neutral",
+        "rarity": "Free",
+        "cost": 2,
+        "text": "Deal $3 damage to a_character and <b>Freeze</b> it.",
+        "flavor": "It is customary to yell \"Chill out!\" or \"Freeze!\" or \"Ice ice, baby!\" when you play this card.",
+        "artist": "Steve Ellis",
+        "collectible": true,
+        "playerClass": "Mage",
+        "howToGet": "Unlocked at Level 2.",
+        "howToGetGold": "Unlocked at Level 40.",
+        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/352cd0052069b831689a5f09a62f5c3b0123019b7191ee7b9fea72d672b651c4.png",
+        "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/265215e6dbb4d3a6dfac9c02c236e4e1791d31413a6f7b2541bad92b24d1cef2.png",
+        "locale": "enUS",
+        "mechanics": [
+            {
+                "name": "Freeze"
+            }
+        ],
+        "id": 1201
+    },
+    {
+        "cardId": "YOP_021",
+        "dbfId": "61959",
+        "name": "Imprisoned Phoenix",
+        "cardSet": "Madness At The Darkmoon Faire",
+        "type": "Minion",
+        "rarity": "Common",
+        "cost": 2,
+        "attack": 2,
+        "health": 3,
+        "text": "<b>Dormant</b> for 2 turns.\\n<b>Spell Damage +2</b>",
+        "flavor": "It's actually pretty easy to escape chains when you can burst into flames.",
+        "artist": "Konstantin Turovec",
+        "collectible": true,
+        "race": "Elemental",
+        "playerClass": "Neutral",
+        "multiClassGroup": "Mage Shaman",
+        "classes": [
+            "Mage",
+            "Shaman"
+        ],
+        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a1ee0276ccd30456b58fd755ca9a6eac040eed3cf4c096a6772f95a9056c9ec1.png",
+        "locale": "enUS",
+        "mechanics": [
+            {
+                "name": "Spell Damage"
+            }
+        ],
+        "id": 33
+    },
+    {
+        "cardId": "YOP_021",
+        "dbfId": "61959",
+        "name": "Imprisoned Phoenix",
+        "cardSet": "Madness At The Darkmoon Faire",
+        "type": "Minion",
+        "rarity": "Common",
+        "cost": 2,
+        "attack": 2,
+        "health": 3,
+        "text": "<b>Dormant</b> for 2 turns.\\n<b>Spell Damage +2</b>",
+        "flavor": "It's actually pretty easy to escape chains when you can burst into flames.",
+        "artist": "Konstantin Turovec",
+        "collectible": true,
+        "race": "Elemental",
+        "playerClass": "Neutral",
+        "multiClassGroup": "Mage Shaman",
+        "classes": [
+            "Mage",
+            "Shaman"
+        ],
+        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a1ee0276ccd30456b58fd755ca9a6eac040eed3cf4c096a6772f95a9056c9ec1.png",
+        "locale": "enUS",
+        "mechanics": [
+            {
+                "name": "Spell Damage"
+            }
+        ],
+        "id": 33
+    },
+    {
+        "cardId": "SCH_241",
+        "dbfId": "59000",
+        "name": "Firebrand",
+        "cardSet": "Scholomance Academy",
+        "type": "Minion",
+        "rarity": "Common",
+        "cost": 3,
+        "attack": 3,
+        "health": 4,
+        "text": "<b><b>Spellburst</b>:</b> Deal 4 damage randomly split among all_enemy minions.",
+        "flavor": "Too cool for school, too hot for thought.",
+        "artist": "Mike Sass",
+        "collectible": true,
+        "playerClass": "Mage",
+        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/fb1a7b1be4722b7a508287e4f3298a835b71f52acc92e6cf15d4e2596345be78.png",
+        "locale": "enUS",
+        "mechanics": [
+            {
+                "name": "Spellburst"
+            }
+        ],
+        "id": 225
+    },
+    {
+        "cardId": "SCH_241",
+        "dbfId": "59000",
+        "name": "Firebrand",
+        "cardSet": "Scholomance Academy",
+        "type": "Minion",
+        "rarity": "Common",
+        "cost": 3,
+        "attack": 3,
+        "health": 4,
+        "text": "<b><b>Spellburst</b>:</b> Deal 4 damage randomly split among all_enemy minions.",
+        "flavor": "Too cool for school, too hot for thought.",
+        "artist": "Mike Sass",
+        "collectible": true,
+        "playerClass": "Mage",
+        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/fb1a7b1be4722b7a508287e4f3298a835b71f52acc92e6cf15d4e2596345be78.png",
+        "locale": "enUS",
+        "mechanics": [
+            {
+                "name": "Spellburst"
+            }
+        ],
+        "id": 225
+    },
+    {
+        "cardId": "CS2_029",
+        "dbfId": "315",
+        "name": "Fireball",
+        "cardSet": "Basic",
+        "type": "Spell",
+        "faction": "Neutral",
+        "rarity": "Free",
+        "cost": 4,
+        "text": "Deal $6 damage.",
+        "flavor": "This spell is useful for burning things.  If you're looking for spells that toast things, or just warm them a little, you're in the wrong place.",
+        "artist": "Ralph Horsley",
+        "collectible": true,
+        "playerClass": "Mage",
+        "howToGet": "Unlocked at Level 1.",
+        "howToGetGold": "Unlocked at Level 44.",
+        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/27063a6c8d589362634acb41798c32ee6e04053842ccffd5b1f8e0c4cd9e8583.png",
+        "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8e87a42598f8f41210ca04ff5ab99d1cc5d928809e9f4c9e2ab5ccf636a049f8.png",
+        "locale": "enUS",
+        "id": 1249
+    },
+    {
+        "cardId": "CS2_029",
+        "dbfId": "315",
+        "name": "Fireball",
+        "cardSet": "Basic",
+        "type": "Spell",
+        "faction": "Neutral",
+        "rarity": "Free",
+        "cost": 4,
+        "text": "Deal $6 damage.",
+        "flavor": "This spell is useful for burning things.  If you're looking for spells that toast things, or just warm them a little, you're in the wrong place.",
+        "artist": "Ralph Horsley",
+        "collectible": true,
+        "playerClass": "Mage",
+        "howToGet": "Unlocked at Level 1.",
+        "howToGetGold": "Unlocked at Level 44.",
+        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/27063a6c8d589362634acb41798c32ee6e04053842ccffd5b1f8e0c4cd9e8583.png",
+        "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8e87a42598f8f41210ca04ff5ab99d1cc5d928809e9f4c9e2ab5ccf636a049f8.png",
+        "locale": "enUS",
+        "id": 1249
+    },
+    {
+        "cardId": "DMF_103",
+        "dbfId": "61179",
+        "name": "Mask of C'Thun",
+        "cardSet": "Madness At The Darkmoon Faire",
+        "type": "Spell",
+        "rarity": "Rare",
+        "cost": 7,
+        "text": "Deal $10 damage randomly split among all enemies.",
+        "flavor": "Hide in the mask, but it will wear you. Through its gleaming eye, you shall see true.",
+        "artist": "Ware Lee",
+        "collectible": true,
+        "playerClass": "Mage",
+        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/878f92ff4e1083e2dfa62cda72a8c1d6ed488628ecdb3bf440af0cbc56f23cdc.png",
+        "locale": "enUS",
+        "mechanics": [
+            {
+                "name": "ImmuneToSpellpower"
+            }
+        ],
+        "id": 151
+    },
+    {
+        "cardId": "DAL_748",
+        "dbfId": "52942",
+        "name": "Mana Reservoir",
+        "cardSet": "Rise of Shadows",
+        "type": "Minion",
+        "rarity": "Common",
+        "cost": 2,
+        "attack": 0,
+        "health": 6,
+        "text": "<b>Spell Damage +1</b>",
+        "flavor": "If it soaks too long, it becomes a reservoir hog.",
+        "artist": "Jakub Kasper",
+        "collectible": true,
+        "race": "Elemental",
+        "playerClass": "Neutral",
+        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/17943629bfa8c8a37e51362d52fe78c590f400cb44e22c35a156fbc23cd72eb6.png",
+        "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ee6ec58546fd87774c2bc5828bd0902a3f846977dcabb6462eacc57949340a2a.png",
+        "locale": "enUS",
+        "mechanics": [
+            {
+                "name": "Spell Damage"
+            }
+        ],
+        "id": 800
+    },
+    {
+        "cardId": "DAL_748",
+        "dbfId": "52942",
+        "name": "Mana Reservoir",
+        "cardSet": "Rise of Shadows",
+        "type": "Minion",
+        "rarity": "Common",
+        "cost": 2,
+        "attack": 0,
+        "health": 6,
+        "text": "<b>Spell Damage +1</b>",
+        "flavor": "If it soaks too long, it becomes a reservoir hog.",
+        "artist": "Jakub Kasper",
+        "collectible": true,
+        "race": "Elemental",
+        "playerClass": "Neutral",
+        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/17943629bfa8c8a37e51362d52fe78c590f400cb44e22c35a156fbc23cd72eb6.png",
+        "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ee6ec58546fd87774c2bc5828bd0902a3f846977dcabb6462eacc57949340a2a.png",
+        "locale": "enUS",
+        "mechanics": [
+            {
+                "name": "Spell Damage"
+            }
+        ],
+        "id": 800
+    },
+    {
+        "cardId": "DMF_062",
+        "dbfId": "61580",
+        "name": "Gyreworm",
+        "cardSet": "Madness At The Darkmoon Faire",
+        "type": "Minion",
+        "rarity": "Common",
+        "cost": 3,
+        "attack": 3,
+        "health": 2,
+        "text": "<b>Battlecry:</b> If you played an Elemental last turn, deal 3_damage.",
+        "flavor": "This game of ring toss just got really intense.",
+        "artist": "Nicola Saviori",
+        "collectible": true,
+        "race": "Elemental",
+        "playerClass": "Neutral",
+        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/dbff5fd189e031bdce4dc2e80815cb7384604780d5438fb05893bf0c3d1ccec8.png",
+        "locale": "enUS",
+        "mechanics": [
+            {
+                "name": "Battlecry"
+            }
+        ],
+        "id": 73
+    },
+    {
+        "cardId": "DMF_062",
+        "dbfId": "61580",
+        "name": "Gyreworm",
+        "cardSet": "Madness At The Darkmoon Faire",
+        "type": "Minion",
+        "rarity": "Common",
+        "cost": 3,
+        "attack": 3,
+        "health": 2,
+        "text": "<b>Battlecry:</b> If you played an Elemental last turn, deal 3_damage.",
+        "flavor": "This game of ring toss just got really intense.",
+        "artist": "Nicola Saviori",
+        "collectible": true,
+        "race": "Elemental",
+        "playerClass": "Neutral",
+        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/dbff5fd189e031bdce4dc2e80815cb7384604780d5438fb05893bf0c3d1ccec8.png",
+        "locale": "enUS",
+        "mechanics": [
+            {
+                "name": "Battlecry"
+            }
+        ],
+        "id": 73
+    }
+]

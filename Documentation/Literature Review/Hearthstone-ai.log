@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=pdflatex 2020.11.30)  9 APR 2021 21:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=pdflatex 2020.11.30)  10 APR 2021 13:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -399,7 +399,32 @@ Package: verbatim 2019/11/10 v1.5r LaTeX2e package for verbatim enhancements
 \every@verbatim=\toks25
 \verbatim@line=\toks26
 \verbatim@in@stream=\read2
-) (./Hearthstone-ai.aux
+)
+(/usr/share/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count297
+\lst@gtempboxa=\box60
+\lst@token=\toks27
+\lst@length=\count298
+\lst@currlwidth=\dimen182
+\lst@column=\count299
+\lst@pos=\count300
+\lst@lostspace=\dimen183
+\lst@width=\dimen184
+\lst@newlines=\count301
+\lst@lineno=\count302
+\lst@maxwidth=\dimen185
+
+(/usr/share/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+\c@lstnumber=\count303
+\lst@skipnumbers=\count304
+\lst@framebox=\box61
+)
+(/usr/share/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2020/03/24 1.8d listings configuration
+))
+Package: listings 2020/03/24 1.8d (Carsten Heinz)
+ (./Hearthstone-ai.aux
 
 LaTeX Warning: Label `board' multiply defined.
 
@@ -445,39 +470,42 @@ LaTeX Warning: Label `board' multiply defined.
 
 LaTeX Warning: Label `board' multiply defined.
 
-)
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
 
-Package chemgreek Info: Activating mapping `default' on line 57.
+LaTeX Warning: Label `board' multiply defined.
+
+)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+
+Package chemgreek Info: Activating mapping `default' on line 63.
 
  (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count297
-\scratchdimen=\dimen182
-\scratchbox=\box60
-\nofMPsegments=\count298
-\nofMParguments=\count299
-\everyMPshowfont=\toks27
-\MPscratchCnt=\count300
-\MPscratchDim=\dimen183
-\MPnumerator=\count301
-\makeMPintoPDFobject=\count302
-\everyMPtoPDFconversion=\toks28
+\scratchcounter=\count305
+\scratchdimen=\dimen186
+\scratchbox=\box62
+\nofMPsegments=\count306
+\nofMParguments=\count307
+\everyMPshowfont=\toks28
+\MPscratchCnt=\count308
+\MPscratchDim=\dimen187
+\MPnumerator=\count309
+\makeMPintoPDFobject=\count310
+\everyMPtoPDFconversion=\toks29
 ) (/usr/share/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -493,8 +521,8 @@ Dictionary: translator-basic-dictionary, Language: English
 ) (/usr/share/texmf-dist/tex/latex/siunitx/siunitx-abbreviations.cfg
 File: siunitx-abbreviations.cfg 2017/11/26 v2.7k siunitx: Abbreviated units
 )
-\AtBeginShipoutBox=\box61
-Package hyperref Info: Link coloring OFF on input line 57.
+\AtBeginShipoutBox=\box63
+Package hyperref Info: Link coloring OFF on input line 63.
 
 (/usr/share/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
@@ -505,17 +533,19 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 (/usr/share/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count303
+\c@section@level=\count311
 )
-LaTeX Info: Redefining \ref on input line 57.
-LaTeX Info: Redefining \pageref on input line 57.
-LaTeX Info: Redefining \nameref on input line 57.
+LaTeX Info: Redefining \ref on input line 63.
+LaTeX Info: Redefining \pageref on input line 63.
+LaTeX Info: Redefining \nameref on input line 63.
 
 (./Hearthstone-ai.out) (./Hearthstone-ai.out)
 \@outlinefile=\write3
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
+Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
+\c@lstlisting=\count312
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]pdfTeX warning (ext4): dest
@@ -523,12 +553,12 @@ ination with the same identifier (name{page.1}) has been already used, duplicat
 e ignored
 <to be read again> 
                    \relax 
-l.71 \end{abstract}
+l.77 \end{abstract}
                     [1]pdfTeX warning (ext4): destination with the same identif
 ier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.79 \tableofcontents
+l.85 \tableofcontents
                       [1] (./Hearthstone-ai.toc [2
 
 ])
@@ -542,25 +572,25 @@ Chapter 2.
 <thalnos.jpg, id=293, 200.75pt x 304.13625pt>
 File: thalnos.jpg Graphic file (type jpg)
 <use thalnos.jpg>
-Package pdftex.def Info: thalnos.jpg  used on input line 112.
+Package pdftex.def Info: thalnos.jpg  used on input line 118.
 (pdftex.def)             Requested size: 86.25pt x 130.6693pt.
 [6
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 119--120
+Underfull \hbox (badness 10000) in paragraph at lines 125--126
 
  []
 
 <hearthstonegameboard.png, id=309, 1189.44376pt x 695.59875pt>
 File: hearthstonegameboard.png Graphic file (type png)
 <use hearthstonegameboard.png>
-Package pdftex.def Info: hearthstonegameboard.png  used on input line 123.
+Package pdftex.def Info: hearthstonegameboard.png  used on input line 129.
 (pdftex.def)             Requested size: 345.0pt x 201.7503pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 127--127
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
 [][][][]$\OT1/cmtt/m/n/8 https : / / bothgunsblazingblog . wordpress . com / 20
 14 / 06 / 22 /
  []
@@ -569,22 +599,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 127--127
 <mana_curve.png, id=348, 208.52907pt x 129.48375pt>
 File: mana_curve.png Graphic file (type png)
 <use mana_curve.png>
-Package pdftex.def Info: mana_curve.png  used on input line 141.
+Package pdftex.def Info: mana_curve.png  used on input line 147.
 (pdftex.def)             Requested size: 172.5pt x 107.1178pt.
  [9 <./mana_curve.png>] [10]
-Underfull \hbox (badness 7704) in paragraph at lines 167--167
+Underfull \hbox (badness 7704) in paragraph at lines 173--173
 [][][]\OT1/cmr/m/n/8 For ex-am-ple cards: []$\OT1/cmtt/m/n/8 https : / / github
  . com / minimaxir / mtg-[]gpt-[]2-[]cloud-[]run / tree /
  []
 
 [11]
-Underfull \hbox (badness 10000) in paragraph at lines 184--184
+Underfull \hbox (badness 10000) in paragraph at lines 190--190
 [][][][]$\OT1/cmtt/m/n/8 https : / / www . blizzard . com / en-[]us / legal / f
 ba4d00f-[]c7e4-[]4883-[]b8b9-[]1b4500a402ea /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 184--186
+Underfull \hbox (badness 10000) in paragraph at lines 190--192
 
  []
 
@@ -592,22 +622,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 184--186
 <EAFlowchart.png, id=455, 822.07124pt x 474.27188pt>
 File: EAFlowchart.png Graphic file (type png)
 <use EAFlowchart.png>
-Package pdftex.def Info: EAFlowchart.png  used on input line 192.
+Package pdftex.def Info: EAFlowchart.png  used on input line 198.
 (pdftex.def)             Requested size: 345.0pt x 199.03362pt.
  [13] [14 <./EAFlowchart.png (PNG copy)>]
 <ANN.png, id=498, 853.1875pt x 499.8675pt>
 File: ANN.png Graphic file (type png)
 <use ANN.png>
-Package pdftex.def Info: ANN.png  used on input line 207.
+Package pdftex.def Info: ANN.png  used on input line 213.
 (pdftex.def)             Requested size: 345.0pt x 202.1325pt.
  [15] [16 <./ANN.png>]
 <GAN.png, id=524, 446.66875pt x 528.97626pt>
 File: GAN.png Graphic file (type png)
 <use GAN.png>
-Package pdftex.def Info: GAN.png  used on input line 219.
+Package pdftex.def Info: GAN.png  used on input line 225.
 (pdftex.def)             Requested size: 172.5pt x 204.2901pt.
 
-Overfull \hbox (17.05518pt too wide) in paragraph at lines 222--222
+Overfull \hbox (17.05518pt too wide) in paragraph at lines 228--228
 [][][][]$\OT1/cmtt/m/n/8 https : / / machinelearningmastery . com / what-[]are-
 []generative-[]adversarial-[]networks-[]gans/$[]| 
  []
@@ -615,14 +645,14 @@ Overfull \hbox (17.05518pt too wide) in paragraph at lines 222--222
 [17 <./GAN.png>] [18]
 Chapter 3.
 
-Underfull \hbox (badness 10000) in paragraph at lines 238--240
+Underfull \hbox (badness 10000) in paragraph at lines 244--246
 
  []
 
 [19
 
 ] [20]
-Underfull \hbox (badness 10000) in paragraph at lines 270--272
+Underfull \hbox (badness 10000) in paragraph at lines 276--278
 
  []
 
@@ -631,14 +661,14 @@ Chapter 4.
 [24
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 315--316
+Underfull \hbox (badness 10000) in paragraph at lines 321--322
 
  []
 
 <ToS.png, id=613, 779.16093pt x 274.02374pt>
 File: ToS.png Graphic file (type png)
 <use ToS.png>
-Package pdftex.def Info: ToS.png  used on input line 319.
+Package pdftex.def Info: ToS.png  used on input line 325.
 (pdftex.def)             Requested size: 345.0pt x 121.3318pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -646,12 +676,12 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [25] [26 <./ToS.png (PNG copy)>]
 Chapter 5.
 
-Underfull \hbox (badness 10000) in paragraph at lines 334--337
+Underfull \hbox (badness 10000) in paragraph at lines 340--343
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 334--337
+Underfull \hbox (badness 10000) in paragraph at lines 340--343
 
  []
 
@@ -661,29 +691,29 @@ Underfull \hbox (badness 10000) in paragraph at lines 334--337
 <collectionpage.png, id=633, 1189.44376pt x 569.87906pt>
 File: collectionpage.png Graphic file (type png)
 <use collectionpage.png>
-Package pdftex.def Info: collectionpage.png  used on input line 340.
+Package pdftex.def Info: collectionpage.png  used on input line 346.
 (pdftex.def)             Requested size: 345.0pt x 165.28677pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 347--349
+Underfull \hbox (badness 10000) in paragraph at lines 353--355
 
  []
 
 <OpenWebScraper.png, id=638, 366.61969pt x 569.87906pt>
 File: OpenWebScraper.png Graphic file (type png)
 <use OpenWebScraper.png>
-Package pdftex.def Info: OpenWebScraper.png  used on input line 352.
+Package pdftex.def Info: OpenWebScraper.png  used on input line 358.
 (pdftex.def)             Requested size: 183.04086pt x 284.52142pt.
 [28 <./collectionpage.png (PNG copy)>]
 <InitialFileRead.png, id=648, 526.21594pt x 323.70938pt>
 File: InitialFileRead.png Graphic file (type png)
 <use InitialFileRead.png>
-Package pdftex.def Info: InitialFileRead.png  used on input line 363.
+Package pdftex.def Info: InitialFileRead.png  used on input line 369.
 (pdftex.def)             Requested size: 345.0pt x 212.24112pt.
  [29 <./OpenWebScraper.png (PNG copy)>]
 <deckConversion.png, id=656, 526.21594pt x 384.6872pt>
 File: deckConversion.png Graphic file (type png)
 <use deckConversion.png>
-Package pdftex.def Info: deckConversion.png  used on input line 372.
+Package pdftex.def Info: deckConversion.png  used on input line 378.
 (pdftex.def)             Requested size: 345.0pt x 252.22142pt.
 
 [30 <./InitialFileRead.png (PNG copy)>] [31 <./deckConversion.png (PNG copy)>]
@@ -691,10 +721,10 @@ Package pdftex.def Info: deckConversion.png  used on input line 372.
 <cardAPI.png, id=674, 739.26187pt x 408.02437pt>
 File: cardAPI.png Graphic file (type png)
 <use cardAPI.png>
-Package pdftex.def Info: cardAPI.png  used on input line 401.
+Package pdftex.def Info: cardAPI.png  used on input line 407.
 (pdftex.def)             Requested size: 431.25pt x 238.024pt.
 
-Overfull \hbox (86.25pt too wide) in paragraph at lines 401--402
+Overfull \hbox (86.25pt too wide) in paragraph at lines 407--408
  [][] 
  []
 
@@ -705,21 +735,21 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <jsonOpen.png, id=682, 505.89pt x 328.22626pt>
 File: jsonOpen.png Graphic file (type png)
 <use jsonOpen.png>
-Package pdftex.def Info: jsonOpen.png  used on input line 410.
+Package pdftex.def Info: jsonOpen.png  used on input line 416.
 (pdftex.def)             Requested size: 345.0pt x 223.84198pt.
  [34 <./cardAPI.png (PNG copy)>]
 <impure.png, id=689, 679.78969pt x 307.1475pt>
 File: impure.png Graphic file (type png)
 <use impure.png>
-Package pdftex.def Info: impure.png  used on input line 419.
+Package pdftex.def Info: impure.png  used on input line 425.
 (pdftex.def)             Requested size: 431.25pt x 194.84901pt.
 
-Overfull \hbox (86.25pt too wide) in paragraph at lines 419--420
+Overfull \hbox (86.25pt too wide) in paragraph at lines 425--426
  [][] 
  []
 
 [35 <./jsonOpen.png (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 430--432
+Underfull \hbox (badness 10000) in paragraph at lines 436--438
 
  []
 
@@ -727,35 +757,87 @@ Underfull \hbox (badness 10000) in paragraph at lines 430--432
 <csvIm.png, id=708, 748.29562pt x 332.74312pt>
 File: csvIm.png Graphic file (type png)
 <use csvIm.png>
-Package pdftex.def Info: csvIm.png  used on input line 442.
+Package pdftex.def Info: csvIm.png  used on input line 448.
 (pdftex.def)             Requested size: 431.25pt x 191.76244pt.
 
-Overfull \hbox (86.25pt too wide) in paragraph at lines 442--443
+Overfull \hbox (86.25pt too wide) in paragraph at lines 448--449
  [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 447--448
+Underfull \hbox (badness 10000) in paragraph at lines 453--454
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 447--448
+Underfull \hbox (badness 10000) in paragraph at lines 453--454
 
  []
 
 <readVectorDecks.png, id=709, 522.45187pt x 322.95656pt>
 File: readVectorDecks.png Graphic file (type png)
 <use readVectorDecks.png>
-Package pdftex.def Info: readVectorDecks.png  used on input line 453.
+Package pdftex.def Info: readVectorDecks.png  used on input line 460.
 (pdftex.def)             Requested size: 431.25pt x 266.58536pt.
 
-Overfull \hbox (86.25pt too wide) in paragraph at lines 453--454
+Overfull \hbox (86.25pt too wide) in paragraph at lines 460--461
  [][] 
  []
 
-[38 <./csvIm.png (PNG copy)>] (./Hearthstone-ai.bbl [39 <./readVectorDecks.png 
-(PNG copy)>]
+[38 <./csvIm.png (PNG copy)>]
+Overfull \hbox (32.9967pt too wide) in paragraph at lines 470--472
+\OT1/cmtt/m/n/10 Studies', 'Primordial Studies', 'Wand Thief', 'Wand Thief', 'A
+stromancer
+ []
+
+
+Overfull \hbox (11.99689pt too wide) in paragraph at lines 470--472
+\OT1/cmtt/m/n/10 Solarian', 'Cram Session', 'Cram Session', 'Runed Orb', 'Runed
+ Orb',
+ []
+
+
+Overfull \hbox (22.4968pt too wide) in paragraph at lines 470--472
+\OT1/cmtt/m/n/10 'Wildfire', 'Wildfire', 'Firebrand', 'Fireball', 'Fireball', '
+Reckless
+ []
+
+
+Overfull \hbox (43.49661pt too wide) in paragraph at lines 470--472
+\OT1/cmtt/m/n/10 Apprentice', 'Reckless Apprentice', 'Refreshing Spring Water',
+ 'Refreshing
+ []
+
+
+Overfull \hbox (59.24648pt too wide) in paragraph at lines 470--472
+\OT1/cmtt/m/n/10 Spring Water', 'Ring Toss', 'Ring Toss', 'Jandice Barov', 'Ras
+ Frostwhisper',
+ []
+
+
+Overfull \hbox (11.99689pt too wide) in paragraph at lines 470--472
+\OT1/cmtt/m/n/10 'Flamestrike', 'Flamestrike', 'Mordresh Fire Eye', 'Far Watch 
+Post',
+ []
+
+[39 <./readVectorDecks.png (PNG copy)>]
+<improvedDC.png, id=722, 697.8572pt x 191.9672pt>
+File: improvedDC.png Graphic file (type png)
+<use improvedDC.png>
+Package pdftex.def Info: improvedDC.png  used on input line 477.
+(pdftex.def)             Requested size: 431.25pt x 118.62885pt.
+
+Overfull \hbox (86.25pt too wide) in paragraph at lines 477--478
+ [][] 
+ []
+
+<JSONConversion.png, id=723, 317.68687pt x 359.84438pt>
+File: JSONConversion.png Graphic file (type png)
+<use JSONConversion.png>
+Package pdftex.def Info: JSONConversion.png  used on input line 486.
+(pdftex.def)             Requested size: 256.09853pt x 284.54848pt.
+[40 <./improvedDC.png (PNG copy)>] (./Hearthstone-ai.bbl [41 <./JSONConversion.
+png (PNG copy)>]
 Underfull \hbox (badness 10000) in paragraph at lines 26--31
 \OT1/cmr/m/n/10 hl = en & lr = &id = htJHI1UrL7IC & oi = fnd & pg = PR9 & dq = 
 evolutionary +
@@ -785,7 +867,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 75--79
 N-[]Gnc &
  []
 
-[40
+[42
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 171--175
@@ -799,15 +881,15 @@ Overfull \hbox (12.02847pt too wide) in paragraph at lines 171--175
 al-[]learning-[]methods-[]paper .
  []
 
-[41] [42] [43]) [44]
+[43] [44] [45]) [46]
 Chapter 6.
-<ProhibitedConduct.png, id=801, 609.02531pt x 482.55281pt>
+<ProhibitedConduct.png, id=814, 609.02531pt x 482.55281pt>
 File: ProhibitedConduct.png Graphic file (type png)
 <use ProhibitedConduct.png>
-Package pdftex.def Info: ProhibitedConduct.png  used on input line 472.
+Package pdftex.def Info: ProhibitedConduct.png  used on input line 504.
 (pdftex.def)             Requested size: 431.25pt x 341.70186pt.
 
-Overfull \hbox (86.25pt too wide) in paragraph at lines 472--474
+Overfull \hbox (86.25pt too wide) in paragraph at lines 504--506
  [][] 
  []
 
@@ -815,55 +897,454 @@ pdfTeX warning (ext4): destination with the same identifier (name{Hfootnote.30}
 ) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.477 ...xt{\url{https://www.magicfind.us/terms/}}
-                                                   [45
+l.509 ...xt{\url{https://www.magicfind.us/terms/}}
+                                                   [47
 
  <./ProhibitedConduct.png (PNG copy)>]
-<permission.png, id=808, 1013.28563pt x 201.75375pt>
+<permission.png, id=822, 1013.28563pt x 201.75375pt>
 File: permission.png Graphic file (type png)
 <use permission.png>
-Package pdftex.def Info: permission.png  used on input line 483.
+Package pdftex.def Info: permission.png  used on input line 515.
 (pdftex.def)             Requested size: 431.25pt x 85.86272pt.
 
-Overfull \hbox (86.25pt too wide) in paragraph at lines 483--485
+Overfull \hbox (86.25pt too wide) in paragraph at lines 515--517
  [][] 
  []
 
 File: "../../cards-standard-report.txt"  (verbatim)
-[46 <./permission.png (PNG copy)>]
-<csv.png, id=817, 816.04875pt x 464.4853pt>
-File: csv.png Graphic file (type png)
-<use csv.png>
-Package pdftex.def Info: csv.png  used on input line 495.
-(pdftex.def)             Requested size: 431.25pt x 245.4602pt.
-
-Overfull \hbox (86.25pt too wide) in paragraph at lines 495--497
- [][] 
+[48 <./permission.png (PNG copy)>]
+Overfull \hbox (1.49698pt too wide) in paragraph at lines 545--546
+\OT1/cmtt/m/n/10 "[153, 153, 164, 226, 226, 230, 230, 250, 348, 348, 460, 472, 
+472,
  []
 
-[47]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 501.
- [48 <./csv.png (PNG copy)>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 501.
+
+Overfull \hbox (27.74675pt too wide) in paragraph at lines 545--546
+\OT1/cmtt/m/n/10 477, 487, 497, 522, 522, 593, 652, 652, 841, 841, 891, 891, 11
+63, 1226,
+ []
+
+
+Overfull \hbox (17.24684pt too wide) in paragraph at lines 545--546
+\OT1/cmtt/m/n/10 "[32, 68, 228, 282, 296, 465, 502, 543, 567, 633, 699, 804, 81
+5, 945,
+ []
+
+
+Overfull \hbox (6.74693pt too wide) in paragraph at lines 545--546
+\OT1/cmtt/m/n/10 964, 1013, 1060, 1107, 1114, 1130, 1239, 1246, 1251, 213, 234,
+ 269,
+ []
+
+
+Overfull \hbox (6.74693pt too wide) in paragraph at lines 545--546
+\OT1/cmtt/m/n/10 "[64, 64, 74, 74, 192, 249, 249, 312, 312, 509, 622, 622, 663,
+ 663,
+ []
+
+
+Overfull \hbox (17.24684pt too wide) in paragraph at lines 545--546
+\OT1/cmtt/m/n/10 965, 965, 213, 304, 304, 550, 639, 639, 712, 712, 713, 713, 71
+8, 718,
+ []
+
+
+Overfull \hbox (1.49698pt too wide) in paragraph at lines 545--546
+\OT1/cmtt/m/n/10 "[149, 149, 318, 318, 364, 364, 483, 483, 553, 616, 616, 752, 
+752,
+ []
+
+
+Overfull \hbox (1.49698pt too wide) in paragraph at lines 545--546
+\OT1/cmtt/m/n/10 765, 765, 824, 900, 900, 1118, 1139, 1160, 1209, 1219, 1219, 1
+225,
+ []
+
+
+Overfull \hbox (11.99689pt too wide) in paragraph at lines 545--546
+\OT1/cmtt/m/n/10 "[17, 69, 69, 149, 149, 205, 205, 318, 318, 364, 364, 483, 483
+, 605,
+ []
+
+
+Overfull \hbox (17.24684pt too wide) in paragraph at lines 545--546
+\OT1/cmtt/m/n/10 616, 616, 707, 707, 765, 765, 1015, 1015, 1118, 1139, 1225, 97
+2, 972,
+ []
+
+
+Overfull \hbox (1.49698pt too wide) in paragraph at lines 545--546
+\OT1/cmtt/m/n/10 "[164, 178, 206, 250, 295, 348, 472, 487, 497, 522, 591, 593, 
+629,
+ []
+
+
+Overfull \hbox (11.99689pt too wide) in paragraph at lines 545--546
+\OT1/cmtt/m/n/10 652, 772, 841, 891, 963, 1008, 1163, 1196, 1226, 453, 755, 935
+, 940,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 545--546
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 545--546
+
+ []
+
+
+Overfull \hbox (6.74693pt too wide) in paragraph at lines 545--546
+\OT1/cmtt/m/n/10 "[8, 8, 15, 15, 17, 17, 23, 23, 78, 78, 96, 96, 149, 149, 318,
+ 318,
+ []
+
+
+Overfull \hbox (59.24648pt too wide) in paragraph at lines 545--546
+\OT1/cmtt/m/n/10 364, 364, 393, 393, 396, 396, 462, 462, 611, 611, 616, 616, 44
+1, 441]",Priest 
+ []
+
+
+Overfull \hbox (22.4968pt too wide) in paragraph at lines 545--546
+\OT1/cmtt/m/n/10 "[7, 7, 29, 29, 303, 303, 328, 328, 351, 400, 400, 556, 556, 7
+17, 717,
+ []
+
+
+Overfull \hbox (11.99689pt too wide) in paragraph at lines 545--546
+\OT1/cmtt/m/n/10 761, 780, 780, 869, 869, 885, 885, 942, 942, 1037, 1127, 1128,
+ 1175,
+ []
+
+
+Overfull \hbox (11.99689pt too wide) in paragraph at lines 545--546
+\OT1/cmtt/m/n/10 "[10, 10, 12, 12, 13, 13, 61, 61, 126, 126, 302, 302, 334, 334
+, 411,
+ []
+
+
+Overfull \hbox (17.24684pt too wide) in paragraph at lines 545--546
+\OT1/cmtt/m/n/10 411, 448, 685, 748, 801, 801, 840, 840, 1032, 1229, 1034, 1034
+, 1180,
+ []
+
+
+Overfull \hbox (22.4968pt too wide) in paragraph at lines 545--546
+\OT1/cmtt/m/n/10 "[17, 17, 65, 65, 84, 84, 173, 173, 202, 202, 238, 284, 284, 2
+89, 289,
+ []
+
+
+Overfull \hbox (11.99689pt too wide) in paragraph at lines 545--546
+\OT1/cmtt/m/n/10 321, 547, 547, 599, 599, 742, 742, 795, 795, 1038, 1038, 1062,
+ 1062,
+ []
+
+
+Overfull \hbox (1.49698pt too wide) in paragraph at lines 545--546
+\OT1/cmtt/m/n/10 "[224, 224, 303, 303, 351, 377, 377, 485, 485, 486, 486, 516, 
+691,
+ []
+
+
+Overfull \hbox (17.24684pt too wide) in paragraph at lines 545--546
+\OT1/cmtt/m/n/10 691, 761, 869, 869, 870, 870, 885, 885, 912, 912, 1216, 1216, 
+31, 31,
+ []
+
+
+Overfull \hbox (17.24684pt too wide) in paragraph at lines 545--546
+\OT1/cmtt/m/n/10 "[12, 12, 171, 171, 180, 180, 183, 183, 242, 242, 265, 265, 57
+6, 645,
+ []
+
+
+Overfull \hbox (17.24684pt too wide) in paragraph at lines 545--546
+\OT1/cmtt/m/n/10 645, 664, 664, 684, 684, 911, 938, 107, 107, 189, 189, 449, 44
+9, 441,
+ []
+
+
+Overfull \hbox (11.99689pt too wide) in paragraph at lines 545--546
+\OT1/cmtt/m/n/10 "[2, 2, 16, 16, 19, 19, 133, 133, 140, 140, 159, 159, 204, 204
+, 281,
+ []
+
+
+Overfull \hbox (17.24684pt too wide) in paragraph at lines 545--546
+\OT1/cmtt/m/n/10 281, 292, 292, 427, 427, 444, 444, 497, 527, 521, 521, 635, 63
+5, 939,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 545--546
+
+ []
+
+[49] [50]
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
+nput line 548.
+ (../../example-json.json
+LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 2
+.
+
+(/usr/share/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 2.
+
+Overfull \hbox (95.00427pt too wide) in paragraph at lines 18--19
+[][] 
+ []
+
+
+Overfull \hbox (107.0044pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+[51]
+Overfull \hbox (95.00427pt too wide) in paragraph at lines 44--45
+[][] 
+ []
+
+
+Overfull \hbox (107.0044pt too wide) in paragraph at lines 45--46
+[][] 
+ []
+
+LaTeX Font Info:    Trying to load font information for OML+cmr on input line 6
+2.
+(/usr/share/texmf-dist/tex/latex/base/omlcmr.fd
+File: omlcmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 62.
+
+Overfull \hbox (95.00427pt too wide) in paragraph at lines 67--68
+[][] 
+ []
+
+[52]
+Overfull \hbox (107.0044pt too wide) in paragraph at lines 68--69
+[][] 
+ []
+
+
+Overfull \hbox (95.00427pt too wide) in paragraph at lines 90--91
+[][] 
+ []
+
+
+Overfull \hbox (107.0044pt too wide) in paragraph at lines 91--92
+[][] 
+ []
+
+[53]
+Overfull \hbox (101.00433pt too wide) in paragraph at lines 115--116
+[][] 
+ []
+
+
+Overfull \hbox (101.00433pt too wide) in paragraph at lines 139--140
+[][] 
+ []
+
+[54]
+Overfull \hbox (107.0044pt too wide) in paragraph at lines 166--167
+[][] 
+ []
+
+[55]
+Overfull \hbox (107.0044pt too wide) in paragraph at lines 196--197
+[][] 
+ []
+
+[56]
+Overfull \hbox (101.00433pt too wide) in paragraph at lines 224--225
+[][] 
+ []
+
+
+Overfull \hbox (101.00433pt too wide) in paragraph at lines 225--226
+[][] 
+ []
+
+
+Overfull \hbox (101.00433pt too wide) in paragraph at lines 250--251
+[][] 
+ []
+
+
+Overfull \hbox (101.00433pt too wide) in paragraph at lines 251--252
+[][] 
+ []
+
+[57]
+Overfull \hbox (83.00415pt too wide) in paragraph at lines 280--281
+[][] 
+ []
+
+[58]
+Overfull \hbox (101.00433pt too wide) in paragraph at lines 308--309
+[][] 
+ []
+
+
+Overfull \hbox (101.00433pt too wide) in paragraph at lines 309--310
+[][] 
+ []
+
+
+Overfull \hbox (101.00433pt too wide) in paragraph at lines 329--330
+[][] 
+ []
+
+[59]
+Overfull \hbox (101.00433pt too wide) in paragraph at lines 330--331
+[][] 
+ []
+
+
+Overfull \hbox (101.00433pt too wide) in paragraph at lines 350--351
+[][] 
+ []
+
+[60]
+Overfull \hbox (101.00433pt too wide) in paragraph at lines 375--376
+[][] 
+ []
+
+
+Overfull \hbox (107.0044pt too wide) in paragraph at lines 397--398
+[][] 
+ []
+
+[61]
+Overfull \hbox (107.0044pt too wide) in paragraph at lines 419--420
+[][] 
+ []
+
+[62]
+Overfull \hbox (89.00421pt too wide) in paragraph at lines 444--445
+[][] 
+ []
+
+
+Overfull \hbox (71.00403pt too wide) in paragraph at lines 445--446
+[][] 
+ []
+
+
+Overfull \hbox (89.00421pt too wide) in paragraph at lines 470--471
+[][] 
+ []
+
+[63]
+Overfull \hbox (71.00403pt too wide) in paragraph at lines 471--472
+[][] 
+ []
+
+
+Overfull \hbox (107.0044pt too wide) in paragraph at lines 501--502
+[][] 
+ []
+
+[64]
+Overfull \hbox (107.0044pt too wide) in paragraph at lines 531--532
+[][] 
+ []
+
+[65]
+Overfull \hbox (107.0044pt too wide) in paragraph at lines 555--556
+[][] 
+ []
+
+
+Overfull \hbox (107.0044pt too wide) in paragraph at lines 579--580
+[][] 
+ []
+
+[66]
+Overfull \hbox (77.00409pt too wide) in paragraph at lines 604--605
+[][] 
+ []
+
+
+Overfull \hbox (101.00433pt too wide) in paragraph at lines 605--606
+[][] 
+ []
+
+[67]
+Overfull \hbox (77.00409pt too wide) in paragraph at lines 625--626
+[][] 
+ []
+
+
+Overfull \hbox (101.00433pt too wide) in paragraph at lines 626--627
+[][] 
+ []
+
+
+Overfull \hbox (89.00421pt too wide) in paragraph at lines 643--644
+[][] 
+ []
+
+[68]
+Overfull \hbox (59.0039pt too wide) in paragraph at lines 668--669
+[][] 
+ []
+
+
+Overfull \hbox (107.0044pt too wide) in paragraph at lines 669--670
+[][] 
+ []
+
+[69]
+Overfull \hbox (59.0039pt too wide) in paragraph at lines 694--695
+[][] 
+ []
+
+
+Overfull \hbox (107.0044pt too wide) in paragraph at lines 695--696
+[][] 
+ []
+
+
+Overfull \hbox (107.0044pt too wide) in paragraph at lines 720--721
+[][] 
+ []
+
+[70]
+Overfull \hbox (107.0044pt too wide) in paragraph at lines 745--746
+[][] 
+ []
+
+)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 552.
+ [71]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 552.
  (./Hearthstone-ai.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 501.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 501.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 552.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 552.
 Package rerunfilecheck Info: File `Hearthstone-ai.out' has not changed.
 (rerunfilecheck)             Checksum: 3D6CB556762F69808A3AE03842B7111E;3038.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 501.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 552.
  ) 
 Here is how much of TeX's memory you used:
- 11530 strings out of 480478
- 219468 string characters out of 5905958
- 499101 words of memory out of 5000000
- 27146 multiletter control sequences out of 15000+600000
+ 13945 strings out of 480478
+ 253325 string characters out of 5905958
+ 610783 words of memory out of 5000000
+ 28759 multiletter control sequences out of 15000+600000
  541524 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,9n,46p,2075b,857s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 39i,9n,46p,2075b,2131s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{Hfootnote.31} has been referenced but does not ex
 ist, replaced by a fixed one
 
@@ -871,18 +1352,20 @@ ist, replaced by a fixed one
 xmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-dist/fonts
 /type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/
 amsfonts/cm/cmcsc10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/
-share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></us
-r/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/share/texmf-dist/fonts/type
-1/public/cm-super/sfrm1000.pfb>
-Output written on Hearthstone-ai.pdf (50 pages, 3566042 bytes).
+mmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr
+/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmr6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></us
+r/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmtt10.pfb></usr/share/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmtt8.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1000.p
+fb>
+Output written on Hearthstone-ai.pdf (73 pages, 3485557 bytes).
 PDF statistics:
- 927 PDF objects out of 1000 (max. 8388607)
- 823 compressed objects within 9 object streams
- 237 named destinations out of 1000 (max. 500000)
- 480 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1955 PDF objects out of 2073 (max. 8388607)
+ 1815 compressed objects within 19 object streams
+ 1017 named destinations out of 1200 (max. 500000)
+ 485 words of extra memory for PDF output out of 10000 (max. 10000000)
 
