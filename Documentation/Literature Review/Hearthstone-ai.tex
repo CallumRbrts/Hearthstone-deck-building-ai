@@ -488,7 +488,14 @@ To convert the scraped data to a JSON format, the name of the cards need to be s
  \label{board}
 \end{figure}
 
---talk about reading json differenced to csv -- HSAINEW
+Since the file type for the datasets has changes from \texttt{csv} to JSON, it means that the file loading needs to be modified to work with the updated datasets. Luckily it is straightforward to load JSON data, with the \texttt{json} library, simply load the file (as seen in figure 5.12), there is also a check to only register decks of legal length.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=1.25\textwidth]{readJSONDecks}
+\caption{Read JSON file\protect}
+ \label{board}
+\end{figure}
 
 \subsection{Implementation of Web Scraper}
 \section{Generative Adversarial Network}
