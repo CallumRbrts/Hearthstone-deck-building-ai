@@ -492,12 +492,57 @@ Since the file type for the datasets has changes from \texttt{csv} to JSON, it m
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=1.25\textwidth]{readJSONDecks}
+\includegraphics[width=1\textwidth]{readJSONDecks}
 \caption{Read JSON file\protect}
  \label{board}
 \end{figure}
 
 \subsection{Implementation of Web Scraper}
+Now that the methods surrounding the web scraper have been detailed, the implementation of the web scraper can begin. Firstly, the library that is used to get the data is \texttt{requests}, and the library that is used to parse through the data is \texttt{Beautiful Soup}. Before harvesting the data, the url needs to be determined for the request method to work, since there are 10 classes in Hearthstone, 10 separate urls will be needed. The urls are uncomplicated to find, figure 5.13 shows the filter section of the deck search on Hearthpwn. Every class has a unique id when attempting to filter: \texttt{'Demon Hunter' : 16384,
+          'Druid' : 4,
+          'Hunter' : 8,
+          'Mage' : 16,
+          'Paladin' : 32,
+          'Priest' : 64, 
+          'Rogue' : 128,
+          'Shaman' : 256,
+          'Warlock' : 512,
+          'Warrior' : 1024}\\
+So a dictionary was created to store these values so that when the web scraper goes to collect a certain class decks, it can find the values easily. An example url will look like: \nolinkurl{https://www.hearthpwn.com/decks?filter-show-standard=1&filter-show-constructed-only=y&filter-deck-tag=1&filter-class=4)}. This link will only show standard and constructed decks, \texttt{filter-deck-tag} sorts the decks buy \texttt{"hot"}, which means popular decks and of course the class filter, in this example it is Druid decks.
+\begin{figure}[H]
+\centering
+\includegraphics[width=1\textwidth]{HSpwnDecks}
+\caption{Hearthpwn deck search\protect}
+ \label{board}
+\end{figure}
+
+The links though will only display the first page of decks, which is around 25 decks per page, the are many more but the number is not fixed, so before the decks can be collected, the number of pages there are needs to be found, \nolinkurl{page_max} does just that (figure 5.14).
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=1.25\textwidth]{pageMax}
+\caption{Function that finds the number of deck pages there are\protect}
+ \label{board}
+\end{figure}
+
+The scraping needs to be done in two parts, this is because the results shown on the deck search page does not include the cards that are use to build the deck, that is hidden behind another link to the deck information. This means that initially, the links to the decks needs to be collected, then another part needs to go within those collected links to harvest the card data. The \nolinkurl{scrape_decks} function takes a class as an argument and creates the starting links for the selected class and gets every deck link, from all the pages (figure 5.15). 
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=1.25\textwidth]{scrapeDecks}
+\caption{Gets all deck links from class page\protect}
+ \label{board}
+\end{figure}
+
+After the deck links are collected, another function called \nolinkurl{cards_from_url} is called, this take the urls as an argument and returns the deck lists in their default format (figure 5.16). It navigates thorough the page into the html table containing the list of cards and gets the names. Finding the correct tables and containers was found through trial and error, but is consistent throughout every page on the site.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=1.25\textwidth]{cardsURL}
+\caption{Gets all deck links from class page\protect}
+ \label{board}
+\end{figure}
+
 \section{Generative Adversarial Network}
 %----------------------------------------------------------------------------------------
 %	BIBLIOGRAPHY

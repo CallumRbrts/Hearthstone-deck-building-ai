@@ -69,5 +69,5 @@
 \contentsline {subsection}{\numberline {5.2.4}Improved Method}{39}{subsection.5.2.4}%
 \contentsline {subsubsection}{\numberline {5.2.4.1}Implementation of Improved Method}{39}{subsubsection.5.2.4.1}%
 \contentsline {subsection}{\numberline {5.2.5}Implementation of Web Scraper}{42}{subsection.5.2.5}%
-\contentsline {section}{\numberline {5.3}Generative Adversarial Network}{42}{section.5.3}%
-\contentsline {chapter}{\numberline {6}Appendix}{48}{chapter.6}%
+\contentsline {section}{\numberline {5.3}Generative Adversarial Network}{45}{section.5.3}%
+\contentsline {chapter}{\numberline {6}Appendix}{51}{chapter.6}%
