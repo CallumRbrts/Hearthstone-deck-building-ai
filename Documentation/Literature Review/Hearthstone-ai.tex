@@ -539,11 +539,39 @@ After the deck links are collected, another function called \nolinkurl{cards_fro
 \begin{figure}[H]
 \centering
 \includegraphics[width=1.25\textwidth]{cardsURL}
-\caption{Gets all deck links from class page\protect}
+\caption{Gets cards from deck links\protect}
  \label{board}
 \end{figure}
 
 \section{Generative Adversarial Network}
+\subsection{Introduction}
+When researching GANs, the main application that they were used for was image generation with human and artistic applications, creating realistic people that do not exist from many images of people. The GAN made use of libraries to convert the images into two dimensional arrays, single dimensional arrays seemed scarce at best. Only a few basic tutorials about vectors in a two dimensional space could be observed using single dimensional input. Making use of what little information about single dimension GANs was available, the conversion from 2D to 1D started. The vectorization of decks idea was thought of when the conversion of images was observed. The point is that by feeding the GAN many vector inputs, the resulting output will be a vector that is similar to the training vectors but different enough for it to create unique vectors, whilst demonstrating "thinking" on the GANs part. 
+\subsection{Implementation}
+The structure of the implementation is as follows, to begin the generator and discriminator models will be define, then how it combines into a GAN, after that the training process will be discussed, finally the performance summary will be detailed.
+\subsubsection{Generator}
+The generator is a sub-model of the GAN that will generate the deck vectors. The generator is composed of layers, an input layer, an output and activation layers between. A dropout layer is also added to the generator to help prevent over-fitting by randomly setting inputs to 0 during training time. The number of activation layers added to the generator is the result of many hours of optimization, when training graphs are displayed showing how similar the generated deck is to a real deck. After hours of tweaking, one input layer, one output layer and two activation layers (of 200 activations) seems to produce the best outcomes. All the layers except the output layer are \texttt{ReLU} activated, this limits the vectors from going into the negative numbers. The output layer is set to \texttt{linear} otherwise if there are any card ids generated that do go into the negative, they will automatically be set to 0 which is a card id itself. The generated negatives numbers and how they are dealt with is discussed later on. The loss is calculated through binary cross-entropy, because it categorizes a deck to be either 0 (a fake deck) or 1 (a real deck). Figure 5.17 shows the code implementation of what was described, the \nolinkurl{Sequential} function is part of the \texttt{keras} library function to declare the model, \nolinkurl{Dense} and \nolinkurl{Dropout} as also part of \texttt{keras}.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=1.25\textwidth]{generator}
+\caption{Define generator model\protect}
+ \label{board}
+\end{figure}
+\subsubsection{Discriminator}
+\subsubsection{GAN}
+\subsubsection{Training}
+\subsubsection{Summarize Performance}
+\subsection{Initial Results}
+-- multi class decks --
+-- only warrior deck trained --
+-- negative ids --
+-- illegal decks --
+\subsection{Improvements}
+\subsubsection{Class Choice}
+\subsubsection{Deck Verification}
+--verify if deck is legal --
+\subsubsection{Limit Card Data}
+
 %----------------------------------------------------------------------------------------
 %	BIBLIOGRAPHY
 %---------------------
