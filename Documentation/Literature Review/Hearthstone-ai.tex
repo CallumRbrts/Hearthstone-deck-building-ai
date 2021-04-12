@@ -545,11 +545,11 @@ After the deck links are collected, another function called \nolinkurl{cards_fro
 
 \section{Generative Adversarial Network}
 \subsection{Introduction}
-When researching GANs, the main application that they were used for was image generation with human and artistic applications, creating realistic people that do not exist from many images of people. The GAN made use of libraries to convert the images into two dimensional arrays, single dimensional arrays seemed scarce at best. Only a few basic tutorials about vectors in a two dimensional space could be observed using single dimensional input. Making use of what little information about single dimension GANs was available, the conversion from 2D to 1D started. The vectorization of decks idea was thought of when the conversion of images was observed. The point is that by feeding the GAN many vector inputs, the resulting output will be a vector that is similar to the training vectors but different enough for it to create unique vectors, whilst demonstrating "thinking" on the GANs part. 
+When researching GANs, the main application that they were used for was image generation with human and artistic applications, creating realistic people that do not exist from many images of people. The GAN made use of libraries to convert the images into two dimensional arrays, single dimensional arrays seemed scarce at best. Only a few basic tutorials about vectors in a two dimensional space could be observed using single dimensional input. Making use of what little information about single dimension GANs was available, the conversion from 2D to 1D started. The vectorization of decks idea was thought of when the conversion of images was observed. The point is that by feeding the GAN many vector inputs, the resulting output will be a vector that is similar to the training vectors but different enough for it to create unique vectors, whilst demonstrating "thinking" on the GANs part. (talk about tutorial that inspired me and reference it)
 \subsection{Implementation}
 The structure of the implementation is as follows, to begin the generator and discriminator models will be define, then how it combines into a GAN, after that the training process will be discussed, finally the performance summary will be detailed.
 \subsubsection{Generator}
-The generator is a sub-model of the GAN that will generate the deck vectors. The generator is composed of layers, an input layer, an output and activation layers between. A dropout layer is also added to the generator to help prevent over-fitting by randomly setting inputs to 0 during training time. The number of activation layers added to the generator is the result of many hours of optimization, when training graphs are displayed showing how similar the generated deck is to a real deck. After hours of tweaking, one input layer, one output layer and two activation layers (of 200 activations) seems to produce the best outcomes. All the layers except the output layer are \texttt{ReLU} activated, this limits the vectors from going into the negative numbers. The output layer is set to \texttt{linear} otherwise if there are any card ids generated that do go into the negative, they will automatically be set to 0 which is a card id itself. The generated negatives numbers and how they are dealt with is discussed later on. The loss is calculated through binary cross-entropy, because it categorizes a deck to be either 0 (a fake deck) or 1 (a real deck). Figure 5.17 shows the code implementation of what was described, the \nolinkurl{Sequential} function is part of the \texttt{keras} library function to declare the model, \nolinkurl{Dense} and \nolinkurl{Dropout} as also part of \texttt{keras}.
+The generator is a sub-model of the GAN that will generate the deck vectors. The generator is composed of layers, an input layer, an output and activation layers between. A dropout layer is also added to the generator to help prevent over-fitting by randomly setting inputs to 0 during training time. The number of activation layers added to the generator is the result of many hours of optimization, when training graphs are displayed showing how similar the generated deck is to a real deck. After hours of tweaking, one input layer, one output layer and two activation layers (of 200 activations) seems to produce the best outcomes. All the layers except the output layer are \texttt{ReLU} activated, this limits the vectors from going into the negative numbers. The output layer is set to \texttt{linear} otherwise if there are any card ids generated that do go into the negative, they will automatically be set to 0 which is a card id itself. The generated negatives numbers and how they are dealt with is discussed later on. The loss is calculated through \texttt{binary cross-entropy}, because it categorizes a deck to be either 0 (a fake deck) or 1 (a real deck). Figure 5.17 shows the code implementation of what was described, the \nolinkurl{Sequential} function is part of the \texttt{keras} library function to declare the model, \nolinkurl{Dense} and \nolinkurl{Dropout} as also part of \texttt{keras}.
 
 \begin{figure}[H]
 \centering
@@ -558,9 +558,45 @@ The generator is a sub-model of the GAN that will generate the deck vectors. The
  \label{board}
 \end{figure}
 \subsubsection{Discriminator}
+The discriminator is the second sub-model that constitutes the GAN, the purpose of the discriminator is to determine if a deck vector created by the generator resembles the deck vectors from the training dataset. The model is smaller than a generator model with just an input and an output layer. The input layer has 30 activations and take a generated vector with 30 inputs (the amount of cards within deck) with \texttt{ReLU} activation. The output layer has a single output and a sigmoid activation, this is because the output of the discriminator is a binary result, 0 for fake, 1 for real. This sub-model is also reliant on \texttt{binary cross-entropy}. Figure 5.18 is a code snippet of the discriminator illustrating the explanation.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=1.25\textwidth]{discriminator}
+\caption{Define discriminator model\protect}
+ \label{board}
+\end{figure}
+
 \subsubsection{GAN}
+The GAN section is where both the generator and the discriminator sub-models are added to the GAN model. There is also a setting that needs to be changed, the discriminator needs the weights to not be trainable or the criteria of the discriminator will change and disrupt the training process. 
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=1.25\textwidth]{gan}
+\caption{GAN model\protect}
+ \label{board}
+\end{figure}
+
 \subsubsection{Training}
+This section is where the training of the GAN happens. The training process starts off by preparing the real and fake decks, the real ones are sampled from the dataset randomly and the fake decks are generated randomly (not by the generator). The results from these functions return an \texttt{x} and a \texttt{y} variable, so \nolinkurl{x_real}, \nolinkurl{x_fake}, \nolinkurl{y_real} and \nolinkurl{y_fake}. The \texttt{x} variable contains the array of deck vectors and the y their labels, their labels being a binary to help the GAN distinguish if they are a real or a fake deck. After the real and fake decks are gathered, they are used to update the discriminator model, so that it can distinguish real decks from fake decks. \\
+Once the discriminator model has trained, the generator creates a deck vector to attempt to trick the discriminator. The deck is then trained on the GAN model to update the generator based on the discriminator's error.  \\
+The whole process is repeated for the number of epochs given, for this GAN model it is 10,000 epochs. Every thousand epochs a performance summary is done to evaluate the GAN. Which is the subject of the next sub section. Figure 5.20 shows the code of what has been described above. When a summarize performance function is called, a generated GAN is then appended to an array, these will be the resulting decks, the reason why this is done is because, depending on how the model started the model tends to overfit towards the end of the training process but the number of epochs is never the same so by saving each deck, a function can then be called to sort the illegal decks and identify the better deck.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=1.25\textwidth]{train}
+\caption{Training process of the GAN\protect}
+ \label{board}
+\end{figure}
 \subsubsection{Summarize Performance}
+This part of the training process is called every thousand epochs in the training, it is used to evaluate the training process to check the progress, and for any improvements, signs of over-fitting etc...\\ Just like in the training process a real and a fake deck is gathered, however instead of updating the models, instead they are evaluated and a accuracy is return. Since the process is using binary results, the discriminator will evaluate the deck with either a 0 or a 1. Theoretically the discriminator should always display 1 for real decks and then either 0 or 1 for fake ones. After, a graph is drawn displaying the both decks, this is to check their similarity. Refer to figure 5.21 for illustration in code form.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=1.25\textwidth]{sumPer}
+\caption{Summarize performance of the GAN\protect}
+ \label{board}
+\end{figure}
 \subsection{Initial Results}
 -- multi class decks --
 -- only warrior deck trained --
