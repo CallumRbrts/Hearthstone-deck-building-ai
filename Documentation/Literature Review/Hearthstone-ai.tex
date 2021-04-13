@@ -598,11 +598,22 @@ This part of the training process is called every thousand epochs in the trainin
  \label{board}
 \end{figure}
 \subsection{Initial Results}
--- multi class decks --
--- only warrior deck trained --
--- negative ids --
--- illegal decks --
+
+Initially the results of the training process were less than ideal, despite having the decks having similar structure (figure 5.22) the issue was that the decks that were created had cards from all the classes. The reason why this happened is because when the GAN trains, it tends to predict cards around the same point as the real cards, but it never produce something identical, and the way the cards are identified is sorted by Hearthstone's default sorting which is cost, so the class cards end up spread across the array of cards the GAN is training from, resulting in multiclass decks that are considered illegal and thus cannot be played. In this case the deck training was limited to the Warrior class dataset, so a method would need to be devised to make a choice.   
+
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=1\textwidth]{initialTraining}
+\caption{Similarity between generated and real deck, blue represents fake deck and red the real deck \protect}
+ \label{board}
+\end{figure}
+
+Another problem that will need to be dealt with is the appearance of negative id's, because of the way the generator model creates decks, some of the cards that are low in the card array can cause the generator to predict negative identifiers for cards, and those cards do not exist. There are a few options that can be considered, such as removing the generated decks that have negative numbers, but will there be any generated decks at the end? The generator model could be changed to not allow negative identifiers to exist, but then there will be a lot of cards of id 0, meaning that there will be more than 2 duplicates of that card resulting in an illegal deck. Or a method that does an absolute of the negative number to make it positive, however if the negative number is too high then it might go outside the range of the card array.\\ \\
+Finally, the GAN may not guarantee the generation of legal decks, so a method would need to be written to filter out the illegal decks, such as over 30 cards, more than 2 duplicates of normal cards, duplicates of legendary cards, etc...
+
 \subsection{Improvements}
+This section will discuss the improvements that were made to the GAN in order to solve some of the issues discussed previously.
 \subsubsection{Class Choice}
 \subsubsection{Deck Verification}
 --verify if deck is legal --
