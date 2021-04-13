@@ -80,6 +80,6 @@
 \contentsline {subsection}{\numberline {5.3.3}Initial Results}{49}{subsection.5.3.3}%
 \contentsline {subsection}{\numberline {5.3.4}Improvements}{50}{subsection.5.3.4}%
 \contentsline {subsubsection}{\numberline {5.3.4.1}Class Choice}{50}{subsubsection.5.3.4.1}%
-\contentsline {subsubsection}{\numberline {5.3.4.2}Deck Verification}{50}{subsubsection.5.3.4.2}%
-\contentsline {subsubsection}{\numberline {5.3.4.3}Limit Card Data}{50}{subsubsection.5.3.4.3}%
-\contentsline {chapter}{\numberline {6}Appendix}{56}{chapter.6}%
+\contentsline {subsubsection}{\numberline {5.3.4.2}Limit Card Data}{51}{subsubsection.5.3.4.2}%
+\contentsline {subsubsection}{\numberline {5.3.4.3}Deck Verification}{52}{subsubsection.5.3.4.3}%
+\contentsline {chapter}{\numberline {6}Appendix}{59}{chapter.6}%
