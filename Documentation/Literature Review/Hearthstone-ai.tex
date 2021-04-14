@@ -654,7 +654,7 @@ Finally, to verify that there are not too many duplicate cards in the deck, a me
 \begin{figure}[H]
 \centering
 \includegraphics[width=1\textwidth]{duplicates}
-\caption{Convert negative id's and check for legal deck size \protect}
+\caption{Check for duplicate cards \protect}
  \label{board}
 \end{figure}
 
@@ -672,8 +672,65 @@ The testing should reflect the following statements:
 \end{itemize}
 \section{Simulator}
 \subsection{Fireplace}
+As explained previously fireplace is a github project run by HearthSim, it can be imported as a python library to be used for testing the generated decks. Fireplace is generally better because it is maintained, and speedy. However there are some changes that need to be made to the simulator as the base file that runs the games generates random decks to test.
 \subsection{Changes}
-\subsection{Limitations}
+There were two kinds of changes that needed to be made, first of all the actual file changes to the project to be able to feed the generate decks into, then extra code needed to be added externally to call the library
+\subsubsection{File changes}
+Two files were changed, the \nolinkurl{utils_fireplace.py} file which is a copy adaptation of \nolinkurl{utils.py} file which was moved because of python file traversal limitations preventing users from navigation back through file systems effectively. The other file changed was \nolinkurl{full_game.py} to accommodate more arguments and allow user created and AI generated decks to be played.
+
+First the changes to \nolinkurl{full_game.py}, initially the fireplace simulator did not accept arguments, the main was changed to be able to get them, since ideally the generated decks want to be played against real users decks, both deck lists and their classes need to be passed through. Then a function imported from the \nolinkurl{utils_fireplace.py} file, which sets up the games and plays the decks given. 
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=1.25\textwidth]{simMain}
+\caption{\nolinkurl{full_game.py} main function \protect}
+ \label{board}
+\end{figure}
+
+The changes to \nolinkurl{utils_fireplace.py} are more substantial, the \nolinkurl{play_full_game()} function is changed slighly to pass variables to the \nolinkurl{setup_game()} function (figure 6.2). The rest does not need to be changed because the scope of our testing is focused on deck building rather than improving the AI playing the decks. 
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=1.25\textwidth]{playFullGame}
+\caption{\nolinkurl{play_full_game} function \protect}
+ \label{board}
+\end{figure}
+
+Before changing the \nolinkurl{setup_game()} function it was coded statically, only a single class was chosen per player. Using the arguments sent by the main, the code was adapted to make it dynamic (figure 6.3), however a \nolinkurl{class_converter()} function was written to convert the string inputs of the two players classes to an object so that the simulator can register them as that player (figure 6.4)
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=1\textwidth]{setupGame}
+\caption{\nolinkurl{setup_game} function \protect}
+ \label{board}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=9cm, height=10cm]{classConverter}
+\caption{\nolinkurl{class_converter} function \protect}
+ \label{board}
+\end{figure}
+
+The simulator ends when a GameOver call is made, to save the results of the simulator in the \nolinkurl{play_turn()} function, a catch exception was made which gets both players match results. Either \nolinkurl{PlayState.WON} or \nolinkurl{PlayState.LOST}. This is then written into a text file in order to save the results for further evaluation later. 
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=1\textwidth]{playTurn}
+\caption{\nolinkurl{play_turn} function exception\protect}
+ \label{board}
+\end{figure}
+
+\subsection{External Code}
+Originally, the execution of the simulator was going to be done through the library, however there was a problem encountered were the changed code would not get updated through the library. After many hours of attempting to get it working, another method was found to work. This method used Python's exec function, which essentially runs the code like it would be done in the terminal. The results of the simulator are then collected from the \nolinkurl{results.txt}, which is then saved into an array to evaluate the win rate.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=1\textwidth]{simExec}
+\caption{function that runs the simulator\protect}
+ \label{board}
+\end{figure}
+
 \section{Comparing type split for real and fake decks}
 \subsection{Test 1}
 \section{Comparing neutral split for real and fake decks}
@@ -683,6 +740,7 @@ The testing should reflect the following statements:
 
 \chapter{Evaluation}
 --simulator limited--
+-- logging buffered messages which crashed program--
 %----------------------------------------------------------------------------------------
 %	BIBLIOGRAPHY
 %---------------------

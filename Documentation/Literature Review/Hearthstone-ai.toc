@@ -84,15 +84,16 @@
 \contentsline {subsubsection}{\numberline {5.3.4.3}Deck Verification}{52}{subsubsection.5.3.4.3}%
 \contentsline {chapter}{\numberline {6}Testing}{54}{chapter.6}%
 \contentsline {section}{\numberline {6.1}Aims}{54}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Simulator}{55}{section.6.2}%
-\contentsline {subsection}{\numberline {6.2.1}Fireplace}{55}{subsection.6.2.1}%
+\contentsline {section}{\numberline {6.2}Simulator}{54}{section.6.2}%
+\contentsline {subsection}{\numberline {6.2.1}Fireplace}{54}{subsection.6.2.1}%
 \contentsline {subsection}{\numberline {6.2.2}Changes}{55}{subsection.6.2.2}%
-\contentsline {subsection}{\numberline {6.2.3}Limitations}{55}{subsection.6.2.3}%
-\contentsline {section}{\numberline {6.3}Comparing type split for real and fake decks}{55}{section.6.3}%
-\contentsline {subsection}{\numberline {6.3.1}Test 1}{55}{subsection.6.3.1}%
-\contentsline {section}{\numberline {6.4}Comparing neutral split for real and fake decks}{55}{section.6.4}%
-\contentsline {section}{\numberline {6.5}Comparing mana curve for real and fake decks}{55}{section.6.5}%
-\contentsline {section}{\numberline {6.6}Testing winrates versus Real decks}{55}{section.6.6}%
-\contentsline {section}{\numberline {6.7}Testing winrates versus random decks}{55}{section.6.7}%
-\contentsline {chapter}{\numberline {7}Evaluation}{56}{chapter.7}%
-\contentsline {chapter}{\numberline {8}Appendix}{62}{chapter.8}%
+\contentsline {subsubsection}{\numberline {6.2.2.1}File changes}{55}{subsubsection.6.2.2.1}%
+\contentsline {subsection}{\numberline {6.2.3}External Code}{58}{subsection.6.2.3}%
+\contentsline {section}{\numberline {6.3}Comparing type split for real and fake decks}{58}{section.6.3}%
+\contentsline {subsection}{\numberline {6.3.1}Test 1}{58}{subsection.6.3.1}%
+\contentsline {section}{\numberline {6.4}Comparing neutral split for real and fake decks}{58}{section.6.4}%
+\contentsline {section}{\numberline {6.5}Comparing mana curve for real and fake decks}{58}{section.6.5}%
+\contentsline {section}{\numberline {6.6}Testing winrates versus Real decks}{58}{section.6.6}%
+\contentsline {section}{\numberline {6.7}Testing winrates versus random decks}{58}{section.6.7}%
+\contentsline {chapter}{\numberline {7}Evaluation}{59}{chapter.7}%
+\contentsline {chapter}{\numberline {8}Appendix}{65}{chapter.8}%
