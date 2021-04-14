@@ -658,7 +658,31 @@ Finally, to verify that there are not too many duplicate cards in the deck, a me
  \label{board}
 \end{figure}
 
+\chapter{Testing}
+\section{Aims}
+The aim of the project is to generate playable Hearthstone decks from an AI. The secondary goal is to generate decks with a good win to loss ratio, so more wins than losses. The datasets used for training were collected with a created web scraper, one for each class. To test these decks, a simulator will be used to play the decks, the selection process of the simulator and how it was implemented is explained in the next section.\\
+The testing should reflect the following statements: 
+\begin{itemize}
+\item The overall win rate of a generated deck should be over 50\%, to pertain the relevance of creating a deck
+\item A generated deck should have a similar \textbf{type split} to a real deck
+\item A generated deck should have a similar \textbf{neutral split} to a real deck
+\item A generated deck should have a similar \textbf{mana curve} to a real deck
+\item The criteria of a considered legal deck should not be breached, illegal decks should be excluded from the results.
+\item The above statements should not be affected by a change of dataset
+\end{itemize}
+\section{Simulator}
+\subsection{Fireplace}
+\subsection{Changes}
+\subsection{Limitations}
+\section{Comparing type split for real and fake decks}
+\subsection{Test 1}
+\section{Comparing neutral split for real and fake decks}
+\section{Comparing mana curve for real and fake decks}
+\section{Testing winrates versus Real decks}
+\section{Testing winrates versus random decks}
 
+\chapter{Evaluation}
+--simulator limited--
 %----------------------------------------------------------------------------------------
 %	BIBLIOGRAPHY
 %---------------------
@@ -689,6 +713,7 @@ Finally, to verify that there are not too many duplicate cards in the deck, a me
 \verbatiminput{../../cards-standard-report.txt}
 
 \section*{Appendix D}
+\lstinputlisting{../../card-json-example.json}
 
 \section*{Appendix E}
 %\begin{figure}[H]

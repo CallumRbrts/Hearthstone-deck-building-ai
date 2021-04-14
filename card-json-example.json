@@ -1,0 +1,189 @@
+[
+
+    {
+        "cardId": "DMF_119",
+        "dbfId": "61648",
+        "name": "Wicked Whispers",
+        "cardSet": "Madness At The Darkmoon Faire",
+        "type": "Spell",
+        "rarity": "Rare",
+        "cost": 1,
+        "text": "Discard your lowest Cost card. Give your minions +1/+1.",
+        "flavor": "When the Old Ones whisper, others will scream.",
+        "artist": "E. Li & K. Turovec",
+        "collectible": true,
+        "playerClass": "Warlock",
+        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/98c7c5af3e66f52772de7d15b86edf0f2e769c95b137e8e76a461e80791456fd.png",
+        "locale": "enUS",
+        "id": 15
+    },
+    {
+        "cardId": "YOP_027",
+        "dbfId": "61965",
+        "name": "Bola Shot",
+        "cardSet": "Madness At The Darkmoon Faire",
+        "type": "Spell",
+        "rarity": "Common",
+        "cost": 2,
+        "text": "Deal $1 damage to a minion and $2 damage to its neighbors.",
+        "flavor": "On second thought, bolas aren't very good against flying worms.",
+        "artist": "MAR Studio",
+        "collectible": true,
+        "playerClass": "Hunter",
+        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0c05d34fb1a4e9956326c776651f37649709559ffbf06747c6d7edf11f081f59.png",
+        "locale": "enUS",
+        "id": 16
+    },
+    {
+        "cardId": "DMF_523",
+        "dbfId": "61242",
+        "name": "Bumper Car",
+        "cardSet": "Madness At The Darkmoon Faire",
+        "type": "Minion",
+        "rarity": "Rare",
+        "cost": 2,
+        "attack": 1,
+        "health": 3,
+        "text": "<b>Rush</b>\\n<b>Deathrattle:</b> Add two 1/1 Riders with <b>Rush</b> to_your hand.",
+        "flavor": "Subject: Re: Unsafe Rides?\\n\\n\\nbump",
+        "artist": "Ursula Dorada",
+        "collectible": true,
+        "race": "Mech",
+        "playerClass": "Warrior",
+        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/17cdc31567f5c47332f7e072e10678e608800d7fb453d98b96c4c51f2b49e62d.png",
+        "locale": "enUS",
+        "mechanics": [
+            {
+                "name": "Deathrattle"
+            },
+            {
+                "name": "Rush"
+            }
+        ],
+        "id": 17
+    },
+    {
+        "cardId": "DMF_704",
+        "dbfId": "61226",
+        "name": "Cagematch Custodian",
+        "cardSet": "Madness At The Darkmoon Faire",
+        "type": "Minion",
+        "rarity": "Common",
+        "cost": 2,
+        "attack": 2,
+        "health": 2,
+        "text": "<b>Battlecry:</b> Draw a weapon.",
+        "flavor": "Cleans up after a dust up.",
+        "artist": "Tang Ruiqian",
+        "collectible": true,
+        "race": "Elemental",
+        "playerClass": "Shaman",
+        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/fd7aff2cd493cba48b6673f2023bdee0b6e321483c1bd0a6314e160a5e43c104.png",
+        "locale": "enUS",
+        "mechanics": [
+            {
+                "name": "Battlecry"
+            }
+        ],
+        "id": 18
+    },
+
+    . . .
+
+    {
+        "cardId": "DMF_100",
+        "dbfId": "61176",
+        "name": "Confection Cyclone",
+        "cardSet": "Madness At The Darkmoon Faire",
+        "type": "Minion",
+        "rarity": "Common",
+        "cost": 2,
+        "attack": 3,
+        "health": 2,
+        "text": "<b>Battlecry:</b> Add two 1/2 Sugar Elementals to your_hand.",
+        "flavor": "\"Oh, I thought it was a desert elemental?\"",
+        "artist": "Anton Zemskov",
+        "collectible": true,
+        "race": "Elemental",
+        "playerClass": "Mage",
+        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/9d7587b9799c607e3f1396b70c43a0a66b3956f55ced47a7cb6e9f7cc9915399.png",
+        "locale": "enUS",
+        "mechanics": [
+            {
+                "name": "Battlecry"
+            }
+        ],
+        "id": 19
+    },
+    {
+        "cardId": "YOP_019",
+        "dbfId": "61957",
+        "name": "Conjure Mana Biscuit",
+        "cardSet": "Madness At The Darkmoon Faire",
+        "type": "Spell",
+        "rarity": "Common",
+        "cost": 2,
+        "text": "Add a Biscuit to your hand that refreshes 2 Mana Crystals.",
+        "flavor": "So THIS is why she was AFK.",
+        "artist": "Adam Byrne",
+        "collectible": true,
+        "playerClass": "Mage",
+        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b3f77a5edb992cee2b79e9e217375ffb7bd6c7ff6018c236ecf25c19583ae7ba.png",
+        "locale": "enUS",
+        "id": 20
+    },
+    {
+        "cardId": "DMF_189",
+        "dbfId": "61297",
+        "name": "Costumed Entertainer",
+        "cardSet": "Madness At The Darkmoon Faire",
+        "type": "Minion",
+        "rarity": "Common",
+        "cost": 2,
+        "attack": 1,
+        "health": 2,
+        "text": "[x]<b>Battlecry:</b> Give a random\\nminion in your hand +2/+2.",
+        "flavor": "Just remember not to talk. It breaks character.",
+        "artist": "Matt Dixon",
+        "collectible": true,
+        "playerClass": "Neutral",
+        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0599d607f4bc50a3327760e73f1839ec5ecce13b6f62e60b62316e31fba46234.png",
+        "locale": "enUS",
+        "mechanics": [
+            {
+                "name": "Battlecry"
+            }
+        ],
+        "id": 21
+    },
+    {
+        "cardId": "DMF_083",
+        "dbfId": "61679",
+        "name": "Dancing Cobra",
+        "cardSet": "Madness At The Darkmoon Faire",
+        "type": "Minion",
+        "faction": "Neutral",
+        "rarity": "Common",
+        "cost": 2,
+        "attack": 1,
+        "health": 5,
+        "text": "<b>Corrupt:</b> Gain <b>Poisonous</b>.",
+        "flavor": "Snakes are just tentacles with fangs.",
+        "artist": "Patrik Bjorkstrom",
+        "collectible": true,
+        "race": "Beast",
+        "playerClass": "Hunter",
+        "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/84575c03daa3bd1698e0f9049e4a2cbbc2cafcc1037ee6722c390fd5606981f6.png",
+        "locale": "enUS",
+        "mechanics": [
+            {
+                "name": "Corrupt"
+            },
+            {
+                "name": "Poisonous"
+            }
+        ],
+        "id": 23
+    }
+
+]

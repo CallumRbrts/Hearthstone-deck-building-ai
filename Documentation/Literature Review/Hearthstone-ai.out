@@ -49,4 +49,17 @@
 \BOOKMARK [2][-]{subsection.5.3.2}{Implementation}{section.5.3}% 49
 \BOOKMARK [2][-]{subsection.5.3.3}{Initial Results}{section.5.3}% 50
 \BOOKMARK [2][-]{subsection.5.3.4}{Improvements}{section.5.3}% 51
-\BOOKMARK [0][-]{chapter.6}{Appendix}{}% 52
+\BOOKMARK [0][-]{chapter.6}{Testing}{}% 52
+\BOOKMARK [1][-]{section.6.1}{Aims}{chapter.6}% 53
+\BOOKMARK [1][-]{section.6.2}{Simulator}{chapter.6}% 54
+\BOOKMARK [2][-]{subsection.6.2.1}{Fireplace}{section.6.2}% 55
+\BOOKMARK [2][-]{subsection.6.2.2}{Changes}{section.6.2}% 56
+\BOOKMARK [2][-]{subsection.6.2.3}{Limitations}{section.6.2}% 57
+\BOOKMARK [1][-]{section.6.3}{Comparing type split for real and fake decks}{chapter.6}% 58
+\BOOKMARK [2][-]{subsection.6.3.1}{Test 1}{section.6.3}% 59
+\BOOKMARK [1][-]{section.6.4}{Comparing neutral split for real and fake decks}{chapter.6}% 60
+\BOOKMARK [1][-]{section.6.5}{Comparing mana curve for real and fake decks}{chapter.6}% 61
+\BOOKMARK [1][-]{section.6.6}{Testing winrates versus Real decks}{chapter.6}% 62
+\BOOKMARK [1][-]{section.6.7}{Testing winrates versus random decks}{chapter.6}% 63
+\BOOKMARK [0][-]{chapter.7}{Evaluation}{}% 64
+\BOOKMARK [0][-]{chapter.8}{Appendix}{}% 65
