@@ -33,6 +33,7 @@
 \usepackage{float}
 \usepackage{verbatim}
 \usepackage{listings}
+\usepackage{subcaption}
 
 \lstset{
   breaklines=true,
@@ -732,11 +733,204 @@ Originally, the execution of the simulator was going to be done through the libr
 \end{figure}
 
 \section{Comparing type split for real and fake decks}
-\subsection{Test 1}
+\subsection{Test 1 - Hunter Deck}
+\begin{figure}[H]
+\centering
+\begin{subfigure}{.5\textwidth}
+  \centering
+  \includegraphics[width=.75\linewidth]{TestImages/HunterDeckSplitFake}
+  \caption{Generated Deck}
+\end{subfigure}%
+\begin{subfigure}{.5\textwidth}
+  \centering
+  \includegraphics[width=.75\linewidth]{TestImages/HunterDeckSplitReal}
+  \caption{Real Deck}
+\end{subfigure}
+\caption{Type Split of real and generated deck}
+\end{figure}
+\subsection{Test 2 - Warlock Deck}
+\begin{figure}[H]
+\centering
+\begin{subfigure}{.5\textwidth}
+  \centering
+  \includegraphics[width=.75\linewidth]{TestImages/WarlockDeckSplitFake}
+  \caption{Generated Deck}
+\end{subfigure}%
+\begin{subfigure}{.5\textwidth}
+  \centering
+  \includegraphics[width=.75\linewidth]{TestImages/WarlockDeckSplitReal}
+  \caption{Real Deck}
+\end{subfigure}
+\caption{Type Split of real and generated deck}
+\end{figure}
+\subsection{Test 3 - Shaman Deck}
+\begin{figure}[H]
+\centering
+\begin{subfigure}{.5\textwidth}
+  \centering
+  \includegraphics[width=.75\linewidth]{TestImages/ShamanDeckSplitFake}
+  \caption{Generated Deck}
+\end{subfigure}%
+\begin{subfigure}{.5\textwidth}
+  \centering
+  \includegraphics[width=.75\linewidth]{TestImages/ShamanDeckSplitReal}
+  \caption{Real Deck}
+\end{subfigure}
+\caption{Type Split of real and generated deck}
+\end{figure}
 \section{Comparing neutral split for real and fake decks}
+\subsection{Test 1 - Hunter Deck}
+\begin{figure}[H]
+\centering
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.75\linewidth]{TestImages/NeutralSplitHunterDecks}
+  \caption{Generated Decks}
+\end{subfigure}%
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.75\linewidth]{TestImages/NeutralSplitHunterDecksReal}
+  \caption{Real Decks}
+\end{subfigure}%
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.75\linewidth]{TestImages/NeutralSplitAllCards}
+  \caption{All Cards}
+\end{subfigure}
+\caption{Type Split of real and generated deck}
+\end{figure}
+\subsection{Test 2 - Warlock Deck}
+\begin{figure}[H]
+\centering
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.75\linewidth]{TestImages/NeutralSplitWarlockDecksFake}
+  \caption{Generated Decks}
+\end{subfigure}%
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.75\linewidth]{TestImages/NeutralSplitWarlockDecksReal}
+  \caption{Real Decks}
+\end{subfigure}%
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.75\linewidth]{TestImages/NeutralSplitAllCards}
+  \caption{All Cards}
+\end{subfigure}
+\caption{Type Split of real and generated deck}
+\end{figure}
+\subsection{Test 3 - Shaman Deck}
+\begin{figure}[H]
+\centering
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.75\linewidth]{TestImages/NeutralSplitShamanDecksFake}
+  \caption{Generated Decks}
+\end{subfigure}%
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.75\linewidth]{TestImages/NeutralSplitShamanDecksReal}
+  \caption{Real Decks}
+\end{subfigure}%
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.75\linewidth]{TestImages/NeutralSplitAllCards}
+  \caption{All Cards}
+\end{subfigure}
+\caption{Type Split of real and generated deck}
+\end{figure}
 \section{Comparing mana curve for real and fake decks}
+\subsection{Test 1 - Hunter Deck}
+\begin{figure}[H]
+\centering
+\begin{subfigure}{.5\textwidth}
+  \centering
+  \includegraphics[width=.75\linewidth]{TestImages/HunterDeckManaCurveFake}
+  \caption{Generated Deck}
+\end{subfigure}%
+\begin{subfigure}{.5\textwidth}
+  \centering
+  \includegraphics[width=.75\linewidth]{TestImages/HunterDeckManaCurveReal}
+  \caption{Real Deck}
+\end{subfigure}
+\caption{Type Split of real and generated deck}
+\end{figure}
+\subsection{Test 2 - Warlock Deck}
+\begin{figure}[H]
+\centering
+\begin{subfigure}{.5\textwidth}
+  \centering
+  \includegraphics[width=.75\linewidth]{TestImages/WarlockDeckManaCurveFake}
+  \caption{Generated Deck}
+\end{subfigure}%
+\begin{subfigure}{.5\textwidth}
+  \centering
+  \includegraphics[width=.75\linewidth]{TestImages/WarlockDeckManaCurveReal}
+  \caption{Real Deck}
+\end{subfigure}
+\caption{Type Split of real and generated deck}
+\end{figure}
+\subsection{Test 3 - Shaman Deck}
+\begin{figure}[H]
+\centering
+\begin{subfigure}{.5\textwidth}
+  \centering
+  \includegraphics[width=.75\linewidth]{TestImages/ShamanDeckManaCurveFake}
+  \caption{Generated Deck}
+\end{subfigure}%
+\begin{subfigure}{.5\textwidth}
+  \centering
+  \includegraphics[width=.75\linewidth]{TestImages/ShamanDeckManaCurveReal}
+  \caption{Real Deck}
+\end{subfigure}
+\caption{Type Split of real and generated deck}
+\end{figure}
 \section{Testing winrates versus Real decks}
-\section{Testing winrates versus random decks}
+\subsection{Test 1 - Hunter Deck}
+\begin{figure}[H]
+\centering
+\begin{subfigure}{.5\textwidth}
+  \centering
+  \includegraphics[width=1\linewidth]{TestImages/HunterDeckWinrateClasses}
+  \caption{Winrate Per class}
+\end{subfigure}%
+\begin{subfigure}{.5\textwidth}
+  \centering
+  \includegraphics[width=1\linewidth]{TestImages/HunterAllGeneratedDeckOverallWinrate}
+  \caption{Overall Winrate}
+\end{subfigure}
+\caption{Type Split of real and generated deck}
+\end{figure}
+\subsection{Test 2 - Warlock Deck}
+\begin{figure}[H]
+\centering
+\begin{subfigure}{.5\textwidth}
+  \centering
+  \includegraphics[width=1\linewidth]{TestImages/WarlockDeckWinrateClasses}
+  \caption{Winrate Per class}
+\end{subfigure}%
+\begin{subfigure}{.5\textwidth}
+  \centering
+  \includegraphics[width=1\linewidth]{TestImages/WarlockAllGeneratedDeckOverallWinrate}
+  \caption{Overall Winrate}
+\end{subfigure}
+\caption{Type Split of real and generated deck}
+\end{figure}
+\subsection{Test 3 - Shaman Deck}
+\begin{figure}[H]
+\centering
+\begin{subfigure}{.5\textwidth}
+  \centering
+  \includegraphics[width=1\linewidth]{TestImages/ShamanDeckWinrateClasses}
+  \caption{Winrate Per class}
+\end{subfigure}%
+\begin{subfigure}{.5\textwidth}
+  \centering
+  \includegraphics[width=1\linewidth]{TestImages/ShamanAllGeneratedDeckOverallWinrate}
+  \caption{Overall Winrate}
+\end{subfigure}
+\caption{Type Split of real and generated deck}
+\end{figure}
 
 \chapter{Evaluation}
 --simulator limited--
