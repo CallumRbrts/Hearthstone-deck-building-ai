@@ -113,4 +113,4 @@
 \contentsline {subsection}{\numberline {7.3.2}Comparing neutral split for real and fake decks}{66}{subsection.7.3.2}%
 \contentsline {subsection}{\numberline {7.3.3}Comparing mana curve for real and fake decks}{66}{subsection.7.3.3}%
 \contentsline {subsection}{\numberline {7.3.4}Testing winrates versus real decks}{66}{subsection.7.3.4}%
-\contentsline {chapter}{\numberline {8}Appendix}{72}{chapter.8}%
+\contentsline {chapter}{\numberline {8}Appendix}{73}{chapter.8}%

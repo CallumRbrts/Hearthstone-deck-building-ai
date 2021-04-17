@@ -797,7 +797,7 @@ Originally, the execution of the simulator was going to be done through the libr
   \includegraphics[width=.75\linewidth]{TestImages/NeutralSplitAllCards}
   \caption{All Cards}
 \end{subfigure}
-\caption{Neutral of real, generated deck and overall}
+\caption{Neutral split of real, generated deck and overall}
 \end{figure}
 \subsection{Test 2 - Warlock Deck}
 \begin{figure}[H]
@@ -817,7 +817,7 @@ Originally, the execution of the simulator was going to be done through the libr
   \includegraphics[width=.75\linewidth]{TestImages/NeutralSplitAllCards}
   \caption{All Cards}
 \end{subfigure}
-\caption{Neutral of real, generated deck and overall}
+\caption{Neutral split of real, generated deck and overall}
 \end{figure}
 \subsection{Test 3 - Shaman Deck}
 \begin{figure}[H]
@@ -837,7 +837,7 @@ Originally, the execution of the simulator was going to be done through the libr
   \includegraphics[width=.75\linewidth]{TestImages/NeutralSplitAllCards}
   \caption{All Cards}
 \end{subfigure}
-\caption{Neutral of real, generated deck and overall}
+\caption{Neutral split of real, generated deck and overall}
 \end{figure}
 \section{Comparing mana curve for real and fake decks}
 \subsection{Test 1 - Hunter Deck}
@@ -939,12 +939,19 @@ Over all, the project was a success, despite some limitation a new technique has
 Throughout the testing process there are major limitations preventing proper results from being recorded. The first limiting factor was the simulator, since only about half of the cards in the game have been implemented into the game, some of those cards would be present in the deck creation. Whilst the cards do exist in the simulator and can be played, there effects will not be registered by the simulator, for example a minion with an effect on board, if unimplemented will still have the health and the attack but will not have the effect of the card. For a spell, the mana will be spent but the effect will not trigger due to it being unimplemented, this ends up making cards that are considered good by community standards bad and actually becomes a detriment to the deck and lowers winrate. The second limiting factor is the AI that plays the deck, due to its simplistic nature, the cards within the decks are not played to their fullest potential, the AI seeminly plays cards randomly based on the amount of mana it has available, because of this decks that require a resource management will not have the most representative winrate than that of a human player. These combined factors prevent the testing results for winrates from being conclusive, should the project be continued the possibility of using a more advanced AI such as a Monty Carlo algorithm could bear fruitful results.
 \section{Results}
 \subsection{Comparing type split for real and fake decks}
+The results of the comparison of the types split are a massive success, the differences between the real and generated decks are minor. Decks in Hearthstone generally have more minions than any other type of card, except for specific minionless archetypes. Then in close second comes spells, and finally some classes have weapon, others hero cards which are cards that transform the heros portrait into another with effects. From these results a user would not be able to distinguish a real deck from a fake (omitting that they can not see the cards).
 \subsection{Comparing neutral split for real and fake decks}
+The comparison of the split of neutral cards to class cards was important because it was the first graph that demonstrated that the GAN was thinking about what cards to have in the decks. This is because the split of neutral and class cards for all cards is majority neutral, there is close to 80\% neutral cards and 20\% class cards. Whereas with real decks there is a majority of class cards, the reason for this is due to class cards being more powerful than neutral cards, and generally are cornerstones to a decks archetype, neutral cards are used to fill in the extra spaces. This idea is reflected in the results of the generated decks, there is a majority class than neutral, even more so than in real decks. Overall, despite their being slightly more class cards than expected, the results were successful.
 \subsection{Comparing mana curve for real and fake decks}
+The mana curve of a deck is important, especially when talking about the archetype. Most aggressive deck mana curves tend to peak in the early cost cards, this is so that they can overwhelm the opponent quickly and finish off the enemy before they can get access to their powerful cards. More control oriented decks tend to peak in the middle part of the curve with more higher cost cards than lower cost cards. The results of the mana curves vary a lot, most of the generated decks tend to peak in the earlier mana cost cards meaning that the GAN prefers to create aggressive decks, this could be the case because of the classes chosen, Hunters tend to have aggressive decks over control decks, also the current Hearthstone meta could be aggressive decks meaning that the GAN would lean towards that from the datasets containing more aggressive decks. Despite the mana curves looking different, there is still a similar structure that can be observed between the real and fake decks. 
 \subsection{Testing winrates versus real decks}
+This part tested the overall winrate of all the generated decks by the GAN, and their winrate on a per class basis. From the results, it can be noticed that the winrates of the Hunter and Shaman class are over 50\% which is good as it fulfils the requirement set, however it can be observed that Warlock has an unusually low winrate, a possible explanation is due to the AI playing the deck, the AI tends to use hero powers whenever it can, and the Warlock's hero power damages himself, meaning that the AI is more likely to die as a Warlock, whereas as a Hunter, the hero power damages the enemy meaning that the winrate would be higher. Also some classes have a better winrate versus some classes, this is mostly due to match ups, an agressive deck like a hunter deck will have an easier time dealing with control decks like a warriors hence why there is 100\% winrate for Hunter in that category. However it has trouble versus other midrange type decks, like a Rogue or Paladin. Overall these results are skewed by the AI not being very smart, but some interesting insights have come from it such as the match up dependance and the fact that the AI performs better with aggressive decks than it does decks that require more thinking. 
+
+
+
 --simulator limited--
 -- logging buffered messages which crashed program--
--- Aggro decks provide better results because they require playing as many cards as possible whereas more control decks require ressource management--
+-- Aggro decks provide better results because they require playing as many cards as possible whereas more control decks require resource management--
 %----------------------------------------------------------------------------------------
 %	BIBLIOGRAPHY
 %---------------------
