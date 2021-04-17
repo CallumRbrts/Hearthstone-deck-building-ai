@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=pdflatex 2020.11.30)  16 APR 2021 17:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=pdflatex 2020.11.30)  17 APR 2021 12:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -637,7 +637,7 @@ Chapter 1.
 
 ] [6]
 Chapter 2.
-<thalnos.jpg, id=433, 200.75pt x 304.13625pt>
+<thalnos.jpg, id=448, 200.75pt x 304.13625pt>
 File: thalnos.jpg Graphic file (type jpg)
 <use thalnos.jpg>
 Package pdftex.def Info: thalnos.jpg  used on input line 119.
@@ -649,7 +649,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 126--127
 
  []
 
-<hearthstonegameboard.png, id=449, 1189.44376pt x 695.59875pt>
+<hearthstonegameboard.png, id=464, 1189.44376pt x 695.59875pt>
 File: hearthstonegameboard.png Graphic file (type png)
 <use hearthstonegameboard.png>
 Package pdftex.def Info: hearthstonegameboard.png  used on input line 130.
@@ -664,7 +664,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 134--134
  []
 
 [8 <./thalnos.jpg>] [9 <./hearthstonegameboard.png (PNG copy)>]
-<mana_curve.png, id=488, 208.52907pt x 129.48375pt>
+<mana_curve.png, id=503, 208.52907pt x 129.48375pt>
 File: mana_curve.png Graphic file (type png)
 <use mana_curve.png>
 Package pdftex.def Info: mana_curve.png  used on input line 148.
@@ -687,19 +687,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 191--193
  []
 
 [13]
-<EAFlowchart.png, id=595, 822.07124pt x 474.27188pt>
+<EAFlowchart.png, id=610, 822.07124pt x 474.27188pt>
 File: EAFlowchart.png Graphic file (type png)
 <use EAFlowchart.png>
 Package pdftex.def Info: EAFlowchart.png  used on input line 199.
 (pdftex.def)             Requested size: 345.0pt x 199.03362pt.
  [14] [15 <./EAFlowchart.png (PNG copy)>]
-<ANN.png, id=638, 853.1875pt x 499.8675pt>
+<ANN.png, id=653, 853.1875pt x 499.8675pt>
 File: ANN.png Graphic file (type png)
 <use ANN.png>
 Package pdftex.def Info: ANN.png  used on input line 214.
 (pdftex.def)             Requested size: 345.0pt x 202.1325pt.
  [16] [17 <./ANN.png>]
-<GAN.png, id=665, 446.66875pt x 528.97626pt>
+<GAN.png, id=680, 446.66875pt x 528.97626pt>
 File: GAN.png Graphic file (type png)
 <use GAN.png>
 Package pdftex.def Info: GAN.png  used on input line 226.
@@ -733,7 +733,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 322--323
 
  []
 
-<ToS.png, id=753, 779.16093pt x 274.02374pt>
+<ToS.png, id=768, 779.16093pt x 274.02374pt>
 File: ToS.png Graphic file (type png)
 <use ToS.png>
 Package pdftex.def Info: ToS.png  used on input line 326.
@@ -756,7 +756,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 341--344
 [28
 
 ]
-<collectionpage.png, id=773, 1189.44376pt x 569.87906pt>
+<collectionpage.png, id=788, 1189.44376pt x 569.87906pt>
 File: collectionpage.png Graphic file (type png)
 <use collectionpage.png>
 Package pdftex.def Info: collectionpage.png  used on input line 347.
@@ -766,19 +766,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 354--356
 
  []
 
-<OpenWebScraper.png, id=778, 366.61969pt x 569.87906pt>
+<OpenWebScraper.png, id=793, 366.61969pt x 569.87906pt>
 File: OpenWebScraper.png Graphic file (type png)
 <use OpenWebScraper.png>
 Package pdftex.def Info: OpenWebScraper.png  used on input line 359.
 (pdftex.def)             Requested size: 183.04086pt x 284.52142pt.
 [29 <./collectionpage.png (PNG copy)>]
-<InitialFileRead.png, id=789, 526.21594pt x 323.70938pt>
+<InitialFileRead.png, id=804, 526.21594pt x 323.70938pt>
 File: InitialFileRead.png Graphic file (type png)
 <use InitialFileRead.png>
 Package pdftex.def Info: InitialFileRead.png  used on input line 370.
 (pdftex.def)             Requested size: 345.0pt x 212.24112pt.
  [30 <./OpenWebScraper.png (PNG copy)>]
-<deckConversion.png, id=796, 526.21594pt x 384.6872pt>
+<deckConversion.png, id=811, 526.21594pt x 384.6872pt>
 File: deckConversion.png Graphic file (type png)
 <use deckConversion.png>
 Package pdftex.def Info: deckConversion.png  used on input line 379.
@@ -786,7 +786,7 @@ Package pdftex.def Info: deckConversion.png  used on input line 379.
 
 [31 <./InitialFileRead.png (PNG copy)>] [32 <./deckConversion.png (PNG copy)>]
 [33]
-<cardAPI.png, id=814, 739.26187pt x 408.02437pt>
+<cardAPI.png, id=829, 739.26187pt x 408.02437pt>
 File: cardAPI.png Graphic file (type png)
 <use cardAPI.png>
 Package pdftex.def Info: cardAPI.png  used on input line 408.
@@ -800,13 +800,13 @@ Overfull \hbox (86.25pt too wide) in paragraph at lines 408--409
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [34]
-<jsonOpen.png, id=822, 505.89pt x 328.22626pt>
+<jsonOpen.png, id=837, 505.89pt x 328.22626pt>
 File: jsonOpen.png Graphic file (type png)
 <use jsonOpen.png>
 Package pdftex.def Info: jsonOpen.png  used on input line 417.
 (pdftex.def)             Requested size: 345.0pt x 223.84198pt.
  [35 <./cardAPI.png (PNG copy)>]
-<impure.png, id=829, 679.78969pt x 307.1475pt>
+<impure.png, id=844, 679.78969pt x 307.1475pt>
 File: impure.png Graphic file (type png)
 <use impure.png>
 Package pdftex.def Info: impure.png  used on input line 426.
@@ -822,7 +822,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 437--439
  []
 
 [37 <./impure.png (PNG copy)>] [38]
-<csvIm.png, id=848, 748.29562pt x 332.74312pt>
+<csvIm.png, id=863, 748.29562pt x 332.74312pt>
 File: csvIm.png Graphic file (type png)
 <use csvIm.png>
 Package pdftex.def Info: csvIm.png  used on input line 449.
@@ -842,7 +842,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 454--455
 
  []
 
-<readVectorDecks.png, id=849, 522.45187pt x 322.95656pt>
+<readVectorDecks.png, id=864, 522.45187pt x 322.95656pt>
 File: readVectorDecks.png Graphic file (type png)
 <use readVectorDecks.png>
 Package pdftex.def Info: readVectorDecks.png  used on input line 461.
@@ -889,7 +889,7 @@ Post',
  []
 
 [40 <./readVectorDecks.png (PNG copy)>]
-<improvedDC.png, id=862, 697.8572pt x 191.9672pt>
+<improvedDC.png, id=877, 697.8572pt x 191.9672pt>
 File: improvedDC.png Graphic file (type png)
 <use improvedDC.png>
 Package pdftex.def Info: improvedDC.png  used on input line 478.
@@ -899,19 +899,19 @@ Overfull \hbox (86.25pt too wide) in paragraph at lines 478--479
  [][] 
  []
 
-<JSONConversion.png, id=863, 317.68687pt x 359.84438pt>
+<JSONConversion.png, id=878, 317.68687pt x 359.84438pt>
 File: JSONConversion.png Graphic file (type png)
 <use JSONConversion.png>
 Package pdftex.def Info: JSONConversion.png  used on input line 487.
 (pdftex.def)             Requested size: 256.09853pt x 284.54848pt.
 [41 <./improvedDC.png (PNG copy)>]
-<readJSONDecks.png, id=870, 348.55219pt x 142.28156pt>
+<readJSONDecks.png, id=885, 348.55219pt x 142.28156pt>
 File: readJSONDecks.png Graphic file (type png)
 <use readJSONDecks.png>
 Package pdftex.def Info: readJSONDecks.png  used on input line 496.
 (pdftex.def)             Requested size: 345.0pt x 140.83963pt.
  [42 <./JSONConversion.png (PNG copy)>]
-<HSpwnDecks.png, id=876, 1011.78pt x 554.82281pt>
+<HSpwnDecks.png, id=891, 1011.78pt x 554.82281pt>
 File: HSpwnDecks.png Graphic file (type png)
 <use HSpwnDecks.png>
 Package pdftex.def Info: HSpwnDecks.png  used on input line 515.
@@ -929,7 +929,7 @@ ag = 1 & filter-[]class = 4)$\OT1/cmr/m/n/10 .
  []
 
 [43 <./readJSONDecks.png (PNG copy)>]
-<pageMax.png, id=882, 736.25063pt x 125.71968pt>
+<pageMax.png, id=897, 736.25063pt x 125.71968pt>
 File: pageMax.png Graphic file (type png)
 <use pageMax.png>
 Package pdftex.def Info: pageMax.png  used on input line 524.
@@ -939,7 +939,7 @@ Overfull \hbox (86.25pt too wide) in paragraph at lines 524--525
  [][] 
  []
 
-<scrapeDecks.png, id=883, 563.85657pt x 386.19281pt>
+<scrapeDecks.png, id=898, 563.85657pt x 386.19281pt>
 File: scrapeDecks.png Graphic file (type png)
 <use scrapeDecks.png>
 Package pdftex.def Info: scrapeDecks.png  used on input line 533.
@@ -950,7 +950,7 @@ Overfull \hbox (86.25pt too wide) in paragraph at lines 533--534
  []
 
 [44 <./HSpwnDecks.png (PNG copy)> <./pageMax.png (PNG copy)>]
-<cardsURL.png, id=890, 612.78937pt x 275.52937pt>
+<cardsURL.png, id=905, 612.78937pt x 275.52937pt>
 File: cardsURL.png Graphic file (type png)
 <use cardsURL.png>
 Package pdftex.def Info: cardsURL.png  used on input line 542.
@@ -961,7 +961,7 @@ Overfull \hbox (86.25pt too wide) in paragraph at lines 542--543
  []
 
 [45 <./scrapeDecks.png (PNG copy)>] [46 <./cardsURL.png (PNG copy)>]
-<generator.png, id=902, 636.87938pt x 187.45032pt>
+<generator.png, id=917, 636.87938pt x 187.45032pt>
 File: generator.png Graphic file (type png)
 <use generator.png>
 Package pdftex.def Info: generator.png  used on input line 557.
@@ -971,7 +971,7 @@ Overfull \hbox (86.25pt too wide) in paragraph at lines 557--558
  [][] 
  []
 
-<discriminator.png, id=903, 618.05907pt x 110.66344pt>
+<discriminator.png, id=918, 618.05907pt x 110.66344pt>
 File: discriminator.png Graphic file (type png)
 <use discriminator.png>
 Package pdftex.def Info: discriminator.png  used on input line 566.
@@ -982,7 +982,7 @@ Overfull \hbox (86.25pt too wide) in paragraph at lines 566--567
  []
 
 [47 <./generator.png (PNG copy)>]
-<gan.png, id=911, 618.05907pt x 181.42781pt>
+<gan.png, id=926, 618.05907pt x 181.42781pt>
 File: gan.png Graphic file (type png)
 <use gan.png>
 Package pdftex.def Info: gan.png  used on input line 576.
@@ -993,7 +993,7 @@ Overfull \hbox (86.25pt too wide) in paragraph at lines 576--577
  []
 
 [48 <./discriminator.png (PNG copy)> <./gan.png (PNG copy)>]
-<train.png, id=920, 739.26187pt x 325.96782pt>
+<train.png, id=935, 739.26187pt x 325.96782pt>
 File: train.png Graphic file (type png)
 <use train.png>
 Package pdftex.def Info: train.png  used on input line 588.
@@ -1003,7 +1003,7 @@ Overfull \hbox (86.25pt too wide) in paragraph at lines 588--589
  [][] 
  []
 
-<sumPer.png, id=921, 607.51968pt x 339.51843pt>
+<sumPer.png, id=936, 607.51968pt x 339.51843pt>
 File: sumPer.png Graphic file (type png)
 <use sumPer.png>
 Package pdftex.def Info: sumPer.png  used on input line 597.
@@ -1014,7 +1014,7 @@ Overfull \hbox (86.25pt too wide) in paragraph at lines 597--598
  []
 
 [49 <./train.png (PNG copy)>]
-<initialTraining.png, id=928, 319.1925pt x 188.20313pt>
+<initialTraining.png, id=943, 319.1925pt x 188.20313pt>
 File: initialTraining.png Graphic file (type png)
 <use initialTraining.png>
 Package pdftex.def Info: initialTraining.png  used on input line 608.
@@ -1025,12 +1025,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 613--615
  []
 
 [51 <./initialTraining.png (PNG copy)>]
-<choice.png, id=940, 449.42906pt x 156.585pt>
+<choice.png, id=955, 449.42906pt x 156.585pt>
 File: choice.png Graphic file (type png)
 <use choice.png>
 Package pdftex.def Info: choice.png  used on input line 623.
 (pdftex.def)             Requested size: 345.0pt x 120.20525pt.
-<limitCardRange.png, id=941, 657.95813pt x 240.9pt>
+<limitCardRange.png, id=956, 657.95813pt x 240.9pt>
 File: limitCardRange.png Graphic file (type png)
 <use limitCardRange.png>
 Package pdftex.def Info: limitCardRange.png  used on input line 633.
@@ -1041,13 +1041,13 @@ Overfull \hbox (86.25pt too wide) in paragraph at lines 633--634
  []
 
 [52 <./choice.png (PNG copy)>]
-<abs.png, id=948, 376.40625pt x 171.64125pt>
+<abs.png, id=963, 376.40625pt x 171.64125pt>
 File: abs.png Graphic file (type png)
 <use abs.png>
 Package pdftex.def Info: abs.png  used on input line 648.
 (pdftex.def)             Requested size: 345.0pt x 157.33041pt.
  [53 <./limitCardRange.png (PNG copy)> <./abs.png (PNG copy)>]
-<duplicates.png, id=957, 441.14813pt x 212.29312pt>
+<duplicates.png, id=972, 441.14813pt x 212.29312pt>
 File: duplicates.png Graphic file (type png)
 <use duplicates.png>
 Package pdftex.def Info: duplicates.png  used on input line 657.
@@ -1057,7 +1057,7 @@ Chapter 6.
 [55
 
 ]
-<simMain.png, id=967, 651.18282pt x 324.46219pt>
+<simMain.png, id=983, 651.18282pt x 324.46219pt>
 File: simMain.png Graphic file (type png)
 <use simMain.png>
 Package pdftex.def Info: simMain.png  used on input line 686.
@@ -1067,7 +1067,7 @@ Overfull \hbox (86.25pt too wide) in paragraph at lines 686--687
  [][] 
  []
 
-<playFullGame.png, id=968, 513.41812pt x 219.82124pt>
+<playFullGame.png, id=984, 513.41812pt x 219.82124pt>
 File: playFullGame.png Graphic file (type png)
 <use playFullGame.png>
 Package pdftex.def Info: playFullGame.png  used on input line 695.
@@ -1083,47 +1083,47 @@ Overfull \hbox (2.63855pt too wide) in paragraph at lines 700--701
 $\OT1/cmtt/m/n/10 class _ converter()$
  []
 
-<setupGame.png, id=976, 469.00218pt x 266.49562pt>
+<setupGame.png, id=991, 469.00218pt x 266.49562pt>
 File: setupGame.png Graphic file (type png)
 <use setupGame.png>
 Package pdftex.def Info: setupGame.png  used on input line 704.
 (pdftex.def)             Requested size: 345.0pt x 196.03255pt.
-<classConverter.png, id=977, 301.8778pt x 325.215pt>
+<classConverter.png, id=992, 301.8778pt x 325.215pt>
 File: classConverter.png Graphic file (type png)
 <use classConverter.png>
 Package pdftex.def Info: classConverter.png  used on input line 711.
 (pdftex.def)             Requested size: 256.07222pt x 284.54753pt.
 [57 <./playFullGame.png (PNG copy)> <./setupGame.png (PNG copy)>]
-<playTurn.png, id=984, 520.94624pt x 175.40532pt>
+<playTurn.png, id=999, 520.94624pt x 175.40532pt>
 File: playTurn.png Graphic file (type png)
 <use playTurn.png>
 Package pdftex.def Info: playTurn.png  used on input line 720.
 (pdftex.def)             Requested size: 345.0pt x 116.16397pt.
  [58 <./classConverter.png (PNG copy)> <./playTurn.png (PNG copy)>]
-<simExec.png, id=991, 487.06969pt x 196.48407pt>
+<simExec.png, id=1006, 487.06969pt x 196.48407pt>
 File: simExec.png Graphic file (type png)
 <use simExec.png>
 Package pdftex.def Info: simExec.png  used on input line 730.
 (pdftex.def)             Requested size: 345.0pt x 139.17186pt.
-<TestImages/HunterDeckSplitFake.png, id=992, 254.9525pt x 247.92625pt>
+<TestImages/HunterDeckSplitFake.png, id=1007, 254.9525pt x 247.92625pt>
 File: TestImages/HunterDeckSplitFake.png Graphic file (type png)
 <use TestImages/HunterDeckSplitFake.png>
 Package pdftex.def Info: TestImages/HunterDeckSplitFake.png  used on input line
  741.
 (pdftex.def)             Requested size: 129.375pt x 125.81651pt.
-<TestImages/HunterDeckSplitReal.png, id=993, 256.96pt x 247.92625pt>
+<TestImages/HunterDeckSplitReal.png, id=1008, 256.96pt x 247.92625pt>
 File: TestImages/HunterDeckSplitReal.png Graphic file (type png)
 <use TestImages/HunterDeckSplitReal.png>
 Package pdftex.def Info: TestImages/HunterDeckSplitReal.png  used on input line
  746.
 (pdftex.def)             Requested size: 129.375pt x 124.82913pt.
-<TestImages/WarlockDeckSplitFake.png, id=994, 241.90375pt x 247.92625pt>
+<TestImages/WarlockDeckSplitFake.png, id=1009, 241.90375pt x 247.92625pt>
 File: TestImages/WarlockDeckSplitFake.png Graphic file (type png)
 <use TestImages/WarlockDeckSplitFake.png>
 Package pdftex.def Info: TestImages/WarlockDeckSplitFake.png  used on input lin
 e 756.
 (pdftex.def)             Requested size: 129.375pt x 132.5995pt.
-<TestImages/WarlockDeckSplitReal.png, id=995, 231.86626pt x 247.92625pt>
+<TestImages/WarlockDeckSplitReal.png, id=1010, 231.86626pt x 247.92625pt>
 File: TestImages/WarlockDeckSplitReal.png Graphic file (type png)
 <use TestImages/WarlockDeckSplitReal.png>
 Package pdftex.def Info: TestImages/WarlockDeckSplitReal.png  used on input lin
@@ -1131,32 +1131,32 @@ e 761.
 (pdftex.def)             Requested size: 129.375pt x 138.33838pt.
  [59 <./simExec.png (PNG copy)> <./TestImages/HunterDeckSplitFake.png> <./TestI
 mages/HunterDeckSplitReal.png>]
-<TestImages/ShamanDeckSplitFake.png, id=1006, 258.9675pt x 247.92625pt>
+<TestImages/ShamanDeckSplitFake.png, id=1021, 258.9675pt x 247.92625pt>
 File: TestImages/ShamanDeckSplitFake.png Graphic file (type png)
 <use TestImages/ShamanDeckSplitFake.png>
 Package pdftex.def Info: TestImages/ShamanDeckSplitFake.png  used on input line
  771.
 (pdftex.def)             Requested size: 129.375pt x 123.86446pt.
-<TestImages/ShamanDeckSplitReal.png, id=1007, 256.96pt x 247.92625pt>
+<TestImages/ShamanDeckSplitReal.png, id=1022, 256.96pt x 247.92625pt>
 File: TestImages/ShamanDeckSplitReal.png Graphic file (type png)
 <use TestImages/ShamanDeckSplitReal.png>
 Package pdftex.def Info: TestImages/ShamanDeckSplitReal.png  used on input line
  776.
 (pdftex.def)             Requested size: 129.375pt x 124.82913pt.
-<TestImages/NeutralSplitHunterDecks.png, id=1008, 262.9825pt x 247.92625pt>
+<TestImages/NeutralSplitHunterDecks.png, id=1023, 262.9825pt x 247.92625pt>
 File: TestImages/NeutralSplitHunterDecks.png Graphic file (type png)
 <use TestImages/NeutralSplitHunterDecks.png>
 Package pdftex.def Info: TestImages/NeutralSplitHunterDecks.png  used on input 
 line 787.
 (pdftex.def)             Requested size: 77.62578pt x 73.183pt.
-<TestImages/NeutralSplitHunterDecksReal.png, id=1009, 231.86626pt x 247.92625pt
+<TestImages/NeutralSplitHunterDecksReal.png, id=1024, 231.86626pt x 247.92625pt
 >
 File: TestImages/NeutralSplitHunterDecksReal.png Graphic file (type png)
 <use TestImages/NeutralSplitHunterDecksReal.png>
 Package pdftex.def Info: TestImages/NeutralSplitHunterDecksReal.png  used on in
 put line 792.
 (pdftex.def)             Requested size: 77.62578pt x 83.00378pt.
-<TestImages/NeutralSplitAllCards.png, id=1010, 234.8775pt x 247.92625pt>
+<TestImages/NeutralSplitAllCards.png, id=1025, 234.8775pt x 247.92625pt>
 File: TestImages/NeutralSplitAllCards.png Graphic file (type png)
 <use TestImages/NeutralSplitAllCards.png>
 Package pdftex.def Info: TestImages/NeutralSplitAllCards.png  used on input lin
@@ -1165,14 +1165,14 @@ e 797.
  [60 <./TestImages/WarlockDeckSplitFake.png> <./TestImages/WarlockDeckSplitReal
 .png> <./TestImages/ShamanDeckSplitFake.png> <./TestImages/ShamanDeckSplitReal.
 png>]
-<TestImages/NeutralSplitWarlockDecksFake.png, id=1021, 266.9975pt x 247.92625pt
+<TestImages/NeutralSplitWarlockDecksFake.png, id=1036, 266.9975pt x 247.92625pt
 >
 File: TestImages/NeutralSplitWarlockDecksFake.png Graphic file (type png)
 <use TestImages/NeutralSplitWarlockDecksFake.png>
 Package pdftex.def Info: TestImages/NeutralSplitWarlockDecksFake.png  used on i
 nput line 807.
 (pdftex.def)             Requested size: 77.62578pt x 72.08214pt.
-<TestImages/NeutralSplitWarlockDecksReal.png, id=1022, 231.86626pt x 247.92625p
+<TestImages/NeutralSplitWarlockDecksReal.png, id=1037, 231.86626pt x 247.92625p
 t>
 File: TestImages/NeutralSplitWarlockDecksReal.png Graphic file (type png)
 <use TestImages/NeutralSplitWarlockDecksReal.png>
@@ -1184,14 +1184,14 @@ File: TestImages/NeutralSplitAllCards.png Graphic file (type png)
 Package pdftex.def Info: TestImages/NeutralSplitAllCards.png  used on input lin
 e 817.
 (pdftex.def)             Requested size: 77.62578pt x 81.93697pt.
-<TestImages/NeutralSplitShamanDecksFake.png, id=1023, 262.9825pt x 247.92625pt>
+<TestImages/NeutralSplitShamanDecksFake.png, id=1038, 262.9825pt x 247.92625pt>
 
 File: TestImages/NeutralSplitShamanDecksFake.png Graphic file (type png)
 <use TestImages/NeutralSplitShamanDecksFake.png>
 Package pdftex.def Info: TestImages/NeutralSplitShamanDecksFake.png  used on in
 put line 827.
 (pdftex.def)             Requested size: 77.62578pt x 73.183pt.
-<TestImages/NeutralSplitShamanDecksReal.png, id=1024, 231.86626pt x 247.92625pt
+<TestImages/NeutralSplitShamanDecksReal.png, id=1039, 231.86626pt x 247.92625pt
 >
 File: TestImages/NeutralSplitShamanDecksReal.png Graphic file (type png)
 <use TestImages/NeutralSplitShamanDecksReal.png>
@@ -1208,13 +1208,13 @@ Overfull \hbox (10.37294pt too wide) in paragraph at lines 842--842
 |[]\OT1/cmr/bx/n/14.4 Comparing mana curve for real and fake decks| 
  []
 
-<TestImages/HunterDeckManaCurveFake.png, id=1025, 383.4325pt x 279.0425pt>
+<TestImages/HunterDeckManaCurveFake.png, id=1040, 383.4325pt x 279.0425pt>
 File: TestImages/HunterDeckManaCurveFake.png Graphic file (type png)
 <use TestImages/HunterDeckManaCurveFake.png>
 Package pdftex.def Info: TestImages/HunterDeckManaCurveFake.png  used on input 
 line 848.
 (pdftex.def)             Requested size: 129.375pt x 94.15361pt.
-<TestImages/HunterDeckManaCurveReal.png, id=1026, 377.41pt x 279.0425pt>
+<TestImages/HunterDeckManaCurveReal.png, id=1041, 377.41pt x 279.0425pt>
 File: TestImages/HunterDeckManaCurveReal.png Graphic file (type png)
 <use TestImages/HunterDeckManaCurveReal.png>
 Package pdftex.def Info: TestImages/HunterDeckManaCurveReal.png  used on input 
@@ -1225,25 +1225,25 @@ DecksReal.png> <./TestImages/NeutralSplitAllCards.png> <./TestImages/NeutralSpl
 itWarlockDecksFake.png> <./TestImages/NeutralSplitWarlockDecksReal.png> <./Test
 Images/NeutralSplitShamanDecksFake.png> <./TestImages/NeutralSplitShamanDecksRe
 al.png>]
-<TestImages/WarlockDeckManaCurveFake.png, id=1041, 383.4325pt x 279.0425pt>
+<TestImages/WarlockDeckManaCurveFake.png, id=1056, 383.4325pt x 279.0425pt>
 File: TestImages/WarlockDeckManaCurveFake.png Graphic file (type png)
 <use TestImages/WarlockDeckManaCurveFake.png>
 Package pdftex.def Info: TestImages/WarlockDeckManaCurveFake.png  used on input
  line 863.
 (pdftex.def)             Requested size: 129.375pt x 94.15361pt.
-<TestImages/WarlockDeckManaCurveReal.png, id=1042, 377.41pt x 279.0425pt>
+<TestImages/WarlockDeckManaCurveReal.png, id=1057, 377.41pt x 279.0425pt>
 File: TestImages/WarlockDeckManaCurveReal.png Graphic file (type png)
 <use TestImages/WarlockDeckManaCurveReal.png>
 Package pdftex.def Info: TestImages/WarlockDeckManaCurveReal.png  used on input
  line 868.
 (pdftex.def)             Requested size: 129.375pt x 95.65237pt.
-<TestImages/ShamanDeckManaCurveFake.png, id=1043, 383.4325pt x 279.0425pt>
+<TestImages/ShamanDeckManaCurveFake.png, id=1058, 383.4325pt x 279.0425pt>
 File: TestImages/ShamanDeckManaCurveFake.png Graphic file (type png)
 <use TestImages/ShamanDeckManaCurveFake.png>
 Package pdftex.def Info: TestImages/ShamanDeckManaCurveFake.png  used on input 
 line 878.
 (pdftex.def)             Requested size: 129.375pt x 94.15361pt.
-<TestImages/ShamanDeckManaCurveReal.png, id=1044, 383.4325pt x 279.0425pt>
+<TestImages/ShamanDeckManaCurveReal.png, id=1059, 383.4325pt x 279.0425pt>
 File: TestImages/ShamanDeckManaCurveReal.png Graphic file (type png)
 <use TestImages/ShamanDeckManaCurveReal.png>
 Package pdftex.def Info: TestImages/ShamanDeckManaCurveReal.png  used on input 
@@ -1252,13 +1252,13 @@ line 883.
  [62 <./TestImages/HunterDeckManaCurveFake.png> <./TestImages/HunterDeckManaCur
 veReal.png> <./TestImages/WarlockDeckManaCurveFake.png> <./TestImages/WarlockDe
 ckManaCurveReal.png>]
-<TestImages/HunterDeckWinrateClasses.png, id=1055, 388.45125pt x 314.17375pt>
+<TestImages/HunterDeckWinrateClasses.png, id=1070, 388.45125pt x 314.17375pt>
 File: TestImages/HunterDeckWinrateClasses.png Graphic file (type png)
 <use TestImages/HunterDeckWinrateClasses.png>
 Package pdftex.def Info: TestImages/HunterDeckWinrateClasses.png  used on input
  line 894.
 (pdftex.def)             Requested size: 172.5pt x 139.51685pt.
-<TestImages/HunterAllGeneratedDeckOverallWinrate.png, id=1056, 387.4475pt x 279
+<TestImages/HunterAllGeneratedDeckOverallWinrate.png, id=1071, 387.4475pt x 279
 .0425pt>
 File: TestImages/HunterAllGeneratedDeckOverallWinrate.png Graphic file (type pn
 g)
@@ -1266,13 +1266,13 @@ g)
 Package pdftex.def Info: TestImages/HunterAllGeneratedDeckOverallWinrate.png  u
 sed on input line 899.
 (pdftex.def)             Requested size: 172.5pt x 124.23524pt.
-<TestImages/WarlockDeckWinrateClasses.png, id=1057, 388.45125pt x 314.17375pt>
+<TestImages/WarlockDeckWinrateClasses.png, id=1072, 388.45125pt x 314.17375pt>
 File: TestImages/WarlockDeckWinrateClasses.png Graphic file (type png)
 <use TestImages/WarlockDeckWinrateClasses.png>
 Package pdftex.def Info: TestImages/WarlockDeckWinrateClasses.png  used on inpu
 t line 909.
 (pdftex.def)             Requested size: 172.5pt x 139.51685pt.
-<TestImages/WarlockAllGeneratedDeckOverallWinrate.png, id=1058, 393.47pt x 279.
+<TestImages/WarlockAllGeneratedDeckOverallWinrate.png, id=1073, 393.47pt x 279.
 0425pt>
 File: TestImages/WarlockAllGeneratedDeckOverallWinrate.png Graphic file (type p
 ng)
@@ -1283,13 +1283,13 @@ used on input line 914.
  [63 <./TestImages/ShamanDeckManaCurveFake.png> <./TestImages/ShamanDeckManaCur
 veReal.png> <./TestImages/HunterDeckWinrateClasses.png> <./TestImages/HunterAll
 GeneratedDeckOverallWinrate.png>]
-<TestImages/ShamanDeckWinrateClasses.png, id=1069, 388.45125pt x 314.17375pt>
+<TestImages/ShamanDeckWinrateClasses.png, id=1084, 388.45125pt x 314.17375pt>
 File: TestImages/ShamanDeckWinrateClasses.png Graphic file (type png)
 <use TestImages/ShamanDeckWinrateClasses.png>
 Package pdftex.def Info: TestImages/ShamanDeckWinrateClasses.png  used on input
  line 924.
 (pdftex.def)             Requested size: 172.5pt x 139.51685pt.
-<TestImages/ShamanAllGeneratedDeckOverallWinrate.png, id=1070, 387.4475pt x 279
+<TestImages/ShamanAllGeneratedDeckOverallWinrate.png, id=1085, 387.4475pt x 279
 .0425pt>
 File: TestImages/ShamanAllGeneratedDeckOverallWinrate.png Graphic file (type pn
 g)
@@ -1303,7 +1303,7 @@ Images/ShamanAllGeneratedDeckOverallWinrate.png>]
 Chapter 7.
 (./Hearthstone-ai.bbl [65
 
-]
+] [66]
 Underfull \hbox (badness 10000) in paragraph at lines 26--31
 \OT1/cmr/m/n/10 hl = en & lr = &id = htJHI1UrL7IC & oi = fnd & pg = PR9 & dq = 
 evolutionary +
@@ -1333,7 +1333,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 75--79
 N-[]Gnc &
  []
 
-[66
+[67
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 171--175
@@ -1347,15 +1347,15 @@ Overfull \hbox (12.02847pt too wide) in paragraph at lines 171--175
 al-[]learning-[]methods-[]paper .
  []
 
-[67] [68] [69]) [70]
+[68] [69] [70]) [71]
 Chapter 8.
-<ProhibitedConduct.png, id=1165, 609.02531pt x 482.55281pt>
+<ProhibitedConduct.png, id=1190, 609.02531pt x 482.55281pt>
 File: ProhibitedConduct.png Graphic file (type png)
 <use ProhibitedConduct.png>
-Package pdftex.def Info: ProhibitedConduct.png  used on input line 947.
+Package pdftex.def Info: ProhibitedConduct.png  used on input line 957.
 (pdftex.def)             Requested size: 431.25pt x 341.70186pt.
 
-Overfull \hbox (86.25pt too wide) in paragraph at lines 947--949
+Overfull \hbox (86.25pt too wide) in paragraph at lines 957--959
  [][] 
  []
 
@@ -1363,24 +1363,24 @@ pdfTeX warning (ext4): destination with the same identifier (name{Hfootnote.30}
 ) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.952 ...xt{\url{https://www.magicfind.us/terms/}}
-                                                   [71
+l.962 ...xt{\url{https://www.magicfind.us/terms/}}
+                                                   [72
 
  <./ProhibitedConduct.png (PNG copy)>]
-<permission.png, id=1173, 1013.28563pt x 201.75375pt>
+<permission.png, id=1197, 1013.28563pt x 201.75375pt>
 File: permission.png Graphic file (type png)
 <use permission.png>
-Package pdftex.def Info: permission.png  used on input line 958.
+Package pdftex.def Info: permission.png  used on input line 968.
 (pdftex.def)             Requested size: 431.25pt x 85.86272pt.
 
-Overfull \hbox (86.25pt too wide) in paragraph at lines 958--960
+Overfull \hbox (86.25pt too wide) in paragraph at lines 968--970
  [][] 
  []
 
 File: "../../cards-standard-report.txt"  (verbatim)
-[72 <./permission.png (PNG copy)>] [73]
+[73 <./permission.png (PNG copy)>] [74]
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 968.
+nput line 978.
  (../../card-json-example.json
 LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 3
 .
@@ -1400,7 +1400,7 @@ Overfull \hbox (101.00433pt too wide) in paragraph at lines 33--34
 [][] 
  []
 
-[74]
+[75]
 LaTeX Font Info:    Trying to load font information for OML+cmr on input line 4
 7.
  (/usr/share/texmf-dist/tex/latex/base/omlcmr.fd
@@ -1413,7 +1413,7 @@ Overfull \hbox (95.00427pt too wide) in paragraph at lines 53--54
 [][] 
  []
 
-[75]
+[76]
 Overfull \hbox (107.0044pt too wide) in paragraph at lines 81--82
 [][] 
  []
@@ -1423,7 +1423,7 @@ Overfull \hbox (101.00433pt too wide) in paragraph at lines 109--110
 [][] 
  []
 
-[76]
+[77]
 Overfull \hbox (107.0044pt too wide) in paragraph at lines 131--132
 [][] 
  []
@@ -1433,183 +1433,183 @@ Overfull \hbox (83.00415pt too wide) in paragraph at lines 150--151
 [][] 
  []
 
-[77]
+[78]
 Overfull \hbox (77.00409pt too wide) in paragraph at lines 176--177
 [][] 
  []
 
 )
-Overfull \hbox (1.49698pt too wide) in paragraph at lines 991--992
+Overfull \hbox (1.49698pt too wide) in paragraph at lines 1001--1002
 \OT1/cmtt/m/n/10 "[153, 153, 164, 226, 226, 230, 230, 250, 348, 348, 460, 472, 
 472,
  []
 
 
-Overfull \hbox (27.74675pt too wide) in paragraph at lines 991--992
+Overfull \hbox (27.74675pt too wide) in paragraph at lines 1001--1002
 \OT1/cmtt/m/n/10 477, 487, 497, 522, 522, 593, 652, 652, 841, 841, 891, 891, 11
 63, 1226,
  []
 
 
-Overfull \hbox (17.24684pt too wide) in paragraph at lines 991--992
+Overfull \hbox (17.24684pt too wide) in paragraph at lines 1001--1002
 \OT1/cmtt/m/n/10 "[32, 68, 228, 282, 296, 465, 502, 543, 567, 633, 699, 804, 81
 5, 945,
  []
 
 
-Overfull \hbox (6.74693pt too wide) in paragraph at lines 991--992
+Overfull \hbox (6.74693pt too wide) in paragraph at lines 1001--1002
 \OT1/cmtt/m/n/10 964, 1013, 1060, 1107, 1114, 1130, 1239, 1246, 1251, 213, 234,
  269,
  []
 
 
-Overfull \hbox (6.74693pt too wide) in paragraph at lines 991--992
+Overfull \hbox (6.74693pt too wide) in paragraph at lines 1001--1002
 \OT1/cmtt/m/n/10 "[64, 64, 74, 74, 192, 249, 249, 312, 312, 509, 622, 622, 663,
  663,
  []
 
 
-Overfull \hbox (17.24684pt too wide) in paragraph at lines 991--992
+Overfull \hbox (17.24684pt too wide) in paragraph at lines 1001--1002
 \OT1/cmtt/m/n/10 965, 965, 213, 304, 304, 550, 639, 639, 712, 712, 713, 713, 71
 8, 718,
  []
 
 
-Overfull \hbox (1.49698pt too wide) in paragraph at lines 991--992
+Overfull \hbox (1.49698pt too wide) in paragraph at lines 1001--1002
 \OT1/cmtt/m/n/10 "[149, 149, 318, 318, 364, 364, 483, 483, 553, 616, 616, 752, 
 752,
  []
 
 
-Overfull \hbox (1.49698pt too wide) in paragraph at lines 991--992
+Overfull \hbox (1.49698pt too wide) in paragraph at lines 1001--1002
 \OT1/cmtt/m/n/10 765, 765, 824, 900, 900, 1118, 1139, 1160, 1209, 1219, 1219, 1
 225,
  []
 
 
-Overfull \hbox (11.99689pt too wide) in paragraph at lines 991--992
+Overfull \hbox (11.99689pt too wide) in paragraph at lines 1001--1002
 \OT1/cmtt/m/n/10 "[17, 69, 69, 149, 149, 205, 205, 318, 318, 364, 364, 483, 483
 , 605,
  []
 
 
-Overfull \hbox (17.24684pt too wide) in paragraph at lines 991--992
+Overfull \hbox (17.24684pt too wide) in paragraph at lines 1001--1002
 \OT1/cmtt/m/n/10 616, 616, 707, 707, 765, 765, 1015, 1015, 1118, 1139, 1225, 97
 2, 972,
  []
 
 
-Overfull \hbox (1.49698pt too wide) in paragraph at lines 991--992
+Overfull \hbox (1.49698pt too wide) in paragraph at lines 1001--1002
 \OT1/cmtt/m/n/10 "[164, 178, 206, 250, 295, 348, 472, 487, 497, 522, 591, 593, 
 629,
  []
 
 
-Overfull \hbox (11.99689pt too wide) in paragraph at lines 991--992
+Overfull \hbox (11.99689pt too wide) in paragraph at lines 1001--1002
 \OT1/cmtt/m/n/10 652, 772, 841, 891, 963, 1008, 1163, 1196, 1226, 453, 755, 935
 , 940,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 991--992
+Underfull \hbox (badness 10000) in paragraph at lines 1001--1002
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 991--992
+Underfull \hbox (badness 10000) in paragraph at lines 1001--1002
 
  []
 
 
-Overfull \hbox (6.74693pt too wide) in paragraph at lines 991--992
+Overfull \hbox (6.74693pt too wide) in paragraph at lines 1001--1002
 \OT1/cmtt/m/n/10 "[8, 8, 15, 15, 17, 17, 23, 23, 78, 78, 96, 96, 149, 149, 318,
  318,
  []
 
 
-Overfull \hbox (59.24648pt too wide) in paragraph at lines 991--992
+Overfull \hbox (59.24648pt too wide) in paragraph at lines 1001--1002
 \OT1/cmtt/m/n/10 364, 364, 393, 393, 396, 396, 462, 462, 611, 611, 616, 616, 44
 1, 441]",Priest 
  []
 
 
-Overfull \hbox (22.4968pt too wide) in paragraph at lines 991--992
+Overfull \hbox (22.4968pt too wide) in paragraph at lines 1001--1002
 \OT1/cmtt/m/n/10 "[7, 7, 29, 29, 303, 303, 328, 328, 351, 400, 400, 556, 556, 7
 17, 717,
  []
 
 
-Overfull \hbox (11.99689pt too wide) in paragraph at lines 991--992
+Overfull \hbox (11.99689pt too wide) in paragraph at lines 1001--1002
 \OT1/cmtt/m/n/10 761, 780, 780, 869, 869, 885, 885, 942, 942, 1037, 1127, 1128,
  1175,
  []
 
 
-Overfull \hbox (11.99689pt too wide) in paragraph at lines 991--992
+Overfull \hbox (11.99689pt too wide) in paragraph at lines 1001--1002
 \OT1/cmtt/m/n/10 "[10, 10, 12, 12, 13, 13, 61, 61, 126, 126, 302, 302, 334, 334
 , 411,
  []
 
 
-Overfull \hbox (17.24684pt too wide) in paragraph at lines 991--992
+Overfull \hbox (17.24684pt too wide) in paragraph at lines 1001--1002
 \OT1/cmtt/m/n/10 411, 448, 685, 748, 801, 801, 840, 840, 1032, 1229, 1034, 1034
 , 1180,
  []
 
 
-Overfull \hbox (22.4968pt too wide) in paragraph at lines 991--992
+Overfull \hbox (22.4968pt too wide) in paragraph at lines 1001--1002
 \OT1/cmtt/m/n/10 "[17, 17, 65, 65, 84, 84, 173, 173, 202, 202, 238, 284, 284, 2
 89, 289,
  []
 
 
-Overfull \hbox (11.99689pt too wide) in paragraph at lines 991--992
+Overfull \hbox (11.99689pt too wide) in paragraph at lines 1001--1002
 \OT1/cmtt/m/n/10 321, 547, 547, 599, 599, 742, 742, 795, 795, 1038, 1038, 1062,
  1062,
  []
 
 
-Overfull \hbox (1.49698pt too wide) in paragraph at lines 991--992
+Overfull \hbox (1.49698pt too wide) in paragraph at lines 1001--1002
 \OT1/cmtt/m/n/10 "[224, 224, 303, 303, 351, 377, 377, 485, 485, 486, 486, 516, 
 691,
  []
 
 
-Overfull \hbox (17.24684pt too wide) in paragraph at lines 991--992
+Overfull \hbox (17.24684pt too wide) in paragraph at lines 1001--1002
 \OT1/cmtt/m/n/10 691, 761, 869, 869, 870, 870, 885, 885, 912, 912, 1216, 1216, 
 31, 31,
  []
 
 
-Overfull \hbox (17.24684pt too wide) in paragraph at lines 991--992
+Overfull \hbox (17.24684pt too wide) in paragraph at lines 1001--1002
 \OT1/cmtt/m/n/10 "[12, 12, 171, 171, 180, 180, 183, 183, 242, 242, 265, 265, 57
 6, 645,
  []
 
 
-Overfull \hbox (17.24684pt too wide) in paragraph at lines 991--992
+Overfull \hbox (17.24684pt too wide) in paragraph at lines 1001--1002
 \OT1/cmtt/m/n/10 645, 664, 664, 684, 684, 911, 938, 107, 107, 189, 189, 449, 44
 9, 441,
  []
 
 
-Overfull \hbox (11.99689pt too wide) in paragraph at lines 991--992
+Overfull \hbox (11.99689pt too wide) in paragraph at lines 1001--1002
 \OT1/cmtt/m/n/10 "[2, 2, 16, 16, 19, 19, 133, 133, 140, 140, 159, 159, 204, 204
 , 281,
  []
 
 
-Overfull \hbox (17.24684pt too wide) in paragraph at lines 991--992
+Overfull \hbox (17.24684pt too wide) in paragraph at lines 1001--1002
 \OT1/cmtt/m/n/10 281, 292, 292, 427, 427, 444, 444, 497, 527, 521, 521, 635, 63
 5, 939,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 991--992
+Underfull \hbox (badness 10000) in paragraph at lines 1001--1002
 
  []
 
-[78] [79] (../../example-json.json
+[79] [80] (../../example-json.json
 Overfull \hbox (95.00427pt too wide) in paragraph at lines 18--19
 [][] 
  []
@@ -1619,7 +1619,7 @@ Overfull \hbox (107.0044pt too wide) in paragraph at lines 19--20
 [][] 
  []
 
-[80]
+[81]
 Overfull \hbox (95.00427pt too wide) in paragraph at lines 44--45
 [][] 
  []
@@ -1629,7 +1629,7 @@ Overfull \hbox (107.0044pt too wide) in paragraph at lines 45--46
 [][] 
  []
 
-[81]
+[82]
 Overfull \hbox (101.00433pt too wide) in paragraph at lines 73--74
 [][] 
  []
@@ -1639,7 +1639,7 @@ Overfull \hbox (107.0044pt too wide) in paragraph at lines 98--99
 [][] 
  []
 
-[82]
+[83]
 Overfull \hbox (77.00409pt too wide) in paragraph at lines 123--124
 [][] 
  []
@@ -1649,7 +1649,7 @@ Overfull \hbox (101.00433pt too wide) in paragraph at lines 124--125
 [][] 
  []
 
-[83]
+[84]
 Overfull \hbox (77.00409pt too wide) in paragraph at lines 144--145
 [][] 
  []
@@ -1660,25 +1660,32 @@ Overfull \hbox (101.00433pt too wide) in paragraph at lines 145--146
  []
 
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 998.
- [84]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 998.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1008.
+ [85]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1008.
  (./Hearthstone-ai.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 998.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 998.
-Package rerunfilecheck Info: File `Hearthstone-ai.out' has not changed.
-(rerunfilecheck)             Checksum: 92F9E6499D2EFFC29DB4E4A351083ED8;4943.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1008.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1008.
 
+
+
+Package rerunfilecheck Warning: File `Hearthstone-ai.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Hearthstone-ai.out':
+(rerunfilecheck)             Before: 0D85E1D59169F38A5FC80CC111FE3166;5110
+(rerunfilecheck)             After:  57A8E4533787DE4BBEA96D44A40C8D18;5495.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 998.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1008.
  ) 
 Here is how much of TeX's memory you used:
- 14058 strings out of 480478
- 259782 string characters out of 5905958
+ 14069 strings out of 480478
+ 259925 string characters out of 5905958
  614313 words of memory out of 5000000
- 29171 multiletter control sequences out of 15000+600000
+ 29174 multiletter control sequences out of 15000+600000
  541823 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  39i,9n,46p,2075b,2131s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1699,10 +1706,10 @@ st/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1
 /public/amsfonts/cm/cmti10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfon
 ts/cm/cmtt10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pf
 b></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on Hearthstone-ai.pdf (86 pages, 5071560 bytes).
+Output written on Hearthstone-ai.pdf (87 pages, 5074482 bytes).
 PDF statistics:
- 1780 PDF objects out of 2073 (max. 8388607)
- 1558 compressed objects within 16 object streams
- 686 named destinations out of 1000 (max. 500000)
- 931 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1804 PDF objects out of 2073 (max. 8388607)
+ 1581 compressed objects within 16 object streams
+ 694 named destinations out of 1000 (max. 500000)
+ 955 words of extra memory for PDF output out of 10000 (max. 10000000)
 

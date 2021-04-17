@@ -797,7 +797,7 @@ Originally, the execution of the simulator was going to be done through the libr
   \includegraphics[width=.75\linewidth]{TestImages/NeutralSplitAllCards}
   \caption{All Cards}
 \end{subfigure}
-\caption{Type Split of real and generated deck}
+\caption{Neutral of real, generated deck and overall}
 \end{figure}
 \subsection{Test 2 - Warlock Deck}
 \begin{figure}[H]
@@ -817,7 +817,7 @@ Originally, the execution of the simulator was going to be done through the libr
   \includegraphics[width=.75\linewidth]{TestImages/NeutralSplitAllCards}
   \caption{All Cards}
 \end{subfigure}
-\caption{Type Split of real and generated deck}
+\caption{Neutral of real, generated deck and overall}
 \end{figure}
 \subsection{Test 3 - Shaman Deck}
 \begin{figure}[H]
@@ -837,7 +837,7 @@ Originally, the execution of the simulator was going to be done through the libr
   \includegraphics[width=.75\linewidth]{TestImages/NeutralSplitAllCards}
   \caption{All Cards}
 \end{subfigure}
-\caption{Type Split of real and generated deck}
+\caption{Neutral of real, generated deck and overall}
 \end{figure}
 \section{Comparing mana curve for real and fake decks}
 \subsection{Test 1 - Hunter Deck}
@@ -853,7 +853,7 @@ Originally, the execution of the simulator was going to be done through the libr
   \includegraphics[width=.75\linewidth]{TestImages/HunterDeckManaCurveReal}
   \caption{Real Deck}
 \end{subfigure}
-\caption{Type Split of real and generated deck}
+\caption{Mana curve of real and generated deck}
 \end{figure}
 \subsection{Test 2 - Warlock Deck}
 \begin{figure}[H]
@@ -868,7 +868,7 @@ Originally, the execution of the simulator was going to be done through the libr
   \includegraphics[width=.75\linewidth]{TestImages/WarlockDeckManaCurveReal}
   \caption{Real Deck}
 \end{subfigure}
-\caption{Type Split of real and generated deck}
+\caption{Mana curve of real and generated deck}
 \end{figure}
 \subsection{Test 3 - Shaman Deck}
 \begin{figure}[H]
@@ -883,9 +883,9 @@ Originally, the execution of the simulator was going to be done through the libr
   \includegraphics[width=.75\linewidth]{TestImages/ShamanDeckManaCurveReal}
   \caption{Real Deck}
 \end{subfigure}
-\caption{Type Split of real and generated deck}
+\caption{Mana curve of real and generated deck}
 \end{figure}
-\section{Testing winrates versus Real decks}
+\section{Testing winrates versus real decks}
 \subsection{Test 1 - Hunter Deck}
 \begin{figure}[H]
 \centering
@@ -899,7 +899,7 @@ Originally, the execution of the simulator was going to be done through the libr
   \includegraphics[width=1\linewidth]{TestImages/HunterAllGeneratedDeckOverallWinrate}
   \caption{Overall Winrate}
 \end{subfigure}
-\caption{Type Split of real and generated deck}
+\caption{Winrate of generated deck vs real decks}
 \end{figure}
 \subsection{Test 2 - Warlock Deck}
 \begin{figure}[H]
@@ -914,7 +914,7 @@ Originally, the execution of the simulator was going to be done through the libr
   \includegraphics[width=1\linewidth]{TestImages/WarlockAllGeneratedDeckOverallWinrate}
   \caption{Overall Winrate}
 \end{subfigure}
-\caption{Type Split of real and generated deck}
+\caption{Winrate of generated deck vs real decks}
 \end{figure}
 \subsection{Test 3 - Shaman Deck}
 \begin{figure}[H]
@@ -929,12 +929,22 @@ Originally, the execution of the simulator was going to be done through the libr
   \includegraphics[width=1\linewidth]{TestImages/ShamanAllGeneratedDeckOverallWinrate}
   \caption{Overall Winrate}
 \end{subfigure}
-\caption{Type Split of real and generated deck}
+\caption{Winrate of generated deck vs real decks}
 \end{figure}
 
 \chapter{Evaluation}
+\section{Overview}
+Over all, the project was a success, despite some limitation a new technique has been found to work for the building of Hearthstone decks. Although not as refined as other established techniques, another avenue has been opened for further study. Non-functional requirements have been fully accomplished, the most important functional requirements have been met save for a few such as wild format implementation, UI and build a deck with a limited collection of cards due to time constraints. Testing while inconclusive due to constraints has shown great promise in the structuring of a deck and provides interesting insights in the testing of a deck.
+\section{Limitations}
+Throughout the testing process there are major limitations preventing proper results from being recorded. The first limiting factor was the simulator, since only about half of the cards in the game have been implemented into the game, some of those cards would be present in the deck creation. Whilst the cards do exist in the simulator and can be played, there effects will not be registered by the simulator, for example a minion with an effect on board, if unimplemented will still have the health and the attack but will not have the effect of the card. For a spell, the mana will be spent but the effect will not trigger due to it being unimplemented, this ends up making cards that are considered good by community standards bad and actually becomes a detriment to the deck and lowers winrate. The second limiting factor is the AI that plays the deck, due to its simplistic nature, the cards within the decks are not played to their fullest potential, the AI seeminly plays cards randomly based on the amount of mana it has available, because of this decks that require a resource management will not have the most representative winrate than that of a human player. These combined factors prevent the testing results for winrates from being conclusive, should the project be continued the possibility of using a more advanced AI such as a Monty Carlo algorithm could bear fruitful results.
+\section{Results}
+\subsection{Comparing type split for real and fake decks}
+\subsection{Comparing neutral split for real and fake decks}
+\subsection{Comparing mana curve for real and fake decks}
+\subsection{Testing winrates versus real decks}
 --simulator limited--
 -- logging buffered messages which crashed program--
+-- Aggro decks provide better results because they require playing as many cards as possible whereas more control decks require ressource management--
 %----------------------------------------------------------------------------------------
 %	BIBLIOGRAPHY
 %---------------------

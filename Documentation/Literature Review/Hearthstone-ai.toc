@@ -101,9 +101,16 @@
 \contentsline {subsection}{\numberline {6.5.1}Test 1 - Hunter Deck}{62}{subsection.6.5.1}%
 \contentsline {subsection}{\numberline {6.5.2}Test 2 - Warlock Deck}{62}{subsection.6.5.2}%
 \contentsline {subsection}{\numberline {6.5.3}Test 3 - Shaman Deck}{63}{subsection.6.5.3}%
-\contentsline {section}{\numberline {6.6}Testing winrates versus Real decks}{63}{section.6.6}%
+\contentsline {section}{\numberline {6.6}Testing winrates versus real decks}{63}{section.6.6}%
 \contentsline {subsection}{\numberline {6.6.1}Test 1 - Hunter Deck}{63}{subsection.6.6.1}%
 \contentsline {subsection}{\numberline {6.6.2}Test 2 - Warlock Deck}{64}{subsection.6.6.2}%
 \contentsline {subsection}{\numberline {6.6.3}Test 3 - Shaman Deck}{64}{subsection.6.6.3}%
 \contentsline {chapter}{\numberline {7}Evaluation}{65}{chapter.7}%
-\contentsline {chapter}{\numberline {8}Appendix}{71}{chapter.8}%
+\contentsline {section}{\numberline {7.1}Overview}{65}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Limitations}{65}{section.7.2}%
+\contentsline {section}{\numberline {7.3}Results}{66}{section.7.3}%
+\contentsline {subsection}{\numberline {7.3.1}Comparing type split for real and fake decks}{66}{subsection.7.3.1}%
+\contentsline {subsection}{\numberline {7.3.2}Comparing neutral split for real and fake decks}{66}{subsection.7.3.2}%
+\contentsline {subsection}{\numberline {7.3.3}Comparing mana curve for real and fake decks}{66}{subsection.7.3.3}%
+\contentsline {subsection}{\numberline {7.3.4}Testing winrates versus real decks}{66}{subsection.7.3.4}%
+\contentsline {chapter}{\numberline {8}Appendix}{72}{chapter.8}%

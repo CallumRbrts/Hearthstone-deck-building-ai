@@ -67,9 +67,16 @@
 \BOOKMARK [2][-]{subsection.6.5.1}{Test 1 - Hunter Deck}{section.6.5}% 67
 \BOOKMARK [2][-]{subsection.6.5.2}{Test 2 - Warlock Deck}{section.6.5}% 68
 \BOOKMARK [2][-]{subsection.6.5.3}{Test 3 - Shaman Deck}{section.6.5}% 69
-\BOOKMARK [1][-]{section.6.6}{Testing winrates versus Real decks}{chapter.6}% 70
+\BOOKMARK [1][-]{section.6.6}{Testing winrates versus real decks}{chapter.6}% 70
 \BOOKMARK [2][-]{subsection.6.6.1}{Test 1 - Hunter Deck}{section.6.6}% 71
 \BOOKMARK [2][-]{subsection.6.6.2}{Test 2 - Warlock Deck}{section.6.6}% 72
 \BOOKMARK [2][-]{subsection.6.6.3}{Test 3 - Shaman Deck}{section.6.6}% 73
 \BOOKMARK [0][-]{chapter.7}{Evaluation}{}% 74
-\BOOKMARK [0][-]{chapter.8}{Appendix}{}% 75
+\BOOKMARK [1][-]{section.7.1}{Overview}{chapter.7}% 75
+\BOOKMARK [1][-]{section.7.2}{Limitations}{chapter.7}% 76
+\BOOKMARK [1][-]{section.7.3}{Results}{chapter.7}% 77
+\BOOKMARK [2][-]{subsection.7.3.1}{Comparing type split for real and fake decks}{section.7.3}% 78
+\BOOKMARK [2][-]{subsection.7.3.2}{Comparing neutral split for real and fake decks}{section.7.3}% 79
+\BOOKMARK [2][-]{subsection.7.3.3}{Comparing mana curve for real and fake decks}{section.7.3}% 80
+\BOOKMARK [2][-]{subsection.7.3.4}{Testing winrates versus real decks}{section.7.3}% 81
+\BOOKMARK [0][-]{chapter.8}{Appendix}{}% 82
