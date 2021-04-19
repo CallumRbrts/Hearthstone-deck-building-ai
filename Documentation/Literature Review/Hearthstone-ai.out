@@ -25,7 +25,7 @@
 \BOOKMARK [1][-]{section.3.3}{Non-Functional}{chapter.3}% 25
 \BOOKMARK [1][-]{section.3.4}{Approach}{chapter.3}% 26
 \BOOKMARK [1][-]{section.3.5}{Libraries}{chapter.3}% 27
-\BOOKMARK [2][-]{subsection.3.5.1}{Web Scaper and API}{section.3.5}% 28
+\BOOKMARK [2][-]{subsection.3.5.1}{Web Scraper and API}{section.3.5}% 28
 \BOOKMARK [2][-]{subsection.3.5.2}{GAN}{section.3.5}% 29
 \BOOKMARK [2][-]{subsection.3.5.3}{Evaluation}{section.3.5}% 30
 \BOOKMARK [0][-]{chapter.4}{Legal and Ethical Considerations}{}% 31
@@ -67,7 +67,7 @@
 \BOOKMARK [2][-]{subsection.6.5.1}{Test 1 - Hunter Deck}{section.6.5}% 67
 \BOOKMARK [2][-]{subsection.6.5.2}{Test 2 - Warlock Deck}{section.6.5}% 68
 \BOOKMARK [2][-]{subsection.6.5.3}{Test 3 - Shaman Deck}{section.6.5}% 69
-\BOOKMARK [1][-]{section.6.6}{Testing winrates versus real decks}{chapter.6}% 70
+\BOOKMARK [1][-]{section.6.6}{Testing win rates versus real decks}{chapter.6}% 70
 \BOOKMARK [2][-]{subsection.6.6.1}{Test 1 - Hunter Deck}{section.6.6}% 71
 \BOOKMARK [2][-]{subsection.6.6.2}{Test 2 - Warlock Deck}{section.6.6}% 72
 \BOOKMARK [2][-]{subsection.6.6.3}{Test 3 - Shaman Deck}{section.6.6}% 73
@@ -78,7 +78,7 @@
 \BOOKMARK [2][-]{subsection.7.3.1}{Comparing type split for real and fake decks}{section.7.3}% 78
 \BOOKMARK [2][-]{subsection.7.3.2}{Comparing neutral split for real and fake decks}{section.7.3}% 79
 \BOOKMARK [2][-]{subsection.7.3.3}{Comparing mana curve for real and fake decks}{section.7.3}% 80
-\BOOKMARK [2][-]{subsection.7.3.4}{Testing winrates versus real decks}{section.7.3}% 81
+\BOOKMARK [2][-]{subsection.7.3.4}{Testing win rates versus real decks}{section.7.3}% 81
 \BOOKMARK [1][-]{section.7.4}{Conclusion}{chapter.7}% 82
 \BOOKMARK [2][-]{subsection.7.4.1}{Overview}{section.7.4}% 83
 \BOOKMARK [2][-]{subsection.7.4.2}{Findings}{section.7.4}% 84
