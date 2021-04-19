@@ -113,4 +113,16 @@
 \contentsline {subsection}{\numberline {7.3.2}Comparing neutral split for real and fake decks}{66}{subsection.7.3.2}%
 \contentsline {subsection}{\numberline {7.3.3}Comparing mana curve for real and fake decks}{66}{subsection.7.3.3}%
 \contentsline {subsection}{\numberline {7.3.4}Testing winrates versus real decks}{66}{subsection.7.3.4}%
-\contentsline {chapter}{\numberline {8}Appendix}{73}{chapter.8}%
+\contentsline {section}{\numberline {7.4}Conclusion}{67}{section.7.4}%
+\contentsline {subsection}{\numberline {7.4.1}Overview}{67}{subsection.7.4.1}%
+\contentsline {subsection}{\numberline {7.4.2}Findings}{67}{subsection.7.4.2}%
+\contentsline {subsection}{\numberline {7.4.3}Future Work}{68}{subsection.7.4.3}%
+\contentsline {chapter}{\numberline {8}Appendices}{74}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Appendix A}{74}{section.8.1}%
+\contentsline {section}{\numberline {8.2}Appendix B}{75}{section.8.2}%
+\contentsline {section}{\numberline {8.3}Appendix C}{75}{section.8.3}%
+\contentsline {section}{\numberline {8.4}Appendix D}{77}{section.8.4}%
+\contentsline {section}{\numberline {8.5}Appendix E}{82}{section.8.5}%
+\contentsline {section}{\numberline {8.6}Appendix F}{83}{section.8.6}%
+\contentsline {section}{\numberline {8.7}Appendix G - Github Log}{87}{section.8.7}%
+\contentsline {section}{\numberline {8.8}Appendix H - Trello Logs}{94}{section.8.8}%

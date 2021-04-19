@@ -1,0 +1,264 @@
+commit 16b22e99543089e1a44a5f7a450b4889b2b72649 (HEAD -> master, origin/master)
+Author: CallumRbrts <callum.roberts.pro@gmail.com>
+Date:   Sat Apr 17 15:05:15 2021 +0200
+
+    Finished evaluation section of report
+
+commit b8ea9fc0c0e738684b3380777488f7123dbb3fa2
+Author: CallumRbrts <callum.roberts.pro@gmail.com>
+Date:   Wed Apr 14 16:06:28 2021 +0200
+
+    Finished simulator section of report
+
+commit ae821d26fcec0cb7c3189b0b63144ffa777c687e
+Author: CallumRbrts <callum.roberts.pro@gmail.com>
+Date:   Wed Apr 14 12:44:01 2021 +0200
+
+    Started Testing section of report
+
+commit 99e963f942b2f59e9cc08da8d149b0c83fff377c
+Author: CallumRbrts <callum.roberts.pro@gmail.com>
+Date:   Tue Apr 13 15:56:53 2021 +0200
+
+    finishied Improvements section of report
+
+commit 4bb4dee0cbfead7976b881b50565233bbe9fe029
+Author: CallumRbrts <callum.roberts.pro@gmail.com>
+Date:   Tue Apr 13 12:35:14 2021 +0200
+
+    did initial results section of report
+
+commit 529db84fc1e07fb84bbba6f1f9f23f5a542f3b44
+Author: CallumRbrts <callum.roberts.pro@gmail.com>
+Date:   Mon Apr 12 16:52:11 2021 +0200
+
+    Finish implementation of GAN section ofreport
+
+commit 1da0de87980eefcece4ed0a33e7d9f9f7f717137
+Author: CallumRbrts <callum.roberts.pro@gmail.com>
+Date:   Mon Apr 12 13:14:32 2021 +0200
+
+    started write up about the gan implmentation, introduction and generator model
+
+commit a305c254f0f84c7d1e1180546fcff7d36a9c031c
+Author: CallumRbrts <callum.roberts.pro@gmail.com>
+Date:   Sun Apr 11 15:12:27 2021 +0200
+
+    finished report about implementation of web scraper
+
+commit ddc88289e470ccb6f49fa5de151bab82a61d17b7
+Author: CallumRbrts <callum.roberts.pro@gmail.com>
+Date:   Sat Apr 10 14:43:01 2021 +0200
+
+    Finished Improved Method of Web Scraping for report
+
+commit 0d54de81e77e1132cd39527ff768e81eaab4e8bb
+Author: CallumRbrts <callum.roberts.pro@gmail.com>
+Date:   Sat Apr 10 13:38:26 2021 +0200
+
+    Started Improved Method of Web Scraping for report
+
+commit 6b179c2a3f72744ece7b8987380d0de970aa7330
+Author: CallumRbrts <callum.roberts.pro@gmail.com>
+Date:   Fri Apr 9 21:20:16 2021 +0200
+
+    finished initial method of deck data
+
+commit 10ca08bb25565ab2420eccc0b93a10c5f9d03a2e
+Author: CallumRbrts <callum.roberts.pro@gmail.com>
+Date:   Fri Apr 9 15:29:25 2021 +0200
+
+    started implementation of initial method
+
+commit 280982a4361b61b4ed8f6a51fa422659bcd4385e
+Author: CallumRbrts <callum.roberts.pro@gmail.com>
+Date:   Fri Apr 9 12:56:21 2021 +0200
+
+    Started deck data section of report
+
+commit 5987d710c68a59c622511b2b85ccbc4220855e62
+Author: CallumRbrts <callum.roberts.pro@gmail.com>
+Date:   Wed Apr 7 17:25:41 2021 +0200
+
+    Finished Improved method
+
+commit 7af2fdcb0828b5a97469aed12ebbfdb130ace464
+Author: CallumRbrts <callum.roberts.pro@gmail.com>
+Date:   Wed Apr 7 12:53:12 2021 +0200
+
+    finished initial method and tsrated improved method
+
+commit 46b11c6cf26a8599f52997c5be410b9728a293db
+Author: CallumRbrts <callum.roberts.pro@gmail.com>
+Date:   Tue Apr 6 18:10:06 2021 +0200
+
+    Started Implementation of text file for card data in report
+
+commit d6a18c62222db75fa18fc1d299554e2cd377e65b
+Author: CallumRbrts <callum.roberts.pro@gmail.com>
+Date:   Tue Apr 6 16:45:44 2021 +0200
+
+    Started Implementation of text file for card data in report
+
+commit 070207018d972e41258b56678504dbc4de7e1e5c
+Author: CallumRbrts <callum.roberts.pro@gmail.com>
+Date:   Tue Apr 6 13:49:08 2021 +0200
+
+    Started Initial Method for card data in report
+
+commit f426367854a5aa9458df0a65d8591dad416966fb
+Author: CallumRbrts <callum.roberts.pro@gmail.com>
+Date:   Mon Apr 5 12:07:33 2021 +0200
+
+    Ethical Issues section of report
+
+commit 230aa17aec1c4b04a7bca2df3a6af89527ed4aba
+Author: CallumRbrts <callum.roberts.pro@gmail.com>
+Date:   Sun Apr 4 12:02:25 2021 +0200
+
+    Started Legal and Ethical aspect of final report
+
+commit 965228afa1309c2edb7c61998c4ce12b5a4d3600
+Author: CallumRbrts <callum.roberts.pro@gmail.com>
+Date:   Sat Apr 3 13:52:28 2021 +0200
+
+    Finished Methodology section on report
+
+commit f292176cffba1412a1f7fa303d3c7dd07e7504e1
+Author: CallumRbrts <callum.roberts.pro@gmail.com>
+Date:   Sat Apr 3 12:51:28 2021 +0200
+
+    Started methodolody on report
+
+commit b4d3b5e05291c3756e8ed0199914932fa72e11e6
+Author: CallumRbrts <callum.roberts.pro@gmail.com>
+Date:   Thu Apr 1 14:45:43 2021 +0200
+
+    Added introduction to report
+
+commit b8c220ba6e80b2720aaeb5d2912aa51a80ebf77a
+Author: CallumRbrts <callum.roberts.pro@gmail.com>
+Date:   Thu Apr 1 12:21:18 2021 +0200
+
+    Changes to HSAI demo and structuring final report
+
+commit c099e21cb12cb0f35f31d291442b270d37ec4c01
+Author: CallumRbrts <callum.roberts.pro@gmail.com>
+Date:   Thu Mar 25 12:25:14 2021 +0100
+
+    created some more evaluation metrics, I generate mana_curves for real and generated decks for comparison, and also for card type split
+
+commit e5ad6f2db01d794faeae0c8972f801c35a59f22d
+Author: CallumRbrts <callum.roberts.pro@gmail.com>
+Date:   Thu Mar 25 11:23:30 2021 +0100
+
+    created demo version of AI
+
+commit 6205d239bcd4fb7d37e8047bc7f8154c2d7b946d
+Author: CallumRbrts <callum.roberts.pro@gmail.com>
+Date:   Wed Mar 10 21:45:59 2021 +0100
+
+    Done full evaluation of every class, created a deck with the AI then tested it against every class for 10 games collecting the results
+
+commit 84c071b9332dd8ce084dc99562d7cf1ddb3ce8a4
+Author: CallumRbrts <callum.roberts.pro@gmail.com>
+Date:   Wed Feb 24 18:22:06 2021 +0100
+
+    Added firestone simulator integration although some files need to be changed/added, but can simulate games with basic AI. Not all cards are implemented sadly. Also added a converter to cnvert the decks into a format that the simulator can use
+
+commit cca1acfceee86c18f86fbd77743a81da0ec3eacc
+Author: CallumRbrts <callum.roberts.pro@gmail.com>
+Date:   Wed Feb 24 18:20:56 2021 +0100
+
+    Added firestone simulator integration although some files need to be changed/added, but can simulate games with basic AI. Not all cards are implemented sadly. Also added a converter to cnvert the decks into a format that the simulator can use
+
+commit d6b49a08557ab0d4a0b2bd6df57a488182cc16bd
+Author: caroberts <callum.roberts@etu.uca.fr>
+Date:   Tue Feb 16 18:15:45 2021 +0100
+
+    Ran the web scraper again and added fixed json files
+
+commit b14c2e0e4df5d1f7f092e5d55c8c0c7d8c91da59
+Author: caroberts <callum.roberts@etu.uca.fr>
+Date:   Tue Feb 16 13:33:54 2021 +0100
+
+    Fixed bug with web scraper that cause it to only save Warrior decks, still need to run the scraper again to collect the extra cards + Modified HS-AI-NEW to be give the user a choice of what deck they want to build and adapted the code around that
+
+commit c75c3fbfbd87b474f1ab946b9880b8931fa9a479
+Author: caroberts <callum.roberts@etu.uca.fr>
+Date:   Mon Feb 1 18:12:10 2021 +0100
+
+    Fixed impurities from certain HS cards, some would be marked as Neutral when they were in fact multiclass cards + function that limits GAN traning cards to Neutral and the chosen class cards, works well, observed some attempted synergy with the Warrior class with Weapons and Rush cards
+
+commit 5e264e4070f9114101cbb6d136a23bcadb1a15f9
+Author: caroberts <callum.roberts@etu.uca.fr>
+Date:   Fri Jan 29 13:54:25 2021 +0100
+
+    Changed card format to json collected from an API + Had to make changes to all files to accomocate + Fixed bug where cards weren't ID'd properly + Changed deck collection method, now is stored as json rather than csv + added sorting and cleaning methods for the deck lists to be able to filter by cost, class and name + updated data.json file to add missing cards
+
+commit b079906dc04208bad461357f42dfd31d937dcfbf
+Author: caroberts <callum.roberts@etu.uca.fr>
+Date:   Sun Jan 17 12:43:47 2021 +0100
+
+    Added Web-Scraper script that collects decks from all classes on Hearthpwn + added Card-API script that collects cards from The Hearthstone API + added a test, new versions of the GAN + added data
+
+commit 1f97b5463673958a128e386c297a80107db87a4a
+Author: caroberts <callum.roberts@etu.uca.fr>
+Date:   Mon Jan 4 13:25:45 2021 +0100
+
+    added test file for GAN
+
+commit 813f28e6ae70019cdca007269f314fd5dc52c206
+Author: caroberts <callum.roberts@etu.uca.fr>
+Date:   Wed Dec 16 13:18:16 2020 +0100
+
+    added filter system to add decks to gan based on chosen class
+
+commit 8f9d1042f3170bc7839fad484bf040b08e0f6ff0
+Author: caroberts <callum.roberts@etu.uca.fr>
+Date:   Tue Dec 15 12:25:49 2020 +0100
+
+    added data files for the notebook
+
+commit ec6650e975b216824b78bfd7b82a622f3e4a608b
+Author: caroberts <callum.roberts@etu.uca.fr>
+Date:   Tue Dec 15 12:24:43 2020 +0100
+
+    Added python notebook of beginning of Tthe HS AI, includes web scraper, file conversion, vectorification of cards
+
+commit 4b7da8aff8dfa770f029b05087c14047bcfad7ca
+Author: caroberts <callum.roberts@etu.uca.fr>
+Date:   Mon Nov 30 11:44:41 2020 +0100
+
+    Final Literature Review Draft
+
+commit c2cc851a496b29eec9de6ddcf1e43aa0b130a0d2
+Author: caroberts <callum.roberts@etu.uca.fr>
+Date:   Fri Nov 13 12:58:16 2020 +0100
+
+    GA + ML + Hybrid
+
+commit 8bfb070cf6f6a26667167d4c8bffe3f62880a5a1
+Author: caroberts <callum.roberts@etu.uca.fr>
+Date:   Tue Nov 10 18:52:06 2020 +0100
+
+    Added GA to Literature Review
+
+commit b74b24b20544630c385e8825583d0b7046ff5500
+Author: caroberts <callum.roberts@etu.uca.fr>
+Date:   Sun Nov 8 20:17:29 2020 +0100
+
+    Project Intro + Assitance systems
+
+commit 792dc6b9a6e51ceb7bea54a1ac331ae45ae75698
+Author: caroberts <callum.roberts@etu.uca.fr>
+Date:   Tue Oct 27 19:05:16 2020 +0100
+
+    start of Lit Review
+
+commit d5309a28d685eb543e21e9e30f7157e98e6ec9df
+Author: caroberts <callum.roberts@etu.uca.fr>
+Date:   Mon Oct 19 19:59:45 2020 +0200
+
+    initial commit + notes from research
+(END)

@@ -669,6 +669,7 @@ The testing should reflect the following statements:
 \item A generated deck should have a similar \textbf{neutral split} to a real deck
 \item A generated deck should have a similar \textbf{mana curve} to a real deck
 \item The criteria of a considered legal deck should not be breached, illegal decks should be excluded from the results.
+\item Decks should be tested over the course of 100 games.
 \item The above statements should not be affected by a change of dataset
 \end{itemize}
 \section{Simulator}
@@ -948,17 +949,25 @@ The mana curve of a deck is important, especially when talking about the archety
 This part tested the overall winrate of all the generated decks by the GAN, and their winrate on a per class basis. From the results, it can be noticed that the winrates of the Hunter and Shaman class are over 50\% which is good as it fulfils the requirement set, however it can be observed that Warlock has an unusually low winrate, a possible explanation is due to the AI playing the deck, the AI tends to use hero powers whenever it can, and the Warlock's hero power damages himself, meaning that the AI is more likely to die as a Warlock, whereas as a Hunter, the hero power damages the enemy meaning that the winrate would be higher. Also some classes have a better winrate versus some classes, this is mostly due to match ups, an agressive deck like a hunter deck will have an easier time dealing with control decks like a warriors hence why there is 100\% winrate for Hunter in that category. However it has trouble versus other midrange type decks, like a Rogue or Paladin. Overall these results are skewed by the AI not being very smart, but some interesting insights have come from it such as the match up dependance and the fact that the AI performs better with aggressive decks than it does decks that require more thinking. 
 
 
+\section{Conclusion}
+\subsection{Overview}
+To conclude, the project was an overall success, it successfully generated decks playable decks for Hearthstone. The decks resembled real decks in structure, and showed synergistic cards being paired together. Throughout the testing process of the project, it was discovered that aggressive decks, ones with lots of low cost cards tend to have better results than those with higher cost cards, the same can be said for the classes. The aggressive classes like the Hunter provided much better results than the more control oriented classes such as the Warlock. \\
+\\ 
+Throughout the project there were many challenges that needed to be resolved, one major one was the usage of the simulator. Currently there is not a fully updated ready to play simulator, because of this testing the decks performance proved difficult. The simulator also made use of a logging system to show the user what the moves that were happening, the problem is that over the course of 100 games, the logger would buffer so many messages that it would crash the program. Finally the GAN had trouble creating legal decks for some classes, of note, Warlock which is could not produce a lot and Druid which it had trouble with aswell. Possible explanation could be because of the GAN needed more training time with the structure of those decks. 
+\subsection{Findings}
+The decks created by the GAN was tested using 10 datasets, all harvested and created from the Hearthpwn website, who gave their permission to use a custom web scraper to collect the data. Each dataset represented decks for each class, which the GAN would use separately depending on the desired class. \\
+\\
+The results of for the deck structure was successful, since it shows that the decks are indeed similar to user created ones with noticeable differences in the cards used. The results of the deck performance testing are skewed, due to the simulator used, however aggressive decks tend to have around 60\% winrate. And classes tend to average around 50\% winrate, save for some outlier classes like the Warlock, which is disadvantaged due to the nature of its hero power (which damages itself) paired with the simple AI.
+\subsection{Future Work}
+There are several improvements that could be addressed in future work. An improved simulator AI, could help determine the strengths and weaknesses of the algorithm better. The use of a Monty Carlo algorithm would prove useful for such an endeavour. Further refining of the GAN could also be made to improve the outputted deck, an improved dataset which contained cleaner data would also help to achieve this.
 
---simulator limited--
--- logging buffered messages which crashed program--
--- Aggro decks provide better results because they require playing as many cards as possible whereas more control decks require resource management--
 %----------------------------------------------------------------------------------------
 %	BIBLIOGRAPHY
 %---------------------
 \bibliography{export}
 
-\chapter{Appendix}
-\section*{Appendix A}
+\chapter{Appendices}
+\section{Appendix A}
 \begin{figure}[h]
 \centering
 \includegraphics[width=1.25\textwidth]{ProhibitedConduct}
@@ -969,7 +978,7 @@ This part tested the overall winrate of all the generated decks by the GAN, and 
 \footnotetext{\url{https://www.magicfind.us/terms/}}
 
 
-\section*{Appendix B}
+\section{Appendix B}
 \begin{figure}[h]
 \centering
 \includegraphics[width=1.25\textwidth]{permission}
@@ -978,13 +987,13 @@ This part tested the overall winrate of all the generated decks by the GAN, and 
  \label{board}
 \end{figure}
 
-\section*{Appendix C}
+\section{Appendix C}
 \verbatiminput{../../cards-standard-report.txt}
 
-\section*{Appendix D}
+\section{Appendix D}
 \lstinputlisting{../../card-json-example.json}
 
-\section*{Appendix E}
+\section{Appendix E}
 %\begin{figure}[H]
 %\centering
 %\includegraphics[width=1.25\textwidth]{csv}
@@ -1007,8 +1016,13 @@ This part tested the overall winrate of all the generated decks by the GAN, and 
 "[2, 2, 16, 16, 19, 19, 133, 133, 140, 140, 159, 159, 204, 204, 281, 281, 292, 292, 427, 427, 444, 444, 497, 527, 521, 521, 635, 635, 939, 624]",Rogue\\
 }
 
-\section*{Appendix F}
+\section{Appendix F}
 \lstinputlisting{../../example-json.json}
+\section{Appendix G - Github Log}
+\lstinputlisting{gitlog.txt}
+\section{Appendix H - Trello Logs}
+\url{https://trello.com/b/Cc0Hcn6X/deck-building-ai-logs}
+
 %----------------------------------------------------------------------------------------
 
 
