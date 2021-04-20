@@ -126,3 +126,7 @@
 \contentsline {section}{\numberline {8.6}Appendix F}{83}{section.8.6}%
 \contentsline {section}{\numberline {8.7}Appendix G - Github Log}{87}{section.8.7}%
 \contentsline {section}{\numberline {8.8}Appendix H - Trello Logs}{94}{section.8.8}%
+\contentsline {section}{\numberline {8.9}Appendix I - Project Proposal}{94}{section.8.9}%
+\contentsline {section}{\numberline {8.10}Appendix J - Ethics Form}{101}{section.8.10}%
+\contentsline {section}{\numberline {8.11}Appendix K - Poster}{112}{section.8.11}%
+\contentsline {section}{\numberline {8.12}Appendix L - Source Code}{114}{section.8.12}%

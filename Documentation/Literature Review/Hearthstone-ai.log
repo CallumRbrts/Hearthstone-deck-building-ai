@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=pdflatex 2020.11.30)  19 APR 2021 16:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=pdflatex 2020.11.30)  20 APR 2021 12:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -429,6 +429,42 @@ Package: listings 2020/03/24 1.8d (Carsten Heinz)
 Package: subcaption 2020/01/22 v1.3d Sub-captions (AR)
 \c@subfigure=\count305
 \c@subtable=\count306
+)
+(/usr/share/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+Package: pdfpages 2020/01/28 v0.5q Insert pages of external PDF documents (AM)
+
+(/usr/share/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+Package: eso-pic 2018/04/12 v2.0h eso-pic (RN)
+
+(/usr/share/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(/usr/share/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+))
+\AM@pagewidth=\dimen186
+\AM@pageheight=\dimen187
+
+(/usr/share/texmf-dist/tex/latex/pdfpages/pppdftex.def
+File: pppdftex.def 2020/01/28 v0.5q Pdfpages driver for pdfTeX (AM)
+)
+\AM@pagebox=\box62
+\AM@global@opts=\toks28
+\AM@pagecnt=\count307
+\AM@toc@title=\toks29
+\c@AM@survey=\count308
+\AM@templatesizebox=\box63
 ) (./Hearthstone-ai.aux
 
 LaTeX Warning: Label `board' multiply defined.
@@ -542,38 +578,38 @@ LaTeX Warning: Label `board' multiply defined.
 LaTeX Warning: Label `board' multiply defined.
 
 )
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
 
-Package chemgreek Info: Activating mapping `default' on line 64.
+Package chemgreek Info: Activating mapping `default' on line 65.
 
  (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count307
-\scratchdimen=\dimen186
-\scratchbox=\box62
-\nofMPsegments=\count308
-\nofMParguments=\count309
-\everyMPshowfont=\toks28
-\MPscratchCnt=\count310
-\MPscratchDim=\dimen187
-\MPnumerator=\count311
-\makeMPintoPDFobject=\count312
-\everyMPtoPDFconversion=\toks29
+\scratchcounter=\count309
+\scratchdimen=\dimen188
+\scratchbox=\box64
+\nofMPsegments=\count310
+\nofMParguments=\count311
+\everyMPshowfont=\toks30
+\MPscratchCnt=\count312
+\MPscratchDim=\dimen189
+\MPnumerator=\count313
+\makeMPintoPDFobject=\count314
+\everyMPtoPDFconversion=\toks31
 ) (/usr/share/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -589,8 +625,8 @@ Dictionary: translator-basic-dictionary, Language: English
 ) (/usr/share/texmf-dist/tex/latex/siunitx/siunitx-abbreviations.cfg
 File: siunitx-abbreviations.cfg 2017/11/26 v2.7k siunitx: Abbreviated units
 )
-\AtBeginShipoutBox=\box63
-Package hyperref Info: Link coloring OFF on input line 64.
+\AtBeginShipoutBox=\box65
+Package hyperref Info: Link coloring OFF on input line 65.
 
 (/usr/share/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
@@ -601,11 +637,11 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 (/usr/share/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count313
+\c@section@level=\count315
 )
-LaTeX Info: Redefining \ref on input line 64.
-LaTeX Info: Redefining \pageref on input line 64.
-LaTeX Info: Redefining \nameref on input line 64.
+LaTeX Info: Redefining \ref on input line 65.
+LaTeX Info: Redefining \pageref on input line 65.
+LaTeX Info: Redefining \nameref on input line 65.
 
 (./Hearthstone-ai.out) (./Hearthstone-ai.out)
 \@outlinefile=\write3
@@ -613,11 +649,60 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\c@lstlisting=\count314
- [1
+\c@lstlisting=\count316
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 77--80
+(/usr/share/texmf-dist/tex/latex/pdflscape/pdflscape.sty
+Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
+
+(/usr/share/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+)
+
+Package pdfpages Warning: Option `page' is unknow to \includepdf.
+(pdfpages)                Did you mean `pages'? (Note the `s'!)
+(pdfpages)                OK, I'll proceed as if it were `pages'.
+
+<fc.pdf, id=397, 238.97281pt x 154.89871pt>
+File: fc.pdf Graphic file (type pdf)
+<use fc.pdf>
+Package pdftex.def Info: fc.pdf  used on input line 66.
+(pdftex.def)             Requested size: 238.97221pt x 154.89832pt.
+File: fc.pdf Graphic file (type pdf)
+<use fc.pdf>
+Package pdftex.def Info: fc.pdf  used on input line 66.
+(pdftex.def)             Requested size: 238.97221pt x 154.89832pt.
+<fc.pdf, id=400, page=1, 238.97281pt x 154.89871pt>
+File: fc.pdf Graphic file (type pdf)
+<use fc.pdf, page 1>
+Package pdftex.def Info: fc.pdf , page1 used on input line 66.
+(pdftex.def)             Requested size: 238.97221pt x 154.89832pt.
+File: fc.pdf Graphic file (type pdf)
+<use fc.pdf, page 1>
+Package pdftex.def Info: fc.pdf , page1 used on input line 66.
+(pdftex.def)             Requested size: 616.80399pt x 399.80338pt.
+File: fc.pdf Graphic file (type pdf)
+<use fc.pdf, page 1>
+Package pdftex.def Info: fc.pdf , page1 used on input line 66.
+(pdftex.def)             Requested size: 616.80399pt x 399.80338pt.
+File: fc.pdf Graphic file (type pdf)
+<use fc.pdf, page 1>
+Package pdftex.def Info: fc.pdf , page1 used on input line 66.
+(pdftex.def)             Requested size: 616.80399pt x 399.80338pt.
+File: fc.pdf Graphic file (type pdf)
+<use fc.pdf, page 1>
+Package pdftex.def Info: fc.pdf , page1 used on input line 66.
+(pdftex.def)             Requested size: 616.80399pt x 399.80338pt.
+[1
+
+ <./fc.pdf>]pdfTeX warning (ext4): destination with the same identifier (name{p
+age.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.68 
+      [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+Underfull \hbox (badness 10000) in paragraph at lines 78--81
 
  []
 
@@ -625,12 +710,12 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.81 \end{abstract}
+l.82 \end{abstract}
                     [1]pdfTeX warning (ext4): destination with the same identif
 ier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.89 \tableofcontents
+l.90 \tableofcontents
                       [1] (./Hearthstone-ai.toc [2
 
 ] [3])
@@ -641,75 +726,75 @@ Chapter 1.
 
 ] [6]
 Chapter 2.
-<thalnos.jpg, id=530, 200.75pt x 304.13625pt>
+<thalnos.jpg, id=570, 200.75pt x 304.13625pt>
 File: thalnos.jpg Graphic file (type jpg)
 <use thalnos.jpg>
-Package pdftex.def Info: thalnos.jpg  used on input line 122.
+Package pdftex.def Info: thalnos.jpg  used on input line 123.
 (pdftex.def)             Requested size: 86.25pt x 130.6693pt.
 [7
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 129--130
+Underfull \hbox (badness 10000) in paragraph at lines 130--131
 
  []
 
-<hearthstonegameboard.png, id=545, 1189.44376pt x 695.59875pt>
+<hearthstonegameboard.png, id=585, 1189.44376pt x 695.59875pt>
 File: hearthstonegameboard.png Graphic file (type png)
 <use hearthstonegameboard.png>
-Package pdftex.def Info: hearthstonegameboard.png  used on input line 133.
+Package pdftex.def Info: hearthstonegameboard.png  used on input line 134.
 (pdftex.def)             Requested size: 345.0pt x 201.7503pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 137--137
+Underfull \hbox (badness 10000) in paragraph at lines 138--138
 [][][][]$\OT1/cmtt/m/n/8 https : / / bothgunsblazingblog . wordpress . com / 20
 14 / 06 / 22 /
  []
 
 [8 <./thalnos.jpg>] [9 <./hearthstonegameboard.png (PNG copy)>]
-<mana_curve.png, id=583, 208.52907pt x 129.48375pt>
+<mana_curve.png, id=623, 208.52907pt x 129.48375pt>
 File: mana_curve.png Graphic file (type png)
 <use mana_curve.png>
-Package pdftex.def Info: mana_curve.png  used on input line 151.
+Package pdftex.def Info: mana_curve.png  used on input line 152.
 (pdftex.def)             Requested size: 172.5pt x 107.1178pt.
  [10 <./mana_curve.png>] [11]
-Underfull \hbox (badness 7704) in paragraph at lines 177--177
+Underfull \hbox (badness 7704) in paragraph at lines 178--178
 [][][]\OT1/cmr/m/n/8 For ex-am-ple cards: []$\OT1/cmtt/m/n/8 https : / / github
  . com / minimaxir / mtg-[]gpt-[]2-[]cloud-[]run / tree /
  []
 
 [12]
-Underfull \hbox (badness 10000) in paragraph at lines 194--194
+Underfull \hbox (badness 10000) in paragraph at lines 195--195
 [][][][]$\OT1/cmtt/m/n/8 https : / / www . blizzard . com / en-[]us / legal / f
 ba4d00f-[]c7e4-[]4883-[]b8b9-[]1b4500a402ea /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 194--196
+Underfull \hbox (badness 10000) in paragraph at lines 195--197
 
  []
 
 [13]
-<EAFlowchart.png, id=691, 822.07124pt x 474.27188pt>
+<EAFlowchart.png, id=731, 822.07124pt x 474.27188pt>
 File: EAFlowchart.png Graphic file (type png)
 <use EAFlowchart.png>
-Package pdftex.def Info: EAFlowchart.png  used on input line 202.
+Package pdftex.def Info: EAFlowchart.png  used on input line 203.
 (pdftex.def)             Requested size: 345.0pt x 199.03362pt.
  [14] [15 <./EAFlowchart.png (PNG copy)>]
-<ANN.png, id=733, 853.1875pt x 499.8675pt>
+<ANN.png, id=773, 853.1875pt x 499.8675pt>
 File: ANN.png Graphic file (type png)
 <use ANN.png>
-Package pdftex.def Info: ANN.png  used on input line 217.
+Package pdftex.def Info: ANN.png  used on input line 218.
 (pdftex.def)             Requested size: 345.0pt x 202.1325pt.
  [16] [17 <./ANN.png>]
-<GAN.png, id=760, 446.66875pt x 528.97626pt>
+<GAN.png, id=801, 446.66875pt x 528.97626pt>
 File: GAN.png Graphic file (type png)
 <use GAN.png>
-Package pdftex.def Info: GAN.png  used on input line 229.
+Package pdftex.def Info: GAN.png  used on input line 230.
 (pdftex.def)             Requested size: 172.5pt x 204.2901pt.
 
-Overfull \hbox (17.05518pt too wide) in paragraph at lines 232--232
+Overfull \hbox (17.05518pt too wide) in paragraph at lines 233--233
 [][][][]$\OT1/cmtt/m/n/8 https : / / machinelearningmastery . com / what-[]are-
 []generative-[]adversarial-[]networks-[]gans/$[]| 
  []
@@ -717,14 +802,14 @@ Overfull \hbox (17.05518pt too wide) in paragraph at lines 232--232
 [18 <./GAN.png>] [19]
 Chapter 3.
 
-Underfull \hbox (badness 10000) in paragraph at lines 248--250
+Underfull \hbox (badness 10000) in paragraph at lines 249--251
 
  []
 
 [20
 
 ] [21]
-Underfull \hbox (badness 10000) in paragraph at lines 280--282
+Underfull \hbox (badness 10000) in paragraph at lines 281--283
 
  []
 
@@ -733,14 +818,14 @@ Chapter 4.
 [25
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 325--326
+Underfull \hbox (badness 10000) in paragraph at lines 326--327
 
  []
 
-<ToS.png, id=848, 779.16093pt x 274.02374pt>
+<ToS.png, id=889, 779.16093pt x 274.02374pt>
 File: ToS.png Graphic file (type png)
 <use ToS.png>
-Package pdftex.def Info: ToS.png  used on input line 329.
+Package pdftex.def Info: ToS.png  used on input line 330.
 (pdftex.def)             Requested size: 345.0pt x 121.3318pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -748,55 +833,55 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [26] [27 <./ToS.png (PNG copy)>]
 Chapter 5.
 
-Underfull \hbox (badness 10000) in paragraph at lines 344--347
+Underfull \hbox (badness 10000) in paragraph at lines 345--348
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 344--347
+Underfull \hbox (badness 10000) in paragraph at lines 345--348
 
  []
 
 [28
 
 ]
-<collectionpage.png, id=869, 1189.44376pt x 569.87906pt>
+<collectionpage.png, id=910, 1189.44376pt x 569.87906pt>
 File: collectionpage.png Graphic file (type png)
 <use collectionpage.png>
-Package pdftex.def Info: collectionpage.png  used on input line 350.
+Package pdftex.def Info: collectionpage.png  used on input line 351.
 (pdftex.def)             Requested size: 345.0pt x 165.28677pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 357--359
+Underfull \hbox (badness 10000) in paragraph at lines 358--360
 
  []
 
-<OpenWebScraper.png, id=874, 366.61969pt x 569.87906pt>
+<OpenWebScraper.png, id=915, 366.61969pt x 569.87906pt>
 File: OpenWebScraper.png Graphic file (type png)
 <use OpenWebScraper.png>
-Package pdftex.def Info: OpenWebScraper.png  used on input line 362.
+Package pdftex.def Info: OpenWebScraper.png  used on input line 363.
 (pdftex.def)             Requested size: 183.04086pt x 284.52142pt.
 [29 <./collectionpage.png (PNG copy)>]
-<InitialFileRead.png, id=885, 526.21594pt x 323.70938pt>
+<InitialFileRead.png, id=925, 526.21594pt x 323.70938pt>
 File: InitialFileRead.png Graphic file (type png)
 <use InitialFileRead.png>
-Package pdftex.def Info: InitialFileRead.png  used on input line 373.
+Package pdftex.def Info: InitialFileRead.png  used on input line 374.
 (pdftex.def)             Requested size: 345.0pt x 212.24112pt.
  [30 <./OpenWebScraper.png (PNG copy)>]
-<deckConversion.png, id=892, 526.21594pt x 384.6872pt>
+<deckConversion.png, id=932, 526.21594pt x 384.6872pt>
 File: deckConversion.png Graphic file (type png)
 <use deckConversion.png>
-Package pdftex.def Info: deckConversion.png  used on input line 382.
+Package pdftex.def Info: deckConversion.png  used on input line 383.
 (pdftex.def)             Requested size: 345.0pt x 252.22142pt.
 
 [31 <./InitialFileRead.png (PNG copy)>] [32 <./deckConversion.png (PNG copy)>]
 [33]
-<cardAPI.png, id=910, 739.26187pt x 408.02437pt>
+<cardAPI.png, id=950, 739.26187pt x 408.02437pt>
 File: cardAPI.png Graphic file (type png)
 <use cardAPI.png>
-Package pdftex.def Info: cardAPI.png  used on input line 411.
+Package pdftex.def Info: cardAPI.png  used on input line 412.
 (pdftex.def)             Requested size: 431.25pt x 238.024pt.
 
-Overfull \hbox (86.25pt too wide) in paragraph at lines 411--412
+Overfull \hbox (86.25pt too wide) in paragraph at lines 412--413
  [][] 
  []
 
@@ -804,508 +889,508 @@ Overfull \hbox (86.25pt too wide) in paragraph at lines 411--412
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [34]
-<jsonOpen.png, id=918, 505.89pt x 328.22626pt>
+<jsonOpen.png, id=959, 505.89pt x 328.22626pt>
 File: jsonOpen.png Graphic file (type png)
 <use jsonOpen.png>
-Package pdftex.def Info: jsonOpen.png  used on input line 420.
+Package pdftex.def Info: jsonOpen.png  used on input line 421.
 (pdftex.def)             Requested size: 345.0pt x 223.84198pt.
  [35 <./cardAPI.png (PNG copy)>]
-<impure.png, id=925, 679.78969pt x 307.1475pt>
+<impure.png, id=965, 679.78969pt x 307.1475pt>
 File: impure.png Graphic file (type png)
 <use impure.png>
-Package pdftex.def Info: impure.png  used on input line 429.
+Package pdftex.def Info: impure.png  used on input line 430.
 (pdftex.def)             Requested size: 431.25pt x 194.84901pt.
 
-Overfull \hbox (86.25pt too wide) in paragraph at lines 429--430
+Overfull \hbox (86.25pt too wide) in paragraph at lines 430--431
  [][] 
  []
 
 [36 <./jsonOpen.png (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 440--442
+Underfull \hbox (badness 10000) in paragraph at lines 441--443
 
  []
 
 [37 <./impure.png (PNG copy)>] [38]
-<csvIm.png, id=943, 748.29562pt x 332.74312pt>
+<csvIm.png, id=983, 748.29562pt x 332.74312pt>
 File: csvIm.png Graphic file (type png)
 <use csvIm.png>
-Package pdftex.def Info: csvIm.png  used on input line 452.
+Package pdftex.def Info: csvIm.png  used on input line 453.
 (pdftex.def)             Requested size: 431.25pt x 191.76244pt.
 
-Overfull \hbox (86.25pt too wide) in paragraph at lines 452--453
+Overfull \hbox (86.25pt too wide) in paragraph at lines 453--454
  [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 457--458
+Underfull \hbox (badness 10000) in paragraph at lines 458--459
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 457--458
+Underfull \hbox (badness 10000) in paragraph at lines 458--459
 
  []
 
-<readVectorDecks.png, id=944, 522.45187pt x 322.95656pt>
+<readVectorDecks.png, id=984, 522.45187pt x 322.95656pt>
 File: readVectorDecks.png Graphic file (type png)
 <use readVectorDecks.png>
-Package pdftex.def Info: readVectorDecks.png  used on input line 464.
+Package pdftex.def Info: readVectorDecks.png  used on input line 465.
 (pdftex.def)             Requested size: 431.25pt x 266.58536pt.
 
-Overfull \hbox (86.25pt too wide) in paragraph at lines 464--465
+Overfull \hbox (86.25pt too wide) in paragraph at lines 465--466
  [][] 
  []
 
 [39 <./csvIm.png (PNG copy)>]
-Overfull \hbox (32.9967pt too wide) in paragraph at lines 474--476
+Overfull \hbox (32.9967pt too wide) in paragraph at lines 475--477
 \OT1/cmtt/m/n/10 Studies', 'Primordial Studies', 'Wand Thief', 'Wand Thief', 'A
 stromancer
  []
 
 
-Overfull \hbox (11.99689pt too wide) in paragraph at lines 474--476
+Overfull \hbox (11.99689pt too wide) in paragraph at lines 475--477
 \OT1/cmtt/m/n/10 Solarian', 'Cram Session', 'Cram Session', 'Runed Orb', 'Runed
  Orb',
  []
 
 
-Overfull \hbox (22.4968pt too wide) in paragraph at lines 474--476
+Overfull \hbox (22.4968pt too wide) in paragraph at lines 475--477
 \OT1/cmtt/m/n/10 'Wildfire', 'Wildfire', 'Firebrand', 'Fireball', 'Fireball', '
 Reckless
  []
 
 
-Overfull \hbox (43.49661pt too wide) in paragraph at lines 474--476
+Overfull \hbox (43.49661pt too wide) in paragraph at lines 475--477
 \OT1/cmtt/m/n/10 Apprentice', 'Reckless Apprentice', 'Refreshing Spring Water',
  'Refreshing
  []
 
 
-Overfull \hbox (59.24648pt too wide) in paragraph at lines 474--476
+Overfull \hbox (59.24648pt too wide) in paragraph at lines 475--477
 \OT1/cmtt/m/n/10 Spring Water', 'Ring Toss', 'Ring Toss', 'Jandice Barov', 'Ras
  Frostwhisper',
  []
 
 
-Overfull \hbox (11.99689pt too wide) in paragraph at lines 474--476
+Overfull \hbox (11.99689pt too wide) in paragraph at lines 475--477
 \OT1/cmtt/m/n/10 'Flamestrike', 'Flamestrike', 'Mordresh Fire Eye', 'Far Watch 
 Post',
  []
 
 [40 <./readVectorDecks.png (PNG copy)>]
-<improvedDC.png, id=957, 697.8572pt x 191.9672pt>
+<improvedDC.png, id=998, 697.8572pt x 191.9672pt>
 File: improvedDC.png Graphic file (type png)
 <use improvedDC.png>
-Package pdftex.def Info: improvedDC.png  used on input line 481.
+Package pdftex.def Info: improvedDC.png  used on input line 482.
 (pdftex.def)             Requested size: 431.25pt x 118.62885pt.
 
-Overfull \hbox (86.25pt too wide) in paragraph at lines 481--482
+Overfull \hbox (86.25pt too wide) in paragraph at lines 482--483
  [][] 
  []
 
-<JSONConversion.png, id=958, 317.68687pt x 359.84438pt>
+<JSONConversion.png, id=999, 317.68687pt x 359.84438pt>
 File: JSONConversion.png Graphic file (type png)
 <use JSONConversion.png>
-Package pdftex.def Info: JSONConversion.png  used on input line 490.
+Package pdftex.def Info: JSONConversion.png  used on input line 491.
 (pdftex.def)             Requested size: 256.09853pt x 284.54848pt.
 [41 <./improvedDC.png (PNG copy)>]
-<readJSONDecks.png, id=965, 348.55219pt x 142.28156pt>
+<readJSONDecks.png, id=1006, 348.55219pt x 142.28156pt>
 File: readJSONDecks.png Graphic file (type png)
 <use readJSONDecks.png>
-Package pdftex.def Info: readJSONDecks.png  used on input line 499.
+Package pdftex.def Info: readJSONDecks.png  used on input line 500.
 (pdftex.def)             Requested size: 345.0pt x 140.83963pt.
  [42 <./JSONConversion.png (PNG copy)>]
-<HSpwnDecks.png, id=971, 1011.78pt x 554.82281pt>
+<HSpwnDecks.png, id=1012, 1011.78pt x 554.82281pt>
 File: HSpwnDecks.png Graphic file (type png)
 <use HSpwnDecks.png>
-Package pdftex.def Info: HSpwnDecks.png  used on input line 518.
+Package pdftex.def Info: HSpwnDecks.png  used on input line 519.
 (pdftex.def)             Requested size: 345.0pt x 189.18755pt.
 
-Overfull \hbox (32.9967pt too wide) in paragraph at lines 505--521
+Overfull \hbox (32.9967pt too wide) in paragraph at lines 506--522
 \OT1/cmtt/m/n/10 4, 'Hunter' : 8, 'Mage' : 16, 'Paladin' : 32, 'Priest' : 64, '
 Rogue'
  []
 
 
-Overfull \hbox (17.57996pt too wide) in paragraph at lines 505--521
+Overfull \hbox (17.57996pt too wide) in paragraph at lines 506--522
 \OT1/cmr/m/n/10 URL will look like: $\OT1/cmtt/m/n/10 https : / / www . hearthp
 wn . com / decks ? filter-[]show-[]standard =
  []
 
 
-Overfull \hbox (7.27477pt too wide) in paragraph at lines 505--521
+Overfull \hbox (7.27477pt too wide) in paragraph at lines 506--522
 \OT1/cmtt/m/n/10 1 & filter-[]show-[]constructed-[]only = y & filter-[]deck-[]t
 ag = 1 & filter-[]class = 4)$\OT1/cmr/m/n/10 .
  []
 
 [43 <./readJSONDecks.png (PNG copy)>]
-<pageMax.png, id=977, 736.25063pt x 125.71968pt>
+<pageMax.png, id=1018, 736.25063pt x 125.71968pt>
 File: pageMax.png Graphic file (type png)
 <use pageMax.png>
-Package pdftex.def Info: pageMax.png  used on input line 527.
+Package pdftex.def Info: pageMax.png  used on input line 528.
 (pdftex.def)             Requested size: 431.25pt x 73.64066pt.
 
-Overfull \hbox (86.25pt too wide) in paragraph at lines 527--528
+Overfull \hbox (86.25pt too wide) in paragraph at lines 528--529
  [][] 
  []
 
-<scrapeDecks.png, id=978, 563.85657pt x 386.19281pt>
+<scrapeDecks.png, id=1019, 563.85657pt x 386.19281pt>
 File: scrapeDecks.png Graphic file (type png)
 <use scrapeDecks.png>
-Package pdftex.def Info: scrapeDecks.png  used on input line 536.
+Package pdftex.def Info: scrapeDecks.png  used on input line 537.
 (pdftex.def)             Requested size: 431.25pt x 295.3717pt.
 
-Overfull \hbox (86.25pt too wide) in paragraph at lines 536--537
+Overfull \hbox (86.25pt too wide) in paragraph at lines 537--538
  [][] 
  []
 
 [44 <./HSpwnDecks.png (PNG copy)> <./pageMax.png (PNG copy)>]
-<cardsURL.png, id=985, 612.78937pt x 275.52937pt>
+<cardsURL.png, id=1026, 612.78937pt x 275.52937pt>
 File: cardsURL.png Graphic file (type png)
 <use cardsURL.png>
-Package pdftex.def Info: cardsURL.png  used on input line 545.
+Package pdftex.def Info: cardsURL.png  used on input line 546.
 (pdftex.def)             Requested size: 431.25pt x 193.90347pt.
 
-Overfull \hbox (86.25pt too wide) in paragraph at lines 545--546
+Overfull \hbox (86.25pt too wide) in paragraph at lines 546--547
  [][] 
  []
 
 [45 <./scrapeDecks.png (PNG copy)>] [46 <./cardsURL.png (PNG copy)>]
-<generator.png, id=998, 636.87938pt x 187.45032pt>
+<generator.png, id=1039, 636.87938pt x 187.45032pt>
 File: generator.png Graphic file (type png)
 <use generator.png>
-Package pdftex.def Info: generator.png  used on input line 560.
+Package pdftex.def Info: generator.png  used on input line 561.
 (pdftex.def)             Requested size: 431.25pt x 126.92679pt.
 
-Overfull \hbox (86.25pt too wide) in paragraph at lines 560--561
+Overfull \hbox (86.25pt too wide) in paragraph at lines 561--562
  [][] 
  []
 
-<discriminator.png, id=999, 618.05907pt x 110.66344pt>
+<discriminator.png, id=1040, 618.05907pt x 110.66344pt>
 File: discriminator.png Graphic file (type png)
 <use discriminator.png>
-Package pdftex.def Info: discriminator.png  used on input line 569.
+Package pdftex.def Info: discriminator.png  used on input line 570.
 (pdftex.def)             Requested size: 431.25pt x 77.21733pt.
 
-Overfull \hbox (86.25pt too wide) in paragraph at lines 569--570
+Overfull \hbox (86.25pt too wide) in paragraph at lines 570--571
  [][] 
  []
 
 [47 <./generator.png (PNG copy)>]
-<gan.png, id=1007, 618.05907pt x 181.42781pt>
+<gan.png, id=1047, 618.05907pt x 181.42781pt>
 File: gan.png Graphic file (type png)
 <use gan.png>
-Package pdftex.def Info: gan.png  used on input line 579.
+Package pdftex.def Info: gan.png  used on input line 580.
 (pdftex.def)             Requested size: 431.25pt x 126.59442pt.
 
-Overfull \hbox (86.25pt too wide) in paragraph at lines 579--580
+Overfull \hbox (86.25pt too wide) in paragraph at lines 580--581
  [][] 
  []
 
 [48 <./discriminator.png (PNG copy)> <./gan.png (PNG copy)>]
-<train.png, id=1016, 739.26187pt x 325.96782pt>
+<train.png, id=1056, 739.26187pt x 325.96782pt>
 File: train.png Graphic file (type png)
 <use train.png>
-Package pdftex.def Info: train.png  used on input line 591.
+Package pdftex.def Info: train.png  used on input line 592.
 (pdftex.def)             Requested size: 431.25pt x 190.1557pt.
 
-Overfull \hbox (86.25pt too wide) in paragraph at lines 591--592
+Overfull \hbox (86.25pt too wide) in paragraph at lines 592--593
  [][] 
  []
 
-<sumPer.png, id=1017, 607.51968pt x 339.51843pt>
+<sumPer.png, id=1057, 607.51968pt x 339.51843pt>
 File: sumPer.png Graphic file (type png)
 <use sumPer.png>
-Package pdftex.def Info: sumPer.png  used on input line 600.
+Package pdftex.def Info: sumPer.png  used on input line 601.
 (pdftex.def)             Requested size: 431.25pt x 241.01314pt.
 
-Overfull \hbox (86.25pt too wide) in paragraph at lines 600--601
+Overfull \hbox (86.25pt too wide) in paragraph at lines 601--602
  [][] 
  []
 
 [49 <./train.png (PNG copy)>]
-<initialTraining.png, id=1024, 319.1925pt x 188.20313pt>
+<initialTraining.png, id=1064, 319.1925pt x 188.20313pt>
 File: initialTraining.png Graphic file (type png)
 <use initialTraining.png>
-Package pdftex.def Info: initialTraining.png  used on input line 611.
+Package pdftex.def Info: initialTraining.png  used on input line 612.
 (pdftex.def)             Requested size: 345.0pt x 203.42001pt.
  [50 <./sumPer.png (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 616--618
+Underfull \hbox (badness 10000) in paragraph at lines 617--619
 
  []
 
 [51 <./initialTraining.png (PNG copy)>]
-<choice.png, id=1036, 449.42906pt x 156.585pt>
+<choice.png, id=1076, 449.42906pt x 156.585pt>
 File: choice.png Graphic file (type png)
 <use choice.png>
-Package pdftex.def Info: choice.png  used on input line 626.
+Package pdftex.def Info: choice.png  used on input line 627.
 (pdftex.def)             Requested size: 345.0pt x 120.20525pt.
-<limitCardRange.png, id=1037, 657.95813pt x 240.9pt>
+<limitCardRange.png, id=1077, 657.95813pt x 240.9pt>
 File: limitCardRange.png Graphic file (type png)
 <use limitCardRange.png>
-Package pdftex.def Info: limitCardRange.png  used on input line 636.
+Package pdftex.def Info: limitCardRange.png  used on input line 637.
 (pdftex.def)             Requested size: 431.25pt x 157.89908pt.
 
-Overfull \hbox (86.25pt too wide) in paragraph at lines 636--637
+Overfull \hbox (86.25pt too wide) in paragraph at lines 637--638
  [][] 
  []
 
 [52 <./choice.png (PNG copy)>]
-<abs.png, id=1044, 376.40625pt x 171.64125pt>
+<abs.png, id=1085, 376.40625pt x 171.64125pt>
 File: abs.png Graphic file (type png)
 <use abs.png>
-Package pdftex.def Info: abs.png  used on input line 651.
+Package pdftex.def Info: abs.png  used on input line 652.
 (pdftex.def)             Requested size: 345.0pt x 157.33041pt.
  [53 <./limitCardRange.png (PNG copy)> <./abs.png (PNG copy)>]
-<duplicates.png, id=1053, 441.14813pt x 212.29312pt>
+<duplicates.png, id=1093, 441.14813pt x 212.29312pt>
 File: duplicates.png Graphic file (type png)
 <use duplicates.png>
-Package pdftex.def Info: duplicates.png  used on input line 660.
+Package pdftex.def Info: duplicates.png  used on input line 661.
 (pdftex.def)             Requested size: 345.0pt x 166.03175pt.
  [54 <./duplicates.png (PNG copy)>]
 Chapter 6.
 [55
 
 ]
-<simMain.png, id=1063, 651.18282pt x 324.46219pt>
+<simMain.png, id=1103, 651.18282pt x 324.46219pt>
 File: simMain.png Graphic file (type png)
 <use simMain.png>
-Package pdftex.def Info: simMain.png  used on input line 691.
+Package pdftex.def Info: simMain.png  used on input line 692.
 (pdftex.def)             Requested size: 431.25pt x 214.88338pt.
 
-Overfull \hbox (86.25pt too wide) in paragraph at lines 691--692
+Overfull \hbox (86.25pt too wide) in paragraph at lines 692--693
  [][] 
  []
 
-<playFullGame.png, id=1064, 513.41812pt x 219.82124pt>
+<playFullGame.png, id=1104, 513.41812pt x 219.82124pt>
 File: playFullGame.png Graphic file (type png)
 <use playFullGame.png>
-Package pdftex.def Info: playFullGame.png  used on input line 700.
+Package pdftex.def Info: playFullGame.png  used on input line 701.
 (pdftex.def)             Requested size: 431.25pt x 184.64186pt.
 
-Overfull \hbox (86.25pt too wide) in paragraph at lines 700--701
+Overfull \hbox (86.25pt too wide) in paragraph at lines 701--702
  [][] 
  []
 
 [56 <./simMain.png (PNG copy)>]
-Overfull \hbox (2.63855pt too wide) in paragraph at lines 705--706
+Overfull \hbox (2.63855pt too wide) in paragraph at lines 706--707
 \OT1/cmr/m/n/10 code was adapted to make it dy-namic (fig-ure 6.3), how-ever a 
 $\OT1/cmtt/m/n/10 class _ converter()$
  []
 
-<setupGame.png, id=1071, 469.00218pt x 266.49562pt>
+<setupGame.png, id=1111, 469.00218pt x 266.49562pt>
 File: setupGame.png Graphic file (type png)
 <use setupGame.png>
-Package pdftex.def Info: setupGame.png  used on input line 709.
+Package pdftex.def Info: setupGame.png  used on input line 710.
 (pdftex.def)             Requested size: 345.0pt x 196.03255pt.
-<classConverter.png, id=1072, 301.8778pt x 325.215pt>
+<classConverter.png, id=1112, 301.8778pt x 325.215pt>
 File: classConverter.png Graphic file (type png)
 <use classConverter.png>
-Package pdftex.def Info: classConverter.png  used on input line 716.
+Package pdftex.def Info: classConverter.png  used on input line 717.
 (pdftex.def)             Requested size: 256.07222pt x 284.54753pt.
 [57 <./playFullGame.png (PNG copy)> <./setupGame.png (PNG copy)>]
-<playTurn.png, id=1079, 520.94624pt x 175.40532pt>
+<playTurn.png, id=1119, 520.94624pt x 175.40532pt>
 File: playTurn.png Graphic file (type png)
 <use playTurn.png>
-Package pdftex.def Info: playTurn.png  used on input line 725.
+Package pdftex.def Info: playTurn.png  used on input line 726.
 (pdftex.def)             Requested size: 345.0pt x 116.16397pt.
  [58 <./classConverter.png (PNG copy)> <./playTurn.png (PNG copy)>]
-<simExec.png, id=1086, 487.06969pt x 196.48407pt>
+<simExec.png, id=1127, 487.06969pt x 196.48407pt>
 File: simExec.png Graphic file (type png)
 <use simExec.png>
-Package pdftex.def Info: simExec.png  used on input line 735.
+Package pdftex.def Info: simExec.png  used on input line 736.
 (pdftex.def)             Requested size: 345.0pt x 139.17186pt.
-<TestImages/HunterDeckSplitFake.png, id=1087, 254.9525pt x 247.92625pt>
+<TestImages/HunterDeckSplitFake.png, id=1128, 254.9525pt x 247.92625pt>
 File: TestImages/HunterDeckSplitFake.png Graphic file (type png)
 <use TestImages/HunterDeckSplitFake.png>
 Package pdftex.def Info: TestImages/HunterDeckSplitFake.png  used on input line
- 746.
+ 747.
 (pdftex.def)             Requested size: 129.375pt x 125.81651pt.
-<TestImages/HunterDeckSplitReal.png, id=1088, 256.96pt x 247.92625pt>
+<TestImages/HunterDeckSplitReal.png, id=1129, 256.96pt x 247.92625pt>
 File: TestImages/HunterDeckSplitReal.png Graphic file (type png)
 <use TestImages/HunterDeckSplitReal.png>
 Package pdftex.def Info: TestImages/HunterDeckSplitReal.png  used on input line
- 751.
+ 752.
 (pdftex.def)             Requested size: 129.375pt x 124.82913pt.
-<TestImages/WarlockDeckSplitFake.png, id=1089, 241.90375pt x 247.92625pt>
+<TestImages/WarlockDeckSplitFake.png, id=1130, 241.90375pt x 247.92625pt>
 File: TestImages/WarlockDeckSplitFake.png Graphic file (type png)
 <use TestImages/WarlockDeckSplitFake.png>
 Package pdftex.def Info: TestImages/WarlockDeckSplitFake.png  used on input lin
-e 761.
+e 762.
 (pdftex.def)             Requested size: 129.375pt x 132.5995pt.
-<TestImages/WarlockDeckSplitReal.png, id=1090, 231.86626pt x 247.92625pt>
+<TestImages/WarlockDeckSplitReal.png, id=1131, 231.86626pt x 247.92625pt>
 File: TestImages/WarlockDeckSplitReal.png Graphic file (type png)
 <use TestImages/WarlockDeckSplitReal.png>
 Package pdftex.def Info: TestImages/WarlockDeckSplitReal.png  used on input lin
-e 766.
+e 767.
 (pdftex.def)             Requested size: 129.375pt x 138.33838pt.
  [59 <./simExec.png (PNG copy)> <./TestImages/HunterDeckSplitFake.png> <./TestI
 mages/HunterDeckSplitReal.png>]
-<TestImages/ShamanDeckSplitFake.png, id=1101, 258.9675pt x 247.92625pt>
+<TestImages/ShamanDeckSplitFake.png, id=1142, 258.9675pt x 247.92625pt>
 File: TestImages/ShamanDeckSplitFake.png Graphic file (type png)
 <use TestImages/ShamanDeckSplitFake.png>
 Package pdftex.def Info: TestImages/ShamanDeckSplitFake.png  used on input line
- 776.
+ 777.
 (pdftex.def)             Requested size: 129.375pt x 123.86446pt.
-<TestImages/ShamanDeckSplitReal.png, id=1102, 256.96pt x 247.92625pt>
+<TestImages/ShamanDeckSplitReal.png, id=1143, 256.96pt x 247.92625pt>
 File: TestImages/ShamanDeckSplitReal.png Graphic file (type png)
 <use TestImages/ShamanDeckSplitReal.png>
 Package pdftex.def Info: TestImages/ShamanDeckSplitReal.png  used on input line
- 781.
+ 782.
 (pdftex.def)             Requested size: 129.375pt x 124.82913pt.
-<TestImages/NeutralSplitHunterDecks.png, id=1103, 262.9825pt x 247.92625pt>
+<TestImages/NeutralSplitHunterDecks.png, id=1144, 262.9825pt x 247.92625pt>
 File: TestImages/NeutralSplitHunterDecks.png Graphic file (type png)
 <use TestImages/NeutralSplitHunterDecks.png>
 Package pdftex.def Info: TestImages/NeutralSplitHunterDecks.png  used on input 
-line 792.
+line 793.
 (pdftex.def)             Requested size: 77.62578pt x 73.183pt.
-<TestImages/NeutralSplitHunterDecksReal.png, id=1104, 231.86626pt x 247.92625pt
+<TestImages/NeutralSplitHunterDecksReal.png, id=1145, 231.86626pt x 247.92625pt
 >
 File: TestImages/NeutralSplitHunterDecksReal.png Graphic file (type png)
 <use TestImages/NeutralSplitHunterDecksReal.png>
 Package pdftex.def Info: TestImages/NeutralSplitHunterDecksReal.png  used on in
-put line 797.
+put line 798.
 (pdftex.def)             Requested size: 77.62578pt x 83.00378pt.
-<TestImages/NeutralSplitAllCards.png, id=1105, 234.8775pt x 247.92625pt>
+<TestImages/NeutralSplitAllCards.png, id=1146, 234.8775pt x 247.92625pt>
 File: TestImages/NeutralSplitAllCards.png Graphic file (type png)
 <use TestImages/NeutralSplitAllCards.png>
 Package pdftex.def Info: TestImages/NeutralSplitAllCards.png  used on input lin
-e 802.
+e 803.
 (pdftex.def)             Requested size: 77.62578pt x 81.93697pt.
  [60 <./TestImages/WarlockDeckSplitFake.png> <./TestImages/WarlockDeckSplitReal
 .png> <./TestImages/ShamanDeckSplitFake.png> <./TestImages/ShamanDeckSplitReal.
 png>]
-<TestImages/NeutralSplitWarlockDecksFake.png, id=1116, 266.9975pt x 247.92625pt
+<TestImages/NeutralSplitWarlockDecksFake.png, id=1157, 266.9975pt x 247.92625pt
 >
 File: TestImages/NeutralSplitWarlockDecksFake.png Graphic file (type png)
 <use TestImages/NeutralSplitWarlockDecksFake.png>
 Package pdftex.def Info: TestImages/NeutralSplitWarlockDecksFake.png  used on i
-nput line 812.
+nput line 813.
 (pdftex.def)             Requested size: 77.62578pt x 72.08214pt.
-<TestImages/NeutralSplitWarlockDecksReal.png, id=1117, 231.86626pt x 247.92625p
+<TestImages/NeutralSplitWarlockDecksReal.png, id=1158, 231.86626pt x 247.92625p
 t>
 File: TestImages/NeutralSplitWarlockDecksReal.png Graphic file (type png)
 <use TestImages/NeutralSplitWarlockDecksReal.png>
 Package pdftex.def Info: TestImages/NeutralSplitWarlockDecksReal.png  used on i
-nput line 817.
+nput line 818.
 (pdftex.def)             Requested size: 77.62578pt x 83.00378pt.
 File: TestImages/NeutralSplitAllCards.png Graphic file (type png)
 <use TestImages/NeutralSplitAllCards.png>
 Package pdftex.def Info: TestImages/NeutralSplitAllCards.png  used on input lin
-e 822.
+e 823.
 (pdftex.def)             Requested size: 77.62578pt x 81.93697pt.
-<TestImages/NeutralSplitShamanDecksFake.png, id=1118, 262.9825pt x 247.92625pt>
+<TestImages/NeutralSplitShamanDecksFake.png, id=1159, 262.9825pt x 247.92625pt>
 
 File: TestImages/NeutralSplitShamanDecksFake.png Graphic file (type png)
 <use TestImages/NeutralSplitShamanDecksFake.png>
 Package pdftex.def Info: TestImages/NeutralSplitShamanDecksFake.png  used on in
-put line 832.
+put line 833.
 (pdftex.def)             Requested size: 77.62578pt x 73.183pt.
-<TestImages/NeutralSplitShamanDecksReal.png, id=1119, 231.86626pt x 247.92625pt
+<TestImages/NeutralSplitShamanDecksReal.png, id=1160, 231.86626pt x 247.92625pt
 >
 File: TestImages/NeutralSplitShamanDecksReal.png Graphic file (type png)
 <use TestImages/NeutralSplitShamanDecksReal.png>
 Package pdftex.def Info: TestImages/NeutralSplitShamanDecksReal.png  used on in
-put line 837.
+put line 838.
 (pdftex.def)             Requested size: 77.62578pt x 83.00378pt.
 File: TestImages/NeutralSplitAllCards.png Graphic file (type png)
 <use TestImages/NeutralSplitAllCards.png>
 Package pdftex.def Info: TestImages/NeutralSplitAllCards.png  used on input lin
-e 842.
+e 843.
 (pdftex.def)             Requested size: 77.62578pt x 81.93697pt.
 
-Overfull \hbox (10.37294pt too wide) in paragraph at lines 847--847
+Overfull \hbox (10.37294pt too wide) in paragraph at lines 848--848
 |[]\OT1/cmr/bx/n/14.4 Comparing mana curve for real and fake decks| 
  []
 
-<TestImages/HunterDeckManaCurveFake.png, id=1120, 383.4325pt x 279.0425pt>
+<TestImages/HunterDeckManaCurveFake.png, id=1161, 383.4325pt x 279.0425pt>
 File: TestImages/HunterDeckManaCurveFake.png Graphic file (type png)
 <use TestImages/HunterDeckManaCurveFake.png>
 Package pdftex.def Info: TestImages/HunterDeckManaCurveFake.png  used on input 
-line 853.
+line 854.
 (pdftex.def)             Requested size: 129.375pt x 94.15361pt.
-<TestImages/HunterDeckManaCurveReal.png, id=1121, 377.41pt x 279.0425pt>
+<TestImages/HunterDeckManaCurveReal.png, id=1162, 377.41pt x 279.0425pt>
 File: TestImages/HunterDeckManaCurveReal.png Graphic file (type png)
 <use TestImages/HunterDeckManaCurveReal.png>
 Package pdftex.def Info: TestImages/HunterDeckManaCurveReal.png  used on input 
-line 858.
+line 859.
 (pdftex.def)             Requested size: 129.375pt x 95.65237pt.
 [61 <./TestImages/NeutralSplitHunterDecks.png> <./TestImages/NeutralSplitHunter
 DecksReal.png> <./TestImages/NeutralSplitAllCards.png> <./TestImages/NeutralSpl
 itWarlockDecksFake.png> <./TestImages/NeutralSplitWarlockDecksReal.png> <./Test
 Images/NeutralSplitShamanDecksFake.png> <./TestImages/NeutralSplitShamanDecksRe
 al.png>]
-<TestImages/WarlockDeckManaCurveFake.png, id=1136, 383.4325pt x 279.0425pt>
+<TestImages/WarlockDeckManaCurveFake.png, id=1177, 383.4325pt x 279.0425pt>
 File: TestImages/WarlockDeckManaCurveFake.png Graphic file (type png)
 <use TestImages/WarlockDeckManaCurveFake.png>
 Package pdftex.def Info: TestImages/WarlockDeckManaCurveFake.png  used on input
- line 868.
+ line 869.
 (pdftex.def)             Requested size: 129.375pt x 94.15361pt.
-<TestImages/WarlockDeckManaCurveReal.png, id=1137, 377.41pt x 279.0425pt>
+<TestImages/WarlockDeckManaCurveReal.png, id=1178, 377.41pt x 279.0425pt>
 File: TestImages/WarlockDeckManaCurveReal.png Graphic file (type png)
 <use TestImages/WarlockDeckManaCurveReal.png>
 Package pdftex.def Info: TestImages/WarlockDeckManaCurveReal.png  used on input
- line 873.
+ line 874.
 (pdftex.def)             Requested size: 129.375pt x 95.65237pt.
-<TestImages/ShamanDeckManaCurveFake.png, id=1138, 383.4325pt x 279.0425pt>
+<TestImages/ShamanDeckManaCurveFake.png, id=1179, 383.4325pt x 279.0425pt>
 File: TestImages/ShamanDeckManaCurveFake.png Graphic file (type png)
 <use TestImages/ShamanDeckManaCurveFake.png>
 Package pdftex.def Info: TestImages/ShamanDeckManaCurveFake.png  used on input 
-line 883.
+line 884.
 (pdftex.def)             Requested size: 129.375pt x 94.15361pt.
-<TestImages/ShamanDeckManaCurveReal.png, id=1139, 383.4325pt x 279.0425pt>
+<TestImages/ShamanDeckManaCurveReal.png, id=1180, 383.4325pt x 279.0425pt>
 File: TestImages/ShamanDeckManaCurveReal.png Graphic file (type png)
 <use TestImages/ShamanDeckManaCurveReal.png>
 Package pdftex.def Info: TestImages/ShamanDeckManaCurveReal.png  used on input 
-line 888.
+line 889.
 (pdftex.def)             Requested size: 129.375pt x 94.15361pt.
  [62 <./TestImages/HunterDeckManaCurveFake.png> <./TestImages/HunterDeckManaCur
 veReal.png> <./TestImages/WarlockDeckManaCurveFake.png> <./TestImages/WarlockDe
 ckManaCurveReal.png>]
-<TestImages/HunterDeckWinrateClasses.png, id=1151, 388.45125pt x 314.17375pt>
+<TestImages/HunterDeckWinrateClasses.png, id=1191, 388.45125pt x 314.17375pt>
 File: TestImages/HunterDeckWinrateClasses.png Graphic file (type png)
 <use TestImages/HunterDeckWinrateClasses.png>
 Package pdftex.def Info: TestImages/HunterDeckWinrateClasses.png  used on input
- line 899.
+ line 900.
 (pdftex.def)             Requested size: 172.5pt x 139.51685pt.
-<TestImages/HunterAllGeneratedDeckOverallWinrate.png, id=1152, 387.4475pt x 279
+<TestImages/HunterAllGeneratedDeckOverallWinrate.png, id=1192, 387.4475pt x 279
 .0425pt>
 File: TestImages/HunterAllGeneratedDeckOverallWinrate.png Graphic file (type pn
 g)
 <use TestImages/HunterAllGeneratedDeckOverallWinrate.png>
 Package pdftex.def Info: TestImages/HunterAllGeneratedDeckOverallWinrate.png  u
-sed on input line 904.
+sed on input line 905.
 (pdftex.def)             Requested size: 172.5pt x 124.23524pt.
-<TestImages/WarlockDeckWinrateClasses.png, id=1153, 388.45125pt x 314.17375pt>
+<TestImages/WarlockDeckWinrateClasses.png, id=1193, 388.45125pt x 314.17375pt>
 File: TestImages/WarlockDeckWinrateClasses.png Graphic file (type png)
 <use TestImages/WarlockDeckWinrateClasses.png>
 Package pdftex.def Info: TestImages/WarlockDeckWinrateClasses.png  used on inpu
-t line 914.
+t line 915.
 (pdftex.def)             Requested size: 172.5pt x 139.51685pt.
-<TestImages/WarlockAllGeneratedDeckOverallWinrate.png, id=1154, 393.47pt x 279.
+<TestImages/WarlockAllGeneratedDeckOverallWinrate.png, id=1194, 393.47pt x 279.
 0425pt>
 File: TestImages/WarlockAllGeneratedDeckOverallWinrate.png Graphic file (type p
 ng)
 <use TestImages/WarlockAllGeneratedDeckOverallWinrate.png>
 Package pdftex.def Info: TestImages/WarlockAllGeneratedDeckOverallWinrate.png  
-used on input line 919.
+used on input line 920.
 (pdftex.def)             Requested size: 172.5pt x 122.332pt.
  [63 <./TestImages/ShamanDeckManaCurveFake.png> <./TestImages/ShamanDeckManaCur
 veReal.png> <./TestImages/HunterDeckWinrateClasses.png> <./TestImages/HunterAll
 GeneratedDeckOverallWinrate.png>]
-<TestImages/ShamanDeckWinrateClasses.png, id=1165, 388.45125pt x 314.17375pt>
+<TestImages/ShamanDeckWinrateClasses.png, id=1205, 388.45125pt x 314.17375pt>
 File: TestImages/ShamanDeckWinrateClasses.png Graphic file (type png)
 <use TestImages/ShamanDeckWinrateClasses.png>
 Package pdftex.def Info: TestImages/ShamanDeckWinrateClasses.png  used on input
- line 929.
+ line 930.
 (pdftex.def)             Requested size: 172.5pt x 139.51685pt.
-<TestImages/ShamanAllGeneratedDeckOverallWinrate.png, id=1166, 387.4475pt x 279
+<TestImages/ShamanAllGeneratedDeckOverallWinrate.png, id=1206, 387.4475pt x 279
 .0425pt>
 File: TestImages/ShamanAllGeneratedDeckOverallWinrate.png Graphic file (type pn
 g)
 <use TestImages/ShamanAllGeneratedDeckOverallWinrate.png>
 Package pdftex.def Info: TestImages/ShamanAllGeneratedDeckOverallWinrate.png  u
-sed on input line 934.
+sed on input line 935.
 (pdftex.def)             Requested size: 172.5pt x 124.23524pt.
  [64 <./TestImages/WarlockDeckWinrateClasses.png> <./TestImages/WarlockAllGener
 atedDeckOverallWinrate.png> <./TestImages/ShamanDeckWinrateClasses.png> <./Test
@@ -1314,12 +1399,12 @@ Chapter 7.
 [65
 
 ] [66]
-Underfull \hbox (badness 10000) in paragraph at lines 958--961
+Underfull \hbox (badness 10000) in paragraph at lines 959--962
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 962--965
+Underfull \hbox (badness 10000) in paragraph at lines 963--966
 
  []
 
@@ -1369,13 +1454,13 @@ al-[]learning-[]methods-[]paper .
 
 [70] [71] [72]) [73]
 Chapter 8.
-<ProhibitedConduct.png, id=1274, 609.02531pt x 482.55281pt>
+<ProhibitedConduct.png, id=1314, 609.02531pt x 482.55281pt>
 File: ProhibitedConduct.png Graphic file (type png)
 <use ProhibitedConduct.png>
-Package pdftex.def Info: ProhibitedConduct.png  used on input line 981.
+Package pdftex.def Info: ProhibitedConduct.png  used on input line 982.
 (pdftex.def)             Requested size: 431.25pt x 341.70186pt.
 
-Overfull \hbox (86.25pt too wide) in paragraph at lines 981--983
+Overfull \hbox (86.25pt too wide) in paragraph at lines 982--984
  [][] 
  []
 
@@ -1383,24 +1468,24 @@ pdfTeX warning (ext4): destination with the same identifier (name{Hfootnote.30}
 ) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.986 ...xt{\url{https://www.magicfind.us/terms/}}
+l.987 ...xt{\url{https://www.magicfind.us/terms/}}
                                                    [74
 
  <./ProhibitedConduct.png (PNG copy)>]
-<permission.png, id=1281, 1013.28563pt x 201.75375pt>
+<permission.png, id=1321, 1013.28563pt x 201.75375pt>
 File: permission.png Graphic file (type png)
 <use permission.png>
-Package pdftex.def Info: permission.png  used on input line 992.
+Package pdftex.def Info: permission.png  used on input line 993.
 (pdftex.def)             Requested size: 431.25pt x 85.86272pt.
 
-Overfull \hbox (86.25pt too wide) in paragraph at lines 992--994
+Overfull \hbox (86.25pt too wide) in paragraph at lines 993--995
  [][] 
  []
 
 File: "../../cards-standard-report.txt"  (verbatim)
 [75 <./permission.png (PNG copy)>] [76]
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 1002.
+nput line 1003.
  (../../card-json-example.json
 LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 3
 .
@@ -1459,173 +1544,173 @@ Overfull \hbox (77.00409pt too wide) in paragraph at lines 176--177
  []
 
 )
-Overfull \hbox (1.49698pt too wide) in paragraph at lines 1025--1026
+Overfull \hbox (1.49698pt too wide) in paragraph at lines 1026--1027
 \OT1/cmtt/m/n/10 "[153, 153, 164, 226, 226, 230, 230, 250, 348, 348, 460, 472, 
 472,
  []
 
 
-Overfull \hbox (27.74675pt too wide) in paragraph at lines 1025--1026
+Overfull \hbox (27.74675pt too wide) in paragraph at lines 1026--1027
 \OT1/cmtt/m/n/10 477, 487, 497, 522, 522, 593, 652, 652, 841, 841, 891, 891, 11
 63, 1226,
  []
 
 
-Overfull \hbox (17.24684pt too wide) in paragraph at lines 1025--1026
+Overfull \hbox (17.24684pt too wide) in paragraph at lines 1026--1027
 \OT1/cmtt/m/n/10 "[32, 68, 228, 282, 296, 465, 502, 543, 567, 633, 699, 804, 81
 5, 945,
  []
 
 
-Overfull \hbox (6.74693pt too wide) in paragraph at lines 1025--1026
+Overfull \hbox (6.74693pt too wide) in paragraph at lines 1026--1027
 \OT1/cmtt/m/n/10 964, 1013, 1060, 1107, 1114, 1130, 1239, 1246, 1251, 213, 234,
  269,
  []
 
 
-Overfull \hbox (6.74693pt too wide) in paragraph at lines 1025--1026
+Overfull \hbox (6.74693pt too wide) in paragraph at lines 1026--1027
 \OT1/cmtt/m/n/10 "[64, 64, 74, 74, 192, 249, 249, 312, 312, 509, 622, 622, 663,
  663,
  []
 
 
-Overfull \hbox (17.24684pt too wide) in paragraph at lines 1025--1026
+Overfull \hbox (17.24684pt too wide) in paragraph at lines 1026--1027
 \OT1/cmtt/m/n/10 965, 965, 213, 304, 304, 550, 639, 639, 712, 712, 713, 713, 71
 8, 718,
  []
 
 
-Overfull \hbox (1.49698pt too wide) in paragraph at lines 1025--1026
+Overfull \hbox (1.49698pt too wide) in paragraph at lines 1026--1027
 \OT1/cmtt/m/n/10 "[149, 149, 318, 318, 364, 364, 483, 483, 553, 616, 616, 752, 
 752,
  []
 
 
-Overfull \hbox (1.49698pt too wide) in paragraph at lines 1025--1026
+Overfull \hbox (1.49698pt too wide) in paragraph at lines 1026--1027
 \OT1/cmtt/m/n/10 765, 765, 824, 900, 900, 1118, 1139, 1160, 1209, 1219, 1219, 1
 225,
  []
 
 
-Overfull \hbox (11.99689pt too wide) in paragraph at lines 1025--1026
+Overfull \hbox (11.99689pt too wide) in paragraph at lines 1026--1027
 \OT1/cmtt/m/n/10 "[17, 69, 69, 149, 149, 205, 205, 318, 318, 364, 364, 483, 483
 , 605,
  []
 
 
-Overfull \hbox (17.24684pt too wide) in paragraph at lines 1025--1026
+Overfull \hbox (17.24684pt too wide) in paragraph at lines 1026--1027
 \OT1/cmtt/m/n/10 616, 616, 707, 707, 765, 765, 1015, 1015, 1118, 1139, 1225, 97
 2, 972,
  []
 
 
-Overfull \hbox (1.49698pt too wide) in paragraph at lines 1025--1026
+Overfull \hbox (1.49698pt too wide) in paragraph at lines 1026--1027
 \OT1/cmtt/m/n/10 "[164, 178, 206, 250, 295, 348, 472, 487, 497, 522, 591, 593, 
 629,
  []
 
 
-Overfull \hbox (11.99689pt too wide) in paragraph at lines 1025--1026
+Overfull \hbox (11.99689pt too wide) in paragraph at lines 1026--1027
 \OT1/cmtt/m/n/10 652, 772, 841, 891, 963, 1008, 1163, 1196, 1226, 453, 755, 935
 , 940,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1025--1026
+Underfull \hbox (badness 10000) in paragraph at lines 1026--1027
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1025--1026
+Underfull \hbox (badness 10000) in paragraph at lines 1026--1027
 
  []
 
 
-Overfull \hbox (6.74693pt too wide) in paragraph at lines 1025--1026
+Overfull \hbox (6.74693pt too wide) in paragraph at lines 1026--1027
 \OT1/cmtt/m/n/10 "[8, 8, 15, 15, 17, 17, 23, 23, 78, 78, 96, 96, 149, 149, 318,
  318,
  []
 
 
-Overfull \hbox (59.24648pt too wide) in paragraph at lines 1025--1026
+Overfull \hbox (59.24648pt too wide) in paragraph at lines 1026--1027
 \OT1/cmtt/m/n/10 364, 364, 393, 393, 396, 396, 462, 462, 611, 611, 616, 616, 44
 1, 441]",Priest 
  []
 
 
-Overfull \hbox (22.4968pt too wide) in paragraph at lines 1025--1026
+Overfull \hbox (22.4968pt too wide) in paragraph at lines 1026--1027
 \OT1/cmtt/m/n/10 "[7, 7, 29, 29, 303, 303, 328, 328, 351, 400, 400, 556, 556, 7
 17, 717,
  []
 
 
-Overfull \hbox (11.99689pt too wide) in paragraph at lines 1025--1026
+Overfull \hbox (11.99689pt too wide) in paragraph at lines 1026--1027
 \OT1/cmtt/m/n/10 761, 780, 780, 869, 869, 885, 885, 942, 942, 1037, 1127, 1128,
  1175,
  []
 
 
-Overfull \hbox (11.99689pt too wide) in paragraph at lines 1025--1026
+Overfull \hbox (11.99689pt too wide) in paragraph at lines 1026--1027
 \OT1/cmtt/m/n/10 "[10, 10, 12, 12, 13, 13, 61, 61, 126, 126, 302, 302, 334, 334
 , 411,
  []
 
 
-Overfull \hbox (17.24684pt too wide) in paragraph at lines 1025--1026
+Overfull \hbox (17.24684pt too wide) in paragraph at lines 1026--1027
 \OT1/cmtt/m/n/10 411, 448, 685, 748, 801, 801, 840, 840, 1032, 1229, 1034, 1034
 , 1180,
  []
 
 
-Overfull \hbox (22.4968pt too wide) in paragraph at lines 1025--1026
+Overfull \hbox (22.4968pt too wide) in paragraph at lines 1026--1027
 \OT1/cmtt/m/n/10 "[17, 17, 65, 65, 84, 84, 173, 173, 202, 202, 238, 284, 284, 2
 89, 289,
  []
 
 
-Overfull \hbox (11.99689pt too wide) in paragraph at lines 1025--1026
+Overfull \hbox (11.99689pt too wide) in paragraph at lines 1026--1027
 \OT1/cmtt/m/n/10 321, 547, 547, 599, 599, 742, 742, 795, 795, 1038, 1038, 1062,
  1062,
  []
 
 
-Overfull \hbox (1.49698pt too wide) in paragraph at lines 1025--1026
+Overfull \hbox (1.49698pt too wide) in paragraph at lines 1026--1027
 \OT1/cmtt/m/n/10 "[224, 224, 303, 303, 351, 377, 377, 485, 485, 486, 486, 516, 
 691,
  []
 
 
-Overfull \hbox (17.24684pt too wide) in paragraph at lines 1025--1026
+Overfull \hbox (17.24684pt too wide) in paragraph at lines 1026--1027
 \OT1/cmtt/m/n/10 691, 761, 869, 869, 870, 870, 885, 885, 912, 912, 1216, 1216, 
 31, 31,
  []
 
 
-Overfull \hbox (17.24684pt too wide) in paragraph at lines 1025--1026
+Overfull \hbox (17.24684pt too wide) in paragraph at lines 1026--1027
 \OT1/cmtt/m/n/10 "[12, 12, 171, 171, 180, 180, 183, 183, 242, 242, 265, 265, 57
 6, 645,
  []
 
 
-Overfull \hbox (17.24684pt too wide) in paragraph at lines 1025--1026
+Overfull \hbox (17.24684pt too wide) in paragraph at lines 1026--1027
 \OT1/cmtt/m/n/10 645, 664, 664, 684, 684, 911, 938, 107, 107, 189, 189, 449, 44
 9, 441,
  []
 
 
-Overfull \hbox (11.99689pt too wide) in paragraph at lines 1025--1026
+Overfull \hbox (11.99689pt too wide) in paragraph at lines 1026--1027
 \OT1/cmtt/m/n/10 "[2, 2, 16, 16, 19, 19, 133, 133, 140, 140, 159, 159, 204, 204
 , 281,
  []
 
 
-Overfull \hbox (17.24684pt too wide) in paragraph at lines 1025--1026
+Overfull \hbox (17.24684pt too wide) in paragraph at lines 1026--1027
 \OT1/cmtt/m/n/10 281, 292, 292, 427, 427, 444, 444, 497, 527, 521, 521, 635, 63
 5, 939,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1025--1026
+Underfull \hbox (badness 10000) in paragraph at lines 1026--1027
 
  []
 
@@ -1680,28 +1765,426 @@ Overfull \hbox (101.00433pt too wide) in paragraph at lines 145--146
  []
 
 ) (./gitlog.txt [87] [88] [89] [90] [91] [92]) [93]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1037.
- [94]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1037.
+
+Package pdfpages Warning: Option `page' is unknow to \includepdf.
+(pdfpages)                Did you mean `pages'? (Note the `s'!)
+(pdfpages)                OK, I'll proceed as if it were `pages'.
+
+
+
+pdfTeX warning: /usr/bin/pdflatex (file ./pp.pdf): PDF inclusion: found PDF ver
+sion <1.6>, but at most version <1.5> allowed
+<pp.pdf, id=2021, 597.53635pt x 845.04686pt>
+File: pp.pdf Graphic file (type pdf)
+<use pp.pdf>
+Package pdftex.def Info: pp.pdf  used on input line 1035.
+(pdftex.def)             Requested size: 597.53488pt x 845.0448pt.
+
+
+pdfTeX warning: /usr/bin/pdflatex (file ./pp.pdf): PDF inclusion: found PDF ver
+sion <1.6>, but at most version <1.5> allowed
+File: pp.pdf Graphic file (type pdf)
+<use pp.pdf>
+Package pdftex.def Info: pp.pdf  used on input line 1035.
+(pdftex.def)             Requested size: 597.53488pt x 845.0448pt.
+
+
+pdfTeX warning: /usr/bin/pdflatex (file ./pp.pdf): PDF inclusion: found PDF ver
+sion <1.6>, but at most version <1.5> allowed
+
+
+pdfTeX warning: /usr/bin/pdflatex (file ./pp.pdf): PDF inclusion: found PDF ver
+sion <1.6>, but at most version <1.5> allowed
+<pp.pdf, id=2024, page=1, 597.53635pt x 845.04686pt>
+File: pp.pdf Graphic file (type pdf)
+<use pp.pdf, page 1>
+Package pdftex.def Info: pp.pdf , page1 used on input line 1035.
+(pdftex.def)             Requested size: 597.53488pt x 845.0448pt.
+File: pp.pdf Graphic file (type pdf)
+<use pp.pdf, page 1>
+Package pdftex.def Info: pp.pdf , page1 used on input line 1035.
+(pdftex.def)             Requested size: 562.14925pt x 795.00179pt.
+[94]
+File: pp.pdf Graphic file (type pdf)
+<use pp.pdf, page 1>
+Package pdftex.def Info: pp.pdf , page1 used on input line 1035.
+(pdftex.def)             Requested size: 562.14925pt x 795.00179pt.
+File: pp.pdf Graphic file (type pdf)
+<use pp.pdf, page 1>
+Package pdftex.def Info: pp.pdf , page1 used on input line 1035.
+(pdftex.def)             Requested size: 562.14925pt x 795.00179pt.
+File: pp.pdf Graphic file (type pdf)
+<use pp.pdf, page 1>
+Package pdftex.def Info: pp.pdf , page1 used on input line 1035.
+(pdftex.def)             Requested size: 562.14925pt x 795.00179pt.
+ [95 <./pp.pdf>]
+
+pdfTeX warning: /usr/bin/pdflatex (file ./pp.pdf): PDF inclusion: found PDF ver
+sion <1.6>, but at most version <1.5> allowed
+<pp.pdf, id=2062, page=2, 597.53635pt x 845.04686pt>
+File: pp.pdf Graphic file (type pdf)
+<use pp.pdf, page 2>
+Package pdftex.def Info: pp.pdf , page2 used on input line 1035.
+(pdftex.def)             Requested size: 562.14925pt x 795.00179pt.
+File: pp.pdf Graphic file (type pdf)
+<use pp.pdf, page 2>
+Package pdftex.def Info: pp.pdf , page2 used on input line 1035.
+(pdftex.def)             Requested size: 562.14925pt x 795.00179pt.
+File: pp.pdf Graphic file (type pdf)
+<use pp.pdf, page 2>
+Package pdftex.def Info: pp.pdf , page2 used on input line 1035.
+(pdftex.def)             Requested size: 562.14925pt x 795.00179pt.
+[96 <./pp.pdf>]
+
+pdfTeX warning: /usr/bin/pdflatex (file ./pp.pdf): PDF inclusion: found PDF ver
+sion <1.6>, but at most version <1.5> allowed
+<pp.pdf, id=2068, page=3, 597.53635pt x 845.04686pt>
+File: pp.pdf Graphic file (type pdf)
+<use pp.pdf, page 3>
+Package pdftex.def Info: pp.pdf , page3 used on input line 1035.
+(pdftex.def)             Requested size: 562.14925pt x 795.00179pt.
+File: pp.pdf Graphic file (type pdf)
+<use pp.pdf, page 3>
+Package pdftex.def Info: pp.pdf , page3 used on input line 1035.
+(pdftex.def)             Requested size: 562.14925pt x 795.00179pt.
+File: pp.pdf Graphic file (type pdf)
+<use pp.pdf, page 3>
+Package pdftex.def Info: pp.pdf , page3 used on input line 1035.
+(pdftex.def)             Requested size: 562.14925pt x 795.00179pt.
+[97 <./pp.pdf>]
+
+pdfTeX warning: /usr/bin/pdflatex (file ./pp.pdf): PDF inclusion: found PDF ver
+sion <1.6>, but at most version <1.5> allowed
+<pp.pdf, id=2074, page=4, 597.53635pt x 845.04686pt>
+File: pp.pdf Graphic file (type pdf)
+<use pp.pdf, page 4>
+Package pdftex.def Info: pp.pdf , page4 used on input line 1035.
+(pdftex.def)             Requested size: 562.14925pt x 795.00179pt.
+File: pp.pdf Graphic file (type pdf)
+<use pp.pdf, page 4>
+Package pdftex.def Info: pp.pdf , page4 used on input line 1035.
+(pdftex.def)             Requested size: 562.14925pt x 795.00179pt.
+File: pp.pdf Graphic file (type pdf)
+<use pp.pdf, page 4>
+Package pdftex.def Info: pp.pdf , page4 used on input line 1035.
+(pdftex.def)             Requested size: 562.14925pt x 795.00179pt.
+[98 <./pp.pdf>]
+
+pdfTeX warning: /usr/bin/pdflatex (file ./pp.pdf): PDF inclusion: found PDF ver
+sion <1.6>, but at most version <1.5> allowed
+<pp.pdf, id=2080, page=5, 597.53635pt x 845.04686pt>
+File: pp.pdf Graphic file (type pdf)
+<use pp.pdf, page 5>
+Package pdftex.def Info: pp.pdf , page5 used on input line 1035.
+(pdftex.def)             Requested size: 562.14925pt x 795.00179pt.
+File: pp.pdf Graphic file (type pdf)
+<use pp.pdf, page 5>
+Package pdftex.def Info: pp.pdf , page5 used on input line 1035.
+(pdftex.def)             Requested size: 562.14925pt x 795.00179pt.
+File: pp.pdf Graphic file (type pdf)
+<use pp.pdf, page 5>
+Package pdftex.def Info: pp.pdf , page5 used on input line 1035.
+(pdftex.def)             Requested size: 562.14925pt x 795.00179pt.
+[99 <./pp.pdf>]
+
+pdfTeX warning: /usr/bin/pdflatex (file ./pp.pdf): PDF inclusion: found PDF ver
+sion <1.6>, but at most version <1.5> allowed
+<pp.pdf, id=2087, page=6, 597.53635pt x 845.04686pt>
+File: pp.pdf Graphic file (type pdf)
+<use pp.pdf, page 6>
+Package pdftex.def Info: pp.pdf , page6 used on input line 1035.
+(pdftex.def)             Requested size: 562.14925pt x 795.00179pt.
+File: pp.pdf Graphic file (type pdf)
+<use pp.pdf, page 6>
+Package pdftex.def Info: pp.pdf , page6 used on input line 1035.
+(pdftex.def)             Requested size: 562.14925pt x 795.00179pt.
+File: pp.pdf Graphic file (type pdf)
+<use pp.pdf, page 6>
+Package pdftex.def Info: pp.pdf , page6 used on input line 1035.
+(pdftex.def)             Requested size: 562.14925pt x 795.00179pt.
+[100 <./pp.pdf>]
+
+Package pdfpages Warning: Option `page' is unknow to \includepdf.
+(pdfpages)                Did you mean `pages'? (Note the `s'!)
+(pdfpages)                OK, I'll proceed as if it were `pages'.
+
+
+
+pdfTeX warning: /usr/bin/pdflatex (file ./ef.pdf): PDF inclusion: found PDF ver
+sion <1.6>, but at most version <1.5> allowed
+<ef.pdf, id=2094, 597.53635pt x 845.04686pt>
+File: ef.pdf Graphic file (type pdf)
+<use ef.pdf>
+Package pdftex.def Info: ef.pdf  used on input line 1037.
+(pdftex.def)             Requested size: 597.53488pt x 845.0448pt.
+
+
+pdfTeX warning: /usr/bin/pdflatex (file ./ef.pdf): PDF inclusion: found PDF ver
+sion <1.6>, but at most version <1.5> allowed
+File: ef.pdf Graphic file (type pdf)
+<use ef.pdf>
+Package pdftex.def Info: ef.pdf  used on input line 1037.
+(pdftex.def)             Requested size: 597.53488pt x 845.0448pt.
+
+
+pdfTeX warning: /usr/bin/pdflatex (file ./ef.pdf): PDF inclusion: found PDF ver
+sion <1.6>, but at most version <1.5> allowed
+
+
+pdfTeX warning: /usr/bin/pdflatex (file ./ef.pdf): PDF inclusion: found PDF ver
+sion <1.6>, but at most version <1.5> allowed
+<ef.pdf, id=2097, page=1, 597.53635pt x 845.04686pt>
+File: ef.pdf Graphic file (type pdf)
+<use ef.pdf, page 1>
+Package pdftex.def Info: ef.pdf , page1 used on input line 1037.
+(pdftex.def)             Requested size: 597.53488pt x 845.0448pt.
+File: ef.pdf Graphic file (type pdf)
+<use ef.pdf, page 1>
+Package pdftex.def Info: ef.pdf , page1 used on input line 1037.
+(pdftex.def)             Requested size: 562.14925pt x 795.00179pt.
+[101]
+File: ef.pdf Graphic file (type pdf)
+<use ef.pdf, page 1>
+Package pdftex.def Info: ef.pdf , page1 used on input line 1037.
+(pdftex.def)             Requested size: 562.14925pt x 795.00179pt.
+File: ef.pdf Graphic file (type pdf)
+<use ef.pdf, page 1>
+Package pdftex.def Info: ef.pdf , page1 used on input line 1037.
+(pdftex.def)             Requested size: 562.14925pt x 795.00179pt.
+File: ef.pdf Graphic file (type pdf)
+<use ef.pdf, page 1>
+Package pdftex.def Info: ef.pdf , page1 used on input line 1037.
+(pdftex.def)             Requested size: 562.14925pt x 795.00179pt.
+ [102 <./ef.pdf>]
+
+pdfTeX warning: /usr/bin/pdflatex (file ./ef.pdf): PDF inclusion: found PDF ver
+sion <1.6>, but at most version <1.5> allowed
+<ef.pdf, id=2136, page=2, 597.53635pt x 845.04686pt>
+File: ef.pdf Graphic file (type pdf)
+<use ef.pdf, page 2>
+Package pdftex.def Info: ef.pdf , page2 used on input line 1037.
+(pdftex.def)             Requested size: 562.14925pt x 795.00179pt.
+File: ef.pdf Graphic file (type pdf)
+<use ef.pdf, page 2>
+Package pdftex.def Info: ef.pdf , page2 used on input line 1037.
+(pdftex.def)             Requested size: 562.14925pt x 795.00179pt.
+File: ef.pdf Graphic file (type pdf)
+<use ef.pdf, page 2>
+Package pdftex.def Info: ef.pdf , page2 used on input line 1037.
+(pdftex.def)             Requested size: 562.14925pt x 795.00179pt.
+[103 <./ef.pdf>]
+
+pdfTeX warning: /usr/bin/pdflatex (file ./ef.pdf): PDF inclusion: found PDF ver
+sion <1.6>, but at most version <1.5> allowed
+<ef.pdf, id=2142, page=3, 597.53635pt x 845.04686pt>
+File: ef.pdf Graphic file (type pdf)
+<use ef.pdf, page 3>
+Package pdftex.def Info: ef.pdf , page3 used on input line 1037.
+(pdftex.def)             Requested size: 562.14925pt x 795.00179pt.
+File: ef.pdf Graphic file (type pdf)
+<use ef.pdf, page 3>
+Package pdftex.def Info: ef.pdf , page3 used on input line 1037.
+(pdftex.def)             Requested size: 562.14925pt x 795.00179pt.
+File: ef.pdf Graphic file (type pdf)
+<use ef.pdf, page 3>
+Package pdftex.def Info: ef.pdf , page3 used on input line 1037.
+(pdftex.def)             Requested size: 562.14925pt x 795.00179pt.
+[104 <./ef.pdf>]
+
+pdfTeX warning: /usr/bin/pdflatex (file ./ef.pdf): PDF inclusion: found PDF ver
+sion <1.6>, but at most version <1.5> allowed
+<ef.pdf, id=2148, page=4, 597.53635pt x 845.04686pt>
+File: ef.pdf Graphic file (type pdf)
+<use ef.pdf, page 4>
+Package pdftex.def Info: ef.pdf , page4 used on input line 1037.
+(pdftex.def)             Requested size: 562.14925pt x 795.00179pt.
+File: ef.pdf Graphic file (type pdf)
+<use ef.pdf, page 4>
+Package pdftex.def Info: ef.pdf , page4 used on input line 1037.
+(pdftex.def)             Requested size: 562.14925pt x 795.00179pt.
+File: ef.pdf Graphic file (type pdf)
+<use ef.pdf, page 4>
+Package pdftex.def Info: ef.pdf , page4 used on input line 1037.
+(pdftex.def)             Requested size: 562.14925pt x 795.00179pt.
+[105 <./ef.pdf>]
+
+pdfTeX warning: /usr/bin/pdflatex (file ./ef.pdf): PDF inclusion: found PDF ver
+sion <1.6>, but at most version <1.5> allowed
+<ef.pdf, id=2154, page=5, 597.53635pt x 845.04686pt>
+File: ef.pdf Graphic file (type pdf)
+<use ef.pdf, page 5>
+Package pdftex.def Info: ef.pdf , page5 used on input line 1037.
+(pdftex.def)             Requested size: 562.14925pt x 795.00179pt.
+File: ef.pdf Graphic file (type pdf)
+<use ef.pdf, page 5>
+Package pdftex.def Info: ef.pdf , page5 used on input line 1037.
+(pdftex.def)             Requested size: 562.14925pt x 795.00179pt.
+File: ef.pdf Graphic file (type pdf)
+<use ef.pdf, page 5>
+Package pdftex.def Info: ef.pdf , page5 used on input line 1037.
+(pdftex.def)             Requested size: 562.14925pt x 795.00179pt.
+[106 <./ef.pdf>]
+
+pdfTeX warning: /usr/bin/pdflatex (file ./ef.pdf): PDF inclusion: found PDF ver
+sion <1.6>, but at most version <1.5> allowed
+<ef.pdf, id=2161, page=6, 597.53635pt x 845.04686pt>
+File: ef.pdf Graphic file (type pdf)
+<use ef.pdf, page 6>
+Package pdftex.def Info: ef.pdf , page6 used on input line 1037.
+(pdftex.def)             Requested size: 562.14925pt x 795.00179pt.
+File: ef.pdf Graphic file (type pdf)
+<use ef.pdf, page 6>
+Package pdftex.def Info: ef.pdf , page6 used on input line 1037.
+(pdftex.def)             Requested size: 562.14925pt x 795.00179pt.
+File: ef.pdf Graphic file (type pdf)
+<use ef.pdf, page 6>
+Package pdftex.def Info: ef.pdf , page6 used on input line 1037.
+(pdftex.def)             Requested size: 562.14925pt x 795.00179pt.
+[107 <./ef.pdf>]
+
+pdfTeX warning: /usr/bin/pdflatex (file ./ef.pdf): PDF inclusion: found PDF ver
+sion <1.6>, but at most version <1.5> allowed
+<ef.pdf, id=2167, page=7, 597.53635pt x 845.04686pt>
+File: ef.pdf Graphic file (type pdf)
+<use ef.pdf, page 7>
+Package pdftex.def Info: ef.pdf , page7 used on input line 1037.
+(pdftex.def)             Requested size: 562.14925pt x 795.00179pt.
+File: ef.pdf Graphic file (type pdf)
+<use ef.pdf, page 7>
+Package pdftex.def Info: ef.pdf , page7 used on input line 1037.
+(pdftex.def)             Requested size: 562.14925pt x 795.00179pt.
+File: ef.pdf Graphic file (type pdf)
+<use ef.pdf, page 7>
+Package pdftex.def Info: ef.pdf , page7 used on input line 1037.
+(pdftex.def)             Requested size: 562.14925pt x 795.00179pt.
+[108 <./ef.pdf>]
+
+pdfTeX warning: /usr/bin/pdflatex (file ./ef.pdf): PDF inclusion: found PDF ver
+sion <1.6>, but at most version <1.5> allowed
+<ef.pdf, id=2173, page=8, 597.53635pt x 845.04686pt>
+File: ef.pdf Graphic file (type pdf)
+<use ef.pdf, page 8>
+Package pdftex.def Info: ef.pdf , page8 used on input line 1037.
+(pdftex.def)             Requested size: 562.14925pt x 795.00179pt.
+File: ef.pdf Graphic file (type pdf)
+<use ef.pdf, page 8>
+Package pdftex.def Info: ef.pdf , page8 used on input line 1037.
+(pdftex.def)             Requested size: 562.14925pt x 795.00179pt.
+File: ef.pdf Graphic file (type pdf)
+<use ef.pdf, page 8>
+Package pdftex.def Info: ef.pdf , page8 used on input line 1037.
+(pdftex.def)             Requested size: 562.14925pt x 795.00179pt.
+[109 <./ef.pdf>]
+
+pdfTeX warning: /usr/bin/pdflatex (file ./ef.pdf): PDF inclusion: found PDF ver
+sion <1.6>, but at most version <1.5> allowed
+<ef.pdf, id=2179, page=9, 597.53635pt x 845.04686pt>
+File: ef.pdf Graphic file (type pdf)
+<use ef.pdf, page 9>
+Package pdftex.def Info: ef.pdf , page9 used on input line 1037.
+(pdftex.def)             Requested size: 562.14925pt x 795.00179pt.
+File: ef.pdf Graphic file (type pdf)
+<use ef.pdf, page 9>
+Package pdftex.def Info: ef.pdf , page9 used on input line 1037.
+(pdftex.def)             Requested size: 562.14925pt x 795.00179pt.
+File: ef.pdf Graphic file (type pdf)
+<use ef.pdf, page 9>
+Package pdftex.def Info: ef.pdf , page9 used on input line 1037.
+(pdftex.def)             Requested size: 562.14925pt x 795.00179pt.
+[110 <./ef.pdf>]
+
+pdfTeX warning: /usr/bin/pdflatex (file ./ef.pdf): PDF inclusion: found PDF ver
+sion <1.6>, but at most version <1.5> allowed
+<ef.pdf, id=2185, page=10, 597.53635pt x 845.04686pt>
+File: ef.pdf Graphic file (type pdf)
+<use ef.pdf, page 10>
+Package pdftex.def Info: ef.pdf , page10 used on input line 1037.
+(pdftex.def)             Requested size: 562.14925pt x 795.00179pt.
+File: ef.pdf Graphic file (type pdf)
+<use ef.pdf, page 10>
+Package pdftex.def Info: ef.pdf , page10 used on input line 1037.
+(pdftex.def)             Requested size: 562.14925pt x 795.00179pt.
+File: ef.pdf Graphic file (type pdf)
+<use ef.pdf, page 10>
+Package pdftex.def Info: ef.pdf , page10 used on input line 1037.
+(pdftex.def)             Requested size: 562.14925pt x 795.00179pt.
+[111 <./ef.pdf>]
+
+Package pdfpages Warning: Option `page' is unknow to \includepdf.
+(pdfpages)                Did you mean `pages'? (Note the `s'!)
+(pdfpages)                OK, I'll proceed as if it were `pages'.
+
+
+
+pdfTeX warning: /usr/bin/pdflatex (file ./hs-ai_poster.pdf): PDF inclusion: fou
+nd PDF version <1.7>, but at most version <1.5> allowed
+<hs-ai_poster.pdf, id=2191, 1690.27481pt x 2392.9802pt>
+File: hs-ai_poster.pdf Graphic file (type pdf)
+<use hs-ai_poster.pdf>
+Package pdftex.def Info: hs-ai_poster.pdf  used on input line 1039.
+(pdftex.def)             Requested size: 1690.27069pt x 2392.97438pt.
+
+
+pdfTeX warning: /usr/bin/pdflatex (file ./hs-ai_poster.pdf): PDF inclusion: fou
+nd PDF version <1.7>, but at most version <1.5> allowed
+File: hs-ai_poster.pdf Graphic file (type pdf)
+<use hs-ai_poster.pdf>
+Package pdftex.def Info: hs-ai_poster.pdf  used on input line 1039.
+(pdftex.def)             Requested size: 1690.27069pt x 2392.97438pt.
+
+
+pdfTeX warning: /usr/bin/pdflatex (file ./hs-ai_poster.pdf): PDF inclusion: fou
+nd PDF version <1.7>, but at most version <1.5> allowed
+
+
+pdfTeX warning: /usr/bin/pdflatex (file ./hs-ai_poster.pdf): PDF inclusion: fou
+nd PDF version <1.7>, but at most version <1.5> allowed
+<hs-ai_poster.pdf, id=2194, page=1, 1690.27481pt x 2392.9802pt>
+File: hs-ai_poster.pdf Graphic file (type pdf)
+<use hs-ai_poster.pdf, page 1>
+Package pdftex.def Info: hs-ai_poster.pdf , page1 used on input line 1039.
+(pdftex.def)             Requested size: 1690.27069pt x 2392.97438pt.
+File: hs-ai_poster.pdf Graphic file (type pdf)
+<use hs-ai_poster.pdf, page 1>
+Package pdftex.def Info: hs-ai_poster.pdf , page1 used on input line 1039.
+(pdftex.def)             Requested size: 561.73851pt x 795.27255pt.
+[112]
+File: hs-ai_poster.pdf Graphic file (type pdf)
+<use hs-ai_poster.pdf, page 1>
+Package pdftex.def Info: hs-ai_poster.pdf , page1 used on input line 1039.
+(pdftex.def)             Requested size: 561.73851pt x 795.27255pt.
+File: hs-ai_poster.pdf Graphic file (type pdf)
+<use hs-ai_poster.pdf, page 1>
+Package pdftex.def Info: hs-ai_poster.pdf , page1 used on input line 1039.
+(pdftex.def)             Requested size: 561.73851pt x 795.27255pt.
+File: hs-ai_poster.pdf Graphic file (type pdf)
+<use hs-ai_poster.pdf, page 1>
+Package pdftex.def Info: hs-ai_poster.pdf , page1 used on input line 1039.
+(pdftex.def)             Requested size: 561.73851pt x 795.27255pt.
+ [113 <./hs-ai_poster.pdf>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1045.
+ [114]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1045.
  (./Hearthstone-ai.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1037.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1037.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1045.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1045.
 
 Package rerunfilecheck Info: File `Hearthstone-ai.out' has not changed.
-(rerunfilecheck)             Checksum: D073989F7CDBC0489F3D8D8393CD11C6;6229.
+(rerunfilecheck)             Checksum: 8ED3BD1E44444F7004BFA73FE1AA006D;6516.
+
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1037.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1045.
  ) 
 Here is how much of TeX's memory you used:
- 14376 strings out of 480478
- 264560 string characters out of 5905958
- 667313 words of memory out of 5000000
- 29192 multiletter control sequences out of 15000+600000
+ 15562 strings out of 480478
+ 281827 string characters out of 5905958
+ 691087 words of memory out of 5000000
+ 30325 multiletter control sequences out of 15000+600000
  541823 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,9n,46p,2075b,2131s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 40i,18n,46p,2075b,2132s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{Hfootnote.31} has been referenced but does not ex
 ist, replaced by a fixed one
 
@@ -1719,10 +2202,10 @@ st/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1
 /public/amsfonts/cm/cmti10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfon
 ts/cm/cmtt10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pf
 b></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on Hearthstone-ai.pdf (96 pages, 5104712 bytes).
+Output written on Hearthstone-ai.pdf (117 pages, 5644653 bytes).
 PDF statistics:
- 2245 PDF objects out of 2487 (max. 8388607)
- 2008 compressed objects within 21 object streams
- 980 named destinations out of 1000 (max. 500000)
- 1083 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2527 PDF objects out of 2984 (max. 8388607)
+ 2187 compressed objects within 22 object streams
+ 1004 named destinations out of 1200 (max. 500000)
+ 1265 words of extra memory for PDF output out of 10000 (max. 10000000)
 
