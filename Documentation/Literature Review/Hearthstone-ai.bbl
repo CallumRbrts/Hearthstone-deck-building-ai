@@ -312,6 +312,13 @@ C.~Z. Janikow, ``A knowledge-intensive genetic algorithm for supervised
   \url{https://link.springer.com/chapter/10.1007/978-1-4615-2740-4_3}
 \BIBentrySTDinterwordspacing
 
+\bibitem{1DGAN}
+\BIBentryALTinterwordspacing
+J.~Brownlee, ``How to develop a 1d generative adversarial network from scratch
+  in keras,'' 2019, [Accessed: 25/10/20]. [Online]. Available:
+  \url{https://machinelearningmastery.com/how-to-develop-a-generative-adversarial-network-for-a-1-dimensional-function-from-scratch-in-keras/}
+\BIBentrySTDinterwordspacing
+
 \bibitem{Euro2018}
 \BIBentryALTinterwordspacing
 ``Ethics and data protection,'' 2018, [Accessed: 03/04/21]. [Online].

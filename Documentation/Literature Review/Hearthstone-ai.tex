@@ -75,9 +75,9 @@
 %	SECTION 1
 %----------------------------------------------------------------------------------------
 \begin{abstract}
-Artificial Intelligence is an exponentially expanding sector touching many departments and found in many forms. Hearthstone is one such department that AI have touched, it has two different aspects AI can touch on, playing the game and building the decks to play. The deck building site has been researched in the form of basic Neural Networks and Genetic Algorithms. \\
+Artificial Intelligence is an exponentially expanding sector touching many departments and found in many forms. Hearthstone is one such department that AI have touched, it has two different aspects AI can touch on, playing the game and building the decks to play. The deck building site has been researched in the form of basic Neural Networks and Genetic Algorithms. These techniques are used often, newer papers using them tend to have slight differences to test performance, however overall the use of these techniques is over-saturated and thus is difficult to research.  \\
 \\
-This project aims to explore a recently found technique that has been untouched in the deck building sector. This technique is a Generative Adversarial Network, used previously in image generation will in this paper be adapted to produce decks that resemble user created ones in hopes to help develop and evolve the \textit{meta} of Hearthstone.
+This project aims to explore a recently found technique that has been untouched in the deck building sector. This technique is a Generative Adversarial Network, used previously in image generation will in this paper be adapted to produce decks that resemble user created ones in hopes to help develop and evolve the \textit{meta} of Hearthstone. Initial findings found the model to be successful in the production of a deck achieving over 60\% win rate for some iterations, however, data had to be collected manually for the training process. The results produced interesting yet inconsistent results when it came to the testing of the playability of a deck. 
 
 \end{abstract}
 
@@ -91,7 +91,7 @@ Thanks are also owed to the Hearthpwn team who allowed me to collect their data 
 
 \chapter{Introduction}
 \section{Overview}
-Bringing Artificial Intelligence to Hearthstone: Heroes of Warcraft is not a new concept, it has been subject to many studies in the field, where it is playing the game, suggesting moves to the player or building decks. Focusing on the field of deck building, it is a concept that exists across multiple trading card games such as Magic: The Gathering, Pokémon, Yu-Gi-Oh! and of course Hearthstone. Papers have studied these games more or less, but all seem to gravitate around similar deck building techniques, details of which will be expanded later on. These techniques seemingly been saturated, newer studies apply small scale changes to already defined methods \cite{Back1996}. Exploration of different techniques has been touched on, but they seem to be outliers and of limited number \cite{Ward2020}, experimenting with other algorithms could show better, more  interesting results instead of assuming that one saturated method is the best because of its popular usage.
+Bringing Artificial Intelligence to Hearthstone: Heroes of Warcraft is not a new concept, it has been subject to many studies in the field, where it is playing the game, suggesting moves to the player or building decks. Focusing on the field of deck building, it is a concept that exists across multiple trading card games such as Magic: The Gathering, Pokémon, Yu-Gi-Oh! and of course Hearthstone. Papers have studied these games more or less, but all seem to gravitate around similar deck building techniques mostly Genetic Algorithms and Artificial Neural Networks, details of which will be expanded later on. These techniques seemingly been saturated, newer studies apply small scale changes to already defined methods \cite{Back1996}. Exploration of different techniques has been touched on, but they seem to be outliers and of limited number \cite{Ward2020}, experimenting with other algorithms could show better, more  interesting results instead of assuming that one saturated method is the best because of its popular usage. This project will explore the usages of a Generative Adversarial Network (GAN) to develop another method of deck creation. A GAN is a technique that uses a model to create something, could be an image, vector or anything, which is then given to another model to determine is that created something is real or fake. If the first model is able to trick the second model then the generated something is ready to show, the model tweaks itself as the training process goes on to improve results.
 \section{Motivation}
 Using a Artificial Intelligence algorithm that has not been utilised nor researched in the field of deck building could provide insight into the Generative Adversarial Network (GAN) applications in other fields of research, as it is mostly limited to image generation. Along with this discovering another method for deck building that could bear fruit to similar or improved results, opening the way for more techniques and deeper research into the use of recorded data for deck generation.
 \section{Aims and Objectives}
@@ -302,41 +302,9 @@ Time is a python library that is used to measure execution time of functions, in
 \subsubsection{Fireplace}
 Fireplace is the python library for the Hearthstone simulator, this is used for testing the generated decks against ones from the dataset. There are two other simulators worth considering, Sabberstone and Hearthbreaker. Hearthbreaker was used by the Google Deep Mind team for card generation however the project is no longer maintained, it has been for many years so that one cannot be used to fulfil our requirements. Sabberstone is written has a full interface but for testing that creates unnecessary bloat, so Fireplace is the better choice, it is maintained, and plays games in seconds, the main downside however is that only about half of the cards in the game are implemented. This is because some cards have tricky mechanics that are hard to implement and that the developers are to write interactions manually.
     
-\chapter{Legal and Ethical Considerations}
-Since data is a fundamental aspect to the success of the project, it is subject to certain legal and ethical implications that need to be addressed whether it be with the handling of the data or the collection of the data.
-\section{Legal}
-There are two main legal consideration for this project, the protection of data through GDPR and obtaining data through web scraping.
-\subsection{Data Protection}
-When dealing with personal data, developers are bound by laws to keep that data safe, the first most obvious law that needs to abided by is GDPR, which applies to the project since we are using EU data (among other countries as well), certain protections must guarantee. Some ways of protecting personal data are, pseudonymisation and anonymisation, in essence the user’s identity is protected by a pseudonym or with nothing at all which means that there will be no trace back to them, this could be represented as an ID or a username. If the data can be reversed back to personal data than data protection obligations will still apply, however if it is not possible then that data is no longer personal \cite{Euro2018}. Data minimisation should also be practised when dealing with personal data, this means that data should be lawful, fair, transparent, and it should only involve data that is necessary for the task at hand, no more. So in the case only the essential information has been collected (deck data) to train the AI, it is completely anonymous. Data minimisation also extends to how the data is used, it should only be used for its intended purpose only and not to be shared to others. One final important legal implication I need to consider is usage of children's data, since anyone can use my website I also need to consider the possibility of minors using the web system. GDPR covers specific safeguards for children, which include parental/guardian consent to children under the age of 16.
-
-\subsection{Data Scraping}
-
-The laws surrounding data scraping is a grey area, whilst not technically illegal, there can be issues around collecting personal data from open tabs or sites that require a login. To stay on the right side of the law, the best practise is to check their Terms of Service or equivalent, the worst case of a breach could be a court case, so it is in the best interests of every party to verify before scraping. The site that needed to be scraped for this project was Hearthpwn\footnote{\url{https://www.hearthpwn.com/}}, the data that needed to be scraped was public and pseudonymisation, since it was not behind a login page or any hidden pages it was not considered illegal. Before even writing the script, checking the Terms of Service of their site it said that data scraping was prohibited (Appendix A), this means that despite the data being public they do not want anyone using their data freely without permission. To get around this I emailed a representative of the site requesting permission to collect data for research purposes, after detailing the concept of the project and describing how the data would be used, the team at Hearthpwn granted me permission to scrape their site for data (Appendix B).
-    
-    
-    
-\section{Ethical}
-This project raises certain ethical issues, raised from the collection of the user data, these issues are discussed below:
-\begin{itemize}
-\item Users may not know that their data is being used: Users may not be informed about their data being used to train the AI for this project.
-\item Users may not realise the scale of which their data is being collected: Users may not know that a web scraping script was used to mass collect deck data to create a training dataset.
-\item Users may not know how much information can be gained from analysing the data they have made available: Users may not realise that their data can be used to generate decks and data visualizations.
-\item Users may not realise the rights a company has regarding their public data: Users may not be informed about the amount of control the company has on their data.
-\end{itemize}
-These ethical issues concern mostly the users of the Hearthpwn platform, other data used in this project is not user related therefore are not concerned by these problems. The terms and conditions of the Hearthpwn site state that any User Generated Content can be used, reproduced, modified, adapted, published, translated, transmitted, create derivative works from, distributed, performed and displayed by the Company or third parties in any way that they choose so long as the data is not deleted. \\
-
-\begin{figure}[h]
-\centering
-\includegraphics[width=1\textwidth]{ToS}
-\caption{User Generated Content section of Hearthpwn Terms of Service\protect\footnotemark}
-\label{board}
-\end{figure}
-\footnotetext{\url{https://www.magicfind.us/terms/}}
-
-The users of the platform need to be made aware of this, some issues listed above can be addressed but not all issues have a full solution. The ethical issues mentioned above depends on the user awareness to the extent of which their data is being used and the impact it may have, however, it would prove difficult to communicated to the whole user base of Hearthpwn that their data is being used. The best course of action would be to either used an official training dataset that is not considered personal data to allow for more public use or limit the extent of this AI to research and academic purposes, the latter being the best solution at this current time as an updated public dataset does not exist as of the creation of this project.
 
 \chapter{Implementation}
-This section showcases the implementation steps of the project in three distinct sections: Card Data, Deck Data and Generative Adversarial Network. Each section will chronicle their respective development process, whilst discussing potential alternatives and limitations.
+This section showcases the implementation steps of the project in three distinct sections: Card Data, Deck Data and Generative Adversarial Network. Each section will chronicle their respective development process, whilst discussing potential alternatives and limitations. The goal of this implementation is to initially gather data needed to create the datasets for the GAN, then to convert the datasets into a readable form for the GAN to train. The first section will describe how the data of each card was gathered, what technique was used and improvements entailed. Then with the card data, the second section will cover the collection and creation of the datasets using the card data. Finally the last section will cover the implementation of the GAN itself, which uses both the Card and Deck data to train.
 \section{Card Data}
 \subsection{Introduction}
 Before the development of the GAN can begin, data needs to be collected and formatted so that the GAN can be trained. The GAN can only take dimensional arrays as input, in the case of this project a vector, a single dimension array of numbers that identify specific cards to form a deck. From those deck vectors the GAN can learn, refine and generate new deck vectors that can be converted back into human-readable form, resulting in a GAN created deck. In order to correctly identify the cards inside the deck vectors, going in and coming out of the GAN, a list of cards need to be compiled, each assigned with a unique numerical ID that represents them. 
@@ -414,7 +382,7 @@ To get the data from Hearthstone API, the \nolinkurl{requests} library was used 
 \label{board}
 \end{figure}
 
-The file created is a JSON file called \nolinkurl{data.json}, an extract of the contents can be viewed in Appendix D.  Loading this file for the GAN is straightforward, simply use the in-built Python \nolinkurl{open()} function. As seen in figure 5.6 below the amount of information provided by a single card is a big improvement to just the name of the card.
+The file created is a JSON file called \nolinkurl{data.json}, an extract of the contents can be viewed in Appendix D.  Loading this file for the GAN is straightforward, simply use the in-built Python \nolinkurl{open()} function. As seen in figure 4.6 below the amount of information provided by a single card is a big improvement to just the name of the card.
 
 \begin{figure}[H]
 \centering
@@ -423,7 +391,7 @@ The file created is a JSON file called \nolinkurl{data.json}, an extract of the 
 \label{board}
 \end{figure}
 
-Whilst working with the collected data, some minor inconsistencies appeared in the JSON, firstly the name of hero portraits appeared, these are special personas a class can take on, with different animations, audio queues, however they are not cards, those outliers need to be removed for the code to function. Another issue stemmed from the latest expansion \textbf{Madness at the Darkmoon Faire}, this expansion added a new type of card, the dual class card, allowing two different classes to use the card, the problem is that due to the structure of the JSON there can only be a single class under the key \nolinkurl{playerClass} (which can be seen in figure 5.6). To fix these issues, a function was written to remove the hero portrait outlier cards, and append both classes of dual class cards to a variable.
+Whilst working with the collected data, some minor inconsistencies appeared in the JSON, firstly the name of hero portraits appeared, these are special personas a class can take on, with different animations, audio queues, however they are not cards, those outliers need to be removed for the code to function. Another issue stemmed from the latest expansion \textbf{Madness at the Darkmoon Faire}, this expansion added a new type of card, the dual class card, allowing two different classes to use the card, the problem is that due to the structure of the JSON there can only be a single class under the key \nolinkurl{playerClass} (which can be seen in figure 4.6). To fix these issues, a function was written to remove the hero portrait outlier cards, and append both classes of dual class cards to a variable.
 
 \begin{figure}[H]
 \centering
@@ -484,7 +452,7 @@ The JSON card data is also loaded for the conversion later on.
 \label{board}
 \end{figure}
 
-To convert the scraped data to a JSON format, the name of the cards need to be searched through the \texttt{cards} array, then a new list needs to be created to add the converted cards into. Figure 5.11 is a code extract of this process. For each card in a classes deck list, strip excess white spaces then find the name of the card in the JSON card list, once found append to a new array. Once the conversion is complete, the data is then written into a JSON file using \texttt{json.dump()}. Then the creation of the dataset is complete. An extract of a converted JSON dataset be found in Appendix F.
+To convert the scraped data to a JSON format, the name of the cards need to be searched through the \texttt{cards} array, then a new list needs to be created to add the converted cards into. Figure 4.11 is a code extract of this process. For each card in a classes deck list, strip excess white spaces then find the name of the card in the JSON card list, once found append to a new array. Once the conversion is complete, the data is then written into a JSON file using \texttt{json.dump()}. Then the creation of the dataset is complete. An extract of a converted JSON dataset be found in Appendix F.
 
 \begin{figure}[H]
 \centering
@@ -493,7 +461,7 @@ To convert the scraped data to a JSON format, the name of the cards need to be s
 \label{board}
 \end{figure}
 
-Since the file type for the datasets has changes from \texttt{CSV} to JSON, it means that the file loading needs to be modified to work with the updated datasets. Luckily it is straightforward to load JSON data, with the \texttt{json} library, simply load the file (as seen in figure 5.12), there is also a check to only register decks of legal length.
+Since the file type for the datasets has changes from \texttt{CSV} to JSON, it means that the file loading needs to be modified to work with the updated datasets. Luckily it is straightforward to load JSON data, with the \texttt{json} library, simply load the file (as seen in figure 4.12), there is also a check to only register decks of legal length.
 
 \begin{figure}[H]
 \centering
@@ -503,7 +471,7 @@ Since the file type for the datasets has changes from \texttt{CSV} to JSON, it m
 \end{figure}
 
 \subsection{Implementation of Web Scraper}
-Now that the methods surrounding the web scraper have been detailed, the implementation of the web scraper can begin. Firstly, the library that is used to get the data is \texttt{requests}, and the library that is used to parse through the data is \texttt{Beautiful Soup}. Before harvesting the data, the URL needs to be determined for the request method to work, since there are 10 classes in Hearthstone, 10 separate URLs will be needed. The URLs are uncomplicated to find, figure 5.13 shows the filter section of the deck search on Hearthpwn. Every class has a unique ID when attempting to filter: \texttt{'Demon Hunter' : 16384,
+Now that the methods surrounding the web scraper have been detailed, the implementation of the web scraper can begin. Firstly, the library that is used to get the data is \texttt{requests}, and the library that is used to parse through the data is \texttt{Beautiful Soup}. Before harvesting the data, the URL needs to be determined for the request method to work, since there are 10 classes in Hearthstone, 10 separate URLs will be needed. The URLs are uncomplicated to find, figure 4.13 shows the filter section of the deck search on Hearthpwn. Every class has a unique ID when attempting to filter: \texttt{'Demon Hunter' : 16384,
          'Druid' : 4,
          'Hunter' : 8,
          'Mage' : 16,
@@ -521,7 +489,7 @@ So a dictionary was created to store these values so that when the web scraper g
 \label{board}
 \end{figure}
 
-The links though will only display the first page of decks, which is around 25 decks per page, the are many more but the number is not fixed, so before the decks can be collected, the number of pages there are needs to be found, \nolinkurl{page_max} does just that (figure 5.14).
+The links though will only display the first page of decks, which is around 25 decks per page, the are many more but the number is not fixed, so before the decks can be collected, the number of pages there are needs to be found, \nolinkurl{page_max} does just that (figure 4.14).
 
 \begin{figure}[H]
 \centering
@@ -530,7 +498,7 @@ The links though will only display the first page of decks, which is around 25 d
 \label{board}
 \end{figure}
 
-The scraping needs to be done in two parts, this is because the results shown on the deck search page does not include the cards that are used to build the deck, that is hidden behind another link to the deck information. This means that initially, the links to the decks needs to be collected, then another part needs to go within those collected links to harvest the card data. The \nolinkurl{scrape_decks} function takes a class as an argument and creates the starting links for the selected class and gets every deck link, from all the pages (figure 5.15).
+The scraping needs to be done in two parts, this is because the results shown on the deck search page does not include the cards that are used to build the deck, that is hidden behind another link to the deck information. This means that initially, the links to the decks needs to be collected, then another part needs to go within those collected links to harvest the card data. The \nolinkurl{scrape_decks} function takes a class as an argument and creates the starting links for the selected class and gets every deck link, from all the pages (figure 4.15).
 
 \begin{figure}[H]
 \centering
@@ -539,7 +507,7 @@ The scraping needs to be done in two parts, this is because the results shown on
 \label{board}
 \end{figure}
 
-After the deck links are collected, another function called \nolinkurl{cards_from_url} is called, this take the URLs as an argument and returns the deck lists in their default format (figure 5.16). It navigates thorough the page into the html table containing the list of cards and gets the names. Finding the correct tables and containers was found through trial and error, but is consistent throughout every page on the site.
+After the deck links are collected, another function called \nolinkurl{cards_from_url} is called, this take the URLs as an argument and returns the deck lists in their default format (figure 4.16). It navigates thorough the page into the html table containing the list of cards and gets the names. Finding the correct tables and containers was found through trial and error, but is consistent throughout every page on the site.
 
 \begin{figure}[H]
 \centering
@@ -550,11 +518,11 @@ After the deck links are collected, another function called \nolinkurl{cards_fro
 
 \section{Generative Adversarial Network}
 \subsection{Introduction}
-When researching GANs, the main application that they were used for was image generation with human and artistic applications, creating realistic people that do not exist from many images of people. The GAN made use of libraries to convert the images into two-dimensional arrays, single dimensional arrays seemed scarce at best. Only a few basic tutorials about vectors in a two dimensional space could be observed using single dimensional input. Making use of what little information about single dimension GANs was available, the conversion from 2D to 1D started. The vectorization of decks idea was thought of when the conversion of images was observed. The point is that by feeding the GAN many vector inputs, the resulting output will be a vector that is similar to the training vectors but different enough for it to create unique vectors, whilst demonstrating "thinking" on the GANs part. (talk about tutorial that inspired me and reference it)
+When researching GANs, the main application that they were used for was image generation with human and artistic applications, creating realistic people that do not exist from many images of people. The GAN made use of libraries to convert the images into two-dimensional arrays, single dimensional arrays seemed scarce at best. Only a few basic tutorials about vectors in a two dimensional space could be observed using single dimensional input. Making use of what little information about single dimension GANs was available, the conversion from 2D to 1D started. The vectorization of decks idea was thought of when the conversion of images was observed. The point is that by feeding the GAN many vector inputs, the resulting output will be a vector that is similar to the training vectors but different enough for it to create unique vectors, whilst demonstrating "thinking" on the GANs part. Whilst going research for the literature review, there was a tutorial found that described the use of a single dimensional GAN to predict points in a space \cite{1DGAN} , this gave me the inspiration to pursue the idea of using a GAN for Hearthstone deck building (talk about tutorial that inspired me and reference it)
 \subsection{Implementation}
-The structure of the implementation is as follows, to begin the generator and discriminator models will be defined, then how it combines into a GAN, after that the training process will be discussed, finally the performance summary will be detailed.
+The structure of the implementation is as follows, to begin the generator and discriminator models will be defined, then how it combines into a GAN, after that the training process will be discussed, finally the performance summary will be detailed. The data that will be used as input will be the datasets previously created, the data within are arrays of size 30 representing a deck, each array has 30 cards in it, written in JSON format. This data is then converted into a vectors by converting the JSON cards into integers, which is then fed to the GAN.
 \subsubsection{Generator}
-The generator is a sub-model of the GAN that will generate the deck vectors. The generator is composed of layers, an input layer, an output and activation layers between. A dropout layer is also added to the generator to help prevent over-fitting by randomly setting inputs to 0 during training time. The number of activation layers added to the generator is the result of many hours of optimization, when training graphs are displayed showing how similar the generated deck is to a real deck. After hours of tweaking, one input layer, one output layer and two activation layers (of 200 activations) seems to produce the best outcomes. All the layers except the output layer are \texttt{ReLU} activated, this limits the vectors from going into the negative numbers. The output layer is set to \texttt{linear} otherwise if there are any card IDs generated that do go into the negative, they will automatically be set to 0 which is a card ID itself. The generated negatives numbers and how they are dealt with is discussed later on. The loss is calculated through \texttt{binary cross-entropy}, because it categorizes a deck to be either 0 (a fake deck) or 1 (a real deck). Figure 5.17 shows the code implementation of what was described, the \nolinkurl{Sequential} function is part of the \texttt{keras} library function to declare the model, \nolinkurl{Dense} and \nolinkurl{Dropout} as also part of \texttt{keras}.
+The generator is a sub-model of the GAN that will generate the deck vectors. The generator is composed of layers, an input layer, an output and activation layers between. A dropout layer is also added to the generator to help prevent over-fitting by randomly setting inputs to 0 during training time. The number of activation layers added to the generator is the result of many hours of optimization, when training graphs are displayed showing how similar the generated deck is to a real deck. After hours of tweaking, one input layer, one output layer and two activation layers (of 200 activations) seems to produce the best outcomes. All the layers except the output layer are \texttt{ReLU} activated, this limits the vectors from going into the negative numbers. The output layer is set to \texttt{linear} otherwise if there are any card IDs generated that do go into the negative, they will automatically be set to 0 which is a card ID itself. The generated negatives numbers and how they are dealt with is discussed later on. The loss is calculated through \texttt{binary cross-entropy}, because it categorizes a deck to be either 0 (a fake deck) or 1 (a real deck). Figure 4.17 shows the code implementation of what was described, the \nolinkurl{Sequential} function is part of the \texttt{keras} library function to declare the model, \nolinkurl{Dense} and \nolinkurl{Dropout} as also part of \texttt{keras}.
 
 \begin{figure}[H]
 \centering
@@ -563,7 +531,7 @@ The generator is a sub-model of the GAN that will generate the deck vectors. The
 \label{board}
 \end{figure}
 \subsubsection{Discriminator}
-The discriminator is the second sub-model that constitutes the GAN, the purpose of the discriminator is to determine if a deck vector created by the generator resembles the deck vectors from the training dataset. The model is smaller than a generator model with just an input and an output layer. The input layer has 30 activations and take a generated vector with 30 inputs (the amount of cards within the deck) with \texttt{ReLU} activation. The output layer has a single output and a sigmoid activation, this is because the output of the discriminator is a binary result, 0 for fake, 1 for real. This sub-model is also reliant on \texttt{binary cross-entropy}. Figure 5.18 is a code snippet of the discriminator illustrating the explanation.
+The discriminator is the second sub-model that constitutes the GAN, the purpose of the discriminator is to determine if a deck vector created by the generator resembles the deck vectors from the training dataset. The model is smaller than a generator model with just an input and an output layer. The input layer has 30 activations and take a generated vector with 30 inputs (the amount of cards within the deck) with \texttt{ReLU} activation. The output layer has a single output and a sigmoid activation, this is because the output of the discriminator is a binary result, 0 for fake, 1 for real. This sub-model is also reliant on \texttt{binary cross-entropy}. Figure 4.18 is a code snippet of the discriminator illustrating the explanation.
 
 \begin{figure}[H]
 \centering
@@ -585,7 +553,7 @@ The GAN section is where both the generator and the discriminator sub-models are
 \subsubsection{Training}
 This section is where the training of the GAN happens. The training process starts off by preparing the real and fake decks, the real ones are sampled from the dataset randomly and the fake decks are generated randomly (not by the generator). The results from these functions return an \texttt{x} and a \texttt{y} variable, so \nolinkurl{x_real}, \nolinkurl{x_fake}, \nolinkurl{y_real} and \nolinkurl{y_fake}. The \texttt{x} variable contains the array of deck vectors and the y their labels, their labels being a binary to help the GAN distinguish if they are a real or a fake deck. After the real and fake decks are gathered, they are used to update the discriminator model, so that it can distinguish real decks from fake decks. \\
 Once the discriminator model has trained, the generator creates a deck vector to attempt to trick the discriminator. The deck is then trained on the GAN model to update the generator based on the discriminator's error.  \\
-The whole process is repeated for the number of epochs given, for this GAN model it is 10,000 epochs. Every thousand epochs a performance summary is done to evaluate the GAN. Which is the subject of the next subsection. Figure 5.20 shows the code of what has been described above. When a summarized performance function is called, a generated GAN is then appended to an array, these will be the resulting decks, the reason why this is done is because, depending on how the model started the model tends to overfit towards the end of the training process, but the number of epochs is never the same so by saving each deck, a function can then be called to sort the illegal decks and identify the better deck.
+The whole process is repeated for the number of epochs given, for this GAN model it is 10,000 epochs. Every thousand epochs a performance summary is done to evaluate the GAN. Which is the subject of the next subsection. Figure 4.20 shows the code of what has been described above. When a summarized performance function is called, a generated GAN is then appended to an array, these will be the resulting decks, the reason why this is done is because, depending on how the model started the model tends to overfit towards the end of the training process, but the number of epochs is never the same so by saving each deck, a function can then be called to sort the illegal decks and identify the better deck.
 
 \begin{figure}[H]
 \centering
@@ -594,7 +562,7 @@ The whole process is repeated for the number of epochs given, for this GAN model
 \label{board}
 \end{figure}
 \subsubsection{Summarize Performance}
-This part of the training process is called every thousand epochs in the training, it is used to evaluate the training process to check the progress, and for any improvements, signs of over-fitting etc...\\ Just like in the training process a real and a fake deck is gathered, however instead of updating the models, instead they are evaluated and a accuracy is return. Since the process is using binary results, the discriminator will evaluate the deck with either a 0 or a 1. Theoretically the discriminator should always display 1 for real decks and then either 0 or 1 for fake ones. After, a graph is drawn displaying the both decks, this is to check their similarity. Refer to figure 5.21 for illustration in code form.
+This part of the training process is called every thousand epochs in the training, it is used to evaluate the training process to check the progress, and for any improvements, signs of over-fitting etc...\\ Just like in the training process a real and a fake deck is gathered, however instead of updating the models, instead they are evaluated and a accuracy is return. Since the process is using binary results, the discriminator will evaluate the deck with either a 0 or a 1. Theoretically the discriminator should always display 1 for real decks and then either 0 or 1 for fake ones. After, a graph is drawn displaying the both decks, this is to check their similarity. Refer to figure 4.21 for illustration in code form.
 
 \begin{figure}[H]
 \centering
@@ -604,7 +572,7 @@ This part of the training process is called every thousand epochs in the trainin
 \end{figure}
 \subsection{Initial Results}
 
-Initially the results of the training process were less than ideal, despite having the decks having similar structure (figure 5.22) the issue was that the decks that were created had cards from all the classes. The reason why this happened is that when the GAN trains, it tends to predict cards around the same point as the real cards, but it never produces something identical, and the way the cards are identified is sorted by Hearthstone's default sorting which is cost, so the class cards end up spread across the array of cards the GAN is training from, resulting in multi class decks that are considered illegal and thus cannot be played. In this case the deck training was limited to the Warrior class dataset, so a method would need to be devised to make a choice.  
+Initially the results of the training process were less than ideal, despite having the decks having similar structure (figure 4.22) the issue was that the decks that were created had cards from all the classes. The reason why this happened is that when the GAN trains, it tends to predict cards around the same point as the real cards, but it never produces something identical, and the way the cards are identified is sorted by Hearthstone's default sorting which is cost, so the class cards end up spread across the array of cards the GAN is training from, resulting in multi class decks that are considered illegal and thus cannot be played. In this case the deck training was limited to the Warrior class dataset, so a method would need to be devised to make a choice.  
 
 
 \begin{figure}[H]
@@ -630,7 +598,7 @@ The first improvement was to add the ability to select other classes to train a 
 \end{figure}
 
 \subsubsection{Limit Card Data}
-Previously, the initial results of the GAN would produce decks with cards from multiple classes, this was a major issue as the GAN did not produce legal decks to play. To fix this, when the user selected a class to create a deck for, the dataset for that class was loaded for training, and the cards were filtered to only have cards of that class and the neutral class, in essence only the cards that the class can use. Once the cards were filtered, the cards identifiers were changed to fit the smaller scale to limit the bounds of the ID's, otherwise there could be more predicted IDs that do not correspond to cards. Because the card IDs were changed, it meant that the IDs of the loaded dataset had to be changed as well. The figure 5.24 below shows the code of this process through the \nolinkurl{limit_card_range} function.
+Previously, the initial results of the GAN would produce decks with cards from multiple classes, this was a major issue as the GAN did not produce legal decks to play. To fix this, when the user selected a class to create a deck for, the dataset for that class was loaded for training, and the cards were filtered to only have cards of that class and the neutral class, in essence only the cards that the class can use. Once the cards were filtered, the cards identifiers were changed to fit the smaller scale to limit the bounds of the ID's, otherwise there could be more predicted IDs that do not correspond to cards. Because the card IDs were changed, it meant that the IDs of the loaded dataset had to be changed as well. The figure 4.24 below shows the code of this process through the \nolinkurl{limit_card_range} function.
 
 \begin{figure}[H]
 \centering
@@ -694,7 +662,7 @@ First the changes to \nolinkurl{full_game.py}, initially the fireplace simulator
 \label{board}
 \end{figure}
 
-The changes to \nolinkurl{utils_fireplace.py} are more substantial, the \nolinkurl{play_full_game()} function is changed slightly to pass variables to the \nolinkurl{setup_game()} function (figure 6.2). The rest does not need to be changed because the scope of our testing is focused on deck building rather than improving the AI playing the decks.
+The changes to \nolinkurl{utils_fireplace.py} are more substantial, the \nolinkurl{play_full_game()} function is changed slightly to pass variables to the \nolinkurl{setup_game()} function (figure 5.2). The rest does not need to be changed because the scope of our testing is focused on deck building rather than improving the AI playing the decks.
 
 \begin{figure}[H]
 \centering
@@ -703,7 +671,7 @@ The changes to \nolinkurl{utils_fireplace.py} are more substantial, the \nolinku
 \label{board}
 \end{figure}
 
-Before changing the \nolinkurl{setup_game()} function it was coded statically, only a single class was chosen per player. Using the arguments sent by the main, the code was adapted to make it dynamic (figure 6.3), however a \nolinkurl{class_converter()} function was written to convert the string inputs of the two players classes to an object so that the simulator can register them as that player (figure 6.4)
+Before changing the \nolinkurl{setup_game()} function it was coded statically, only a single class was chosen per player. Using the arguments sent by the main, the code was adapted to make it dynamic (figure 5.3), however a \nolinkurl{class_converter()} function was written to convert the string inputs of the two players classes to an object so that the simulator can register them as that player (figure 5.4)
 
 \begin{figure}[H]
 \centering
@@ -739,6 +707,7 @@ Originally, the execution of the simulator was going to be done through the libr
 \end{figure}
 
 \section{Comparing type split for real and fake decks}
+This section shows the similarities between a real and a generated deck, in this case a type split, meaning what percentage of a type of card is present in the deck. A successful test would show similar percentages in the two graphs.
 \subsection{Test 1 - Hunter Deck}
 \begin{figure}[H]
 \centering
@@ -785,6 +754,7 @@ Originally, the execution of the simulator was going to be done through the libr
 \caption{Type Split of real and generated deck}
 \end{figure}
 \section{Comparing neutral split for real and fake decks}
+This test compares the percentage of neutral cards in real and fake decks, and in all cards overall. A successful test would show a generated deck with a similar split as a real deck, whilst being majorly different to the overall cards neutral percentage.
 \subsection{Test 1 - Hunter Deck}
 \begin{figure}[H]
 \centering
@@ -846,6 +816,7 @@ Originally, the execution of the simulator was going to be done through the libr
 \caption{Neutral split of real, generated deck and overall}
 \end{figure}
 \section{Comparing mana curve for real and fake decks}
+This test covers the similarity of the mana curves of a real and a generated deck. A successful test would display patterns between the two decks.
 \subsection{Test 1 - Hunter Deck}
 \begin{figure}[H]
 \centering
@@ -892,6 +863,7 @@ Originally, the execution of the simulator was going to be done through the libr
 \caption{Mana curve of real and generated deck}
 \end{figure}
 \section{Testing win rates versus real decks}
+This test showcases the overall win rates of each generated deck, and against each class. The  deck with the best overall win rate is the one shown in detail and the one the user will most likely select. The decks are tested over 100 matches across 10 classes through the simulator. The simulator is given a deck from the dataset on each repetition, which is used to test the generated deck against.
 \subsection{Test 1 - Hunter Deck}
 \begin{figure}[H]
 \centering
@@ -938,6 +910,40 @@ Originally, the execution of the simulator was going to be done through the libr
 \caption{Win rate of generated deck vs real decks}
 \end{figure}
 
+\chapter{Legal and Ethical Considerations}
+Since data is a fundamental aspect to the success of the project, it is subject to certain legal and ethical implications that need to be addressed whether it be with the handling of the data or the collection of the data.
+\section{Legal}
+There are two main legal consideration for this project, the protection of data through GDPR and obtaining data through web scraping.
+\subsection{Data Protection}
+When dealing with personal data, developers are bound by laws to keep that data safe, the first most obvious law that needs to abided by is GDPR, which applies to the project since we are using EU data (among other countries as well), certain protections must guarantee. Some ways of protecting personal data are, pseudonymisation and anonymisation, in essence the user’s identity is protected by a pseudonym or with nothing at all which means that there will be no trace back to them, this could be represented as an ID or a username. If the data can be reversed back to personal data than data protection obligations will still apply, however if it is not possible then that data is no longer personal \cite{Euro2018}. Data minimisation should also be practised when dealing with personal data, this means that data should be lawful, fair, transparent, and it should only involve data that is necessary for the task at hand, no more. So in the case only the essential information has been collected (deck data) to train the AI, it is completely anonymous. Data minimisation also extends to how the data is used, it should only be used for its intended purpose only and not to be shared to others. One final important legal implication I need to consider is usage of children's data, since anyone can use my website I also need to consider the possibility of minors using the web system. GDPR covers specific safeguards for children, which include parental/guardian consent to children under the age of 16.
+
+\subsection{Data Scraping}
+
+The laws surrounding data scraping is a grey area, whilst not technically illegal, there can be issues around collecting personal data from open tabs or sites that require a login. To stay on the right side of the law, the best practise is to check their Terms of Service or equivalent, the worst case of a breach could be a court case, so it is in the best interests of every party to verify before scraping. The site that needed to be scraped for this project was Hearthpwn\footnote{\url{https://www.hearthpwn.com/}}, the data that needed to be scraped was public and pseudonymisation, since it was not behind a login page or any hidden pages it was not considered illegal. Before even writing the script, checking the Terms of Service of their site it said that data scraping was prohibited (Appendix A), this means that despite the data being public they do not want anyone using their data freely without permission. To get around this I emailed a representative of the site requesting permission to collect data for research purposes, after detailing the concept of the project and describing how the data would be used, the team at Hearthpwn granted me permission to scrape their site for data (Appendix B).
+    
+    
+    
+\section{Ethical}
+This project raises certain ethical issues, raised from the collection of the user data, these issues are discussed below:
+\begin{itemize}
+\item Users may not know that their data is being used: Users may not be informed about their data being used to train the AI for this project.
+\item Users may not realise the scale of which their data is being collected: Users may not know that a web scraping script was used to mass collect deck data to create a training dataset.
+\item Users may not know how much information can be gained from analysing the data they have made available: Users may not realise that their data can be used to generate decks and data visualizations.
+\item Users may not realise the rights a company has regarding their public data: Users may not be informed about the amount of control the company has on their data.
+\end{itemize}
+These ethical issues concern mostly the users of the Hearthpwn platform, other data used in this project is not user related therefore are not concerned by these problems. The terms and conditions of the Hearthpwn site state that any User Generated Content can be used, reproduced, modified, adapted, published, translated, transmitted, create derivative works from, distributed, performed and displayed by the Company or third parties in any way that they choose so long as the data is not deleted. \\
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=1\textwidth]{ToS}
+\caption{User Generated Content section of Hearthpwn Terms of Service\protect\footnotemark}
+\label{board}
+\end{figure}
+\footnotetext{\url{https://www.magicfind.us/terms/}}
+
+The users of the platform need to be made aware of this, some issues listed above can be addressed but not all issues have a full solution. The ethical issues mentioned above depends on the user awareness to the extent of which their data is being used and the impact it may have, however, it would prove difficult to communicated to the whole user base of Hearthpwn that their data is being used. The best course of action would be to either used an official training dataset that is not considered personal data to allow for more public use or limit the extent of this AI to research and academic purposes, the latter being the best solution at this current time as an updated public dataset does not exist as of the creation of this project.
+
+
 \chapter{Evaluation}
 \section{Overview}
 Over all, the project was a success, despite some limitation a new technique has been found to work for the building of Hearthstone decks. Although not as refined as other established techniques, another avenue has been opened for further study. Non-functional requirements have been fully accomplished, the most important functional requirements have been met save for a few such as wild format implementation, UI and build a deck with a limited collection of cards due to time constraints. Testing while inconclusive due to constraints has shown great promise in the structuring of a deck and provides interesting insights in the testing of a deck.
@@ -959,12 +965,14 @@ This part tested the overall win rate of all the generated decks by the GAN, and
 To conclude, the project was an overall success, it successfully generated playable decks for Hearthstone. The decks resembled real decks in structure, and showed synergistic cards being paired together. Throughout the testing process of the project, it was discovered that aggressive decks, ones with lots of low cost cards tend to have better results than those with higher cost cards, the same can be said for the classes. The aggressive classes like the Hunter provided much better results than the more control oriented classes such as the Warlock. \\
 \\
 Throughout the project there were many challenges that needed to be resolved, one major one was the usage of the simulator. Currently, there is not a fully updated ready to play simulator, because of this testing the deck's performance proved difficult. The simulator also made use of a logging system to show the user what the moves that were happening, the problem is that over the course of 100 games, the logger would buffer so many messages that it would crash the program. Finally, the GAN had trouble creating legal decks for some classes, of note, Warlock which it could not produce a lot and Druid which it had trouble with as well. A possible explanation could be because of the GAN needed more training time with the structure of those decks.
+\\
+The technique overall does work, it generates playable decks, however the GAN seems to favour some classes over others, possibly due to the play style or the way the decks are built. This technique is more inconsistent than a Genetic Algorithm and Artificial Neural Networks, but it does generate decks with good win rates, further testing with an improved simulator would be needed to clarify this. 
 \subsection{Findings}
 The decks created by the GAN was tested using 10 datasets, all harvested and created from the Hearthpwn website, who gave their permission to use a custom web scraper to collect the data. Each dataset represented decks for each class, which the GAN would use separately depending on the desired class. \\
 \\
 The results of for the deck structure was successful, since it shows that the decks are indeed similar to user created ones with noticeable differences in the cards used. The results of the deck performance testing are skewed, due to the simulator used, however aggressive decks tend to have around 60\% win rate. And classes tend to average around 50\% win rate, save for some outlier classes like the Warlock, which is disadvantaged due to the nature of its hero power (which damages itself) paired with the simple AI.
 \subsection{Future Work}
-There are several improvements that could be addressed in future work. An improved simulator AI, could help determine the strengths and weaknesses of the algorithm better. The use of a Monty Carlo algorithm would prove useful for such an endeavour. Further refining of the GAN could also be made to improve the outputted deck, an improved dataset which contained cleaner data would also help to achieve this.
+There are several improvements that could be addressed in future work. An improved simulator AI, could help determine the strengths and weaknesses of the algorithm better. The use of a Monty Carlo algorithm would prove useful for such an endeavour. Further refining of the GAN could also be made to improve the outputted deck, an improved dataset which contained cleaner data would also help to achieve this. Improving the GANs consistency over all the classes would be ideal, as of now the GAN favour some classes over others, in the number of decks created, how well they perform.
 
 
 
@@ -1038,7 +1046,7 @@ There are several improvements that could be addressed in future work. An improv
 \section{Appendix K - Poster}
 \includepdf[page=-]{hs-ai_poster}
 \section{Appendix L - Source Code}
-The source code for this program is hosted on GitHub, \url{https://github.com/CallumRbrts/Hearthstone-deck-building-ai}. A copy of this code can also be found within  the  ‘Supplementary Materials Dropbox’  dropbox  on \url{http://campusmoodle.rgu.ac.uk/}. The concerned 'Source Code' files are: \nolinkurl{HS-AI-Demo.ipynb}, \nolinkurl{Card-API.ipynb} and \nolinkurl{Web-Scraper.ipynb}, other Python notebook files are supplementary older versions of the project that do not represent the project in it's final form. Files generated from code such as datasets and images for evaluation can also be found on the github.
+The source code for this program is hosted on GitHub, \url{https://github.com/CallumRbrts/Hearthstone-deck-building-ai}. A copy of this code can also be found within  the  ‘Supplementary Materials Dropbox’  dropbox  on \url{http://campusmoodle.rgu.ac.uk/}. The concerned 'Source Code' files are: \nolinkurl{HS-AI-Demo.ipynb}, \nolinkurl{Card-API.ipynb} and \nolinkurl{Web-Scraper.ipynb}, other Python notebook files are supplementary older versions of the project that do not represent the project in it's final form. Files generated from code such as datasets and images for evaluation can also be found on the Github.
 %----------------------------------------------------------------------------------------
 
 

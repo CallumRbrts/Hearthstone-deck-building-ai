@@ -38,6 +38,8 @@ Warning--entry type for "Janikow1993" isn't style-file defined
 --line 370 of file export.bib
 Warning--entry type for "Euro2018" isn't style-file defined
 --line 455 of file export.bib
+Warning--entry type for "1DGAN" isn't style-file defined
+--line 462 of file export.bib
 -- IEEEtran.bst version 1.14 (2015/08/26) by Michael Shell.
 -- http://www.michaelshell.org/tex/ieeetran/bibtex/
 -- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
@@ -50,45 +52,45 @@ Warning--empty booktitle in GarciaSanchez2016
 Warning--empty journal in Such2017
 
 Done.
-You've used 44 entries,
+You've used 45 entries,
             4087 wiz_defined-function locations,
-            1106 strings with 17059 characters,
-and the built_in function-call counts, 26766 in all, are:
-= -- 2043
-> -- 629
+            1111 strings with 17286 characters,
+and the built_in function-call counts, 27176 in all, are:
+= -- 2079
+> -- 633
 < -- 138
-+ -- 336
-- -- 123
-* -- 1242
-:= -- 4228
-add.period$ -- 94
-call.type$ -- 44
-change.case$ -- 51
++ -- 338
+- -- 124
+* -- 1258
+:= -- 4308
+add.period$ -- 96
+call.type$ -- 45
+change.case$ -- 53
 chr.to.int$ -- 327
-cite$ -- 51
-duplicate$ -- 1988
-empty$ -- 2371
-format.name$ -- 148
-if$ -- 6169
+cite$ -- 52
+duplicate$ -- 2021
+empty$ -- 2408
+format.name$ -- 149
+if$ -- 6258
 int.to.chr$ -- 0
-int.to.str$ -- 44
-missing$ -- 401
-newline$ -- 215
-num.names$ -- 43
-pop$ -- 1091
+int.to.str$ -- 45
+missing$ -- 409
+newline$ -- 220
+num.names$ -- 44
+pop$ -- 1113
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 2049
+skip$ -- 2081
 stack$ -- 0
-substring$ -- 820
-swap$ -- 1423
+substring$ -- 823
+swap$ -- 1442
 text.length$ -- 29
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 44
+type$ -- 45
 warning$ -- 7
-while$ -- 95
-width$ -- 46
-write$ -- 469
-(There were 22 warnings)
+while$ -- 96
+width$ -- 47
+write$ -- 480
+(There were 23 warnings)

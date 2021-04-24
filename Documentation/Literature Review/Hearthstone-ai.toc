@@ -1,7 +1,7 @@
 \contentsline {chapter}{\numberline {1}Introduction}{5}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Overview}{5}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Motivation}{5}{section.1.2}%
-\contentsline {section}{\numberline {1.3}Aims and Objectives}{5}{section.1.3}%
+\contentsline {section}{\numberline {1.3}Aims and Objectives}{6}{section.1.3}%
 \contentsline {section}{\numberline {1.4}Key Findings}{6}{section.1.4}%
 \contentsline {section}{\numberline {1.5}Structure}{6}{section.1.5}%
 \contentsline {chapter}{\numberline {2}Literature Review}{7}{chapter.2}%
@@ -40,93 +40,93 @@
 \contentsline {subsubsection}{\numberline {3.5.3.1}Matplotlib}{23}{subsubsection.3.5.3.1}%
 \contentsline {subsubsection}{\numberline {3.5.3.2}Time}{24}{subsubsection.3.5.3.2}%
 \contentsline {subsubsection}{\numberline {3.5.3.3}Fireplace}{24}{subsubsection.3.5.3.3}%
-\contentsline {chapter}{\numberline {4}Legal and Ethical Considerations}{25}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Legal}{25}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}Data Protection}{25}{subsection.4.1.1}%
-\contentsline {subsection}{\numberline {4.1.2}Data Scraping}{26}{subsection.4.1.2}%
-\contentsline {section}{\numberline {4.2}Ethical}{26}{section.4.2}%
-\contentsline {chapter}{\numberline {5}Implementation}{28}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Card Data}{28}{section.5.1}%
-\contentsline {subsection}{\numberline {5.1.1}Introduction}{28}{subsection.5.1.1}%
-\contentsline {subsection}{\numberline {5.1.2}Initial Method}{28}{subsection.5.1.2}%
-\contentsline {subsubsection}{\numberline {5.1.2.1}Text File}{28}{subsubsection.5.1.2.1}%
-\contentsline {subsubsection}{\numberline {5.1.2.2}Implementation of Initial Method}{30}{subsubsection.5.1.2.2}%
-\contentsline {subsubsection}{\numberline {5.1.2.3}Limitations}{32}{subsubsection.5.1.2.3}%
-\contentsline {subsection}{\numberline {5.1.3}Improved Method}{32}{subsection.5.1.3}%
-\contentsline {subsubsection}{\numberline {5.1.3.1}Blizzard API}{33}{subsubsection.5.1.3.1}%
-\contentsline {subsubsection}{\numberline {5.1.3.2}HearthstoneJSON}{33}{subsubsection.5.1.3.2}%
-\contentsline {subsubsection}{\numberline {5.1.3.3}Hearthstone API}{34}{subsubsection.5.1.3.3}%
-\contentsline {subsubsection}{\numberline {5.1.3.4}Choice}{34}{subsubsection.5.1.3.4}%
-\contentsline {subsubsection}{\numberline {5.1.3.5}Implementation of Improved Method}{34}{subsubsection.5.1.3.5}%
-\contentsline {section}{\numberline {5.2}Deck Data}{37}{section.5.2}%
-\contentsline {subsection}{\numberline {5.2.1}Introduction}{37}{subsection.5.2.1}%
-\contentsline {subsection}{\numberline {5.2.2}Platform Choice}{37}{subsection.5.2.2}%
-\contentsline {subsubsection}{\numberline {5.2.2.1}HSReplay}{38}{subsubsection.5.2.2.1}%
-\contentsline {subsubsection}{\numberline {5.2.2.2}Hearthpwn}{38}{subsubsection.5.2.2.2}%
-\contentsline {subsection}{\numberline {5.2.3}Initial Method}{38}{subsection.5.2.3}%
-\contentsline {subsubsection}{\numberline {5.2.3.1}Text}{38}{subsubsection.5.2.3.1}%
-\contentsline {subsubsection}{\numberline {5.2.3.2}Implementation}{39}{subsubsection.5.2.3.2}%
-\contentsline {subsection}{\numberline {5.2.4}Improved Method}{40}{subsection.5.2.4}%
-\contentsline {subsubsection}{\numberline {5.2.4.1}Implementation of Improved Method}{40}{subsubsection.5.2.4.1}%
-\contentsline {subsection}{\numberline {5.2.5}Implementation of Web Scraper}{43}{subsection.5.2.5}%
-\contentsline {section}{\numberline {5.3}Generative Adversarial Network}{46}{section.5.3}%
-\contentsline {subsection}{\numberline {5.3.1}Introduction}{46}{subsection.5.3.1}%
-\contentsline {subsection}{\numberline {5.3.2}Implementation}{46}{subsection.5.3.2}%
-\contentsline {subsubsection}{\numberline {5.3.2.1}Generator}{47}{subsubsection.5.3.2.1}%
-\contentsline {subsubsection}{\numberline {5.3.2.2}Discriminator}{47}{subsubsection.5.3.2.2}%
-\contentsline {subsubsection}{\numberline {5.3.2.3}GAN}{48}{subsubsection.5.3.2.3}%
-\contentsline {subsubsection}{\numberline {5.3.2.4}Training}{48}{subsubsection.5.3.2.4}%
-\contentsline {subsubsection}{\numberline {5.3.2.5}Summarize Performance}{49}{subsubsection.5.3.2.5}%
-\contentsline {subsection}{\numberline {5.3.3}Initial Results}{50}{subsection.5.3.3}%
-\contentsline {subsection}{\numberline {5.3.4}Improvements}{51}{subsection.5.3.4}%
-\contentsline {subsubsection}{\numberline {5.3.4.1}Class Choice}{51}{subsubsection.5.3.4.1}%
-\contentsline {subsubsection}{\numberline {5.3.4.2}Limit Card Data}{52}{subsubsection.5.3.4.2}%
-\contentsline {subsubsection}{\numberline {5.3.4.3}Deck Verification}{53}{subsubsection.5.3.4.3}%
-\contentsline {chapter}{\numberline {6}Testing}{55}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Aims}{55}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Simulator}{55}{section.6.2}%
-\contentsline {subsection}{\numberline {6.2.1}Fireplace}{55}{subsection.6.2.1}%
-\contentsline {subsection}{\numberline {6.2.2}Changes}{56}{subsection.6.2.2}%
-\contentsline {subsubsection}{\numberline {6.2.2.1}File changes}{56}{subsubsection.6.2.2.1}%
-\contentsline {subsection}{\numberline {6.2.3}External Code}{59}{subsection.6.2.3}%
-\contentsline {section}{\numberline {6.3}Comparing type split for real and fake decks}{59}{section.6.3}%
-\contentsline {subsection}{\numberline {6.3.1}Test 1 - Hunter Deck}{59}{subsection.6.3.1}%
-\contentsline {subsection}{\numberline {6.3.2}Test 2 - Warlock Deck}{60}{subsection.6.3.2}%
-\contentsline {subsection}{\numberline {6.3.3}Test 3 - Shaman Deck}{60}{subsection.6.3.3}%
-\contentsline {section}{\numberline {6.4}Comparing neutral split for real and fake decks}{61}{section.6.4}%
-\contentsline {subsection}{\numberline {6.4.1}Test 1 - Hunter Deck}{61}{subsection.6.4.1}%
-\contentsline {subsection}{\numberline {6.4.2}Test 2 - Warlock Deck}{61}{subsection.6.4.2}%
-\contentsline {subsection}{\numberline {6.4.3}Test 3 - Shaman Deck}{61}{subsection.6.4.3}%
-\contentsline {section}{\numberline {6.5}Comparing mana curve for real and fake decks}{62}{section.6.5}%
-\contentsline {subsection}{\numberline {6.5.1}Test 1 - Hunter Deck}{62}{subsection.6.5.1}%
-\contentsline {subsection}{\numberline {6.5.2}Test 2 - Warlock Deck}{62}{subsection.6.5.2}%
-\contentsline {subsection}{\numberline {6.5.3}Test 3 - Shaman Deck}{63}{subsection.6.5.3}%
-\contentsline {section}{\numberline {6.6}Testing win rates versus real decks}{63}{section.6.6}%
-\contentsline {subsection}{\numberline {6.6.1}Test 1 - Hunter Deck}{63}{subsection.6.6.1}%
-\contentsline {subsection}{\numberline {6.6.2}Test 2 - Warlock Deck}{64}{subsection.6.6.2}%
-\contentsline {subsection}{\numberline {6.6.3}Test 3 - Shaman Deck}{64}{subsection.6.6.3}%
-\contentsline {chapter}{\numberline {7}Evaluation}{65}{chapter.7}%
-\contentsline {section}{\numberline {7.1}Overview}{65}{section.7.1}%
-\contentsline {section}{\numberline {7.2}Limitations}{65}{section.7.2}%
-\contentsline {section}{\numberline {7.3}Results}{66}{section.7.3}%
-\contentsline {subsection}{\numberline {7.3.1}Comparing type split for real and fake decks}{66}{subsection.7.3.1}%
-\contentsline {subsection}{\numberline {7.3.2}Comparing neutral split for real and fake decks}{66}{subsection.7.3.2}%
-\contentsline {subsection}{\numberline {7.3.3}Comparing mana curve for real and fake decks}{66}{subsection.7.3.3}%
-\contentsline {subsection}{\numberline {7.3.4}Testing win rates versus real decks}{66}{subsection.7.3.4}%
-\contentsline {section}{\numberline {7.4}Conclusion}{67}{section.7.4}%
-\contentsline {subsection}{\numberline {7.4.1}Overview}{67}{subsection.7.4.1}%
-\contentsline {subsection}{\numberline {7.4.2}Findings}{67}{subsection.7.4.2}%
-\contentsline {subsection}{\numberline {7.4.3}Future Work}{68}{subsection.7.4.3}%
-\contentsline {chapter}{\numberline {8}Appendices}{74}{chapter.8}%
-\contentsline {section}{\numberline {8.1}Appendix A}{74}{section.8.1}%
-\contentsline {section}{\numberline {8.2}Appendix B}{75}{section.8.2}%
-\contentsline {section}{\numberline {8.3}Appendix C}{75}{section.8.3}%
-\contentsline {section}{\numberline {8.4}Appendix D}{77}{section.8.4}%
-\contentsline {section}{\numberline {8.5}Appendix E}{82}{section.8.5}%
-\contentsline {section}{\numberline {8.6}Appendix F}{83}{section.8.6}%
-\contentsline {section}{\numberline {8.7}Appendix G - Github Log}{87}{section.8.7}%
-\contentsline {section}{\numberline {8.8}Appendix H - Trello Logs}{94}{section.8.8}%
-\contentsline {section}{\numberline {8.9}Appendix I - Project Proposal}{94}{section.8.9}%
-\contentsline {section}{\numberline {8.10}Appendix J - Ethics Form}{101}{section.8.10}%
-\contentsline {section}{\numberline {8.11}Appendix K - Poster}{112}{section.8.11}%
-\contentsline {section}{\numberline {8.12}Appendix L - Source Code}{114}{section.8.12}%
+\contentsline {chapter}{\numberline {4}Implementation}{25}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Card Data}{25}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Introduction}{25}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Initial Method}{25}{subsection.4.1.2}%
+\contentsline {subsubsection}{\numberline {4.1.2.1}Text File}{25}{subsubsection.4.1.2.1}%
+\contentsline {subsubsection}{\numberline {4.1.2.2}Implementation of Initial Method}{27}{subsubsection.4.1.2.2}%
+\contentsline {subsubsection}{\numberline {4.1.2.3}Limitations}{29}{subsubsection.4.1.2.3}%
+\contentsline {subsection}{\numberline {4.1.3}Improved Method}{29}{subsection.4.1.3}%
+\contentsline {subsubsection}{\numberline {4.1.3.1}Blizzard API}{30}{subsubsection.4.1.3.1}%
+\contentsline {subsubsection}{\numberline {4.1.3.2}HearthstoneJSON}{30}{subsubsection.4.1.3.2}%
+\contentsline {subsubsection}{\numberline {4.1.3.3}Hearthstone API}{31}{subsubsection.4.1.3.3}%
+\contentsline {subsubsection}{\numberline {4.1.3.4}Choice}{31}{subsubsection.4.1.3.4}%
+\contentsline {subsubsection}{\numberline {4.1.3.5}Implementation of Improved Method}{31}{subsubsection.4.1.3.5}%
+\contentsline {section}{\numberline {4.2}Deck Data}{34}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Introduction}{34}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Platform Choice}{34}{subsection.4.2.2}%
+\contentsline {subsubsection}{\numberline {4.2.2.1}HSReplay}{35}{subsubsection.4.2.2.1}%
+\contentsline {subsubsection}{\numberline {4.2.2.2}Hearthpwn}{35}{subsubsection.4.2.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}Initial Method}{35}{subsection.4.2.3}%
+\contentsline {subsubsection}{\numberline {4.2.3.1}Text}{35}{subsubsection.4.2.3.1}%
+\contentsline {subsubsection}{\numberline {4.2.3.2}Implementation}{36}{subsubsection.4.2.3.2}%
+\contentsline {subsection}{\numberline {4.2.4}Improved Method}{37}{subsection.4.2.4}%
+\contentsline {subsubsection}{\numberline {4.2.4.1}Implementation of Improved Method}{37}{subsubsection.4.2.4.1}%
+\contentsline {subsection}{\numberline {4.2.5}Implementation of Web Scraper}{40}{subsection.4.2.5}%
+\contentsline {section}{\numberline {4.3}Generative Adversarial Network}{43}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Introduction}{43}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Implementation}{43}{subsection.4.3.2}%
+\contentsline {subsubsection}{\numberline {4.3.2.1}Generator}{44}{subsubsection.4.3.2.1}%
+\contentsline {subsubsection}{\numberline {4.3.2.2}Discriminator}{44}{subsubsection.4.3.2.2}%
+\contentsline {subsubsection}{\numberline {4.3.2.3}GAN}{45}{subsubsection.4.3.2.3}%
+\contentsline {subsubsection}{\numberline {4.3.2.4}Training}{45}{subsubsection.4.3.2.4}%
+\contentsline {subsubsection}{\numberline {4.3.2.5}Summarize Performance}{46}{subsubsection.4.3.2.5}%
+\contentsline {subsection}{\numberline {4.3.3}Initial Results}{47}{subsection.4.3.3}%
+\contentsline {subsection}{\numberline {4.3.4}Improvements}{48}{subsection.4.3.4}%
+\contentsline {subsubsection}{\numberline {4.3.4.1}Class Choice}{48}{subsubsection.4.3.4.1}%
+\contentsline {subsubsection}{\numberline {4.3.4.2}Limit Card Data}{49}{subsubsection.4.3.4.2}%
+\contentsline {subsubsection}{\numberline {4.3.4.3}Deck Verification}{50}{subsubsection.4.3.4.3}%
+\contentsline {chapter}{\numberline {5}Testing}{52}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Aims}{52}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Simulator}{52}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Fireplace}{52}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}Changes}{53}{subsection.5.2.2}%
+\contentsline {subsubsection}{\numberline {5.2.2.1}File changes}{53}{subsubsection.5.2.2.1}%
+\contentsline {subsection}{\numberline {5.2.3}External Code}{56}{subsection.5.2.3}%
+\contentsline {section}{\numberline {5.3}Comparing type split for real and fake decks}{56}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}Test 1 - Hunter Deck}{57}{subsection.5.3.1}%
+\contentsline {subsection}{\numberline {5.3.2}Test 2 - Warlock Deck}{57}{subsection.5.3.2}%
+\contentsline {subsection}{\numberline {5.3.3}Test 3 - Shaman Deck}{58}{subsection.5.3.3}%
+\contentsline {section}{\numberline {5.4}Comparing neutral split for real and fake decks}{58}{section.5.4}%
+\contentsline {subsection}{\numberline {5.4.1}Test 1 - Hunter Deck}{58}{subsection.5.4.1}%
+\contentsline {subsection}{\numberline {5.4.2}Test 2 - Warlock Deck}{59}{subsection.5.4.2}%
+\contentsline {subsection}{\numberline {5.4.3}Test 3 - Shaman Deck}{59}{subsection.5.4.3}%
+\contentsline {section}{\numberline {5.5}Comparing mana curve for real and fake decks}{59}{section.5.5}%
+\contentsline {subsection}{\numberline {5.5.1}Test 1 - Hunter Deck}{60}{subsection.5.5.1}%
+\contentsline {subsection}{\numberline {5.5.2}Test 2 - Warlock Deck}{60}{subsection.5.5.2}%
+\contentsline {subsection}{\numberline {5.5.3}Test 3 - Shaman Deck}{60}{subsection.5.5.3}%
+\contentsline {section}{\numberline {5.6}Testing win rates versus real decks}{61}{section.5.6}%
+\contentsline {subsection}{\numberline {5.6.1}Test 1 - Hunter Deck}{61}{subsection.5.6.1}%
+\contentsline {subsection}{\numberline {5.6.2}Test 2 - Warlock Deck}{61}{subsection.5.6.2}%
+\contentsline {subsection}{\numberline {5.6.3}Test 3 - Shaman Deck}{62}{subsection.5.6.3}%
+\contentsline {chapter}{\numberline {6}Legal and Ethical Considerations}{63}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Legal}{63}{section.6.1}%
+\contentsline {subsection}{\numberline {6.1.1}Data Protection}{63}{subsection.6.1.1}%
+\contentsline {subsection}{\numberline {6.1.2}Data Scraping}{64}{subsection.6.1.2}%
+\contentsline {section}{\numberline {6.2}Ethical}{64}{section.6.2}%
+\contentsline {chapter}{\numberline {7}Evaluation}{66}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Overview}{66}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Limitations}{66}{section.7.2}%
+\contentsline {section}{\numberline {7.3}Results}{67}{section.7.3}%
+\contentsline {subsection}{\numberline {7.3.1}Comparing type split for real and fake decks}{67}{subsection.7.3.1}%
+\contentsline {subsection}{\numberline {7.3.2}Comparing neutral split for real and fake decks}{67}{subsection.7.3.2}%
+\contentsline {subsection}{\numberline {7.3.3}Comparing mana curve for real and fake decks}{67}{subsection.7.3.3}%
+\contentsline {subsection}{\numberline {7.3.4}Testing win rates versus real decks}{67}{subsection.7.3.4}%
+\contentsline {section}{\numberline {7.4}Conclusion}{68}{section.7.4}%
+\contentsline {subsection}{\numberline {7.4.1}Overview}{68}{subsection.7.4.1}%
+\contentsline {subsection}{\numberline {7.4.2}Findings}{69}{subsection.7.4.2}%
+\contentsline {subsection}{\numberline {7.4.3}Future Work}{69}{subsection.7.4.3}%
+\contentsline {chapter}{\numberline {8}Appendices}{75}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Appendix A}{75}{section.8.1}%
+\contentsline {section}{\numberline {8.2}Appendix B}{76}{section.8.2}%
+\contentsline {section}{\numberline {8.3}Appendix C}{76}{section.8.3}%
+\contentsline {section}{\numberline {8.4}Appendix D}{78}{section.8.4}%
+\contentsline {section}{\numberline {8.5}Appendix E}{83}{section.8.5}%
+\contentsline {section}{\numberline {8.6}Appendix F}{84}{section.8.6}%
+\contentsline {section}{\numberline {8.7}Appendix G - Github Log}{88}{section.8.7}%
+\contentsline {section}{\numberline {8.8}Appendix H - Trello Logs}{95}{section.8.8}%
+\contentsline {section}{\numberline {8.9}Appendix I - Project Proposal}{95}{section.8.9}%
+\contentsline {section}{\numberline {8.10}Appendix J - Ethics Form}{102}{section.8.10}%
+\contentsline {section}{\numberline {8.11}Appendix K - Poster}{113}{section.8.11}%
+\contentsline {section}{\numberline {8.12}Appendix L - Source Code}{115}{section.8.12}%
